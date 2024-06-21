@@ -61,11 +61,11 @@ WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare S
 
 WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_Medicaid'))
+WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_Medicaid'), 'Medicaid')
 
-WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_29062024'))
+WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_29062024'), '29/06/2024')
 
-WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_At 9 Am'))
+WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_At 9 Am'), 'At 9 Am')
 
 WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/a_Go to Homepage'))
 
