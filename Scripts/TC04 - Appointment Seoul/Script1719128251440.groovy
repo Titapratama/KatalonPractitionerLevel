@@ -15,6 +15,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
@@ -42,9 +43,6 @@ WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare S
 
 WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.verifyElementVisible(findTestObject('Appointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date', 
-        [('variable') : '']))
-
 WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
 
 WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/td_29'))
@@ -53,13 +51,16 @@ WebUI.setText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare
 
 WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
+WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 
+    'Appointment Confirmation')
 
-WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a'))
+WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a'), 
+    'Please be informed that your appointment has been booked as following:')
 
-WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_Seoul CURA Healthcare Center'))
+WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_Seoul CURA Healthcare Center'), 
+    'Seoul CURA Healthcare Center')
 
-WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_Yes'))
+WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_Yes'), 'Yes')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_Medicaid'), 'Medicaid')
 
@@ -68,6 +69,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA 
 WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/p_At 9 Am'), 'At 9 Am')
 
 WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/a_Go to Homepage'))
+
+WebUI.verifyElementText(findTestObject('Homepage of CURA/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
 
 WebUI.closeBrowser()
 

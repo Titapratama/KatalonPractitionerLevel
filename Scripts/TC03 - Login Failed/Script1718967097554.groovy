@@ -21,26 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
+WebUI.click(findTestObject('Failed Login/Page_CURA Healthcare Service/a_Make Appointment'))
+
+userName = WebUI.getAttribute(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'), 
+    'username')
+
+passWord = WebUI.getAttribute(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password'), 
+    'password')
+
 WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment'))
 
 WebUI.setText(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'), 'John')
 
 WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
-
 WebUI.setText(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
 WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
 
 WebUI.setText(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'), 'John')
 
@@ -48,8 +50,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Failed Login/Page_CURA 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
 
 WebUI.setText(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
@@ -58,8 +58,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Failed Login/Page_CURA 
 
 WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
-
 WebUI.setText(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password'), 
@@ -67,7 +65,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Failed Login/Page_CURA 
 
 WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/h2_Make Appointment'))
+if ((userName == 'John Doe') && (passWord == 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')) {
+    WebUI.verifyElementVisible(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/h2_Make Appointment'))
+} else {
+    WebUI.verifyElementVisible(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
+}
 
 WebUI.closeBrowser()
 
