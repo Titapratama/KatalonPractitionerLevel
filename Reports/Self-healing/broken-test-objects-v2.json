@@ -9,6 +9,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Log out/Page_CURA Healthcare Service/a_Logout",
+      "brokenLocator": "(//a[@onclick\u003d\"$(\u0027#menu-close\u0027).click();\"])[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CURA Healthcare Service\u0027])[2]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Log out/Page_CURA Healthcare Service/a_Logout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username",
+      "brokenLocator": "John",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027txt-username\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/History check/Page_CURA Healthcare Service/h2_History",
+      "brokenLocator": "//section[@id\u003d\u0027history\u0027]/div/div/div/h2",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Make Appointment\u0027])[1]/following::h2[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/History check/Page_CURA Healthcare Service/h2_History_neighbor.png"
     }
   ]
 }
