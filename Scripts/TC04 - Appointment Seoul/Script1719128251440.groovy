@@ -51,6 +51,8 @@ WebUI.setText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare
 
 WebUI.click(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/button_Book Appointment'))
 
+WebUI.takeScreenshotAsCheckpoint('Seoul Appoinment Confirmation')
+
 WebUI.verifyElementText(findTestObject('Object Repository/Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 
     'Appointment Confirmation')
 

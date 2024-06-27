@@ -54,19 +54,25 @@ WebUI.setText(findTestObject('Object Repository/Appointment Hongkong/Page_CURA H
 
 WebUI.click(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/button_Book Appointment'))
 
+WebUI.takeScreenshotAsCheckpoint('Hongkong Appointment Confirmation')
+
 WebUI.click(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
 
 WebUI.click(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a'))
 
 WebUI.click(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center'))
 
-WebUI.click(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/p_Yes'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/p_Yes'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/p_Medicare'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/p_Medicare'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/p_01072024'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/p_01072024'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/p_Lets meet at 8 PM'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/p_Lets meet at 8 PM'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Appointment Hongkong/Page_CURA Healthcare Service/a_Go to Homepage'))
 
