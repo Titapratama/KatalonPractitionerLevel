@@ -50,6 +50,8 @@ WebUI.click(findTestObject('Object Repository/History check/Page_CURA Healthcare
 
 WebUI.click(findTestObject('Object Repository/History check/Page_CURA Healthcare Service/a_History'))
 
+WebUI.takeScreenshotAsCheckpoint('History Hongkong Appointment')
+
 WebUI.verifyElementText(findTestObject('Object Repository/History check/Page_CURA Healthcare Service/h2_History'), 'History')
 
 WebUI.verifyElementText(findTestObject('Object Repository/History check/Page_CURA Healthcare Service/div_28062024'), '28/06/2024')
@@ -67,6 +69,4 @@ WebUI.verifyElementText(findTestObject('Object Repository/History check/Page_CUR
 WebUI.click(findTestObject('Object Repository/History check/Page_CURA Healthcare Service/a_Go to Homepage'))
 
 WebUI.verifyElementText(findTestObject('Homepage of CURA/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
-
-WebUI.closeBrowser()
 

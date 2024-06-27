@@ -17,28 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Login page/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.verifyElementText(findTestObject('Login menu check/Page_CURA Healthcare Service/h2_Login'), 'Login')
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Login page/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.takeFullPageScreenshot()
+WebUI.setText(findTestObject('Login page/Page_CURA Healthcare Service/input_Password_password'), 'ThisIsNotAPassword')
 
-WebUI.click(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/a_Make Appointment'))
-
-WebUI.click(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'))
-
-WebUI.setText(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/input_Password_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
-
-WebUI.click(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.delay(2)
-
-WebUI.takeScreenshotAsCheckpoint('Make appointment page')
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Login page/Page_CURA Healthcare Service/button_Login'))
 

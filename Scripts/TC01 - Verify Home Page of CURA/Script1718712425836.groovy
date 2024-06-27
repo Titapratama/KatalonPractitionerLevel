@@ -30,7 +30,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Homepage of CURA/Page_
 WebUI.verifyElementText(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/strong_CURA Healthcare Service'), 
     'CURA Healthcare Service')
 
-String ExpectedValue= "Atlanta 550 Pharr Road NE Suite 525\nAtlanta, GA 30305"
+String ExpectedValue = 'Atlanta 550 Pharr Road NE Suite 525\nAtlanta, GA 30305'
+
 WebUI.verifyElementText(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85'), 
     ExpectedValue)
 
