@@ -26,11 +26,15 @@ WebUI.verifyElementText(findTestObject('Object Repository/Login menu check/Page_
 
 WebUI.click(findTestObject('Object Repository/Login menu check/Page_CURA Healthcare Service/a_Make Appointment'))
 
+WebUI.takeScreenshotAsCheckpoint('Login page')
+
 WebUI.verifyElementText(findTestObject('Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login'), 'Login')
 
 WebUI.click(findTestObject('Object Repository/Login menu check/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
 WebUI.click(findTestObject('Object Repository/Login menu check/Page_CURA Healthcare Service/a_Login'))
+
+WebUI.takeScreenshotAsCheckpoint('Login page')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login'), 'Login')
 

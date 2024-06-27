@@ -69,6 +69,8 @@ WebUI.click(findTestObject('Object Repository/Log out/Page_CURA Healthcare Servi
 
 WebUI.click(findTestObject('Object Repository/Log out/Page_CURA Healthcare Service/a_Logout'))
 
+WebUI.takeScreenshotAsCheckpoint('CURA Homepage')
+
 WebUI.verifyElementText(findTestObject('Homepage of CURA/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
 
 WebUI.closeBrowser()

@@ -29,6 +29,8 @@ WebUI.click(findTestObject('Object Repository/Login page/Page_CURA Healthcare Se
 
 WebUI.click(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'))
 
+WebUI.takeScreenshotAsCheckpoint('Login page')
+
 WebUI.setText(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/input_Password_password'), 
