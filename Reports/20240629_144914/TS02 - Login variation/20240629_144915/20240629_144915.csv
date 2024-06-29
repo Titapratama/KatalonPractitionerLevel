@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS02 - Login variation,Chrome 126.0.0.0,,,29-06-2024 14:49:22,29-06-2024 14:56:54,7m - 32.049s,FAILED
+,,,,,,,
+Test Cases/Test Case Properties/TCP01 - Open browser,Chrome 126.0.0.0,,,29-06-2024 14:49:22,29-06-2024 14:49:28,5.881s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-06-2024 14:49:22,29-06-2024 14:49:24,2.206s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,29-06-2024 14:49:24,29-06-2024 14:49:28,3.237s,PASSED
+,,,,,,,
+Test Cases/TC05 - Login in another way,Chrome 126.0.0.0,,,29-06-2024 14:49:28,29-06-2024 14:49:35,7.312s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,29-06-2024 14:49:28,29-06-2024 14:49:28,0.422s,PASSED
+"click(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,29-06-2024 14:49:28,29-06-2024 14:49:29,0.754s,PASSED
+"takeScreenshotAsCheckpoint(""Login page"")",Chrome 126.0.0.0,,,29-06-2024 14:49:29,29-06-2024 14:49:30,0.827s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login""), ""Login"")",Chrome 126.0.0.0,,,29-06-2024 14:49:30,29-06-2024 14:49:30,0.361s,PASSED
+"click(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 126.0.0.0,,,29-06-2024 14:49:30,29-06-2024 14:49:31,0.433s,PASSED
+"click(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/a_Login""))",Chrome 126.0.0.0,,,29-06-2024 14:49:31,29-06-2024 14:49:31,0.417s,PASSED
+"takeScreenshotAsCheckpoint(""Login page"")",Chrome 126.0.0.0,,,29-06-2024 14:49:31,29-06-2024 14:49:32,0.515s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login""), ""Login"")",Chrome 126.0.0.0,,,29-06-2024 14:49:32,29-06-2024 14:49:32,0.327s,PASSED
+"click(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 126.0.0.0,,,29-06-2024 14:49:32,29-06-2024 14:49:32,0.385s,PASSED
+"click(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/a_Home""))",Chrome 126.0.0.0,,,29-06-2024 14:49:32,29-06-2024 14:49:33,0.680s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,29-06-2024 14:49:33,29-06-2024 14:49:33,0.360s,PASSED
+"click(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 126.0.0.0,,,29-06-2024 14:49:33,29-06-2024 14:49:34,0.373s,PASSED
+"click(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/a_Login""))",Chrome 126.0.0.0,,,29-06-2024 14:49:34,29-06-2024 14:49:35,0.655s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login""), ""Login"")",Chrome 126.0.0.0,,,29-06-2024 14:49:35,29-06-2024 14:49:35,0.497s,PASSED
+,,,,,,,
+Test Cases/TC04 - Login wrong password,Chrome 126.0.0.0,,,29-06-2024 14:49:35,29-06-2024 14:49:40,4.545s,PASSED
+"click(findTestObject(""Failed Login/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,29-06-2024 14:49:35,29-06-2024 14:49:35,0.334s,PASSED
+"userName = getAttribute(findTestObject(""Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username""), ""username"")",Chrome 126.0.0.0,,,29-06-2024 14:49:35,29-06-2024 14:49:36,0.301s,PASSED
+"passWord = getAttribute(findTestObject(""Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password""), ""password"")",Chrome 126.0.0.0,,,29-06-2024 14:49:36,29-06-2024 14:49:36,0.355s,PASSED
+"click(findTestObject(""Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,29-06-2024 14:49:36,29-06-2024 14:49:37,0.377s,PASSED
+"setText(findTestObject(""Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username""), "" John Doe"")",Chrome 126.0.0.0,,,29-06-2024 14:49:37,29-06-2024 14:49:37,0.740s,PASSED
+"setText(findTestObject(""Login page/Page_CURA Healthcare Service/input_Password_password""), ""This"")",Chrome 126.0.0.0,,,29-06-2024 14:49:37,29-06-2024 14:49:38,0.696s,PASSED
+"click(findTestObject(""Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login""))",Chrome 126.0.0.0,,,29-06-2024 14:49:38,29-06-2024 14:49:39,1.034s,PASSED
+"if (userName == ""John Doe"" && passWord == ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 126.0.0.0,,,29-06-2024 14:49:39,29-06-2024 14:49:39,0.010s,PASSED
+else,Chrome 126.0.0.0,,,29-06-2024 14:49:39,29-06-2024 14:49:40,0.552s,PASSED
+,,,,,,,
+Test Cases/TC03 - Login wrong username,Chrome 126.0.0.0,,,29-06-2024 14:49:40,29-06-2024 14:49:43,3.738s,PASSED
+"click(findTestObject(""Failed Login/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,29-06-2024 14:49:40,29-06-2024 14:49:40,0.339s,PASSED
+"userName = getAttribute(findTestObject(""Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username""), ""username"")",Chrome 126.0.0.0,,,29-06-2024 14:49:40,29-06-2024 14:49:40,0.291s,PASSED
+"passWord = getAttribute(findTestObject(""Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password""), ""password"")",Chrome 126.0.0.0,,,29-06-2024 14:49:40,29-06-2024 14:49:41,0.367s,PASSED
+"click(findTestObject(""Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,29-06-2024 14:49:41,29-06-2024 14:49:41,0.380s,PASSED
+"setText(findTestObject(""Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username""), ""John"")",Chrome 126.0.0.0,,,29-06-2024 14:49:41,29-06-2024 14:49:42,0.820s,PASSED
+"click(findTestObject(""Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login""))",Chrome 126.0.0.0,,,29-06-2024 14:49:42,29-06-2024 14:49:43,0.995s,PASSED
+"if (userName == ""John Doe"" && passWord == ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 126.0.0.0,,,29-06-2024 14:49:43,29-06-2024 14:49:43,0.002s,PASSED
+else,Chrome 126.0.0.0,,,29-06-2024 14:49:43,29-06-2024 14:49:43,0.436s,PASSED
+,,,,,,,
+Test Cases/TC02 - Login normally,Chrome 126.0.0.0,,,29-06-2024 14:56:47,29-06-2024 14:56:49,2.053s,FAILED
+delay(2),Chrome 126.0.0.0,,,29-06-2024 14:56:47,29-06-2024 14:56:49,2.018s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,29-06-2024 14:56:49,29-06-2024 14:56:49,0.009s,FAILED
+,,,,,,,
+Test Cases/Test Case Properties/TCP03 - Logout,Chrome 126.0.0.0,,,29-06-2024 14:56:53,29-06-2024 14:56:54,1.048s,FAILED
+"verifyElementText(findTestObject(""Appointment/Page_CURA Healthcare Service/h2_Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,29-06-2024 14:56:53,29-06-2024 14:56:54,1.037s,FAILED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03 - Logout variation,Chrome 126.0.0.0,,,29-06-2024 14:00:42,29-06-2024 14:02:01,1m - 19.103s,FAILED
+,,,,,,,
+Test Cases/Test Case Properties/TCP01 - Open Browser,Chrome 126.0.0.0,,,29-06-2024 14:00:43,29-06-2024 14:00:48,5.530s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-06-2024 14:00:43,29-06-2024 14:00:45,2.431s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,29-06-2024 14:00:45,29-06-2024 14:00:48,2.712s,PASSED
+,,,,,,,
+Test Cases/Test Case Properties/TCP02 - Login,Chrome 126.0.0.0,,,29-06-2024 14:00:48,29-06-2024 14:01:55,1m - 7.433s,PASSED
+"click(findTestObject(""Login page/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,29-06-2024 14:00:48,29-06-2024 14:00:49,0.994s,PASSED
+"verifyElementText(findTestObject(""Login menu check/Page_CURA Healthcare Service/h2_Login""), ""Login"")",Chrome 126.0.0.0,,,29-06-2024 14:00:49,29-06-2024 14:00:50,0.501s,PASSED
+"setText(findTestObject(""Login page/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 126.0.0.0,,,29-06-2024 14:00:50,29-06-2024 14:01:53,1m - 3.401s,PASSED
+"setText(findTestObject(""Login page/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,29-06-2024 14:01:53,29-06-2024 14:01:54,0.793s,PASSED
+"click(findTestObject(""Login page/Page_CURA Healthcare Service/button_Login""))",Chrome 126.0.0.0,,,29-06-2024 14:01:54,29-06-2024 14:01:55,1.621s,PASSED
+,,,,,,,
+Test Cases/TC13 - Logout via profile menu,Chrome 126.0.0.0,,,29-06-2024 14:02:00,29-06-2024 14:02:01,1.264s,FAILED
+"click(findTestObject(""Object Repository/Log out/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 126.0.0.0,,,29-06-2024 14:02:00,29-06-2024 14:02:00,0.352s,PASSED
+"click(findTestObject(""Object Repository/Log out/Page_CURA Healthcare Service/a_Profile""))",Chrome 126.0.0.0,,,29-06-2024 14:02:00,29-06-2024 14:02:01,0.366s,PASSED
+"click(findTestObject(""Object Repository/Log out/Page_CURA Healthcare Service/a_Logout""))",Chrome 126.0.0.0,,,29-06-2024 14:02:01,29-06-2024 14:02:01,0.518s,FAILED

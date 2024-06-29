@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01 - Login variation" time="126.21" tests="6" failures="0" errors="0">
+   <testsuite name="TS01 - Login variation" tests="6" failures="0" errors="0" time="126.21" skipped="0" timestamp="29-06-2024T13:26:04" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/TS01 - Login variation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240629_132600\\TS01 - Login variation\\20240629_132600"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240629_132600\\TS01 - Login variation\\20240629_132600\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Login page.png, keyes\keyes-Login page.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240629_132600\\TS01 - Login variation\\20240629_132600\\1719642386888.png, keyes\keyes-Login page.png, keyes\keyes-Make appointment page.png"/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="8fee2bc92f5500bc02169f3365aabcda"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Test Case Properties/TCP01 - Open Browser" time="4.486" classname="Test Cases/Test Case Properties/TCP01 - Open Browser" status="PASSED">
+         <system-out><![CDATA[29-06-2024T13:26:04 - [TEST_CASE][PASSED] - Test Cases/Test Case Properties/TCP01 - Open Browser: Test Cases/Test Case Properties/TCP01 - Open Browser
+
+29-06-2024T13:26:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-06-2024T13:26:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-06-2024T13:26:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-06-2024T13:26:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-06-2024T13:26:06 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+29-06-2024T13:26:08 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05 - Login in another way" time="7.524" classname="Test Cases/TC05 - Login in another way" status="PASSED">
+         <system-out><![CDATA[29-06-2024T13:26:08 - [TEST_CASE][PASSED] - Test Cases/TC05 - Login in another way: Test Cases/TC05 - Login in another way
+
+29-06-2024T13:26:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+29-06-2024T13:26:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+29-06-2024T13:26:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:10 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Login page"): Taking screenshot successfully
+
+29-06-2024T13:26:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-06-2024T13:26:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login page.png]]
+
+29-06-2024T13:26:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login"), "Login"): Actual text and expected text of test object 'Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login' are matched.
+
+29-06-2024T13:26:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login' are matched.
+
+29-06-2024T13:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+29-06-2024T13:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+29-06-2024T13:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/a_Login' is clicked on
+
+29-06-2024T13:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/a_Login' is clicked on
+
+29-06-2024T13:26:12 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Login page"): Taking screenshot successfully
+
+29-06-2024T13:26:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-06-2024T13:26:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login page.png]]
+
+29-06-2024T13:26:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login"), "Login"): Actual text and expected text of test object 'Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login' are matched.
+
+29-06-2024T13:26:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login' are matched.
+
+29-06-2024T13:26:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+29-06-2024T13:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+29-06-2024T13:26:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/a_Home")): Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/a_Home' is clicked on
+
+29-06-2024T13:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/a_Home' is clicked on
+
+29-06-2024T13:26:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+29-06-2024T13:26:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+29-06-2024T13:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+29-06-2024T13:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+29-06-2024T13:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/a_Login' is clicked on
+
+29-06-2024T13:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login menu check/Page_CURA Healthcare Service/a_Login' is clicked on
+
+29-06-2024T13:26:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login"), "Login"): Actual text and expected text of test object 'Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login' are matched.
+
+29-06-2024T13:26:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login menu check/Page_CURA Healthcare Service/h2_Login' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04 - Login wrong password" time="4.609" classname="Test Cases/TC04 - Login wrong password" status="PASSED">
+         <system-out><![CDATA[29-06-2024T13:26:16 - [TEST_CASE][PASSED] - Test Cases/TC04 - Login wrong password: Test Cases/TC04 - Login wrong password
+
+29-06-2024T13:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Failed Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:16 - [TEST_STEP][PASSED] - userName = getAttribute(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username"), "username"): Attribute 'username' of object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username' is: 'null'
+
+29-06-2024T13:26:17 - [MESSAGE][PASSED] - Attribute 'username' of object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username' is: 'null'
+
+29-06-2024T13:26:17 - [TEST_STEP][PASSED] - passWord = getAttribute(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password"), "password"): Attribute 'password' of object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password' is: 'null'
+
+29-06-2024T13:26:17 - [MESSAGE][PASSED] - Attribute 'password' of object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password' is: 'null'
+
+29-06-2024T13:26:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username"), " John Doe"): Text ' John Doe' is set on object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'
+
+29-06-2024T13:26:18 - [MESSAGE][PASSED] - Text ' John Doe' is set on object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'
+
+29-06-2024T13:26:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/Page_CURA Healthcare Service/input_Password_password"), "This"): Text 'This' is set on object 'Object Repository/Login page/Page_CURA Healthcare Service/input_Password_password'
+
+29-06-2024T13:26:19 - [MESSAGE][PASSED] - Text 'This' is set on object 'Object Repository/Login page/Page_CURA Healthcare Service/input_Password_password'
+
+29-06-2024T13:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-06-2024T13:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-06-2024T13:26:20 - [TEST_STEP][PASSED] - if (userName == "John Doe" && passWord == "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): null
+
+29-06-2024T13:26:20 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+29-06-2024T13:26:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object 'Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+29-06-2024T13:26:20 - [MESSAGE][PASSED] - Object 'Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03 - Login wrong username" time="3.699" classname="Test Cases/TC03 - Login wrong username" status="PASSED">
+         <system-out><![CDATA[29-06-2024T13:26:20 - [TEST_CASE][PASSED] - Test Cases/TC03 - Login wrong username: Test Cases/TC03 - Login wrong username
+
+29-06-2024T13:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Failed Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:21 - [TEST_STEP][PASSED] - userName = getAttribute(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username"), "username"): Attribute 'username' of object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username' is: 'null'
+
+29-06-2024T13:26:21 - [MESSAGE][PASSED] - Attribute 'username' of object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username' is: 'null'
+
+29-06-2024T13:26:21 - [TEST_STEP][PASSED] - passWord = getAttribute(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password"), "password"): Attribute 'password' of object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password' is: 'null'
+
+29-06-2024T13:26:22 - [MESSAGE][PASSED] - Attribute 'password' of object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password' is: 'null'
+
+29-06-2024T13:26:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username"), "John"): Text 'John' is set on object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'
+
+29-06-2024T13:26:23 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'
+
+29-06-2024T13:26:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-06-2024T13:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-06-2024T13:26:24 - [TEST_STEP][PASSED] - if (userName == "John Doe" && passWord == "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): null
+
+29-06-2024T13:26:24 - [TEST_STEP][PASSED] - else: Object 'Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+29-06-2024T13:26:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object 'Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+29-06-2024T13:26:24 - [MESSAGE][PASSED] - Object 'Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02 - Login normally" time="103.842" classname="Test Cases/TC02 - Login normally" status="PASSED">
+         <system-out><![CDATA[29-06-2024T13:26:24 - [TEST_CASE][PASSED] - Test Cases/TC02 - Login normally: Test Cases/TC02 - Login normally
+
+29-06-2024T13:26:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-06-2024T13:26:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T13:26:26 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+29-06-2024T13:26:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-06-2024T13:26:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240629_132600\\TS01 - Login variation\\20240629_132600\\1719642386888.png]]
+
+29-06-2024T13:26:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login page/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Login page/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-06-2024T13:26:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username")): Object: 'Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username' is clicked on
+
+29-06-2024T13:26:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: John'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T13:26:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'. Try using Self-healing.
+
+29-06-2024T13:26:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username' was broken. Propose an alternative one: '//input[@id='txt-username']'.
+
+29-06-2024T13:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username' is clicked on
+
+29-06-2024T13:27:00 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Login page"): Taking screenshot successfully
+
+29-06-2024T13:27:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-06-2024T13:27:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login page.png]]
+
+29-06-2024T13:27:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'
+
+29-06-2024T13:27:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: John'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T13:27:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'. Try using Self-healing.
+
+29-06-2024T13:27:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username' was broken. Propose an alternative one: '//input[@id='txt-username']'.
+
+29-06-2024T13:28:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: John'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T13:28:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'. Try using Self-healing.
+
+29-06-2024T13:28:03 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username' was broken. Propose an alternative one: '//input[@id='txt-username']'.
+
+29-06-2024T13:28:03 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'
+
+29-06-2024T13:28:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login page/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Login page/Page_CURA Healthcare Service/input_Password_password'
+
+29-06-2024T13:28:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login page/Page_CURA Healthcare Service/input_Password_password'
+
+29-06-2024T13:28:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login page/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login page/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-06-2024T13:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-06-2024T13:28:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+29-06-2024T13:28:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T13:28:07 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Make appointment page"): Taking screenshot successfully
+
+29-06-2024T13:28:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+29-06-2024T13:28:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Make appointment page.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case Properties/TCP03 - Logout" time="1.891" classname="Test Cases/Test Case Properties/TCP03 - Logout" status="PASSED">
+         <system-out><![CDATA[29-06-2024T13:28:08 - [TEST_CASE][PASSED] - Test Cases/Test Case Properties/TCP03 - Logout: Test Cases/Test Case Properties/TCP03 - Logout
+
+29-06-2024T13:28:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Appointment/Page_CURA Healthcare Service/h2_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Appointment/Page_CURA Healthcare Service/h2_Make Appointment' are matched.
+
+29-06-2024T13:28:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Appointment/Page_CURA Healthcare Service/h2_Make Appointment' are matched.
+
+29-06-2024T13:28:08 - [TEST_STEP][PASSED] - click(findTestObject("History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+29-06-2024T13:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+29-06-2024T13:28:09 - [TEST_STEP][PASSED] - click(findTestObject("Log out/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Log out/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+29-06-2024T13:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Log out/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+29-06-2024T13:28:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-06-2024T13:28:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-06-2024T13:26:04 - [TEST_SUITE][PASSED] - TS01 - Login variation: Test Cases/Test Case Properties/TCP03 - Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

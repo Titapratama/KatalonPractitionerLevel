@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
@@ -41,6 +37,4 @@ WebUI.click(findTestObject('Object Repository/Login page/Page_CURA Healthcare Se
 WebUI.delay(2)
 
 WebUI.takeScreenshotAsCheckpoint('Make appointment page')
-
-WebUI.closeBrowser()
 

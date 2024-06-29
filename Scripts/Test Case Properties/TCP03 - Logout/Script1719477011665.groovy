@@ -21,7 +21,7 @@ WebUI.verifyElementText(findTestObject('Appointment/Page_CURA Healthcare Service
 
 WebUI.click(findTestObject('History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Log out/Page_CURA Healthcare Service/a_Logout'))
+WebUI.click(findTestObject('Log out/Page_CURA Healthcare Service/a_Logout_1'))
 
 WebUI.closeBrowser()
 

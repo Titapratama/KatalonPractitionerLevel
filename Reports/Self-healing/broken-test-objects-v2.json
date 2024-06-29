@@ -39,6 +39,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/History check/Page_CURA Healthcare Service/h2_History_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Log out/Page_CURA Healthcare Service/a_Logout_1",
+      "brokenLocator": "//section[@id\u003d\u0027profile\u0027]/div/div/div/p[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Make Appointment\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Log out/Page_CURA Healthcare Service/a_Logout_1_neighbor.png"
     }
   ]
 }
