@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementText(findTestObject('Appointment/Page_CURA Healthcare Service/h2_Make Appointment'), 'Make Appointment')
+WebUI.verifyElementText(findTestObject('3. Appointment/Page_CURA Healthcare Service/h2_Make Appointment'), 'Make Appointment')
 
-WebUI.click(findTestObject('History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('8. History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Log out/Page_CURA Healthcare Service/a_Logout_1'))
+WebUI.click(findTestObject('10. Log out/Page_CURA Healthcare Service/a_Logout_1'))
 
 WebUI.closeBrowser()
 

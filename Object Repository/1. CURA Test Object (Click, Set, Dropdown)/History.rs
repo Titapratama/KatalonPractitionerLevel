@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>History</name>
+   <tag></tag>
+   <elementGuidId>ddf75237-e90e-40ab-8588-44327c091b58</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'history.php#history' and @onclick = concat(&quot;$(&quot; , &quot;'&quot; , &quot;#menu-close&quot; , &quot;'&quot; , &quot;).click();&quot;) and (text() = 'History' or . = 'History')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>history.php#history</value>
+      <webElementGuid>64da9a8d-dfd4-4873-9b0f-82b8bd0c07c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>$('#menu-close').click();</value>
+      <webElementGuid>99d3f570-376b-40b4-8917-6b6118072c33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>History</value>
+      <webElementGuid>5d5baea3-cd1b-4dae-ad1a-19d1fc7c4fad</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

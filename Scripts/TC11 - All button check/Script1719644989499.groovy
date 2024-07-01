@@ -17,19 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementClickable(findTestObject('Login page/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.verifyElementClickable(findTestObject('10. Login page/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.click(findTestObject('Login page/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('10. Login page/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Login page/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('10. Login page/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Login page/Page_CURA Healthcare Service/input_Password_password'), 'ThisIsNotAPassword')
+WebUI.setText(findTestObject('10. Login page/Page_CURA Healthcare Service/input_Password_password'), 'ThisIsNotAPassword')
 
-WebUI.verifyElementClickable(findTestObject('Login page/Page_CURA Healthcare Service/button_Login'))
+WebUI.verifyElementClickable(findTestObject('10. Login page/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.click(findTestObject('Login page/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('10. Login page/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.verifyElementClickable(findTestObject('Appointment/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.verifyElementClickable(findTestObject('3. Appointment/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.verifyElementClickable(findTestObject('History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.verifyElementClickable(findTestObject('8. History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 

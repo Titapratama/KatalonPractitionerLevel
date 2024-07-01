@@ -17,12 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Log out/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('Object Repository/10. Log out/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/Log out/Page_CURA Healthcare Service/a_Profile'))
+WebUI.click(findTestObject('Object Repository/10. Log out/Page_CURA Healthcare Service/a_Profile'))
 
-WebUI.click(findTestObject('Object Repository/Log out/Page_CURA Healthcare Service/a_Logout'))
+WebUI.click(findTestObject('Object Repository/10. Log out/Page_CURA Healthcare Service/a_Logout'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Log out/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
+WebUI.verifyElementText(findTestObject('Object Repository/10. Log out/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
     '')
 

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS07 - Home button variation,Edge Chromium 126,,,01-07-2024 11:19:05,01-07-2024 11:20:39,1m - 33.659s,FAILED
+,,,,,,,
+Test Cases/Test Case Properties/TCP01 - Open browser,Edge Chromium 126,,,01-07-2024 11:19:05,01-07-2024 11:19:11,6.280s,PASSED
+"openBrowser("""")",Edge Chromium 126,,,01-07-2024 11:19:06,01-07-2024 11:19:08,2.349s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 126,,,01-07-2024 11:19:08,01-07-2024 11:19:11,3.544s,PASSED
+,,,,,,,
+Test Cases/Test Case Properties/TCP02 - Login,Edge Chromium 126,,,01-07-2024 11:19:12,01-07-2024 11:20:19,1m - 7.153s,PASSED
+"click(findTestObject(""Login page/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 126,,,01-07-2024 11:19:12,01-07-2024 11:19:13,0.941s,PASSED
+"verifyElementText(findTestObject(""Login menu check/Page_CURA Healthcare Service/h2_Login""), ""Login"")",Edge Chromium 126,,,01-07-2024 11:19:13,01-07-2024 11:19:13,0.471s,PASSED
+"setText(findTestObject(""Login page/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Edge Chromium 126,,,01-07-2024 11:19:13,01-07-2024 11:20:16,1m - 3.116s,PASSED
+"setText(findTestObject(""Login page/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Edge Chromium 126,,,01-07-2024 11:20:16,01-07-2024 11:20:17,0.790s,PASSED
+"click(findTestObject(""Login page/Page_CURA Healthcare Service/button_Login""))",Edge Chromium 126,,,01-07-2024 11:20:17,01-07-2024 11:20:19,1.644s,PASSED
+,,,,,,,
+Test Cases/TC14 - Home button,Edge Chromium 126,,,01-07-2024 11:20:19,01-07-2024 11:20:23,3.996s,PASSED
+"verifyElementPresent(findTestObject(""Homepage of CURA/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 0)",Edge Chromium 126,,,01-07-2024 11:20:19,01-07-2024 11:20:19,0.327s,PASSED
+"click(findTestObject(""CURA menu/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Edge Chromium 126,,,01-07-2024 11:20:19,01-07-2024 11:20:20,0.391s,PASSED
+"click(findTestObject(""Login menu check/Page_CURA Healthcare Service/a_Home""))",Edge Chromium 126,,,01-07-2024 11:20:20,01-07-2024 11:20:20,0.805s,PASSED
+"verifyElementPresent(findTestObject(""Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 0)",Edge Chromium 126,,,01-07-2024 11:20:20,01-07-2024 11:20:21,0.399s,PASSED
+"click(findTestObject(""Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Edge Chromium 126,,,01-07-2024 11:20:21,01-07-2024 11:20:21,0.398s,PASSED
+"click(findTestObject(""History check/Page_CURA Healthcare Service/a_History""))",Edge Chromium 126,,,01-07-2024 11:20:21,01-07-2024 11:20:22,0.782s,PASSED
+"click(findTestObject(""History check/Page_CURA Healthcare Service/a_Go to Homepage""))",Edge Chromium 126,,,01-07-2024 11:20:22,01-07-2024 11:20:23,0.806s,PASSED
+,,,,,,,
+Test Cases/Test Case Properties/TCP03 - Logout,Edge Chromium 126,,,01-07-2024 11:20:38,01-07-2024 11:20:39,1.038s,FAILED
+"verifyElementText(findTestObject(""Appointment/Page_CURA Healthcare Service/h2_Make Appointment""), ""Make Appointment"")",Edge Chromium 126,,,01-07-2024 11:20:38,01-07-2024 11:20:39,1.026s,FAILED

@@ -21,18 +21,18 @@ WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/10. Login page/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.click(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'))
+WebUI.click(findTestObject('Object Repository/10. Login page/Page_CURA Healthcare Service/input_Username_username'))
 
 WebUI.takeScreenshotAsCheckpoint('Login page')
 
-WebUI.setText(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/10. Login page/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/10. Login page/Page_CURA Healthcare Service/input_Password_password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/Login page/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/10. Login page/Page_CURA Healthcare Service/button_Login'))
 
 WebUI.delay(2)
 

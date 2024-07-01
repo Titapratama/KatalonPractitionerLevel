@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('Homepage of CURA/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 0)
+WebUI.verifyElementPresent(findTestObject('9. Homepage of CURA/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 0)
 
-WebUI.click(findTestObject('CURA menu/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('6. CURA menu/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Login menu check/Page_CURA Healthcare Service/a_Home'))
+WebUI.click(findTestObject('11. Login menu check/Page_CURA Healthcare Service/a_Home'))
 
-WebUI.verifyElementPresent(findTestObject('Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 0)
+WebUI.verifyElementPresent(findTestObject('11. Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 0)
 
-WebUI.click(findTestObject('Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('11. Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('History check/Page_CURA Healthcare Service/a_History'))
+WebUI.click(findTestObject('8. History check/Page_CURA Healthcare Service/a_History'))
 
-WebUI.click(findTestObject('History check/Page_CURA Healthcare Service/a_Go to Homepage'))
+WebUI.click(findTestObject('8. History check/Page_CURA Healthcare Service/a_Go to Homepage'))
 

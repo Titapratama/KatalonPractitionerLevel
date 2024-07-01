@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Visit Date</name>
+   <tag></tag>
+   <elementGuidId>f856181d-e7de-4362-af02-10064f9045fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'txt_visit_date' and @name = 'visit_date' and @type = 'text' and @placeholder = 'dd/mm/yyyy']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>txt_visit_date</value>
+      <webElementGuid>e34f5b3d-b9a7-4a18-b3e0-5131ff971b84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>visit_date</value>
+      <webElementGuid>1350f927-2407-4eed-a747-ee35efae2744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>6107e956-21df-4546-a6c1-98fcb4389a8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>dd/mm/yyyy</value>
+      <webElementGuid>192c98c6-dc86-4470-acbe-3b9882d38be0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

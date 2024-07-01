@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tokyo CURA Healthcare Center</name>
+   <tag></tag>
+   <elementGuidId>627182ab-4d36-4e5c-adb7-d5906d2a971d</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'combo_facility' and (text() = 'Tokyo CURA Healthcare Center' or . = 'Tokyo CURA Healthcare Center') and @name = 'facility']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>combo_facility</value>
+      <webElementGuid>2251f967-13b8-458a-8503-08edd6a841f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tokyo CURA Healthcare Center</value>
+      <webElementGuid>6019bbe1-4730-4a13-8785-735fd4a41cc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>facility</value>
+      <webElementGuid>9f73a35a-3004-44be-8f85-7c91c1fbb367</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

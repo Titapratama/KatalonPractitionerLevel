@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Home</name>
+   <tag></tag>
+   <elementGuidId>1ee02628-0b35-43ea-af34-0a7bbd74cc0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = './' and (text() = 'Home' or . = 'Home') and @onclick = concat(&quot;$(&quot; , &quot;'&quot; , &quot;#menu-close&quot; , &quot;'&quot; , &quot;).click();&quot;)]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>./</value>
+      <webElementGuid>9be0973a-44b4-4282-8045-6655a8e3680e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Home</value>
+      <webElementGuid>5b777e26-ec3d-4c4e-8f12-63d3c8f8b6c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>$('#menu-close').click();</value>
+      <webElementGuid>c91b322f-50f8-40d3-a7f8-188fc9d2a94a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

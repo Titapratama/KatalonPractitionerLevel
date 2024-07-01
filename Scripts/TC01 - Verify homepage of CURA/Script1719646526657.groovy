@@ -23,36 +23,36 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.takeScreenshotAsCheckpoint('CURA Homepage')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
+WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
     'CURA Healthcare Service')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/h3_We Care About Your Health'), 
+WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/h3_We Care About Your Health'), 
     'We Care About Your Health')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/strong_CURA Healthcare Service'), 
+WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/strong_CURA Healthcare Service'), 
     'CURA Healthcare Service')
 
 String ExpectedValue = 'Atlanta 550 Pharr Road NE Suite 525\nAtlanta, GA 30305'
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85'), 
+WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85'), 
     ExpectedValue)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/li_(678) 813-1KMS'), 
+WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/li_(678) 813-1KMS'), 
     '(678) 813-1KMS')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/li_infokatalon.com'), 
+WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/li_infokatalon.com'), 
     'info@katalon.com')
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-twitter fa-fw fa-3x'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-twitter fa-fw fa-3x'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-dribbble fa-fw fa-3x'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-dribbble fa-fw fa-3x'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024'), 
+WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024'), 
     'Copyright © CURA Healthcare Service 2024')
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Homepage of CURA/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/a_Make Appointment'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Email</name>
+   <tag></tag>
+   <elementGuidId>080e82eb-1988-4a46-bb28-153371c34e68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'fa fa-envelope-o fa-fw' and (text() = 'info@katalon.com' or . = 'info@katalon.com') and @href = 'mailto:info@katalon.com']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-envelope-o fa-fw</value>
+      <webElementGuid>fbdcd48f-faba-4800-a31d-8b9faaedff65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>info@katalon.com</value>
+      <webElementGuid>6d8db7d2-5137-4ce7-b275-a1a1af74e5aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>mailto:info@katalon.com</value>
+      <webElementGuid>ac4b645c-f60b-4137-9ab3-6b069f902596</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

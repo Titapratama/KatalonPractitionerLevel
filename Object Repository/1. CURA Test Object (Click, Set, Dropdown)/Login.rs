@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <elementGuidId>c5d3fefa-5259-443f-8429-c4816c94da09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'profile.php#login' and @onclick = concat(&quot;$(&quot; , &quot;'&quot; , &quot;#menu-close&quot; , &quot;'&quot; , &quot;).click();&quot;) and (text() = 'Login' or . = 'Login')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>profile.php#login</value>
+      <webElementGuid>80d56117-394a-4e32-b456-9bfe01a14c7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>$('#menu-close').click();</value>
+      <webElementGuid>dbc54598-de3b-4946-b529-049a44918690</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login</value>
+      <webElementGuid>ef2f4189-27b6-4083-ad85-e4001273cf6d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

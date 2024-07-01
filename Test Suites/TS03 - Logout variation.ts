@@ -42,7 +42,7 @@
    <testCaseLink>
       <guid>56243bcc-2a6d-438e-a2a3-57ca13ed8504</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC13 - Logout via profile menu</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Medicare</name>
+   <tag></tag>
+   <elementGuidId>07085d8f-ceff-4207-8e23-da32b9e197c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'radio_program_medicare' and @name = 'programs' and @value = 'Medicare']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radio_program_medicare</value>
+      <webElementGuid>dbffb4a6-13a6-40da-8d0d-b0b0c3c96e0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>programs</value>
+      <webElementGuid>7f18de53-88a4-402a-9933-862ffdb2c2e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Medicare</value>
+      <webElementGuid>09b64e8c-a24a-4eb7-a2b0-fa6f0db6e17d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

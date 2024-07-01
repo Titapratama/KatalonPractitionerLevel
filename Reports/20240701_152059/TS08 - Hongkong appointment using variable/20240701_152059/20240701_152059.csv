@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS08 - Hongkong appointment using variable,Chrome 126.0.0.0,,,01-07-2024 15:21:03,01-07-2024 15:23:25,2m - 22.097s,FAILED
+,,,,,,,
+Test Cases/TC15 - Login using variable,Chrome 126.0.0.0,,,01-07-2024 15:21:04,01-07-2024 15:21:13,8.997s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,01-07-2024 15:21:04,01-07-2024 15:21:05,1.606s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,01-07-2024 15:21:05,01-07-2024 15:21:08,2.968s,PASSED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,01-07-2024 15:21:08,01-07-2024 15:21:08,0.002s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Chrome 126.0.0.0,,,01-07-2024 15:21:08,01-07-2024 15:21:09,1.103s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), Username)",Chrome 126.0.0.0,,,01-07-2024 15:21:09,01-07-2024 15:21:10,0.948s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Password""), Password)",Chrome 126.0.0.0,,,01-07-2024 15:21:10,01-07-2024 15:21:11,0.836s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Login Button""))",Chrome 126.0.0.0,,,01-07-2024 15:21:11,01-07-2024 15:21:13,1.262s,PASSED
+,,,,,,,
+Test Cases/TC16 - Appointment Hongkong using variable,Chrome 126.0.0.0,,,01-07-2024 15:22:50,01-07-2024 15:23:22,32.244s,FAILED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Hongkong CURA Healthcare Center""), ""Hongkong CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,01-07-2024 15:22:50,01-07-2024 15:23:22,32.215s,FAILED
+,,,,,,,
+Test Cases/Test Case Properties/TCP03 - Logout,Chrome 126.0.0.0,,,01-07-2024 15:23:25,01-07-2024 15:23:25,0.816s,FAILED
+"verifyElementText(findTestObject(""3. Appointment/Page_CURA Healthcare Service/h2_Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,01-07-2024 15:23:25,01-07-2024 15:23:25,0.302s,PASSED
+"click(findTestObject(""8. History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 126.0.0.0,,,01-07-2024 15:23:25,01-07-2024 15:23:25,0.386s,PASSED
+"click(findTestObject(""10. Log out/Page_CURA Healthcare Service/a_Logout_1""))",Chrome 126.0.0.0,,,01-07-2024 15:23:25,01-07-2024 15:23:25,0.113s,FAILED

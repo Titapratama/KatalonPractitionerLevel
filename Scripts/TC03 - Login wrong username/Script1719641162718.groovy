@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Failed Login/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('7. Failed Login/Page_CURA Healthcare Service/a_Make Appointment'))
 
-userName = WebUI.getAttribute(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'), 
+userName = WebUI.getAttribute(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/input_Username_username'), 
     'username')
 
-passWord = WebUI.getAttribute(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Password_password'), 
+passWord = WebUI.getAttribute(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/input_Password_password'), 
     'password')
 
-WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/input_Username_username'), 'John')
+WebUI.setText(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/input_Username_username'), 'John')
 
-WebUI.click(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/button_Login'))
 
 if ((userName == 'John Doe') && (passWord == 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')) {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/h2_Make Appointment'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/h2_Make Appointment'))
 } else {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
 }
 
