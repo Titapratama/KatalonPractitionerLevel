@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS08 - Hongkong appointment using variable,Chrome 126.0.0.0,,,02-07-2024 18:09:25,02-07-2024 18:11:16,1m - 51.132s,FAILED
+,,,,,,,
+Test Cases/TC15 - Login using variable,Chrome 126.0.0.0,,,02-07-2024 18:09:25,02-07-2024 18:09:35,9.677s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,02-07-2024 18:09:26,02-07-2024 18:09:28,1.919s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,02-07-2024 18:09:28,02-07-2024 18:09:31,3.137s,PASSED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,02-07-2024 18:09:31,02-07-2024 18:09:31,0.005s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Chrome 126.0.0.0,,,02-07-2024 18:09:31,02-07-2024 18:09:32,1.168s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), Username)",Chrome 126.0.0.0,,,02-07-2024 18:09:32,02-07-2024 18:09:33,0.959s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Password""), Password)",Chrome 126.0.0.0,,,02-07-2024 18:09:33,02-07-2024 18:09:34,0.810s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Login Button""))",Chrome 126.0.0.0,,,02-07-2024 18:09:34,02-07-2024 18:09:35,0.975s,PASSED
+,,,,,,,
+Test Cases/TC16 - Appointment Hongkong using variable,Chrome 126.0.0.0,,,02-07-2024 18:09:35,02-07-2024 18:09:41,5.947s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), ""Hongkong CURA Healthcare Center"", true, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,02-07-2024 18:09:35,02-07-2024 18:09:36,1.133s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Chrome 126.0.0.0,,,02-07-2024 18:09:36,02-07-2024 18:09:37,0.435s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Medicaid""))",Chrome 126.0.0.0,,,02-07-2024 18:09:37,02-07-2024 18:09:37,0.349s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",Chrome 126.0.0.0,,,02-07-2024 18:09:37,02-07-2024 18:09:38,0.725s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), ""18/07/2024"")",Chrome 126.0.0.0,,,02-07-2024 18:09:38,02-07-2024 18:09:39,1.457s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), Comment4)",Chrome 126.0.0.0,,,02-07-2024 18:09:39,02-07-2024 18:09:40,0.975s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Chrome 126.0.0.0,,,02-07-2024 18:09:40,02-07-2024 18:09:41,0.685s,PASSED
+,,,,,,,
+Test Cases/TC12 - Logout via button toggle,Chrome 126.0.0.0,,,02-07-2024 18:11:15,02-07-2024 18:11:16,1.047s,FAILED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,02-07-2024 18:11:15,02-07-2024 18:11:16,1.034s,FAILED
