@@ -17,28 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
-String commentPage = 'Comment'
-
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
-
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), 'John Doe')
-
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), 'ThisIsNotAPassword')
-
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
-
-WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Hongkong CURA Healthcare Center'), 
-    'Hongkong CURA Healthcare Center', true, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), 'Hongkong CURA Healthcare Center', 
+    true, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission'))
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Medicaid'))
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'))
+
+WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), '18/07/2024')
 
 WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment'), Comment4)
 

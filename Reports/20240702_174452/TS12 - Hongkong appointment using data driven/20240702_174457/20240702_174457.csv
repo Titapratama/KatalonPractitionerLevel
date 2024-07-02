@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS12 - Hongkong appointment using data driven,Edge Chromium 126,,,02-07-2024 17:52:29,02-07-2024 17:53:31,1m - 2.200s,PASSED
+,,,,,,,
+Test Cases/Test Case Properties/TCP01 - Open browser,Edge Chromium 126,,,02-07-2024 17:52:29,02-07-2024 17:52:53,23.695s,PASSED
+"openBrowser("""")",Edge Chromium 126,,,02-07-2024 17:52:30,02-07-2024 17:52:50,20.104s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 126,,,02-07-2024 17:52:50,02-07-2024 17:52:53,3.072s,PASSED
+,,,,,,,
+Test Cases/Test Case Properties/TCP02 - Login,Edge Chromium 126,,,02-07-2024 17:52:53,02-07-2024 17:52:57,4.050s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Edge Chromium 126,,,02-07-2024 17:52:53,02-07-2024 17:52:54,0.869s,PASSED
+"verifyElementText(findTestObject(""2. CURA Test Object (Verify parameter)/Login Text""), ""Login"")",Edge Chromium 126,,,02-07-2024 17:52:54,02-07-2024 17:52:55,0.503s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), ""John Doe"")",Edge Chromium 126,,,02-07-2024 17:52:55,02-07-2024 17:52:55,0.770s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Password""), ""ThisIsNotAPassword"")",Edge Chromium 126,,,02-07-2024 17:52:55,02-07-2024 17:52:56,0.804s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Login Button""))",Edge Chromium 126,,,02-07-2024 17:52:56,02-07-2024 17:52:57,0.934s,PASSED
+,,,,,,,
+Test Cases/TC20 - Hongkong Appointment using data driven,Edge Chromium 126,,,02-07-2024 17:52:57,02-07-2024 17:53:05,7.625s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facilityBook, true, CONTINUE_ON_FAILURE)",Edge Chromium 126,,,02-07-2024 17:52:57,02-07-2024 17:52:58,0.997s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Edge Chromium 126,,,02-07-2024 17:52:58,02-07-2024 17:52:59,0.339s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Medicare""))",Edge Chromium 126,,,02-07-2024 17:52:59,02-07-2024 17:52:59,0.367s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",Edge Chromium 126,,,02-07-2024 17:52:59,02-07-2024 17:53:00,0.719s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitDateBook)",Edge Chromium 126,,,02-07-2024 17:53:00,02-07-2024 17:53:01,1.531s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), commentBook)",Edge Chromium 126,,,02-07-2024 17:53:01,02-07-2024 17:53:02,0.921s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Edge Chromium 126,,,02-07-2024 17:53:02,02-07-2024 17:53:03,0.796s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Edge Chromium 126,,,02-07-2024 17:53:03,02-07-2024 17:53:04,0.627s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",Edge Chromium 126,,,02-07-2024 17:53:04,02-07-2024 17:53:04,0.806s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Edge Chromium 126,,,02-07-2024 17:53:04,02-07-2024 17:53:05,0.433s,PASSED
+,,,,,,,
+Test Cases/TC20 - Hongkong Appointment using data driven,Edge Chromium 126,,,02-07-2024 17:53:05,02-07-2024 17:53:13,7.767s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facilityBook, true, CONTINUE_ON_FAILURE)",Edge Chromium 126,,,02-07-2024 17:53:05,02-07-2024 17:53:06,1.330s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Edge Chromium 126,,,02-07-2024 17:53:06,02-07-2024 17:53:07,0.396s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Medicare""))",Edge Chromium 126,,,02-07-2024 17:53:07,02-07-2024 17:53:07,0.380s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",Edge Chromium 126,,,02-07-2024 17:53:07,02-07-2024 17:53:08,0.735s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitDateBook)",Edge Chromium 126,,,02-07-2024 17:53:08,02-07-2024 17:53:09,1.670s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), commentBook)",Edge Chromium 126,,,02-07-2024 17:53:09,02-07-2024 17:53:10,0.986s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Edge Chromium 126,,,02-07-2024 17:53:10,02-07-2024 17:53:11,0.697s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Edge Chromium 126,,,02-07-2024 17:53:11,02-07-2024 17:53:12,0.385s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",Edge Chromium 126,,,02-07-2024 17:53:12,02-07-2024 17:53:12,0.707s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Edge Chromium 126,,,02-07-2024 17:53:12,02-07-2024 17:53:13,0.421s,PASSED
+,,,,,,,
+Test Cases/TC20 - Hongkong Appointment using data driven,Edge Chromium 126,,,02-07-2024 17:53:13,02-07-2024 17:53:21,7.885s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facilityBook, true, CONTINUE_ON_FAILURE)",Edge Chromium 126,,,02-07-2024 17:53:13,02-07-2024 17:53:14,1.347s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Edge Chromium 126,,,02-07-2024 17:53:14,02-07-2024 17:53:15,0.402s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Medicare""))",Edge Chromium 126,,,02-07-2024 17:53:15,02-07-2024 17:53:15,0.397s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",Edge Chromium 126,,,02-07-2024 17:53:15,02-07-2024 17:53:16,0.706s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitDateBook)",Edge Chromium 126,,,02-07-2024 17:53:16,02-07-2024 17:53:17,1.528s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), commentBook)",Edge Chromium 126,,,02-07-2024 17:53:17,02-07-2024 17:53:18,1.018s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Edge Chromium 126,,,02-07-2024 17:53:18,02-07-2024 17:53:19,0.766s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Edge Chromium 126,,,02-07-2024 17:53:19,02-07-2024 17:53:19,0.379s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",Edge Chromium 126,,,02-07-2024 17:53:19,02-07-2024 17:53:20,0.955s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Edge Chromium 126,,,02-07-2024 17:53:20,02-07-2024 17:53:21,0.337s,PASSED
+,,,,,,,
+Test Cases/TC20 - Hongkong Appointment using data driven,Edge Chromium 126,,,02-07-2024 17:53:21,02-07-2024 17:53:29,7.890s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facilityBook, true, CONTINUE_ON_FAILURE)",Edge Chromium 126,,,02-07-2024 17:53:21,02-07-2024 17:53:22,1.287s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Edge Chromium 126,,,02-07-2024 17:53:22,02-07-2024 17:53:22,0.391s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Medicare""))",Edge Chromium 126,,,02-07-2024 17:53:22,02-07-2024 17:53:23,0.381s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",Edge Chromium 126,,,02-07-2024 17:53:23,02-07-2024 17:53:24,0.783s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitDateBook)",Edge Chromium 126,,,02-07-2024 17:53:24,02-07-2024 17:53:25,1.666s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), commentBook)",Edge Chromium 126,,,02-07-2024 17:53:25,02-07-2024 17:53:26,1.013s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Edge Chromium 126,,,02-07-2024 17:53:26,02-07-2024 17:53:27,0.799s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Edge Chromium 126,,,02-07-2024 17:53:27,02-07-2024 17:53:27,0.352s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",Edge Chromium 126,,,02-07-2024 17:53:27,02-07-2024 17:53:28,0.746s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Edge Chromium 126,,,02-07-2024 17:53:28,02-07-2024 17:53:29,0.418s,PASSED
+,,,,,,,
+Test Cases/Test Case Properties/TCP03 - Logout,Edge Chromium 126,,,02-07-2024 17:53:29,02-07-2024 17:53:31,2.670s,PASSED
+"verifyElementText(findTestObject(""2. CURA Test Object (Verify parameter)/Make Appointment Text""), ""Make Appointment"")",Edge Chromium 126,,,02-07-2024 17:53:29,02-07-2024 17:53:29,0.309s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Edge Chromium 126,,,02-07-2024 17:53:29,02-07-2024 17:53:30,0.663s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Logout""))",Edge Chromium 126,,,02-07-2024 17:53:30,02-07-2024 17:53:31,1.109s,PASSED
+closeBrowser(),Edge Chromium 126,,,02-07-2024 17:53:31,02-07-2024 17:53:31,0.485s,PASSED

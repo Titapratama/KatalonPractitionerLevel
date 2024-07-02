@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/10. Log out/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Menu'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/10. Log out/Page_CURA Healthcare Service/a_Logout'))
+WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Logout'))
 
-WebUI.verifyElementText(findTestObject('9. Homepage of CURA/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
+WebUI.verifyElementText(findTestObject('2. CURA Test Object (Verify parameter)/CURA Healthcare Service Label'), 'CURA Healthcare Service')
 

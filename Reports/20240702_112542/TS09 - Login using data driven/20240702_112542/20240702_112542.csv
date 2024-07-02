@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS09 - Login using data driven,Chrome 126.0.0.0,,,02-07-2024 11:25:46,02-07-2024 11:26:41,55.183s,FAILED
+,,,,,,,
+Test Cases/Test Case Properties/TCP01 - Open browser,Chrome 126.0.0.0,,,02-07-2024 11:25:46,02-07-2024 11:25:50,3.567s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,02-07-2024 11:25:46,02-07-2024 11:25:48,1.883s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,02-07-2024 11:25:48,02-07-2024 11:25:50,1.332s,PASSED
+,,,,,,,
+Test Cases/TC17 - Login using data driven,Chrome 126.0.0.0,,,02-07-2024 11:26:19,02-07-2024 11:26:20,1.094s,FAILED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,02-07-2024 11:26:19,02-07-2024 11:26:19,0.001s,PASSED
+"Username = getAttribute(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), ""username"")",Chrome 126.0.0.0,,,02-07-2024 11:26:19,02-07-2024 11:26:20,1.042s,FAILED
+,,,,,,,
+Test Cases/TC17 - Login using data driven,Chrome 126.0.0.0,,,02-07-2024 11:26:23,02-07-2024 11:26:24,1.047s,FAILED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,02-07-2024 11:26:23,02-07-2024 11:26:23,0.001s,PASSED
+"Username = getAttribute(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), ""username"")",Chrome 126.0.0.0,,,02-07-2024 11:26:23,02-07-2024 11:26:24,1.030s,FAILED
+,,,,,,,
+Test Cases/TC17 - Login using data driven,Chrome 126.0.0.0,,,02-07-2024 11:26:27,02-07-2024 11:26:28,1.091s,FAILED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,02-07-2024 11:26:27,02-07-2024 11:26:27,0.001s,PASSED
+"Username = getAttribute(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), ""username"")",Chrome 126.0.0.0,,,02-07-2024 11:26:27,02-07-2024 11:26:28,1.052s,FAILED
+,,,,,,,
+Test Cases/TC17 - Login using data driven,Chrome 126.0.0.0,,,02-07-2024 11:26:32,02-07-2024 11:26:33,1.031s,FAILED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,02-07-2024 11:26:32,02-07-2024 11:26:32,0.000s,PASSED
+"Username = getAttribute(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), ""username"")",Chrome 126.0.0.0,,,02-07-2024 11:26:32,02-07-2024 11:26:33,1.024s,FAILED
+,,,,,,,
+Test Cases/TC17 - Login using data driven,Chrome 126.0.0.0,,,02-07-2024 11:26:36,02-07-2024 11:26:37,1.043s,FAILED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,02-07-2024 11:26:36,02-07-2024 11:26:36,0.000s,PASSED
+"Username = getAttribute(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), ""username"")",Chrome 126.0.0.0,,,02-07-2024 11:26:36,02-07-2024 11:26:37,1.034s,FAILED
+,,,,,,,
+Test Cases/Test Case Properties/TCP03 - Logout,Chrome 126.0.0.0,,,02-07-2024 11:26:40,02-07-2024 11:26:41,1.064s,FAILED
+"verifyElementText(findTestObject(""3. Appointment/Page_CURA Healthcare Service/h2_Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,02-07-2024 11:26:40,02-07-2024 11:26:41,1.044s,FAILED

@@ -49,6 +49,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Log out/Page_CURA Healthcare Service/a_Logout_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/3. Appointment/Page_CURA Healthcare Service/h2_Make Appointment",
+      "brokenLocator": "//section[@id\u003d\u0027appointment\u0027]/div/div/div/h2",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Make Appointment\u0027])[1]/following::h2[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/3. Appointment/Page_CURA Healthcare Service/h2_Make Appointment_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5",
+      "brokenLocator": "//section[@id\u003d\u0027login\u0027]/div/div/div/p[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Make Appointment\u0027])[1]/following::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Visit Date",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027txt_visit_date\u0027 and @name \u003d \u0027visit_date\u0027 and @type \u003d \u0027text\u0027 and @placeholder \u003d \u0027dd/mm/yyyy\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Visit Date_BASIC.png"
     }
   ]
 }

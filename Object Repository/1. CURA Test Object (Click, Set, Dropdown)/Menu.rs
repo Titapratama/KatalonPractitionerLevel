@@ -6,11 +6,19 @@
    <elementGuidId>482fdc6e-1840-4613-aabc-49744f8552e5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu-toggle']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-bars</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@class = 'fa fa-bars' and @id = 'menu-toggle']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,7 +27,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-bars</value>
-      <webElementGuid>540bcad3-7aaf-4fd7-95f2-aca6f6434b1c</webElementGuid>
+      <webElementGuid>63dd5e02-71b3-4f35-bc5c-2722fe7a3979</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +35,6 @@
       <name>id</name>
       <type>Main</type>
       <value>menu-toggle</value>
-      <webElementGuid>eee2564f-d220-40c9-90ce-542f02470395</webElementGuid>
+      <webElementGuid>9af7de0d-8aa5-4a60-8579-84a611fcdc23</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -54,5 +54,3 @@ WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Pa
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.closeBrowser()
-

@@ -62,10 +62,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>74a264e0-ccbf-4a61-aa8b-3158fbdcabba</guid>
+      <guid>d1e87961-9ca7-42ee-85e6-641782a1f336</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case Properties/TCP03 - Logout</testCaseId>
+      <testCaseId>Test Cases/TC12 - Logout via button toggle</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
