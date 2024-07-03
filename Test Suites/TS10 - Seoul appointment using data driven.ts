@@ -10,48 +10,57 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>0bbecabd-13ab-4c6a-ab05-9c8e4db5f385</testSuiteGuid>
+   <testSuiteGuid>ee942383-b289-40f1-815f-518352daf936</testSuiteGuid>
    <testCaseLink>
-      <guid>7199c313-47f2-4e15-ae5f-4468d9c826b0</guid>
+      <guid>3938e9be-4b34-4a95-a86b-5f8915396dc3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Properties/TCP01 - Open browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7ab92e1-0c81-4933-9697-95959cfa33b4</guid>
+      <guid>e86c805f-91e5-4edc-938c-9f75cff288d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Properties/TCP02 - Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5c7c2306-cf28-4940-88e6-7e67763ebbcd</guid>
+      <guid>5363faea-e63c-4188-b946-faf09c3ae160</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC18 - Seoul Appointment using data driven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dd862714-afef-42f7-a72b-331e9275a135</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Seoul Appoitment</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>dd862714-afef-42f7-a72b-331e9275a135</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Facility</value>
          <variableId>347cdaa6-fa89-4ca5-a3fa-63bf199968eb</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>dd862714-afef-42f7-a72b-331e9275a135</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Facility</value>
          <variableId>1dfcca67-9b5b-4643-81dc-ae88a2b0f365</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>dd862714-afef-42f7-a72b-331e9275a135</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Comment</value>
          <variableId>227d2245-380d-4f6d-9274-9550ae75f2aa</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>22e03b9d-b21f-4625-a1d4-be82e65c5aae</guid>
+      <guid>07a1184c-227d-4193-9772-4e753d4aaa17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Properties/TCP03 - Logout</testCaseId>

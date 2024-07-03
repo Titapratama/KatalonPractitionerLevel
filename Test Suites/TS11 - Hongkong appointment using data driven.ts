@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS12 - Hongkong appointment using data driven</name>
+   <name>TS11 - Hongkong appointment using data driven</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,57 +10,57 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>74e4c3ab-1207-4a4e-ab97-f9ea31dd61a4</testSuiteGuid>
+   <testSuiteGuid>46619936-59b8-42ca-8859-1a2e190d582c</testSuiteGuid>
    <testCaseLink>
-      <guid>7199c313-47f2-4e15-ae5f-4468d9c826b0</guid>
+      <guid>064a7e4d-ffad-493a-8362-a210b69eaa25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Properties/TCP01 - Open browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7ab92e1-0c81-4933-9697-95959cfa33b4</guid>
+      <guid>cf6b185b-c723-499b-99ac-0b22a8eaad6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Properties/TCP02 - Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d2537c0b-bc4f-41f9-95ca-1b0a7583a428</guid>
+      <guid>19a95574-7e0c-4541-bd80-5436744080e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC20 - Hongkong Appointment using data driven</testCaseId>
+      <testCaseId>Test Cases/TC19 - Hongkong Appointment using data driven</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>da86f86b-1e34-4219-be2a-7d62dbdc9f76</id>
+         <id>c2eaa29e-4777-4411-bd61-e216e45f3af7</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/HongkongAppoinment</testDataId>
+         <testDataId>Data Files/Hongkong Appointment</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>da86f86b-1e34-4219-be2a-7d62dbdc9f76</testDataLinkId>
+         <testDataLinkId>c2eaa29e-4777-4411-bd61-e216e45f3af7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Facility</value>
-         <variableId>b72f9cc2-3e49-4a31-93ce-59c07f49bd58</variableId>
+         <variableId>1501843b-34a1-4553-8f81-1460a332793c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>da86f86b-1e34-4219-be2a-7d62dbdc9f76</testDataLinkId>
+         <testDataLinkId>c2eaa29e-4777-4411-bd61-e216e45f3af7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Visit date</value>
-         <variableId>e58c62fd-48f2-40b0-af61-35d284a665f3</variableId>
+         <variableId>3e402376-870f-4d50-897a-865221d1fdf1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>da86f86b-1e34-4219-be2a-7d62dbdc9f76</testDataLinkId>
+         <testDataLinkId>c2eaa29e-4777-4411-bd61-e216e45f3af7</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Comment</value>
-         <variableId>65936dbe-1f3f-467a-9c8c-5e2a8e5b7bc4</variableId>
+         <variableId>f3790999-452a-4097-a2ef-a02439313aa2</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>22e03b9d-b21f-4625-a1d4-be82e65c5aae</guid>
+      <guid>04be6464-75af-4493-8678-f53e6ba5c396</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Properties/TCP03 - Logout</testCaseId>

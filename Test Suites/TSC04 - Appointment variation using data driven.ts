@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS11 - Tokyo appointment using data driven</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TS11 - Hongkong appointment using data driven</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -35,7 +35,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS12 - Hongkong appointment using data driven</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TS12 - Tokyo appointment using data driven</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

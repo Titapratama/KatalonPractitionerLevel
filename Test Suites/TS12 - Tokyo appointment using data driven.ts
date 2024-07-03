@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS11 - Tokyo appointment using data driven</name>
+   <name>TS12 - Tokyo appointment using data driven</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,48 +10,57 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>1bba06d8-8dd3-4d17-b36d-328489c6aed3</testSuiteGuid>
+   <testSuiteGuid>c642c6ee-2dda-4736-b69f-6e319392cd9b</testSuiteGuid>
    <testCaseLink>
-      <guid>7199c313-47f2-4e15-ae5f-4468d9c826b0</guid>
+      <guid>83743d3c-14c5-44cf-941b-b9bcdad46b6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Properties/TCP01 - Open browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7ab92e1-0c81-4933-9697-95959cfa33b4</guid>
+      <guid>15faa208-20b3-4661-991f-3e1bf08cf899</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Properties/TCP02 - Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>72979ea1-41a1-4b2b-95e2-fec59e952968</guid>
+      <guid>12a5f8b1-491c-4560-bb10-e7cb687e6af3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC19 - Tokyo Appointment using data driven</testCaseId>
+      <testCaseId>Test Cases/TC20 - Tokyo appointment using data driven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d379aa8e-c6a3-4b3b-8751-1cee3af59fd1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Tokyo Appointment</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fce59212-a8a8-44ac-801a-ab2f9518ece2</variableId>
+         <testDataLinkId>d379aa8e-c6a3-4b3b-8751-1cee3af59fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Facility</value>
+         <variableId>c59c0522-b84d-425a-87b1-b0a18c3d09de</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>44374d9e-acd1-4e10-81a5-716c7dc48548</variableId>
+         <testDataLinkId>d379aa8e-c6a3-4b3b-8751-1cee3af59fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Visit date</value>
+         <variableId>5de60489-7763-4ea8-9ec6-5583d92fd399</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bfd25a29-f126-4a92-8866-0d8fba3dfa5d</variableId>
+         <testDataLinkId>d379aa8e-c6a3-4b3b-8751-1cee3af59fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Comment</value>
+         <variableId>08476f1a-b557-4d3b-9741-01b4031465d9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>22e03b9d-b21f-4625-a1d4-be82e65c5aae</guid>
+      <guid>5359c2ae-3106-422e-b6be-a185d6cba2b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Case Properties/TCP03 - Logout</testCaseId>

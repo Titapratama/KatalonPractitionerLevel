@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), facilityBook, true, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), facility, true)
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission'))
 
@@ -25,9 +25,9 @@ WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/None'))
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'))
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), visitDateBook)
+WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), visitdate)
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment'), commentBook)
+WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment'), comment)
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
 
