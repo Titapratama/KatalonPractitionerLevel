@@ -30,26 +30,17 @@
          <name>Password</name>
       </iterationNameVariable>
       <testCaseId>Test Cases/TC17 - Login using data driven</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>1309bb31-6884-4435-91e5-f6511b58b787</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Login using data driven</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>1309bb31-6884-4435-91e5-f6511b58b787</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Username</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>672def20-f6d7-4212-a2e4-eb88056a497e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1309bb31-6884-4435-91e5-f6511b58b787</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Password</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>0032bb8c-b168-41e8-9fe8-5cb9dfa971f2</variableId>
       </variableLink>
    </testCaseLink>
