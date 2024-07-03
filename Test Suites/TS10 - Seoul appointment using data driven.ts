@@ -32,28 +32,28 @@
       <testCaseId>Test Cases/TC18 - Seoul Appointment using data driven</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0a41ca67-d208-47a2-9957-e52bf9c795ce</id>
+         <id>6a2909be-e59c-4657-9a5e-3acb431e9145</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Seoul book appointment using data driven</testDataId>
+         <testDataId>Data Files/Seoul appointment</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>0a41ca67-d208-47a2-9957-e52bf9c795ce</testDataLinkId>
+         <testDataLinkId>6a2909be-e59c-4657-9a5e-3acb431e9145</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Facility</value>
          <variableId>347cdaa6-fa89-4ca5-a3fa-63bf199968eb</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0a41ca67-d208-47a2-9957-e52bf9c795ce</testDataLinkId>
+         <testDataLinkId>6a2909be-e59c-4657-9a5e-3acb431e9145</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Visit date</value>
          <variableId>1dfcca67-9b5b-4643-81dc-ae88a2b0f365</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0a41ca67-d208-47a2-9957-e52bf9c795ce</testDataLinkId>
+         <testDataLinkId>6a2909be-e59c-4657-9a5e-3acb431e9145</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Comment</value>
          <variableId>227d2245-380d-4f6d-9274-9550ae75f2aa</variableId>
