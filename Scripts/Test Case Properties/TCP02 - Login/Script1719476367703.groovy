@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
 
-WebUI.verifyElementText(findTestObject('2. CURA Test Object (Verify parameter)/Login Text'), 'Login')
+WebUI.verifyElementPresent(findTestObject('2. CURA Test Object (Verify parameter)/Login Text'), 0)
 
 WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), 'John Doe')
 

@@ -4,14 +4,15 @@
    <name>Facility</name>
    <tag></tag>
    <elementGuidId>90d1bc32-57fd-43ab-9080-588a2c156ac9</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//select[@id='combo_facility']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#combo_facility</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='combo_facility']</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -25,8 +26,12 @@
                             Seoul CURA Healthcare Center&#xd;
                         ')]</value>
       </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +40,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>4a7719b6-872b-44a3-95cf-82a0728c1434</webElementGuid>
+      <webElementGuid>606d8021-7650-4350-8b84-14abc4b1f2ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +48,7 @@
       <name>id</name>
       <type>Main</type>
       <value>combo_facility</value>
-      <webElementGuid>1c1bcdaa-a296-4085-99aa-27c82530c35a</webElementGuid>
+      <webElementGuid>a0ef4f81-30cc-4b36-867f-4914ffbf332f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +56,7 @@
       <name>name</name>
       <type>Main</type>
       <value>facility</value>
-      <webElementGuid>b4923237-4bcf-4fe6-b22f-751ee1e6dead</webElementGuid>
+      <webElementGuid>c5b8ff8a-e8bf-486e-bdbb-f18ebe444414</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +64,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>be695331-8992-4000-a8a9-e78f8567b5a4</webElementGuid>
+      <webElementGuid>c26be18e-0d1c-4aa4-9a4b-750a3a00038d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +76,6 @@
                             Hongkong CURA Healthcare Center&#xd;
                             Seoul CURA Healthcare Center&#xd;
                         </value>
-      <webElementGuid>8bc86f0c-bda6-43c2-9d43-3c60642f6332</webElementGuid>
+      <webElementGuid>b2224999-a02f-42b4-b34c-83e7b608ee94</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
