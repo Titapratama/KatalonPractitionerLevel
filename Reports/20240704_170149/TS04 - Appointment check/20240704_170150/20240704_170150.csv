@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS04 - Appointment check,Chrome 126.0.0.0,,,04-07-2024 17:01:58,04-07-2024 17:03:42,1m - 44.642s,FAILED
+,,,,,,,
+Test Cases/TC01 - Verify homepage of CURA,Chrome 126.0.0.0,,Regression,04-07-2024 17:01:58,04-07-2024 17:02:08,9.811s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,04-07-2024 17:01:58,04-07-2024 17:02:00,2.273s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,04-07-2024 17:02:00,04-07-2024 17:02:03,2.620s,PASSED
+"takeScreenshotAsCheckpoint(""CURA Homepage"")",Chrome 126.0.0.0,,,04-07-2024 17:02:03,04-07-2024 17:02:04,0.947s,PASSED
+"verifyElementText(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,04-07-2024 17:02:04,04-07-2024 17:02:04,0.633s,PASSED
+"verifyElementText(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/h3_We Care About Your Health""), ""We Care About Your Health"")",Chrome 126.0.0.0,,,04-07-2024 17:02:04,04-07-2024 17:02:05,0.318s,PASSED
+"verifyElementText(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/strong_CURA Healthcare Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,04-07-2024 17:02:05,04-07-2024 17:02:05,0.310s,PASSED
+"ExpectedValue = ""Atlanta 550 Pharr Road NE Suite 525
+Atlanta, GA 30305""",Chrome 126.0.0.0,,,04-07-2024 17:02:05,04-07-2024 17:02:05,0.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85""), ExpectedValue)",Chrome 126.0.0.0,,,04-07-2024 17:02:05,04-07-2024 17:02:05,0.281s,PASSED
+"verifyElementText(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/li_(678) 813-1KMS""), ""(678) 813-1KMS"")",Chrome 126.0.0.0,,,04-07-2024 17:02:05,04-07-2024 17:02:06,0.312s,PASSED
+"verifyElementText(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/li_infokatalon.com""), ""info@katalon.com"")",Chrome 126.0.0.0,,,04-07-2024 17:02:06,04-07-2024 17:02:06,0.294s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x""))",Chrome 126.0.0.0,,,04-07-2024 17:02:06,04-07-2024 17:02:06,0.307s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-twitter fa-fw fa-3x""))",Chrome 126.0.0.0,,,04-07-2024 17:02:06,04-07-2024 17:02:07,0.294s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-dribbble fa-fw fa-3x""))",Chrome 126.0.0.0,,,04-07-2024 17:02:07,04-07-2024 17:02:07,0.312s,PASSED
+"verifyElementText(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024""), ""Copyright © CURA Healthcare Service 2024"")",Chrome 126.0.0.0,,,04-07-2024 17:02:07,04-07-2024 17:02:07,0.313s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,04-07-2024 17:02:07,04-07-2024 17:02:08,0.315s,PASSED
+,,,,,,,
+Test Cases/TC08 - Appointment Tokyo,Chrome 126.0.0.0,,,04-07-2024 17:03:16,04-07-2024 17:03:19,2.806s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,04-07-2024 17:03:16,04-07-2024 17:03:16,0.703s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,04-07-2024 17:03:16,04-07-2024 17:03:17,1.051s,PASSED
+"click(findTestObject(""Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,04-07-2024 17:03:17,04-07-2024 17:03:19,1.037s,FAILED
+,,,,,,,
+Test Cases/TC06 - Appointment Hongkong,Chrome 126.0.0.0,,Regression,04-07-2024 17:03:28,04-07-2024 17:03:31,2.910s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,04-07-2024 17:03:28,04-07-2024 17:03:29,0.748s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,04-07-2024 17:03:29,04-07-2024 17:03:30,1.112s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,04-07-2024 17:03:30,04-07-2024 17:03:31,1.037s,FAILED
+,,,,,,,
+Test Cases/TC10 - History menu check,Chrome 126.0.0.0,,Regression,04-07-2024 17:03:39,04-07-2024 17:03:42,3.034s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,04-07-2024 17:03:39,04-07-2024 17:03:40,0.685s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,04-07-2024 17:03:40,04-07-2024 17:03:41,1.290s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Chrome 126.0.0.0,,,04-07-2024 17:03:41,04-07-2024 17:03:42,1.050s,FAILED

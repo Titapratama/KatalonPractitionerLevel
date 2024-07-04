@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS06 - Button check" time="74.382" tests="3" failures="0" errors="0">
+   <testsuite name="TS06 - Button check" tests="3" failures="0" errors="0" time="74.382" skipped="0" timestamp="04-07-2024T17:15:10" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/TS06 - Button check">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240704_171501\\TS06 - Button check\\20240704_171502"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240704_171501\\TS06 - Button check\\20240704_171502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="508483a98c3246a8a6324e9357e8467c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Properties/TCP01 - Open browser" time="4.569" classname="Test Cases/Properties/TCP01 - Open browser" status="PASSED">
+         <system-out><![CDATA[04-07-2024T17:15:10 - [TEST_CASE][PASSED] - Test Cases/Properties/TCP01 - Open browser: Test Cases/Properties/TCP01 - Open browser
+
+04-07-2024T17:15:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-07-2024T17:15:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-07-2024T17:15:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-07-2024T17:15:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-07-2024T17:15:12 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+04-07-2024T17:15:15 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC11 - All button check" time="67.902" classname="Test Cases/TC11 - All button check" status="PASSED">
+         <system-out><![CDATA[04-07-2024T17:15:15 - [TEST_CASE][PASSED] - Test Cases/TC11 - All button check: Test Cases/TC11 - All button check
+
+04-07-2024T17:15:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("10. Login page/Page_CURA Healthcare Service/a_Make Appointment")): Object 'Object Repository/10. Login page/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+04-07-2024T17:15:15 - [MESSAGE][PASSED] - Object 'Object Repository/10. Login page/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+04-07-2024T17:15:15 - [TEST_STEP][PASSED] - click(findTestObject("10. Login page/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/10. Login page/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+04-07-2024T17:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/10. Login page/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+04-07-2024T17:15:16 - [TEST_STEP][PASSED] - setText(findTestObject("10. Login page/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/10. Login page/Page_CURA Healthcare Service/input_Username_username'
+
+04-07-2024T17:15:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: John'. Please recheck the objects properties to make sure the desired element is located. 
+
+04-07-2024T17:15:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/10. Login page/Page_CURA Healthcare Service/input_Username_username'. Try using Self-healing.
+
+04-07-2024T17:15:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/10. Login page/Page_CURA Healthcare Service/input_Username_username' was broken. Propose an alternative one: '//input[@id='txt-username']'.
+
+04-07-2024T17:16:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: John'. Please recheck the objects properties to make sure the desired element is located. 
+
+04-07-2024T17:16:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/10. Login page/Page_CURA Healthcare Service/input_Username_username'. Try using Self-healing.
+
+04-07-2024T17:16:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/10. Login page/Page_CURA Healthcare Service/input_Username_username' was broken. Propose an alternative one: '//input[@id='txt-username']'.
+
+04-07-2024T17:16:19 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/10. Login page/Page_CURA Healthcare Service/input_Username_username'
+
+04-07-2024T17:16:19 - [TEST_STEP][PASSED] - setText(findTestObject("10. Login page/Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/10. Login page/Page_CURA Healthcare Service/input_Password_password'
+
+04-07-2024T17:16:20 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/10. Login page/Page_CURA Healthcare Service/input_Password_password'
+
+04-07-2024T17:16:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("10. Login page/Page_CURA Healthcare Service/button_Login")): Object 'Object Repository/10. Login page/Page_CURA Healthcare Service/button_Login' is clickable
+
+04-07-2024T17:16:20 - [MESSAGE][PASSED] - Object 'Object Repository/10. Login page/Page_CURA Healthcare Service/button_Login' is clickable
+
+04-07-2024T17:16:20 - [TEST_STEP][PASSED] - click(findTestObject("10. Login page/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/10. Login page/Page_CURA Healthcare Service/button_Login' is clicked on
+
+04-07-2024T17:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/10. Login page/Page_CURA Healthcare Service/button_Login' is clicked on
+
+04-07-2024T17:16:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("3. Appointment/Page_CURA Healthcare Service/button_Book Appointment")): Object 'Object Repository/3. Appointment/Page_CURA Healthcare Service/button_Book Appointment' is clickable
+
+04-07-2024T17:16:22 - [MESSAGE][PASSED] - Object 'Object Repository/3. Appointment/Page_CURA Healthcare Service/button_Book Appointment' is clickable
+
+04-07-2024T17:16:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("8. History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object 'Object Repository/8. History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clickable
+
+04-07-2024T17:16:23 - [MESSAGE][PASSED] - Object 'Object Repository/8. History check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Properties/TCP03 - Logout" time="1.791" classname="Test Cases/Properties/TCP03 - Logout" status="PASSED">
+         <system-out><![CDATA[04-07-2024T17:16:23 - [TEST_CASE][PASSED] - Test Cases/Properties/TCP03 - Logout: Test Cases/Properties/TCP03 - Logout
+
+04-07-2024T17:16:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. CURA Test Object (Verify parameter)/Make Appointment Text"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/2. CURA Test Object (Verify parameter)/Make Appointment Text' are matched.
+
+04-07-2024T17:16:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. CURA Test Object (Verify parameter)/Make Appointment Text' are matched.
+
+04-07-2024T17:16:23 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Menu")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Menu' is clicked on
+
+04-07-2024T17:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Menu' is clicked on
+
+04-07-2024T17:16:23 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Logout")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Logout' is clicked on
+
+04-07-2024T17:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Logout' is clicked on
+
+04-07-2024T17:16:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-07-2024T17:16:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-07-2024T17:15:10 - [TEST_SUITE][PASSED] - TS06 - Button check: Test Cases/Properties/TCP03 - Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
