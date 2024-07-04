@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DTS03 - Script using StudioAssist,Chrome 126.0.0.0,,,04-07-2024 12:05:50,04-07-2024 12:06:09,19.255s,ERROR
+,,,,,,,
+Test Cases/TC21 - Login using StudioAssist,Chrome 126.0.0.0,,StudioAssist,04-07-2024 12:05:50,04-07-2024 12:06:00,9.951s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,04-07-2024 12:05:51,04-07-2024 12:05:53,1.881s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,04-07-2024 12:05:53,04-07-2024 12:05:54,1.409s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Chrome 126.0.0.0,,,04-07-2024 12:05:54,04-07-2024 12:05:57,2.845s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), username)",Chrome 126.0.0.0,,,04-07-2024 12:05:57,04-07-2024 12:05:58,0.843s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Password""), password)",Chrome 126.0.0.0,,,04-07-2024 12:05:58,04-07-2024 12:05:59,0.898s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Login Button""))",Chrome 126.0.0.0,,,04-07-2024 12:05:59,04-07-2024 12:06:00,1.134s,PASSED
+"verifyElementText(findTestObject(""2. CURA Test Object (Verify parameter)/Make Appointment Text""), ""Make Appointment"")",Chrome 126.0.0.0,,,04-07-2024 12:06:00,04-07-2024 12:06:00,0.490s,PASSED
+,,,,,,,
+Test Cases/TC22 - Hongkong appointment using StudioAssist,Chrome 126.0.0.0,,StudioAssist,04-07-2024 12:06:00,04-07-2024 12:06:08,7.420s,PASSED
+"verifyElementText(findTestObject(""2. CURA Test Object (Verify parameter)/Make Appointment Text""), ""Make Appointment"")",Chrome 126.0.0.0,,,04-07-2024 12:06:00,04-07-2024 12:06:01,0.346s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), ""Hongkong CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,04-07-2024 12:06:01,04-07-2024 12:06:02,1.157s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Chrome 126.0.0.0,,,04-07-2024 12:06:02,04-07-2024 12:06:02,0.415s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/None""))",Chrome 126.0.0.0,,,04-07-2024 12:06:02,04-07-2024 12:06:03,0.339s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), ""02/07/2025"")",Chrome 126.0.0.0,,,04-07-2024 12:06:03,04-07-2024 12:06:04,1.673s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), ""Meet dr. Alexandra Abraham"")",Chrome 126.0.0.0,,,04-07-2024 12:06:04,04-07-2024 12:06:05,0.913s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Chrome 126.0.0.0,,,04-07-2024 12:06:05,04-07-2024 12:06:06,0.749s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Chrome 126.0.0.0,,,04-07-2024 12:06:06,04-07-2024 12:06:07,0.523s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",Chrome 126.0.0.0,,,04-07-2024 12:06:07,04-07-2024 12:06:07,0.718s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Chrome 126.0.0.0,,,04-07-2024 12:06:07,04-07-2024 12:06:08,0.490s,PASSED
+,,,,,,,
+Test Cases/TC23 - Seoul appointment using StudioAssist,Chrome 126.0.0.0,,StudioAssist,04-07-2024 12:06:08,04-07-2024 12:06:09,1.597s,ERROR
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), ""Seoul CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,04-07-2024 12:06:08,04-07-2024 12:06:09,1.371s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""), 10)",Chrome 126.0.0.0,,,04-07-2024 12:06:09,04-07-2024 12:06:09,0.068s,ERROR

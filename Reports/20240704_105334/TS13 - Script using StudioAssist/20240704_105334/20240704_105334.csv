@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS13 - Script using StudioAssist,Chrome 126.0.0.0,,,04-07-2024 10:53:41,04-07-2024 10:53:58,16.682s,PASSED
+,,,,,,,
+Test Cases/TC21 - Login using StudioAssist,Chrome 126.0.0.0,,,04-07-2024 10:53:42,04-07-2024 10:53:52,10.697s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,04-07-2024 10:53:42,04-07-2024 10:53:44,1.837s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,04-07-2024 10:53:44,04-07-2024 10:53:47,3.275s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Chrome 126.0.0.0,,,04-07-2024 10:53:47,04-07-2024 10:53:49,1.234s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), username)",Chrome 126.0.0.0,,,04-07-2024 10:53:49,04-07-2024 10:53:50,0.907s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Password""), password)",Chrome 126.0.0.0,,,04-07-2024 10:53:50,04-07-2024 10:53:50,0.824s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Login Button""))",Chrome 126.0.0.0,,,04-07-2024 10:53:50,04-07-2024 10:53:52,1.237s,PASSED
+"verifyElementText(findTestObject(""2. CURA Test Object (Verify parameter)/Make Appointment Text""), ""Make Appointment"")",Chrome 126.0.0.0,,,04-07-2024 10:53:52,04-07-2024 10:53:52,0.550s,PASSED
+,,,,,,,
+Test Cases/TC22 - Hongkong appointment using StudioAssist,Chrome 126.0.0.0,,,04-07-2024 10:53:52,04-07-2024 10:53:58,5.673s,PASSED
+"verifyElementText(findTestObject(""2. CURA Test Object (Verify parameter)/Make Appointment Text""), ""Make Appointment"")",Chrome 126.0.0.0,,,04-07-2024 10:53:52,04-07-2024 10:53:53,0.341s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), ""Hongkong CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,04-07-2024 10:53:53,04-07-2024 10:53:54,1.207s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Chrome 126.0.0.0,,,04-07-2024 10:53:54,04-07-2024 10:53:54,0.416s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/None""))",Chrome 126.0.0.0,,,04-07-2024 10:53:54,04-07-2024 10:53:55,0.386s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), ""02/07/2025"")",Chrome 126.0.0.0,,,04-07-2024 10:53:55,04-07-2024 10:53:56,1.559s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), ""Meet dr. Alexandra Abraham"")",Chrome 126.0.0.0,,,04-07-2024 10:53:56,04-07-2024 10:53:57,1.011s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Chrome 126.0.0.0,,,04-07-2024 10:53:57,04-07-2024 10:53:58,0.679s,PASSED
