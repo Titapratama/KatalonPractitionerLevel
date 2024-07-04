@@ -21,42 +21,35 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/input_Username_username'), 
-    'John Doe')
+WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/input_Password_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Hongkong CURA Healthcare Center', true)
+WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), 'Hongkong CURA Healthcare Center', 
+    true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Tokyo CURA Healthcare Center', true)
+WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), 'Tokyo CURA Healthcare Center', 
+    true)
 
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f'))
+WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission'))
 
-WebUI.uncheck(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f'))
+WebUI.uncheck(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission'))
 
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/input_None_programs'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/None'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/input_Medicare_programs'), 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Medicare'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('5. Appointment Tokyo/Page_CURA Healthcare Service/input_Medicaid_programs'))
+WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Medicaid'))
 
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/input_Medicare_programs'))
+WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Medicare'))
 
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
+WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), '30/06/2024')
 
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
-
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/td_30'))
-
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
 
 WebUI.takeScreenshotAsCheckpoint('Tokyo Appointment Confirmation')
 
@@ -71,9 +64,11 @@ WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/P
 
 WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/p_Yes'), 'No')
 
-WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/p_Medicare'), 'Medicare')
+WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/p_Medicare'), 
+    'Medicare')
 
-WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/p_30062024'), '30/06/2024')
+WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/p_30062024'), 
+    '30/06/2024')
 
 WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA Healthcare Service/div_Comment_col-xs-8'), 
     '')
