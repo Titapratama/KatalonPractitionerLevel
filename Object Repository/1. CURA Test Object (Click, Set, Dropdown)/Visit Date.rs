@@ -6,16 +6,16 @@
    <elementGuidId>f856181d-e7de-4362-af02-10064f9045fa</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'txt_visit_date' and @name = 'visit_date' and @type = 'text' and @placeholder = 'dd/mm/yyyy']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//input[@id='txt_visit_date']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'txt_visit_date' and @name = 'visit_date' and @type = 'text' and @placeholder = 'dd/mm/yyyy']</value>
+         <value>#txt_visit_date</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txt_visit_date</value>
-      <webElementGuid>bf7de27a-e95f-4456-9c36-bdb630944553</webElementGuid>
+      <webElementGuid>46d461a5-4afd-4166-9d6d-99f75e883c5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>name</name>
       <type>Main</type>
       <value>visit_date</value>
-      <webElementGuid>fcf9769c-12cf-4275-a41d-fa0bd89bcc82</webElementGuid>
+      <webElementGuid>24f4f721-1988-4597-8113-b42ffe50e2e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>193a68b6-0879-437b-a19f-0095cd16799b</webElementGuid>
+      <webElementGuid>fad09610-4dd6-4780-a2ce-3984895fb5f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,6 +51,6 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>dd/mm/yyyy</value>
-      <webElementGuid>1758eff8-cd7d-4924-b373-309e4c2b206f</webElementGuid>
+      <webElementGuid>b1befc36-bed4-435c-b623-9c77adf5e2fa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
