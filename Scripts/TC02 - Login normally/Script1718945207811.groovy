@@ -25,7 +25,7 @@ WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appo
 
 WebUI.takeScreenshotAsCheckpoint('Login page')
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), 'John Doe')
+WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), GlobalVariable.Username)
 
 WebUI.setEncryptedText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 

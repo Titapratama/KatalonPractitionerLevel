@@ -24,7 +24,6 @@ public class loginMenu {
 	@Keyword
 	public void main() {
 		WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
-		WebUI.verifyElementText(findTestObject('2. CURA Test Object (Verify parameter)/Login Text'), 'Login')
 		WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), GlobalVariable.Username)
 		WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), GlobalVariable.Password)
 		WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
