@@ -27,7 +27,7 @@ WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for
 
 CustomKeywords.'healthcareProgram.noneProgram.main'()
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit date'), '03/07/2024')
+WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), '03/07/2024')
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
 
