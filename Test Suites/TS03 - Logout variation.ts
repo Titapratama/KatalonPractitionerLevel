@@ -15,14 +15,14 @@
       <guid>77d7121b-e2ea-4e36-aec9-5a29e727ecc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case Properties/TCP01 - Open browser</testCaseId>
+      <testCaseId>Test Cases/Properties/TCP01 - Open browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2406057e-74c2-44b1-ac6a-76ddeb7f1012</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case Properties/TCP02 - Login</testCaseId>
+      <testCaseId>Test Cases/Properties/TCP02 - Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -36,7 +36,7 @@
       <guid>1aaf9b25-7f41-42ff-b0c7-27f81223cf2a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case Properties/TCP02 - Login</testCaseId>
+      <testCaseId>Test Cases/Properties/TCP02 - Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>Data driven test</description>
    <name>TS12 - Tokyo appointment using data driven</name>
    <tag></tag>
    <isRerun>false</isRerun>
@@ -15,14 +15,14 @@
       <guid>83743d3c-14c5-44cf-941b-b9bcdad46b6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case Properties/TCP01 - Open browser</testCaseId>
+      <testCaseId>Test Cases/Properties/TCP01 - Open browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>15faa208-20b3-4661-991f-3e1bf08cf899</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case Properties/TCP02 - Login</testCaseId>
+      <testCaseId>Test Cases/Properties/TCP02 - Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -63,7 +63,7 @@
       <guid>5359c2ae-3106-422e-b6be-a185d6cba2b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case Properties/TCP03 - Logout</testCaseId>
+      <testCaseId>Test Cases/Properties/TCP03 - Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

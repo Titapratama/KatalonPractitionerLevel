@@ -22,7 +22,7 @@
       <guid>b4e3523b-7642-4d2a-abee-db602dfa41de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case Properties/TCP03 - Logout</testCaseId>
+      <testCaseId>Test Cases/Properties/TCP03 - Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

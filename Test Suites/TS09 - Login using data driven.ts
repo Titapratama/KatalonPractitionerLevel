@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>Data driven test</description>
    <name>TS09 - Login using data driven</name>
    <tag></tag>
    <isRerun>false</isRerun>
@@ -15,7 +15,7 @@
       <guid>2399fea9-6a58-47bf-9093-cb7532e77000</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case Properties/TCP01 - Open browser</testCaseId>
+      <testCaseId>Test Cases/Properties/TCP01 - Open browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -57,7 +57,7 @@
       <guid>a960ee10-dcd2-4a8e-aa58-abd37843e9c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case Properties/TCP03 - Logout</testCaseId>
+      <testCaseId>Test Cases/Properties/TCP03 - Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

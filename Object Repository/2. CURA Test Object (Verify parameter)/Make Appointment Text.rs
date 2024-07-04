@@ -7,19 +7,27 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h2[(text() = 'Make Appointment' or . = 'Make Appointment')]</value>
+         <value>//*[(text() = 'Make Appointment' or . = 'Make Appointment')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appointment']/div/div/div/h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>b3c020c3-f6a0-43e7-825d-71173adc4245</webElementGuid>
+      <webElementGuid>0ad04c62-1a8f-4ba3-b38c-c6b6ef78fbc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +35,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Make Appointment</value>
-      <webElementGuid>9691afaa-8e5c-4afe-b76a-47190f7df8fa</webElementGuid>
+      <webElementGuid>0cb4f965-e7ce-431a-b124-79318e09ca9b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
