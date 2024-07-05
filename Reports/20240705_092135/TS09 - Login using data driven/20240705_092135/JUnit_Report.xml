@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS09 - Login using data driven" time="314.62" tests="8" failures="0" errors="0">
+   <testsuite name="TS09 - Login using data driven" tests="8" failures="0" errors="0" time="314.62" skipped="0" timestamp="05-07-2024T09:21:42" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/TS09 - Login using data driven">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240705_092135\\TS09 - Login using data driven\\20240705_092135"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240705_092135\\TS09 - Login using data driven\\20240705_092135\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;124.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;7c3cd56c-51d0-4fa7-996c-cd02b3730c02&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;apiKey&quot;: &quot;8a41d26a-66ca-469b-9f15-a8749e591f66&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;ab2bdee0-fc54-474a-ba83-b48d0e9d8959&quot;,&#xa;    &quot;userId&quot;: 1530440,&#xa;    &quot;organizationId&quot;: &quot;1561185&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;KatalonStudio&quot;,&#xa;    &quot;usingTunnel&quot;: true,&#xa;    &quot;group&quot;: &quot;9b16dc41-f9b5-4d5f-83f4-beaaf7aa8de0&quot;&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;124.0.6367.91 (51df0e5e17a8b0a4f281c1665dbd1b8a0c6b46af-refs/branch-heads/6367@{#984})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir4140_1777049923&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;7c3cd56c-51d0-4fa7-996c-cd02b3730c02&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="d7e086d1673e965f17e242518d3114e6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Properties/TCP01 - Open browser" time="80.979" classname="Test Cases/Properties/TCP01 - Open browser" status="PASSED">
+         <system-out><![CDATA[05-07-2024T09:21:42 - [TEST_CASE][PASSED] - Test Cases/Properties/TCP01 - Open browser: Test Cases/Properties/TCP01 - Open browser
+
+05-07-2024T09:21:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T09:21:43 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+05-07-2024T09:21:43 - [MESSAGE][INFO] - User set preference: ['browserVersion', '124']
+
+05-07-2024T09:21:43 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+05-07-2024T09:21:43 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1561185, usingTunnel=true}']
+
+05-07-2024T09:21:43 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+05-07-2024T09:21:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T09:22:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T09:22:57 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+05-07-2024T09:23:03 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC17 - Login using data driven" time="33.399" classname="Test Cases/TC17 - Login using data driven" status="PASSED">
+         <system-out><![CDATA[05-07-2024T09:23:03 - [TEST_CASE][PASSED] - Test Cases/TC17 - Login using data driven: Test Cases/TC17 - Login using data driven
+
+05-07-2024T09:23:03 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Make Appointment")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:23:08 - [TEST_STEP][PASSED] - loginParameter = "varibleLogin": null
+
+05-07-2024T09:23:08 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Attribute 'John' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:23:11 - [MESSAGE][PASSED] - Attribute 'John' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:23:11 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Attribute '' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:23:14 - [MESSAGE][PASSED] - Attribute '' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:23:14 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Text 'John' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:23:21 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:23:21 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Text '' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:23:29 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:23:29 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Login Button")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:23:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:23:34 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+05-07-2024T09:23:34 - [TEST_STEP][PASSED] - else: Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:23:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:23:37 - [MESSAGE][PASSED] - Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC17 - Login using data driven" time="32.058" classname="Test Cases/TC17 - Login using data driven" status="PASSED">
+         <system-out><![CDATA[05-07-2024T09:23:37 - [TEST_CASE][PASSED] - Test Cases/TC17 - Login using data driven: Test Cases/TC17 - Login using data driven
+
+05-07-2024T09:23:37 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Make Appointment")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:23:41 - [TEST_STEP][PASSED] - loginParameter = "varibleLogin": null
+
+05-07-2024T09:23:41 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Attribute 'John Doe' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:23:44 - [MESSAGE][PASSED] - Attribute 'John Doe' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:23:44 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Attribute '' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:23:47 - [MESSAGE][PASSED] - Attribute '' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:23:47 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Text 'John Doe' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:23:54 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:23:54 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Text '' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:24:01 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:24:01 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Login Button")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:24:06 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+05-07-2024T09:24:06 - [TEST_STEP][PASSED] - else: Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:24:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:24:09 - [MESSAGE][PASSED] - Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC17 - Login using data driven" time="31.827" classname="Test Cases/TC17 - Login using data driven" status="PASSED">
+         <system-out><![CDATA[05-07-2024T09:24:09 - [TEST_CASE][PASSED] - Test Cases/TC17 - Login using data driven: Test Cases/TC17 - Login using data driven
+
+05-07-2024T09:24:09 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Make Appointment")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:24:12 - [TEST_STEP][PASSED] - loginParameter = "varibleLogin": null
+
+05-07-2024T09:24:12 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Attribute 'John Doe' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:24:15 - [MESSAGE][PASSED] - Attribute 'John Doe' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:24:15 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Attribute 'This' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:24:18 - [MESSAGE][PASSED] - Attribute 'This' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:24:18 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Text 'John Doe' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:24:25 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:24:25 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Text 'This' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:24:33 - [MESSAGE][PASSED] - Text 'This' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:24:33 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Login Button")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:24:38 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+05-07-2024T09:24:38 - [TEST_STEP][PASSED] - else: Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:24:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:24:41 - [MESSAGE][PASSED] - Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC17 - Login using data driven" time="30.523" classname="Test Cases/TC17 - Login using data driven" status="PASSED">
+         <system-out><![CDATA[05-07-2024T09:24:41 - [TEST_CASE][PASSED] - Test Cases/TC17 - Login using data driven: Test Cases/TC17 - Login using data driven
+
+05-07-2024T09:24:41 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Make Appointment")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:24:44 - [TEST_STEP][PASSED] - loginParameter = "varibleLogin": null
+
+05-07-2024T09:24:44 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Attribute '' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:24:47 - [MESSAGE][PASSED] - Attribute '' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:24:47 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Attribute 'ThisIsNotAPassword' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:24:50 - [MESSAGE][PASSED] - Attribute 'ThisIsNotAPassword' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:24:50 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Text '' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:24:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:24:57 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:25:04 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:25:04 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Login Button")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:25:08 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+05-07-2024T09:25:08 - [TEST_STEP][PASSED] - else: Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:25:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC17 - Login using data driven" time="30.979" classname="Test Cases/TC17 - Login using data driven" status="PASSED">
+         <system-out><![CDATA[05-07-2024T09:25:11 - [TEST_CASE][PASSED] - Test Cases/TC17 - Login using data driven: Test Cases/TC17 - Login using data driven
+
+05-07-2024T09:25:11 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Make Appointment")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:25:14 - [TEST_STEP][PASSED] - loginParameter = "varibleLogin": null
+
+05-07-2024T09:25:14 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Attribute 'John' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:25:17 - [MESSAGE][PASSED] - Attribute 'John' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:25:17 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Attribute 'This' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:25:21 - [MESSAGE][PASSED] - Attribute 'This' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:25:21 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Text 'John' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:25:28 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:25:28 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Text 'This' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:25:35 - [MESSAGE][PASSED] - Text 'This' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:25:35 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Login Button")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:25:39 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+05-07-2024T09:25:39 - [TEST_STEP][PASSED] - else: Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:25:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:25:42 - [MESSAGE][PASSED] - Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC17 - Login using data driven" time="62.452" classname="Test Cases/TC17 - Login using data driven" status="PASSED">
+         <system-out><![CDATA[05-07-2024T09:25:42 - [TEST_CASE][PASSED] - Test Cases/TC17 - Login using data driven: Test Cases/TC17 - Login using data driven
+
+05-07-2024T09:25:42 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Make Appointment")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+05-07-2024T09:25:46 - [TEST_STEP][PASSED] - loginParameter = "varibleLogin": null
+
+05-07-2024T09:25:46 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Attribute 'John Doe' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:25:49 - [MESSAGE][PASSED] - Attribute 'John Doe' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username' is: 'null'
+
+05-07-2024T09:25:49 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Attribute 'ThisIsNotAPassword' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:25:52 - [MESSAGE][PASSED] - Attribute 'ThisIsNotAPassword' of object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password' is: 'null'
+
+05-07-2024T09:25:52 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), Username): Text 'John Doe' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:25:58 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+05-07-2024T09:25:58 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:26:06 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+05-07-2024T09:26:06 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Login Button")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+05-07-2024T09:26:10 - [TEST_STEP][PASSED] - if (username == "John Doe" && password == "ThisIsNotAPassword"): null
+
+05-07-2024T09:26:10 - [TEST_STEP][PASSED] - else: Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:26:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible
+
+05-07-2024T09:26:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='login']/div/div/div/p[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+05-07-2024T09:26:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'. Try using Self-healing.
+
+05-07-2024T09:26:44 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::p[2]'.
+
+05-07-2024T09:26:45 - [MESSAGE][PASSED] - Object 'Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Properties/TCP03 - Logout" time="12.034" classname="Test Cases/Properties/TCP03 - Logout" status="PASSED">
+         <system-out><![CDATA[05-07-2024T09:26:45 - [TEST_CASE][PASSED] - Test Cases/Properties/TCP03 - Logout: Test Cases/Properties/TCP03 - Logout
+
+05-07-2024T09:26:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. CURA Test Object (Verify parameter)/Make Appointment Text"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/2. CURA Test Object (Verify parameter)/Make Appointment Text' are matched.
+
+05-07-2024T09:26:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. CURA Test Object (Verify parameter)/Make Appointment Text' are matched.
+
+05-07-2024T09:26:48 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Menu")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Menu' is clicked on
+
+05-07-2024T09:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Menu' is clicked on
+
+05-07-2024T09:26:51 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Logout")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Logout' is clicked on
+
+05-07-2024T09:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Logout' is clicked on
+
+05-07-2024T09:26:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-07-2024T09:26:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-07-2024T09:21:42 - [TEST_SUITE][PASSED] - TS09 - Login using data driven: Test Cases/Properties/TCP03 - Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

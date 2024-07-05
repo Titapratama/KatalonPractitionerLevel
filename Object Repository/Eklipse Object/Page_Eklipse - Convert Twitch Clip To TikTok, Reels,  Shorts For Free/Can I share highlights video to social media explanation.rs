@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Can I share highlights video to social media explanation</name>
+   <tag></tag>
+   <elementGuidId>9fac0379-9d07-4d76-ad4d-1bb9d0a47868</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#elementor-tab-title-1156 > a.elementor-accordion-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@id='elementor-tab-title-1156']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Can I share highlights video to social media platforms?&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1c0740ea-5660-4b2a-be6b-04886e2d2a63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>elementor-accordion-title</value>
+      <webElementGuid>ed0dbdcf-9b13-46dc-ba54-6a80f43d8698</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>a38c2a54-ccd7-4b25-a6fd-e77b6a71c07e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Can I share highlights video to social media platforms?</value>
+      <webElementGuid>a105675f-0b46-4425-ab0f-e30aee928126</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;elementor-tab-title-1156&quot;)/a[@class=&quot;elementor-accordion-title&quot;]</value>
+      <webElementGuid>25e56aa2-54fe-4e8a-9685-39685615465a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h2[@id='elementor-tab-title-1156']/a</value>
+      <webElementGuid>61edc2c2-c7af-4e99-81be-91ce7413121f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Can I share highlights video to social media platforms?')]</value>
+      <webElementGuid>d0b57bc3-c389-4da2-8111-bc09090ad7c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You can check your clipped streams by going to the “Processed” tab in the Clips > Streams menu.'])[1]/following::a[1]</value>
+      <webElementGuid>b84e0125-296a-4a42-879c-a254a1d62ba7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click the “Get Clip” button to begin automatically clipping your stream using Eklipse AI.'])[1]/following::a[1]</value>
+      <webElementGuid>a9a0cd6d-7c6c-4c3d-bfb2-9df6c9368157</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What are the benefits of Eklipse.gg?'])[1]/preceding::a[1]</value>
+      <webElementGuid>b47fbc47-4cee-45c3-96ac-fa20edc0287d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Can I share highlights video to social media platforms?']/parent::*</value>
+      <webElementGuid>27f266b4-9c36-499f-ab66-c6867313472d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/h2/a</value>
+      <webElementGuid>0af114bb-aea5-487e-90a7-dbc49f449401</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Can I share highlights video to social media platforms?' or . = 'Can I share highlights video to social media platforms?')]</value>
+      <webElementGuid>4a2816c8-371a-496c-9fb9-43a32260fea5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

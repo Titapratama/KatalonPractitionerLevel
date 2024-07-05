@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Reviews 389 Excellent text</name>
+   <tag></tag>
+   <elementGuidId>48498602-9b3a-4b72-9158-b20ba1804c7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#trust-rate</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='trust-rate']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Reviews 389 • Excellent&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b695ae65-6de9-4275-b03b-af9ffeca76f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>trust-rate</value>
+      <webElementGuid>0ccda024-05e9-4344-ac9a-d9bd3940848a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reviews 389 •  Excellent</value>
+      <webElementGuid>1cf4efe6-5f17-4443-abc6-95ec88e3d08b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trust-rate&quot;)</value>
+      <webElementGuid>e0aeed38-32fe-4cb4-81c5-100db4646e2b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='trust-rate']</value>
+      <webElementGuid>bdcd1bb7-2c9a-4131-a4fc-88ba2fce0740</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eklipse.gg'])[1]/following::div[1]</value>
+      <webElementGuid>0f56c94e-cd90-4ef9-8e58-effbd78df3a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn Premium'])[1]/following::div[5]</value>
+      <webElementGuid>e659054f-fba3-491b-b836-7e89574e4e22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Built for everyone, every creator'])[1]/preceding::div[10]</value>
+      <webElementGuid>95a3b268-83f9-4a8e-800c-9fa6b4997b03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compatible with any console'])[1]/preceding::div[17]</value>
+      <webElementGuid>cbc130cf-36d3-4c49-91fb-951474b4d32b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[3]/div/div/div/div</value>
+      <webElementGuid>2f517326-f093-4cd4-af8d-38c78016f202</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'trust-rate' and (text() = 'Reviews 389 •  Excellent' or . = 'Reviews 389 •  Excellent')]</value>
+      <webElementGuid>c3d22b39-cc81-411b-95bf-4ab2e64cedb6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

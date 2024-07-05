@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Premium</name>
+   <tag></tag>
+   <elementGuidId>41928bd5-e6ae-4363-9cc0-1432305ad94f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Is YouTube Video Highlights free to use?'])[1]/following::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Premium&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d249f005-97a8-489d-b5fe-a2b89ed31e4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://eklipse.gg/premium</value>
+      <webElementGuid>a73fa461-a000-4053-a762-890f5c2b3559</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>1807ad7d-6a5a-44d4-bee7-4aebf2b9bd26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Premium</value>
+      <webElementGuid>dd1a44ea-767d-4be7-94da-c103a84ac8f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;home page-template-default page page-id-13271 wp-custom-logo ehf-template-eklipsegg ehf-stylesheet-eklipsegg elementor-default elementor-kit-9 elementor-page elementor-page-13271 e--ua-blink e--ua-chrome e--ua-webkit&quot;]/header[@class=&quot;header fixed no-fixed&quot;]/div[@class=&quot;header-main&quot;]/div[@class=&quot;header-main__container&quot;]/div[@class=&quot;header-main__col header-main__col--center&quot;]/nav[@class=&quot;header-main__menu&quot;]/ul[@class=&quot;primary-menu&quot;]/li[@class=&quot;nav_item menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>48dc1f43-d9ce-49c7-aa2d-854373370a3e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is YouTube Video Highlights free to use?'])[1]/following::a[1]</value>
+      <webElementGuid>292920c0-1d26-456e-806c-0f53d9a2f6f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How does YouTube Video Highlights Work?'])[1]/following::a[2]</value>
+      <webElementGuid>29ed07a7-c5af-4e76-b7ee-79e501041fdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/preceding::a[1]</value>
+      <webElementGuid>bd45e10d-0154-45a0-b072-9fa82ee12b4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://eklipse.gg/premium')])[3]</value>
+      <webElementGuid>06a37a4c-c1c3-4058-9fdd-3589adb6cc17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a</value>
+      <webElementGuid>3ca68599-098f-4b47-ac1e-e9c08a7365d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://eklipse.gg/premium' and (text() = 'Premium' or . = 'Premium')]</value>
+      <webElementGuid>ca381bed-eb98-4321-a321-51c65f7bc5ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>What is Eklipse explanation</name>
+   <tag></tag>
+   <elementGuidId>f55db7e2-ee99-4639-9a8c-ed4888737fb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.elementor-accordion-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@id='elementor-tab-title-1151']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;What is Eklipse?&quot;i] >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a141167b-52c2-4859-ac04-0692b307212a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>elementor-accordion-title</value>
+      <webElementGuid>a92cb4b4-ee8b-456c-a9df-a66c1ce86dcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>1867a82a-3b61-4630-9931-f2b4b2bbf576</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>What is Eklipse?</value>
+      <webElementGuid>d3d2eb7a-4f05-43c5-ac44-e658c1b96ed8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;elementor-tab-title-1151&quot;)/a[@class=&quot;elementor-accordion-title&quot;]</value>
+      <webElementGuid>1d61cb65-3817-46b7-b14e-0f5cc267940a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h2[@id='elementor-tab-title-1151']/a</value>
+      <webElementGuid>157801b9-e968-4b4e-879b-42fda69c8eb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'What is Eklipse?')])[2]</value>
+      <webElementGuid>eebb649b-9ee6-4f5e-8a83-96af4e6f065a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Got More Questions'])[1]/following::a[1]</value>
+      <webElementGuid>7fd43525-b2a5-4905-b4a8-83d12e9a870e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Our Affiliates'])[3]/following::a[1]</value>
+      <webElementGuid>a06a130c-1397-4838-a667-35222ddfaeb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What can I do with Eklipse?'])[1]/preceding::a[1]</value>
+      <webElementGuid>9f6b198e-942f-425c-9e0f-a272e84085c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='transform lengthy videos into short viral moments. With YouTube IRL Video Highlights'])[1]/preceding::a[2]</value>
+      <webElementGuid>85b338a4-e985-4b98-ad43-af3480f56589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/h2/a</value>
+      <webElementGuid>6471e8a2-aa00-4bc0-bf59-f15d8465df39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'What is Eklipse?' or . = 'What is Eklipse?')]</value>
+      <webElementGuid>bc8f2ac2-2cfc-4d3f-80d5-4c6180d8c861</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

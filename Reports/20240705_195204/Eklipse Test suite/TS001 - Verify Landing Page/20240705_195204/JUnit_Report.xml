@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001 - Verify Landing Page" time="32.28" tests="1" failures="0" errors="0">
+   <testsuite name="TS001 - Verify Landing Page" tests="1" failures="0" errors="0" time="32.28" skipped="0" timestamp="05-07-2024T19:52:11" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/Eklipse Test suite/TS001 - Verify Landing Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240705_195204\\Eklipse Test suite\\TS001 - Verify Landing Page\\20240705_195204"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240705_195204\\Eklipse Test suite\\TS001 - Verify Landing Page\\20240705_195204\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240705_195204\\Eklipse Test suite\\TS001 - Verify Landing Page\\20240705_195204\\1720183943778.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240705_195204\\Eklipse Test suite\\TS001 - Verify Landing Page\\20240705_195204\\1720183944099.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240705_195204\\Eklipse Test suite\\TS001 - Verify Landing Page\\20240705_195204\\1720183954327.png"/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="819d1d3701f1adb66e51f1585c1fb0e6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Eklipse Test/Landing page/TC001 - Verify main page display" time="19.017" classname="Test Cases/Eklipse Test/Landing page/TC001 - Verify main page display" status="PASSED">
+         <system-out><![CDATA[05-07-2024T19:52:24 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Landing page/TC001 - Verify main page display: Test Cases/Eklipse Test/Landing page/TC001 - Verify main page display
+
+05-07-2024T19:52:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-07-2024T19:52:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-07-2024T19:52:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-07-2024T19:52:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-07-2024T19:52:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-07-2024T19:52:25 - [TEST_STEP][PASSED] - navigateToUrl("https://eklipse.gg/"): Navigate to 'https://eklipse.gg/' successfully
+
+05-07-2024T19:52:32 - [MESSAGE][PASSED] - Navigate to 'https://eklipse.gg/' successfully
+
+05-07-2024T19:52:32 - [TEST_STEP][PASSED] - waitForImagePresent(findTestObject("Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Eklipse gg Logo"), 3): Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse.gg logo.png' is present
+
+05-07-2024T19:52:34 - [MESSAGE][PASSED] - Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse.gg logo.png' is present
+
+05-07-2024T19:52:34 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+05-07-2024T19:52:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-07-2024T19:52:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240705_195204\\Eklipse Test suite\\TS001 - Verify Landing Page\\20240705_195204\\1720183954327.png]]
+
+05-07-2024T19:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/a_Help")): Object: 'Object Repository/Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/a_Help' is clicked on
+
+05-07-2024T19:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/a_Help' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-07-2024T19:52:11 - [TEST_SUITE][FAILED] - TS001 - Verify Landing Page: Test Cases/Eklipse Test/Landing page/TC001 - Verify main page display FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for image to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword.waitForImagePresent(WaitForImagePresentKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword.execute(WaitForImagePresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForImagePresent(WebUiBuiltInKeywords.groovy:2864)
+	at TC001 - Verify main page display.run(TC001 - Verify main page display:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720183924148.run(TempTestSuite1720183924148.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse.gg logo.png' is NOT present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword$_waitForImagePresent_closure1.doCall(WaitForImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword$_waitForImagePresent_closure1.call(WaitForImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[05-07-2024T19:52:11 - [TEST_SUITE][FAILED] - TS001 - Verify Landing Page: Test Cases/Eklipse Test/Landing page/TC001 - Verify main page display FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for image to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword.waitForImagePresent(WaitForImagePresentKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword.execute(WaitForImagePresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForImagePresent(WebUiBuiltInKeywords.groovy:2864)
+	at TC001 - Verify main page display.run(TC001 - Verify main page display:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720183924148.run(TempTestSuite1720183924148.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse.gg logo.png' is NOT present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword$_waitForImagePresent_closure1.doCall(WaitForImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForImagePresentKeyword$_waitForImagePresent_closure1.call(WaitForImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

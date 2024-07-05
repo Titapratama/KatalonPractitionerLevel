@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>twitter</name>
+   <tag></tag>
+   <elementGuidId>bb5b793f-8fac-416b-b75e-3b85179ced75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.list > li:nth-child(3) > a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>30679594-e0e9-458c-85f4-ebd8948633fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M17.7007 5.1165C17.5988 4.7529 17.4002 4.42372 17.1262 4.16395C16.8444 3.89618 16.499 3.70465 16.1226 3.60741C14.714 3.23614 9.07071 3.23614 9.07071 3.23614C6.71807 3.20937 4.36601 3.3271 2.0278 3.58866C1.65142 3.69308 1.30668 3.88889 1.02424 4.1587C0.746721 4.42571 0.545709 4.75498 0.440703 5.11575C0.188458 6.47464 0.0659002 7.85442 0.0746817 9.2365C0.0656811 10.6173 0.187938 11.9967 0.440703 13.3572C0.543459 13.7165 0.743721 14.0443 1.02199 14.309C1.30025 14.5738 1.64677 14.7651 2.0278 14.8663C3.45513 15.2369 9.07071 15.2369 9.07071 15.2369C11.4263 15.2637 13.7814 15.1459 16.1226 14.8843C16.499 14.7871 16.8444 14.5956 17.1262 14.3278C17.4002 14.0681 17.5985 13.7388 17.7 13.3752C17.9588 12.0169 18.0847 10.6365 18.0757 9.25375C18.0952 7.86512 17.9695 6.47826 17.7007 5.11575V5.1165ZM7.27661 11.8046V6.66909L11.9719 9.23725L7.27661 11.8046Z</value>
+      <webElementGuid>045bca55-df6b-4a27-baaf-6f4b2d1a1198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>white</value>
+      <webElementGuid>122d9478-bfca-4ed6-bcd1-3349fc744dbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;home page-template-default page page-id-13271 wp-custom-logo ehf-template-eklipsegg ehf-stylesheet-eklipsegg elementor-default elementor-kit-9 elementor-page elementor-page-13271 e--ua-blink e--ua-chrome e--ua-webkit&quot;]/footer[@class=&quot;footer&quot;]/div[@class=&quot;footer-container&quot;]/div[@class=&quot;footer-col&quot;]/ul[@class=&quot;list list-social&quot;]/li[@class=&quot;list-item&quot;]/a[1]/svg[1]/g[1]/path[1]</value>
+      <webElementGuid>e55bf6ac-72ec-4866-9071-1f47f2522eb1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

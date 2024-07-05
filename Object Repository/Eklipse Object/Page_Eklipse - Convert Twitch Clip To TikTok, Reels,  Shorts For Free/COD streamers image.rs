@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>COD streamers image</name>
+   <tag></tag>
+   <elementGuidId>40f3936b-0660-4dea-b614-2bf2d670153f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.infobox-icon > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://eklipse.gg/wp-content/uploads/2024/02/CoD-Logo.svg')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;COD Streamers&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>014704eb-c9d5-46fc-bb0f-73bde21de1dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://eklipse.gg/wp-content/uploads/2024/02/CoD-Logo.svg</value>
+      <webElementGuid>ae841612-96a4-4cb0-916c-e392a9dcab53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;home page-template-default page page-id-13271 wp-custom-logo ehf-template-eklipsegg ehf-stylesheet-eklipsegg elementor-default elementor-kit-9 elementor-page elementor-page-13271 e--ua-blink e--ua-chrome e--ua-webkit&quot;]/header[@class=&quot;header fixed no-fixed&quot;]/div[@class=&quot;header-main&quot;]/div[@class=&quot;header-main__container&quot;]/div[@class=&quot;header-main__col header-main__col--center&quot;]/nav[@class=&quot;header-main__menu&quot;]/ul[@class=&quot;primary-menu&quot;]/li[@class=&quot;nav_item menu-item-depth-0 has-child menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu&quot;]/ul[@class=&quot;submenu submenu-lv1&quot;]/li[@class=&quot;megamenu&quot;]/div[@class=&quot;elementor elementor-11943&quot;]/div[@class=&quot;elementor-element elementor-element-e79b4d5 e-flex e-con-boxed e-con e-parent e-lazyloaded&quot;]/div[@class=&quot;e-con-inner&quot;]/div[@class=&quot;elementor-element elementor-element-0f961dc e-con-full e-flex e-con e-child&quot;]/div[@class=&quot;elementor-element elementor-element-cf5443b e-con-full e-flex e-con e-child&quot;]/div[@class=&quot;elementor-element elementor-element-1730451 elementor-widget-mobile__width-initial eael-infobox-shape-square eael-infobox-hover-img-shape-square elementor-widget elementor-widget-eael-info-box&quot;]/div[@class=&quot;elementor-widget-container&quot;]/a[1]/div[@class=&quot;eael-infobox icon-on-left&quot;]/div[@class=&quot;infobox-icon&quot;]/img[1]</value>
+      <webElementGuid>85b1e309-dd27-4059-86ea-9bd44abbdb0f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://eklipse.gg/wp-content/uploads/2024/02/CoD-Logo.svg')]</value>
+      <webElementGuid>3b5511cf-0896-4e1b-99aa-17afe826f694</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+      <webElementGuid>0bf1a087-cc1a-4d64-af51-965e364253c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://eklipse.gg/wp-content/uploads/2024/02/CoD-Logo.svg']</value>
+      <webElementGuid>e4b46301-c358-4dd8-a8d6-49c674017b89</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

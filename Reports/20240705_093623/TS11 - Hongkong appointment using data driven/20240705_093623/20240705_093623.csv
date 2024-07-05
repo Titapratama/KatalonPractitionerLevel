@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS11 - Hongkong appointment using data driven,TestCloud - Windows - Chrome 124.0.0.0,Data driven test,,05-07-2024 09:36:29,05-07-2024 09:43:43,7m - 13.454s,PASSED
+,,,,,,,
+Test Cases/Properties/TCP01 - Open browser,TestCloud - Windows - Chrome 124.0.0.0,,Helper,05-07-2024 09:36:30,05-07-2024 09:38:08,1m - 38.381s,PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:36:30,05-07-2024 09:37:41,1m - 11.267s,PASSED
+navigateToUrl(URL),TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:37:41,05-07-2024 09:38:08,26.856s,PASSED
+,,,,,,,
+Test Cases/Properties/TCP02 - Login,TestCloud - Windows - Chrome 124.0.0.0,,Helper,05-07-2024 09:38:08,05-07-2024 09:38:44,36.442s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:38:08,05-07-2024 09:38:13,4.864s,PASSED
+"verifyElementText(findTestObject(""2. CURA Test Object (Verify parameter)/Login Text""), ""Login"")",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:38:13,05-07-2024 09:38:17,3.906s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Username""), Username)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:38:17,05-07-2024 09:38:29,12.011s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Password""), Password)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:38:29,05-07-2024 09:38:39,10.232s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Login Button""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:38:39,05-07-2024 09:38:44,5.348s,PASSED
+,,,,,,,
+Test Cases/TC19 - Hongkong Appointment using data driven,TestCloud - Windows - Chrome 124.0.0.0,,Data driven,05-07-2024 09:38:44,05-07-2024 09:39:57,1m - 12.561s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facility, true)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:38:45,05-07-2024 09:39:13,28.632s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:39:13,05-07-2024 09:39:17,3.558s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/None""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:39:17,05-07-2024 09:39:20,3.762s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:39:20,05-07-2024 09:39:24,3.403s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitdate)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:39:24,05-07-2024 09:39:32,7.926s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), comment)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:39:32,05-07-2024 09:39:40,8.451s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:39:40,05-07-2024 09:39:46,5.258s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:39:46,05-07-2024 09:39:49,3.431s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:39:49,05-07-2024 09:39:54,4.561s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:39:54,05-07-2024 09:39:57,3.476s,PASSED
+,,,,,,,
+Test Cases/TC19 - Hongkong Appointment using data driven,TestCloud - Windows - Chrome 124.0.0.0,,Data driven,05-07-2024 09:39:57,05-07-2024 09:41:11,1m - 13.519s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facility, true)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:39:57,05-07-2024 09:40:18,20.540s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:40:18,05-07-2024 09:40:21,3.886s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/None""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:40:21,05-07-2024 09:40:26,4.323s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:40:26,05-07-2024 09:40:29,3.347s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitdate)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:40:29,05-07-2024 09:40:42,12.545s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), comment)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:40:42,05-07-2024 09:40:53,11.411s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:40:53,05-07-2024 09:40:58,5.002s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:40:58,05-07-2024 09:41:02,3.946s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:41:02,05-07-2024 09:41:07,4.468s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:41:07,05-07-2024 09:41:11,3.959s,PASSED
+,,,,,,,
+Test Cases/TC19 - Hongkong Appointment using data driven,TestCloud - Windows - Chrome 124.0.0.0,,Data driven,05-07-2024 09:41:11,05-07-2024 09:42:26,1m - 15.754s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facility, true)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:41:11,05-07-2024 09:41:35,23.952s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:41:35,05-07-2024 09:41:38,3.288s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/None""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:41:38,05-07-2024 09:41:42,3.802s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:41:42,05-07-2024 09:41:46,4.316s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitdate)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:41:46,05-07-2024 09:41:55,9.361s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), comment)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:41:55,05-07-2024 09:42:06,10.609s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:42:06,05-07-2024 09:42:14,8.495s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:42:14,05-07-2024 09:42:18,3.268s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:42:18,05-07-2024 09:42:23,5.184s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:42:23,05-07-2024 09:42:26,3.450s,PASSED
+,,,,,,,
+Test Cases/TC19 - Hongkong Appointment using data driven,TestCloud - Windows - Chrome 124.0.0.0,,Data driven,05-07-2024 09:42:26,05-07-2024 09:43:30,1m - 4.055s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facility, true)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:42:26,05-07-2024 09:42:44,17.352s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:42:44,05-07-2024 09:42:48,3.728s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/None""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:42:48,05-07-2024 09:42:51,3.557s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:42:51,05-07-2024 09:42:55,4.096s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitdate)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:42:55,05-07-2024 09:43:05,9.707s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), comment)",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:43:05,05-07-2024 09:43:15,10.243s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:43:15,05-07-2024 09:43:19,3.970s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:43:19,05-07-2024 09:43:23,4.104s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:43:23,05-07-2024 09:43:27,4.052s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:43:27,05-07-2024 09:43:30,3.209s,PASSED
+,,,,,,,
+Test Cases/Properties/TCP03 - Logout,TestCloud - Windows - Chrome 124.0.0.0,,Helper,05-07-2024 09:43:31,05-07-2024 09:43:43,12.299s,PASSED
+"verifyElementText(findTestObject(""2. CURA Test Object (Verify parameter)/Make Appointment Text""), ""Make Appointment"")",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:43:31,05-07-2024 09:43:34,3.052s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:43:34,05-07-2024 09:43:37,3.169s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Logout""))",TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:43:37,05-07-2024 09:43:41,4.299s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 124.0.0.0,,,05-07-2024 09:43:41,05-07-2024 09:43:43,1.701s,PASSED

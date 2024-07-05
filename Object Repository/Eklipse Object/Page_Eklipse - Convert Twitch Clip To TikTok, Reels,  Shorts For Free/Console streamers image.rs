@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Console streamers image</name>
+   <tag></tag>
+   <elementGuidId>6d37aa97-0e44-4687-b461-3dbcac4a2968</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.elementor-element.elementor-element-de964b5.elementor-widget-mobile__width-initial.eael-infobox-shape-square.eael-infobox-hover-img-shape-square.elementor-widget.elementor-widget-eael-info-box > div.elementor-widget-container > a > div.eael-infobox.icon-on-left > div.infobox-icon > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://eklipse.gg/wp-content/uploads/2024/02/Console-Logo.svg')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Console Streamers&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>64521c98-90ff-4e72-8aaa-b09c026a049e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://eklipse.gg/wp-content/uploads/2024/02/Console-Logo.svg</value>
+      <webElementGuid>27e20c5f-7a95-4621-a90b-f4c173750f33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;home page-template-default page page-id-13271 wp-custom-logo ehf-template-eklipsegg ehf-stylesheet-eklipsegg elementor-default elementor-kit-9 elementor-page elementor-page-13271 e--ua-blink e--ua-chrome e--ua-webkit&quot;]/header[@class=&quot;header fixed no-fixed&quot;]/div[@class=&quot;header-main&quot;]/div[@class=&quot;header-main__container&quot;]/div[@class=&quot;header-main__col header-main__col--center&quot;]/nav[@class=&quot;header-main__menu&quot;]/ul[@class=&quot;primary-menu&quot;]/li[@class=&quot;nav_item menu-item-depth-0 has-child menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu&quot;]/ul[@class=&quot;submenu submenu-lv1&quot;]/li[@class=&quot;megamenu&quot;]/div[@class=&quot;elementor elementor-11943&quot;]/div[@class=&quot;elementor-element elementor-element-e79b4d5 e-flex e-con-boxed e-con e-parent e-lazyloaded&quot;]/div[@class=&quot;e-con-inner&quot;]/div[@class=&quot;elementor-element elementor-element-0f961dc e-con-full e-flex e-con e-child&quot;]/div[@class=&quot;elementor-element elementor-element-802d54d e-con-full e-flex e-con e-child&quot;]/div[@class=&quot;elementor-element elementor-element-de964b5 elementor-widget-mobile__width-initial eael-infobox-shape-square eael-infobox-hover-img-shape-square elementor-widget elementor-widget-eael-info-box&quot;]/div[@class=&quot;elementor-widget-container&quot;]/a[1]/div[@class=&quot;eael-infobox icon-on-left&quot;]/div[@class=&quot;infobox-icon&quot;]/img[1]</value>
+      <webElementGuid>a902d1de-4020-4745-b3c5-dcaf3bd10c88</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://eklipse.gg/wp-content/uploads/2024/02/Console-Logo.svg')]</value>
+      <webElementGuid>2b751a70-5ba2-4d32-97a9-ed4adf472fd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/a/div/div/img</value>
+      <webElementGuid>377e099e-fcdb-406a-8992-a6a25b05e93e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://eklipse.gg/wp-content/uploads/2024/02/Console-Logo.svg']</value>
+      <webElementGuid>d4605cf3-2dac-4732-bdec-5840bb9e74df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
