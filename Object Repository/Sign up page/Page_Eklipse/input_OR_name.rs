@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>input_OR_name</name>
    <tag></tag>
-   <elementGuidId>9602d235-74f1-4408-8856-0104fb2cb63e</elementGuidId>
+   <elementGuidId>73ec9243-9886-42d2-bd90-266bbd953f17</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>img[alt=&quot;Eklipse: AI-Edit - Enhance your gaming clips with memes, sfx, vfx in seconds | Product Hunt&quot;]</value>
+         <value>#name</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='menu-item-9380']/a[2]/img</value>
+         <value>//input[@id='name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Eklipse: AI-Edit - Enhance your gaming clips with memes, sfx, vfx in seconds | Product Hunt&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Name&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-      <webElementGuid>9240c2c7-61f6-4546-bec1-bca82f1e2f95</webElementGuid>
+      <value>input</value>
+      <webElementGuid>52c268ca-5c04-402d-bcfa-0985578040ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>id</name>
       <type>Main</type>
-      <value>https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=457938&amp;theme=light</value>
-      <webElementGuid>40f9214b-8bd9-4e3b-905b-56c5cb25190b</webElementGuid>
+      <value>name</value>
+      <webElementGuid>459ccb9a-4e20-4845-9568-3b4a0918264f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>alt</name>
+      <name>type</name>
       <type>Main</type>
-      <value>Eklipse: AI-Edit - Enhance your gaming clips with memes, sfx, vfx in seconds | Product Hunt</value>
-      <webElementGuid>26ebfff7-64ff-4951-889b-24e821bba297</webElementGuid>
+      <value>name</value>
+      <webElementGuid>82d96732-e2d9-4258-94b4-2fcdcf91b652</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>45c92275-6710-43a6-9052-aedeef0cab9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>width</name>
+      <name>class</name>
       <type>Main</type>
-      <value>250</value>
-      <webElementGuid>19fadb80-fccd-42ff-a27b-4fb58b6988be</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>2a8a8032-1692-4809-a1ee-e8230e04e354</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Name</value>
+      <webElementGuid>f6d012ce-ba92-4dd7-ae61-d38df82a8351</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>height</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>54</value>
-      <webElementGuid>48efd257-194d-4cfb-807f-112f9eddfaca</webElementGuid>
+      <value>off</value>
+      <webElementGuid>07a7994c-dad1-4968-a896-77a471fe0941</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menu-item-9380&quot;)/a[2]/img[1]</value>
-      <webElementGuid>ccc36117-8506-4422-9f1b-5c92ee723adb</webElementGuid>
+      <value>id(&quot;name&quot;)</value>
+      <webElementGuid>935d8c98-676e-48c2-8407-4b4738d3658b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//li[@id='menu-item-9380']/a[2]/img</value>
-      <webElementGuid>6fab8fdb-6660-47d7-80a0-a1d6d8ef9277</webElementGuid>
+      <value>//input[@id='name']</value>
+      <webElementGuid>774680ed-6937-4bed-84a3-02b2a76a379d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//img[@alt='Eklipse: AI-Edit - Enhance your gaming clips with memes, sfx, vfx in seconds | Product Hunt']</value>
-      <webElementGuid>38feecdf-a7eb-4dcc-91fd-5355a3e5f08f</webElementGuid>
+      <value>//div[@id='app']/div/div/div/div[2]/div/div[2]/form/div/input</value>
+      <webElementGuid>4c21d65b-ea1f-42d0-b9d3-23489fb64143</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]/img</value>
-      <webElementGuid>9af63cda-a4e6-4bd5-bc1b-8ba74975df4c</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>210bf259-8109-4cd5-b1fe-d03785bd891f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = 'https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=457938&amp;theme=light' and @alt = 'Eklipse: AI-Edit - Enhance your gaming clips with memes, sfx, vfx in seconds | Product Hunt']</value>
-      <webElementGuid>b8cc12d0-f938-43a5-baa2-38d5c8e0fb93</webElementGuid>
+      <value>//input[@id = 'name' and @type = 'name' and @name = 'name' and @placeholder = 'Name']</value>
+      <webElementGuid>89725d21-791a-4f59-b94f-8b190a3ad948</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://eklipse.gg/')
 
-not_run: WebUI.waitForImagePresent(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Eklipse gg Logo'), 
+not_run: WebUI.waitForImagePresent(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/img_Features_logo-desktop'), 
     3)
 
 not_run: WebUI.takeFullPageScreenshot()

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Eklipse gg Logo</name>
+   <name>img_Features_logo-desktop</name>
    <tag></tag>
    <elementGuidId>eff0f700-f7ff-4365-9f23-610fd0209310</elementGuidId>
    <imagePath>../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse.gg logo.png</imagePath>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>img.logo-desktop</value>
+         <key>IMAGE</key>
+         <value>../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse.gg logo.png</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@src = 'https://i0.wp.com/eklipse.gg/wp-content/uploads/2022/09/logo_white.png?fit=251%2C50&amp;ssl=1' and @alt = 'Eklipse']</value>
+         <key>CSS</key>
+         <value>img.logo-desktop</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//img[@alt='Eklipse']</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value>../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse.gg logo.png</value>
+         <key>BASIC</key>
+         <value>//*[@src = 'https://i0.wp.com/eklipse.gg/wp-content/uploads/2022/09/logo_white.png?fit=251%2C50&amp;ssl=1' and @alt = 'Eklipse']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -38,7 +38,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>b9576d5f-e909-4766-893c-091d2c88fa20</webElementGuid>
+      <webElementGuid>af118dad-d160-4e1a-86af-0b517484dffe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>logo-desktop</value>
-      <webElementGuid>bef2380a-6c20-4380-9683-2768af7414b5</webElementGuid>
+      <webElementGuid>1847a613-e342-42cc-b048-50889cdef665</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://i0.wp.com/eklipse.gg/wp-content/uploads/2022/09/logo_white.png?fit=251%2C50&amp;ssl=1</value>
-      <webElementGuid>613e39c1-1772-44e3-aae1-9379d6b62e2d</webElementGuid>
+      <webElementGuid>f26e2261-cb3f-4907-be2a-6a679d3ad5c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Eklipse</value>
-      <webElementGuid>4ff06526-3e70-4fb8-9d5d-f445ab594069</webElementGuid>
+      <webElementGuid>0970dbe5-c0c3-469d-aaaa-aba2cc8afa3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;home page-template-default page page-id-13271 wp-custom-logo ehf-template-eklipsegg ehf-stylesheet-eklipsegg elementor-default elementor-kit-9 elementor-page elementor-page-13271 e--ua-blink e--ua-chrome e--ua-webkit&quot;]/header[@class=&quot;header fixed no-fixed&quot;]/div[@class=&quot;header-main&quot;]/div[@class=&quot;header-main__container&quot;]/div[@class=&quot;header-main__col header-main__col--left&quot;]/div[@class=&quot;header-main__logo&quot;]/a[1]/img[@class=&quot;logo-desktop&quot;]</value>
-      <webElementGuid>017e3be8-2fa5-4e34-bb54-79567da37a04</webElementGuid>
+      <webElementGuid>27746208-16de-49c9-8f50-252c684a055e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Eklipse']</value>
-      <webElementGuid>63bece69-6391-4ba3-96e4-f0f06db3a4dd</webElementGuid>
+      <webElementGuid>1bf0ccf1-3077-4229-94a0-453938ef4a9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>6d0eb6a1-61c4-4b63-8d16-ec56b5132838</webElementGuid>
+      <webElementGuid>a22879c1-05b4-4a18-930b-60b5e5c177f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://i0.wp.com/eklipse.gg/wp-content/uploads/2022/09/logo_white.png?fit=251%2C50&amp;ssl=1' and @alt = 'Eklipse']</value>
-      <webElementGuid>1443ab6f-e34d-47c7-95d3-ccb53d96d825</webElementGuid>
+      <webElementGuid>bf869692-57c9-4386-b43a-a741639db7e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

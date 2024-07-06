@@ -21,35 +21,39 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://eklipse.gg/')
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/FEATURES landing page'), 
+WebUI.maximizeWindow()
+
+WebUI.verifyImagePresent(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/img_Features_logo-desktop'))
+
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/FEATURES landing page'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/FEATURES landing page'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/FEATURES landing page'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Use Case                                                                                                                                                    COD Streamers'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Use Case                                                                                                                                                    COD Streamers'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Use Case                                                                                                                                                    COD Streamers'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Use Case                                                                                                                                                    COD Streamers'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Discovery'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Discovery'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Discovery'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Discovery'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Premium'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Premium'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Premium'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Premium'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Start for Free'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Start for Free'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Start for Free'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Start for Free'))
 
-WebUI.verifyImagePresent(findTestObject('Eklipse Object/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Eklipse gg Logo'))
+WebUI.closeBrowser()
 
