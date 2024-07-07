@@ -23,13 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In'))
 
-WebUI.deleteAllCookies()
-
 WebUI.click(findTestObject('Sign in page/Page_Eklipse/button_Sign Up'))
 
-WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_name'), 'Pratama')
+WebUI.takeFullPageScreenshot()
 
-WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_email'), 'tta123@yahoo.com')
+WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_name'), 'April')
+
+WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_email'), 'titaapratama@gmail.com')
 
 WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password'), 'tita123.')
 
@@ -37,15 +37,11 @@ WebUI.click(findTestObject('Sign up page/Page_Eklipse/img_OR_view-password curso
 
 WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password_confirmation'), 'tita123.')
 
-WebUI.click(findTestObject('Sign up page/Page_Eklipse/img_OR_view-password cursor-pointer'))
-
 WebUI.click(findTestObject('Sign up page/Page_Eklipse/button_Sign Up'))
+
+WebUI.waitForElementPresent(findTestObject('Sign up page/Page_Eklipse/How can Eklipse help Text'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Sign up page/Page_Eklipse/How can Eklipse help Text'), 0)
 
 WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://mail.google.com/mail/u/0/#inbox')
 

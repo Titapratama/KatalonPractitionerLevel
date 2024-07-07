@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS003 - Sign Up Via Sign In Page Variation" time="72.13" tests="13" failures="0" errors="0">
+   <testsuite name="TS003 - Sign Up Via Sign In Page Variation" tests="13" failures="0" errors="0" time="72.13" skipped="0" timestamp="07-07-2024T14:50:17" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/Eklipse Test suite/TS003 - Sign Up Via Sign In Page Variation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240707_145010\\Eklipse Test suite\\TS003 - Sign Up Via Sign In Page Variation\\20240707_145011"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240707_145010\\Eklipse Test suite\\TS003 - Sign Up Via Sign In Page Variation\\20240707_145011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="ec28669ca4044db4755a705f7613a8cd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Open - Sign In - Sign Up" time="15.853" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Open - Sign In - Sign Up" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:50:18 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Open - Sign In - Sign Up: Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Open - Sign In - Sign Up
+
+07-07-2024T14:50:18 - [TEST_STEP][PASSED] - eklipse_keywords.openBrowserEklipse.main(): eklipse_keywords.openBrowserEklipse.main is PASSED
+
+07-07-2024T14:50:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-07-2024T14:50:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-07-2024T14:50:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-07-2024T14:50:27 - [MESSAGE][PASSED] - Navigate to 'https://eklipse.gg/' successfully
+
+07-07-2024T14:50:27 - [MESSAGE][PASSED] - eklipse_keywords.openBrowserEklipse.main is PASSED
+
+07-07-2024T14:50:27 - [TEST_STEP][PASSED] - eklipse_keywords.signInToEklipse.main(): eklipse_keywords.signInToEklipse.main is PASSED
+
+07-07-2024T14:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In' is clicked on
+
+07-07-2024T14:50:33 - [MESSAGE][PASSED] - eklipse_keywords.signInToEklipse.main is PASSED
+
+07-07-2024T14:50:33 - [TEST_STEP][PASSED] - click(findTestObject("Sign in page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign in page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign in page/Page_Eklipse/button_Sign Up' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="5.746" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:50:34 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:50:34 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:50:34 - [MESSAGE][PASSED] - Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:50:34 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute 'titaapratama@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:50:35 - [MESSAGE][PASSED] - Attribute 'titaapratama@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:50:35 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:50:35 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:50:35 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:50:35 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:50:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:50:36 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:50:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text 'titaapratama@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:50:37 - [MESSAGE][PASSED] - Text 'titaapratama@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:50:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:50:38 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:50:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:50:39 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:50:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:50:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:50:39 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="5.865" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:50:39 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:50:39 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:50:40 - [MESSAGE][PASSED] - Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:50:40 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute 'tita71@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:50:41 - [MESSAGE][PASSED] - Attribute 'tita71@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:50:41 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:50:41 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:50:41 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:50:41 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:50:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:50:42 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:50:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text 'tita71@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:50:43 - [MESSAGE][PASSED] - Text 'tita71@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:50:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:50:44 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:50:45 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:50:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:50:45 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="5.071" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:50:45 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:50:45 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:50:46 - [MESSAGE][PASSED] - Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:50:46 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute 'tita72@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:50:46 - [MESSAGE][PASSED] - Attribute 'tita72@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:50:46 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:50:46 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:50:46 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:50:47 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:50:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:50:47 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:50:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text 'tita72@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:50:48 - [MESSAGE][PASSED] - Text 'tita72@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:50:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:50:49 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:50:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:50:50 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:50:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:50:50 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="5.077" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:50:50 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:50:50 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:50:51 - [MESSAGE][PASSED] - Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:50:51 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute 'tita28@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:50:51 - [MESSAGE][PASSED] - Attribute 'tita28@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:50:51 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:50:51 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:50:51 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute 'Tita456.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:50:52 - [MESSAGE][PASSED] - Attribute 'Tita456.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:50:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:50:52 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:50:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text 'tita28@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:50:53 - [MESSAGE][PASSED] - Text 'tita28@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:50:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:50:54 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:50:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text 'Tita456.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:50:55 - [MESSAGE][PASSED] - Text 'Tita456.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:50:55 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="4.739" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:50:55 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:50:55 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:50:56 - [MESSAGE][PASSED] - Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:50:56 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute 'tita28@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:50:56 - [MESSAGE][PASSED] - Attribute 'tita28@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:50:56 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:50:56 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:50:56 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute 'tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:50:57 - [MESSAGE][PASSED] - Attribute 'tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:50:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:50:57 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:50:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text 'tita28@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:50:58 - [MESSAGE][PASSED] - Text 'tita28@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:50:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:50:59 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:50:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text 'tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:00 - [MESSAGE][PASSED] - Text 'tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:00 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="4.896" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:51:00 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:51:00 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:00 - [MESSAGE][PASSED] - Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:00 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute 'tita29@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:01 - [MESSAGE][PASSED] - Attribute 'tita29@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:01 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita1.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:01 - [MESSAGE][PASSED] - Attribute 'Tita1.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:01 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute 'Tita1.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:02 - [MESSAGE][PASSED] - Attribute 'Tita1.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:02 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text 'tita29@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:03 - [MESSAGE][PASSED] - Text 'tita29@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita1.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:04 - [MESSAGE][PASSED] - Text 'Tita1.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text 'Tita1.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:05 - [MESSAGE][PASSED] - Text 'Tita1.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:05 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="4.718" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:51:05 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:51:05 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:05 - [MESSAGE][PASSED] - Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:05 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute 'tita29@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:06 - [MESSAGE][PASSED] - Attribute 'tita29@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:06 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita12.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:06 - [MESSAGE][PASSED] - Attribute 'Tita12.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:06 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute 'Tita12.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:06 - [MESSAGE][PASSED] - Attribute 'Tita12.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:07 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text 'tita29@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:08 - [MESSAGE][PASSED] - Text 'tita29@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita12.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:09 - [MESSAGE][PASSED] - Text 'Tita12.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text 'Tita12.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:09 - [MESSAGE][PASSED] - Text 'Tita12.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:10 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="4.482" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:51:10 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:51:10 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute '' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:10 - [MESSAGE][PASSED] - Attribute '' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:10 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute 'tita29@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:10 - [MESSAGE][PASSED] - Attribute 'tita29@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:10 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:11 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:11 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:11 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text 'tita29@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:12 - [MESSAGE][PASSED] - Text 'tita29@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:13 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:14 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:14 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="5.032" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:51:14 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:51:14 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:15 - [MESSAGE][PASSED] - Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:15 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute '' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:15 - [MESSAGE][PASSED] - Attribute '' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:15 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:15 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:15 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:15 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:16 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:18 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:19 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:19 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="4.719" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:51:19 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:51:19 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:20 - [MESSAGE][PASSED] - Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:20 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute 'tita29@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:20 - [MESSAGE][PASSED] - Attribute 'tita29@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:20 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:20 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:20 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute '' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:20 - [MESSAGE][PASSED] - Attribute '' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:21 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text 'tita29@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:22 - [MESSAGE][PASSED] - Text 'tita29@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:23 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:24 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" time="5.261" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:51:24 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page - Email has Taken
+
+07-07-2024T14:51:24 - [TEST_STEP][PASSED] - signUpName = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:24 - [MESSAGE][PASSED] - Attribute 'April' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'null'
+
+07-07-2024T14:51:24 - [TEST_STEP][PASSED] - signUpEmail = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Attribute 'tita30@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:25 - [MESSAGE][PASSED] - Attribute 'tita30@gmail.com' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email' is: 'null'
+
+07-07-2024T14:51:25 - [TEST_STEP][PASSED] - signUpPass1 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:25 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password' is: 'null'
+
+07-07-2024T14:51:25 - [TEST_STEP][PASSED] - signUpPass2 = getAttribute(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:25 - [MESSAGE][PASSED] - Attribute 'Tita123.' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation' is: 'null'
+
+07-07-2024T14:51:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_name"), Name): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:26 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+07-07-2024T14:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_email"), Email): Text 'tita30@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:27 - [MESSAGE][PASSED] - Text 'tita30@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+07-07-2024T14:51:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password"), Password11): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:28 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+07-07-2024T14:51:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation"), Password22): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:29 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation'
+
+07-07-2024T14:51:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+07-07-2024T14:51:29 - [TEST_STEP][PASSED] - if (signUpEmail == "titaapratama@gmail.com" || signUpEmail == "tita71@gmail.com" || signUpEmail == "tita72@gmail.com"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser" time="0.3" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser" status="PASSED">
+         <system-out><![CDATA[07-07-2024T14:51:29 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser: Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser
+
+07-07-2024T14:51:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-07-2024T14:51:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-07-2024T14:50:17 - [TEST_SUITE][PASSED] - TS003 - Sign Up Via Sign In Page Variation: Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,111 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS003 - Negative Test - Sign Up Via Sign In Page,Chrome 126.0.0.0,,,07-07-2024 13:18:41,07-07-2024 13:22:22,3m - 41.130s,ERROR
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Open - Sign In - Sign Up,Chrome 126.0.0.0,,,07-07-2024 13:18:41,07-07-2024 13:18:57,15.657s,PASSED
+eklipse_keywords.openBrowserEklipse.main(),Chrome 126.0.0.0,,,07-07-2024 13:18:41,07-07-2024 13:18:51,10.131s,PASSED
+eklipse_keywords.signInToEklipse.main(),Chrome 126.0.0.0,,,07-07-2024 13:18:51,07-07-2024 13:18:56,4.451s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,07-07-2024 13:18:56,07-07-2024 13:18:57,0.826s,PASSED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page,Chrome 126.0.0.0,,,07-07-2024 13:19:13,07-07-2024 13:19:19,5.412s,ERROR
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:19:13,07-07-2024 13:19:14,0.525s,PASSED
+"signUpEmail = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:19:14,07-07-2024 13:19:14,0.314s,PASSED
+"signUpPass1 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:19:14,07-07-2024 13:19:15,0.323s,PASSED
+"signUpPass2 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:19:15,07-07-2024 13:19:15,0.299s,PASSED
+sumPassword1 = signUpPass1.length(),Chrome 126.0.0.0,,,07-07-2024 13:19:15,07-07-2024 13:19:15,0.001s,NOT_RUN
+sumPassword2 = signUpPass2.length(),Chrome 126.0.0.0,,,07-07-2024 13:19:15,07-07-2024 13:19:15,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:19:15,07-07-2024 13:19:16,0.855s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:19:16,07-07-2024 13:19:17,0.768s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:19:17,07-07-2024 13:19:17,0.702s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:19:17,07-07-2024 13:19:18,1.006s,PASSED
+"click(findTestObject(""Object Repository/Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,07-07-2024 13:19:18,07-07-2024 13:19:19,0.581s,PASSED
+"if (signUpEmail == ""titaapratama@gmail.com"")",Chrome 126.0.0.0,,,07-07-2024 13:19:19,07-07-2024 13:19:19,0.004s,ERROR
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page,Chrome 126.0.0.0,,,07-07-2024 13:19:34,07-07-2024 13:19:38,4.600s,ERROR
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:19:34,07-07-2024 13:19:34,0.315s,PASSED
+"signUpEmail = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:19:34,07-07-2024 13:19:34,0.295s,PASSED
+"signUpPass1 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:19:34,07-07-2024 13:19:34,0.289s,PASSED
+"signUpPass2 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:19:34,07-07-2024 13:19:35,0.290s,PASSED
+sumPassword1 = signUpPass1.length(),Chrome 126.0.0.0,,,07-07-2024 13:19:35,07-07-2024 13:19:35,0.001s,NOT_RUN
+sumPassword2 = signUpPass2.length(),Chrome 126.0.0.0,,,07-07-2024 13:19:35,07-07-2024 13:19:35,0.000s,NOT_RUN
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:19:35,07-07-2024 13:19:35,0.687s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:19:35,07-07-2024 13:19:36,0.709s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:19:36,07-07-2024 13:19:37,0.703s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:19:37,07-07-2024 13:19:38,0.714s,PASSED
+"click(findTestObject(""Object Repository/Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,07-07-2024 13:19:38,07-07-2024 13:19:38,0.574s,PASSED
+"if (signUpEmail == ""titaapratama@gmail.com"")",Chrome 126.0.0.0,,,07-07-2024 13:19:38,07-07-2024 13:19:38,0.002s,ERROR
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page,Chrome 126.0.0.0,,,07-07-2024 13:19:52,07-07-2024 13:19:56,4.325s,ERROR
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:19:52,07-07-2024 13:19:53,0.310s,PASSED
+"signUpEmail = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:19:53,07-07-2024 13:19:53,0.284s,PASSED
+"signUpPass1 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:19:53,07-07-2024 13:19:53,0.292s,PASSED
+"signUpPass2 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:19:53,07-07-2024 13:19:53,0.287s,PASSED
+sumPassword1 = signUpPass1.length(),Chrome 126.0.0.0,,,07-07-2024 13:19:53,07-07-2024 13:19:53,0.001s,NOT_RUN
+sumPassword2 = signUpPass2.length(),Chrome 126.0.0.0,,,07-07-2024 13:19:53,07-07-2024 13:19:53,0.000s,NOT_RUN
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:19:53,07-07-2024 13:19:54,0.733s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:19:54,07-07-2024 13:19:55,0.683s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:19:55,07-07-2024 13:19:55,0.660s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:19:55,07-07-2024 13:19:56,0.710s,PASSED
+"click(findTestObject(""Object Repository/Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,07-07-2024 13:19:56,07-07-2024 13:19:56,0.337s,PASSED
+"if (signUpEmail == ""titaapratama@gmail.com"")",Chrome 126.0.0.0,,,07-07-2024 13:19:56,07-07-2024 13:19:56,0.001s,ERROR
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page,Chrome 126.0.0.0,,,07-07-2024 13:20:11,07-07-2024 13:20:16,5.404s,ERROR
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:20:11,07-07-2024 13:20:12,0.843s,PASSED
+"signUpEmail = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:20:12,07-07-2024 13:20:12,0.292s,PASSED
+"signUpPass1 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:20:12,07-07-2024 13:20:12,0.296s,PASSED
+"signUpPass2 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:20:12,07-07-2024 13:20:13,0.323s,PASSED
+sumPassword1 = signUpPass1.length(),Chrome 126.0.0.0,,,07-07-2024 13:20:13,07-07-2024 13:20:13,0.000s,NOT_RUN
+sumPassword2 = signUpPass2.length(),Chrome 126.0.0.0,,,07-07-2024 13:20:13,07-07-2024 13:20:13,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:20:13,07-07-2024 13:20:13,0.699s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:20:13,07-07-2024 13:20:14,0.696s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:20:14,07-07-2024 13:20:15,0.692s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:20:15,07-07-2024 13:20:16,0.936s,PASSED
+"click(findTestObject(""Object Repository/Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,07-07-2024 13:20:16,07-07-2024 13:20:16,0.604s,PASSED
+"if (signUpEmail == ""titaapratama@gmail.com"")",Chrome 126.0.0.0,,,07-07-2024 13:20:16,07-07-2024 13:20:16,0.002s,ERROR
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page,Chrome 126.0.0.0,,,07-07-2024 13:20:31,07-07-2024 13:20:36,4.702s,ERROR
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:20:31,07-07-2024 13:20:32,0.307s,PASSED
+"signUpEmail = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:20:32,07-07-2024 13:20:32,0.314s,PASSED
+"signUpPass1 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:20:32,07-07-2024 13:20:32,0.300s,PASSED
+"signUpPass2 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:20:32,07-07-2024 13:20:33,0.313s,PASSED
+sumPassword1 = signUpPass1.length(),Chrome 126.0.0.0,,,07-07-2024 13:20:33,07-07-2024 13:20:33,0.001s,NOT_RUN
+sumPassword2 = signUpPass2.length(),Chrome 126.0.0.0,,,07-07-2024 13:20:33,07-07-2024 13:20:33,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:20:33,07-07-2024 13:20:33,0.730s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:20:33,07-07-2024 13:20:34,0.610s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:20:34,07-07-2024 13:20:35,0.699s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:20:35,07-07-2024 13:20:35,0.837s,PASSED
+"click(findTestObject(""Object Repository/Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,07-07-2024 13:20:35,07-07-2024 13:20:36,0.564s,PASSED
+"if (signUpEmail == ""titaapratama@gmail.com"")",Chrome 126.0.0.0,,,07-07-2024 13:20:36,07-07-2024 13:20:36,0.001s,ERROR
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page,Chrome 126.0.0.0,,,07-07-2024 13:20:50,07-07-2024 13:20:56,5.212s,ERROR
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:20:50,07-07-2024 13:20:51,0.292s,PASSED
+"signUpEmail = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:20:51,07-07-2024 13:20:51,0.308s,PASSED
+"signUpPass1 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:20:51,07-07-2024 13:20:51,0.326s,PASSED
+"signUpPass2 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:20:51,07-07-2024 13:20:52,0.323s,PASSED
+sumPassword1 = signUpPass1.length(),Chrome 126.0.0.0,,,07-07-2024 13:20:52,07-07-2024 13:20:52,0.001s,NOT_RUN
+sumPassword2 = signUpPass2.length(),Chrome 126.0.0.0,,,07-07-2024 13:20:52,07-07-2024 13:20:52,0.000s,NOT_RUN
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:20:52,07-07-2024 13:20:52,0.743s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:20:52,07-07-2024 13:20:54,1.258s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:20:54,07-07-2024 13:20:54,0.729s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:20:54,07-07-2024 13:20:55,0.866s,PASSED
+"click(findTestObject(""Object Repository/Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,07-07-2024 13:20:55,07-07-2024 13:20:56,0.346s,PASSED
+"if (signUpEmail == ""titaapratama@gmail.com"")",Chrome 126.0.0.0,,,07-07-2024 13:20:56,07-07-2024 13:20:56,0.001s,ERROR
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page,Chrome 126.0.0.0,,,07-07-2024 13:21:09,07-07-2024 13:21:14,4.197s,ERROR
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:21:09,07-07-2024 13:21:10,0.280s,PASSED
+"signUpEmail = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:21:10,07-07-2024 13:21:10,0.291s,PASSED
+"signUpPass1 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:21:10,07-07-2024 13:21:10,0.305s,PASSED
+"signUpPass2 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:21:10,07-07-2024 13:21:11,0.282s,PASSED
+sumPassword1 = signUpPass1.length(),Chrome 126.0.0.0,,,07-07-2024 13:21:11,07-07-2024 13:21:11,0.001s,NOT_RUN
+sumPassword2 = signUpPass2.length(),Chrome 126.0.0.0,,,07-07-2024 13:21:11,07-07-2024 13:21:11,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:21:11,07-07-2024 13:21:11,0.689s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), Email)",Chrome 126.0.0.0,,,07-07-2024 13:21:11,07-07-2024 13:21:12,0.750s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), Password11)",Chrome 126.0.0.0,,,07-07-2024 13:21:12,07-07-2024 13:21:13,0.620s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), Password22)",Chrome 126.0.0.0,,,07-07-2024 13:21:13,07-07-2024 13:21:13,0.638s,PASSED
+"click(findTestObject(""Object Repository/Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,07-07-2024 13:21:13,07-07-2024 13:21:14,0.327s,PASSED
+"if (signUpEmail == ""titaapratama@gmail.com"")",Chrome 126.0.0.0,,,07-07-2024 13:21:14,07-07-2024 13:21:14,0.002s,ERROR
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Via Sign In Page,Chrome 126.0.0.0,,,07-07-2024 13:22:22,07-07-2024 13:22:22,0.038s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), Name)",Chrome 126.0.0.0,,,07-07-2024 13:22:22,07-07-2024 13:22:22,0.025s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser,Chrome 126.0.0.0,,,07-07-2024 13:22:22,07-07-2024 13:22:22,0.176s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,07-07-2024 13:22:22,07-07-2024 13:22:22,0.140s,PASSED

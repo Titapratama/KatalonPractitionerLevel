@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS003 - Sign Up Via Sign In Page Variation,Chrome 126.0.0.0,,,07-07-2024 15:29:08,07-07-2024 15:29:59,51.193s,ERROR
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Open - Sign In - Sign Up,Chrome 126.0.0.0,,,07-07-2024 15:29:08,07-07-2024 15:29:26,17.825s,PASSED
+eklipse_keywords.openBrowserEklipse.main(),Chrome 126.0.0.0,,,07-07-2024 15:29:09,07-07-2024 15:29:20,11.442s,PASSED
+eklipse_keywords.signInToEklipse.main(),Chrome 126.0.0.0,,,07-07-2024 15:29:20,07-07-2024 15:29:25,5.208s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,07-07-2024 15:29:25,07-07-2024 15:29:26,0.880s,PASSED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:38,07-07-2024 15:29:44,5.377s,ERROR
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:38,07-07-2024 15:29:39,0.543s,PASSED
+"signUpEmail = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), email)",Chrome 126.0.0.0,,,07-07-2024 15:29:39,07-07-2024 15:29:39,0.289s,PASSED
+"signUpPass1 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), pass1)",Chrome 126.0.0.0,,,07-07-2024 15:29:39,07-07-2024 15:29:40,0.290s,PASSED
+"signUpPass2 = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), pass2)",Chrome 126.0.0.0,,,07-07-2024 15:29:40,07-07-2024 15:29:40,0.298s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:40,07-07-2024 15:29:41,0.683s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_email""), email)",Chrome 126.0.0.0,,,07-07-2024 15:29:41,07-07-2024 15:29:41,0.796s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password""), pass1)",Chrome 126.0.0.0,,,07-07-2024 15:29:41,07-07-2024 15:29:42,0.678s,PASSED
+"setText(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_password_confirmation""), pass2)",Chrome 126.0.0.0,,,07-07-2024 15:29:42,07-07-2024 15:29:43,1.164s,PASSED
+"click(findTestObject(""Object Repository/Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,07-07-2024 15:29:43,07-07-2024 15:29:44,0.620s,PASSED
+"if (signUpEmail == ""titaapratama@gmail.com"" || signUpEmail == ""tita71@gmail.com"" || signUpEmail == ""tita72@gmail.com"")",Chrome 126.0.0.0,,,07-07-2024 15:29:44,07-07-2024 15:29:44,0.001s,ERROR
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:55,07-07-2024 15:29:55,0.204s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:55,07-07-2024 15:29:55,0.191s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:56,07-07-2024 15:29:56,0.110s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:56,07-07-2024 15:29:56,0.091s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:56,07-07-2024 15:29:56,0.145s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:56,07-07-2024 15:29:56,0.134s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:56,07-07-2024 15:29:57,0.086s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:56,07-07-2024 15:29:57,0.073s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:57,07-07-2024 15:29:57,0.155s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:57,07-07-2024 15:29:57,0.145s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:57,07-07-2024 15:29:57,0.141s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:57,07-07-2024 15:29:57,0.131s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:58,07-07-2024 15:29:58,0.137s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:58,07-07-2024 15:29:58,0.123s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:58,07-07-2024 15:29:58,0.176s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:58,07-07-2024 15:29:58,0.167s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:59,07-07-2024 15:29:59,0.192s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:59,07-07-2024 15:29:59,0.183s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/try 1,Chrome 126.0.0.0,,,07-07-2024 15:29:59,07-07-2024 15:29:59,0.138s,FAILED
+"signUpName = getAttribute(findTestObject(""Object Repository/Sign up page/Page_Eklipse/input_OR_name""), name)",Chrome 126.0.0.0,,,07-07-2024 15:29:59,07-07-2024 15:29:59,0.126s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser,Chrome 126.0.0.0,,,07-07-2024 15:29:59,07-07-2024 15:29:59,0.007s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,07-07-2024 15:29:59,07-07-2024 15:29:59,0.002s,PASSED
