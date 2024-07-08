@@ -17,6 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'propertiesPage.openBrowser.main'()
+CustomKeywords.'propertiesPage.loginMenu.main'()
+
 WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), facilityBook, true, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission'))

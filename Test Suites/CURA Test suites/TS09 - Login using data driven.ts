@@ -12,13 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>483d74e7-80c5-41f7-bb3f-5bf0147ec88c</testSuiteGuid>
    <testCaseLink>
-      <guid>2399fea9-6a58-47bf-9093-cb7532e77000</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CURA Web Test/Properties/TCP01 - Open browser</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>722fd903-aa31-49dc-8d1a-3ac072be673c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
