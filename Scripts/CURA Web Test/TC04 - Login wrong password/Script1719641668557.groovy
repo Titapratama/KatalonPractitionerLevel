@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('CURA Web Test/Properties/TCP01 - Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('7. Failed Login/Page_CURA Healthcare Service/a_Make Appointment'))
 
 userName = WebUI.getAttribute(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/input_Username_username'), 
@@ -27,7 +29,8 @@ passWord = WebUI.getAttribute(findTestObject('Object Repository/7. Failed Login/
 
 WebUI.click(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/input_Username_username'), ' John Doe')
+WebUI.setText(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/input_Username_username'), 
+    ' John Doe')
 
 WebUI.setText(findTestObject('10. Login page/Page_CURA Healthcare Service/input_Password_password'), 'This')
 

@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('CURA Web Test/Properties/TCP01 - Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
     'CURA Healthcare Service')
 
@@ -24,7 +26,8 @@ WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Hea
 
 WebUI.takeScreenshotAsCheckpoint('Login page')
 
-WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h2_Login'), 'Login')
+WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h2_Login'), 
+    'Login')
 
 WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
@@ -32,7 +35,8 @@ WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Hea
 
 WebUI.takeScreenshotAsCheckpoint('Login page')
 
-WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h2_Login'), 'Login')
+WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h2_Login'), 
+    'Login')
 
 WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
@@ -45,5 +49,6 @@ WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Hea
 
 WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h2_Login'), 'Login')
+WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h2_Login'), 
+    'Login')
 

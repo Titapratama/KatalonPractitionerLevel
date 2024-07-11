@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS11 - Hongkong appointment using data driven,Chrome 126.0.0.0,Data driven test,,10-07-2024 14:02:31,10-07-2024 14:03:35,1m - 3.810s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC19 - Hongkong Appointment using data driven,Chrome 126.0.0.0,,Data driven,10-07-2024 14:02:32,10-07-2024 14:02:48,16.391s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,10-07-2024 14:02:32,10-07-2024 14:02:37,5.000s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP02 - Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,10-07-2024 14:02:37,10-07-2024 14:02:41,4.327s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facility, true)",Chrome 126.0.0.0,,,10-07-2024 14:02:41,10-07-2024 14:02:43,1.191s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Chrome 126.0.0.0,,,10-07-2024 14:02:43,10-07-2024 14:02:43,0.326s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/None""))",Chrome 126.0.0.0,,,10-07-2024 14:02:43,10-07-2024 14:02:43,0.392s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",Chrome 126.0.0.0,,,10-07-2024 14:02:43,10-07-2024 14:02:44,0.412s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitdate)",Chrome 126.0.0.0,,,10-07-2024 14:02:44,10-07-2024 14:02:45,0.907s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), comment)",Chrome 126.0.0.0,,,10-07-2024 14:02:45,10-07-2024 14:02:46,0.965s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Chrome 126.0.0.0,,,10-07-2024 14:02:46,10-07-2024 14:02:46,0.662s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Chrome 126.0.0.0,,,10-07-2024 14:02:46,10-07-2024 14:02:47,0.581s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",Chrome 126.0.0.0,,,10-07-2024 14:02:47,10-07-2024 14:02:48,0.719s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Chrome 126.0.0.0,,,10-07-2024 14:02:48,10-07-2024 14:02:48,0.379s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC19 - Hongkong Appointment using data driven,Chrome 126.0.0.0,,Data driven,10-07-2024 14:02:48,10-07-2024 14:03:02,14.495s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,10-07-2024 14:02:48,10-07-2024 14:02:52,4.049s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP02 - Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,10-07-2024 14:02:52,10-07-2024 14:02:56,3.882s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facility, true)",Chrome 126.0.0.0,,,10-07-2024 14:02:56,10-07-2024 14:02:57,1.270s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Chrome 126.0.0.0,,,10-07-2024 14:02:57,10-07-2024 14:02:58,0.391s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/None""))",Chrome 126.0.0.0,,,10-07-2024 14:02:58,10-07-2024 14:02:58,0.380s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",Chrome 126.0.0.0,,,10-07-2024 14:02:58,10-07-2024 14:02:58,0.438s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitdate)",Chrome 126.0.0.0,,,10-07-2024 14:02:58,10-07-2024 14:02:59,0.964s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), comment)",Chrome 126.0.0.0,,,10-07-2024 14:02:59,10-07-2024 14:03:00,0.919s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Chrome 126.0.0.0,,,10-07-2024 14:03:00,10-07-2024 14:03:01,0.620s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Chrome 126.0.0.0,,,10-07-2024 14:03:01,10-07-2024 14:03:01,0.522s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",Chrome 126.0.0.0,,,10-07-2024 14:03:01,10-07-2024 14:03:02,0.683s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Chrome 126.0.0.0,,,10-07-2024 14:03:02,10-07-2024 14:03:02,0.345s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC19 - Hongkong Appointment using data driven,Chrome 126.0.0.0,,Data driven,10-07-2024 14:03:03,10-07-2024 14:03:17,14.899s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,10-07-2024 14:03:03,10-07-2024 14:03:07,4.084s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP02 - Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,10-07-2024 14:03:07,10-07-2024 14:03:11,3.886s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facility, true)",Chrome 126.0.0.0,,,10-07-2024 14:03:11,10-07-2024 14:03:12,1.352s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Chrome 126.0.0.0,,,10-07-2024 14:03:12,10-07-2024 14:03:12,0.399s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/None""))",Chrome 126.0.0.0,,,10-07-2024 14:03:12,10-07-2024 14:03:13,0.376s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",Chrome 126.0.0.0,,,10-07-2024 14:03:13,10-07-2024 14:03:13,0.383s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitdate)",Chrome 126.0.0.0,,,10-07-2024 14:03:13,10-07-2024 14:03:14,0.894s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), comment)",Chrome 126.0.0.0,,,10-07-2024 14:03:14,10-07-2024 14:03:15,0.961s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Chrome 126.0.0.0,,,10-07-2024 14:03:15,10-07-2024 14:03:16,0.710s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Chrome 126.0.0.0,,,10-07-2024 14:03:16,10-07-2024 14:03:16,0.643s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",Chrome 126.0.0.0,,,10-07-2024 14:03:16,10-07-2024 14:03:17,0.788s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Chrome 126.0.0.0,,,10-07-2024 14:03:17,10-07-2024 14:03:17,0.377s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC19 - Hongkong Appointment using data driven,Chrome 126.0.0.0,,Data driven,10-07-2024 14:03:18,10-07-2024 14:03:32,14.861s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,10-07-2024 14:03:18,10-07-2024 14:03:22,4.091s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP02 - Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,10-07-2024 14:03:22,10-07-2024 14:03:26,4.013s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Facility""), facility, true)",Chrome 126.0.0.0,,,10-07-2024 14:03:26,10-07-2024 14:03:27,1.329s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Chrome 126.0.0.0,,,10-07-2024 14:03:27,10-07-2024 14:03:27,0.370s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/None""))",Chrome 126.0.0.0,,,10-07-2024 14:03:27,10-07-2024 14:03:28,0.376s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""))",Chrome 126.0.0.0,,,10-07-2024 14:03:28,10-07-2024 14:03:28,0.387s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), visitdate)",Chrome 126.0.0.0,,,10-07-2024 14:03:28,10-07-2024 14:03:29,0.960s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), comment)",Chrome 126.0.0.0,,,10-07-2024 14:03:29,10-07-2024 14:03:30,1.000s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Chrome 126.0.0.0,,,10-07-2024 14:03:30,10-07-2024 14:03:31,0.671s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Chrome 126.0.0.0,,,10-07-2024 14:03:31,10-07-2024 14:03:31,0.599s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Home""))",Chrome 126.0.0.0,,,10-07-2024 14:03:31,10-07-2024 14:03:32,0.669s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Make Appointment""))",Chrome 126.0.0.0,,,10-07-2024 14:03:32,10-07-2024 14:03:32,0.334s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP03 - Logout,Chrome 126.0.0.0,,Helper,10-07-2024 14:03:32,10-07-2024 14:03:35,2.435s,PASSED
+"verifyElementText(findTestObject(""2. CURA Test Object (Verify parameter)/Make Appointment Text""), ""Make Appointment"")",Chrome 126.0.0.0,,,10-07-2024 14:03:32,10-07-2024 14:03:33,0.308s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Menu""))",Chrome 126.0.0.0,,,10-07-2024 14:03:33,10-07-2024 14:03:33,0.631s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Logout""))",Chrome 126.0.0.0,,,10-07-2024 14:03:33,10-07-2024 14:03:34,1.028s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,10-07-2024 14:03:34,10-07-2024 14:03:35,0.392s,PASSED
