@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS05 - History check" time="20.055" tests="2" failures="0" errors="0">
+   <testsuite name="TS05 - History check" tests="2" failures="0" errors="0" time="20.055" skipped="0" timestamp="11-07-2024T14:26:33" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/CURA Test suites/TS05 - History check">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240711_142408\\CURA Test suites\\TS05 - History check\\20240711_142413"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240711_142408\\CURA Test suites\\TS05 - History check\\20240711_142413\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-History Hongkong Appointment.png"/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="f879f2985675f9c774b13f1eb8796c4b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CURA Web Test/TC10 - History menu check" time="18.016" classname="Test Cases/CURA Web Test/TC10 - History menu check" status="PASSED">
+         <system-out><![CDATA[11-07-2024T14:26:33 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/TC10 - History menu check: Test Cases/CURA Web Test/TC10 - History menu check
+
+11-07-2024T14:26:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-07-2024T14:26:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-07-2024T14:26:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-07-2024T14:26:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-07-2024T14:26:36 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-07-2024T14:26:39 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-07-2024T14:26:39 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Make Appointment")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+11-07-2024T14:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Make Appointment' is clicked on
+
+11-07-2024T14:26:40 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+11-07-2024T14:26:41 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Username'
+
+11-07-2024T14:26:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+11-07-2024T14:26:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Password'
+
+11-07-2024T14:26:42 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Login Button")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+11-07-2024T14:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Login Button' is clicked on
+
+11-07-2024T14:26:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Facility"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Facility'  using regular expression
+
+11-07-2024T14:26:44 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Facility'  using regular expression
+
+11-07-2024T14:26:44 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission' is clicked on
+
+11-07-2024T14:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission' is clicked on
+
+11-07-2024T14:26:44 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Visit Date"), "28/06/2024"): Text '28/06/2024' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Visit Date'
+
+11-07-2024T14:26:45 - [MESSAGE][PASSED] - Text '28/06/2024' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Visit Date'
+
+11-07-2024T14:26:45 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Comment"), "Let's meet at 9 AM"): Text 'Let's meet at 9 AM' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Comment'
+
+11-07-2024T14:26:46 - [MESSAGE][PASSED] - Text 'Let's meet at 9 AM' is set on object 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Comment'
+
+11-07-2024T14:26:46 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Book Appointment")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Book Appointment' is clicked on
+
+11-07-2024T14:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Book Appointment' is clicked on
+
+11-07-2024T14:26:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Appointment Hongkong/Page_CURA Healthcare Service/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+11-07-2024T14:26:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+11-07-2024T14:26:47 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Menu")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Menu' is clicked on
+
+11-07-2024T14:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Menu' is clicked on
+
+11-07-2024T14:26:47 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/History")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/History' is clicked on
+
+11-07-2024T14:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/History' is clicked on
+
+11-07-2024T14:26:48 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("History Hongkong Appointment"): Taking screenshot successfully
+
+11-07-2024T14:26:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-07-2024T14:26:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-History Hongkong Appointment.png]]
+
+11-07-2024T14:26:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/8. History check/Page_CURA Healthcare Service/h2_History"), "History"): Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/h2_History' are matched.
+
+11-07-2024T14:26:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/h2_History' are matched.
+
+11-07-2024T14:26:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/8. History check/Page_CURA Healthcare Service/div_28062024"), "28/06/2024"): Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/div_28062024' are matched.
+
+11-07-2024T14:26:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/div_28062024' are matched.
+
+11-07-2024T14:26:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/8. History check/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center"), "Hongkong CURA Healthcare Center"): Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center' are matched.
+
+11-07-2024T14:26:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center' are matched.
+
+11-07-2024T14:26:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/8. History check/Page_CURA Healthcare Service/p_Yes"), "Yes"): Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/p_Yes' are matched.
+
+11-07-2024T14:26:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/p_Yes' are matched.
+
+11-07-2024T14:26:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/8. History check/Page_CURA Healthcare Service/p_Medicare"), "Medicare"): Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/p_Medicare' are matched.
+
+11-07-2024T14:26:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/p_Medicare' are matched.
+
+11-07-2024T14:26:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/8. History check/Page_CURA Healthcare Service/p_Lets meet at 9 AM"), "Let's meet at 9 AM"): Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/p_Lets meet at 9 AM' are matched.
+
+11-07-2024T14:26:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/8. History check/Page_CURA Healthcare Service/p_Lets meet at 9 AM' are matched.
+
+11-07-2024T14:26:50 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Go to Homepage")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Go to Homepage' is clicked on
+
+11-07-2024T14:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Go to Homepage' is clicked on
+
+11-07-2024T14:26:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. CURA Test Object (Verify parameter)/CURA Healthcare Service Label"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/2. CURA Test Object (Verify parameter)/CURA Healthcare Service Label' are matched.
+
+11-07-2024T14:26:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. CURA Test Object (Verify parameter)/CURA Healthcare Service Label' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Web Test/Properties/TCP03 - Logout" time="1.83" classname="Test Cases/CURA Web Test/Properties/TCP03 - Logout" status="PASSED">
+         <system-out><![CDATA[11-07-2024T14:26:51 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/Properties/TCP03 - Logout: Test Cases/CURA Web Test/Properties/TCP03 - Logout
+
+11-07-2024T14:26:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. CURA Test Object (Verify parameter)/Make Appointment Text"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/2. CURA Test Object (Verify parameter)/Make Appointment Text' are matched.
+
+11-07-2024T14:26:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. CURA Test Object (Verify parameter)/Make Appointment Text' are matched.
+
+11-07-2024T14:26:52 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Menu")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Menu' is clicked on
+
+11-07-2024T14:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Menu' is clicked on
+
+11-07-2024T14:26:52 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Logout")): Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Logout' is clicked on
+
+11-07-2024T14:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Logout' is clicked on
+
+11-07-2024T14:26:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-07-2024T14:26:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-07-2024T14:26:33 - [TEST_SUITE][PASSED] - TS05 - History check: Test Cases/CURA Web Test/Properties/TCP03 - Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

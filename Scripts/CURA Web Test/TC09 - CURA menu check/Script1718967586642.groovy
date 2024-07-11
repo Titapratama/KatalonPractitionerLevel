@@ -18,58 +18,29 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
 WebUI.verifyElementClickable(findTestObject('6. CURA menu/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/a_Home'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
-    'CURA Healthcare Service')
-
+WebUI.verifyElementText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/h1_CURA Healthcare Service'),'CURA Healthcare Service')
 WebUI.verifyElementClickable(findTestObject('6. CURA menu/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/a_Login'))
-
 WebUI.verifyElementText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/h2_Login'), 'Login')
-
 WebUI.setText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/input_Password_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
-
+WebUI.setEncryptedText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/input_Password_password'),'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/button_Login'))
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/a_Home'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
-    'CURA Healthcare Service')
-
+WebUI.verifyElementText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/h1_CURA Healthcare Service'),'CURA Healthcare Service')
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/a_History'))
-
 WebUI.verifyElementText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/h2_History'), 'History')
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/a_Profile'))
-
 WebUI.verifyElementText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/h2_Profile'), 'Profile')
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
-
 WebUI.click(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/a_Logout'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
-    'CURA Healthcare Service')
-
+WebUI.verifyElementText(findTestObject('Object Repository/6. CURA menu/Page_CURA Healthcare Service/h1_CURA Healthcare Service'),'CURA Healthcare Service')
 WebUI.closeBrowser()
 
