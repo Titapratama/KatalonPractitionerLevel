@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Use Case                                                                                                                                                    COD Streamers</name>
+   <name>Use Case COD streamer</name>
    <tag></tag>
    <elementGuidId>0340562b-98d0-4e93-b3e6-41eebff5a957</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

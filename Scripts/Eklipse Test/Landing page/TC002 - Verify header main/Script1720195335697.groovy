@@ -31,10 +31,10 @@ WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_E
 
 WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse/FEATURES landing page'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse/Use Case                                                                                                                                                    COD Streamers'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse/Use Case COD streamer'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse/Use Case                                                                                                                                                    COD Streamers'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse/Use Case COD streamer'))
 
 WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse/Discovery'), 
     0)
