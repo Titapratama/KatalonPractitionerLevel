@@ -53,13 +53,13 @@ WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appo
 
 WebUI.takeScreenshotAsCheckpoint('Tokyo Appointment Confirmation')
 
-WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/h2_Appointment Confirmation'), 
+WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/Appointment Confirmation'), 
     'Appointment Confirmation')
 
-WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/p_Please be informed that your appointment _11813a'), 
+WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/p_your appointment'), 
     'Please be informed that your appointment has been booked as following:')
 
-WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/p_Tokyo CURA Healthcare Center'), 
+WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/p_Tokyo'), 
     'Tokyo CURA Healthcare Center')
 
 WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/p_Yes'), 'No')
@@ -70,12 +70,12 @@ WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/P
 WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/p_30062024'), 
     '30/06/2024')
 
-WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/div_Comment_col-xs-8'), 
+WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/div_Comment'), 
     '')
 
-WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/a_Go to Homepage'))
+WebUI.click(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/Go Homepage'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/h1_CURA Healthcare Service'), 
+WebUI.verifyElementText(findTestObject('Object Repository/5. Appointment Tokyo/Page_CURA/CURA Service'), 
     'CURA Healthcare Service')
 
 WebUI.closeBrowser()

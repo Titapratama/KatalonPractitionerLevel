@@ -21,9 +21,9 @@ WebUI.verifyElementClickable(findTestObject('10. Login page/Page_CURA/a_Make App
 
 WebUI.click(findTestObject('10. Login page/Page_CURA/a_Make Appointment'))
 
-WebUI.setText(findTestObject('10. Login page/Page_CURA/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('10. Login page/Page_CURA/input_Username'), 'John Doe')
 
-WebUI.setText(findTestObject('10. Login page/Page_CURA/input_Password_password'), 'ThisIsNotAPassword')
+WebUI.setText(findTestObject('10. Login page/Page_CURA/input_Password'), 'ThisIsNotAPassword')
 
 WebUI.verifyElementClickable(findTestObject('10. Login page/Page_CURA/button_Login'))
 
@@ -31,5 +31,5 @@ WebUI.click(findTestObject('10. Login page/Page_CURA/button_Login'))
 
 WebUI.verifyElementClickable(findTestObject('3. Appointment/Page_CURA/button_Book Appointment'))
 
-WebUI.verifyElementClickable(findTestObject('8. History check/Page_CURA/i_CURA Healthcare_fa fa-bars'))
+WebUI.verifyElementClickable(findTestObject('8. History check/Page_CURA/i_CURA_fa fa-bars'))
 

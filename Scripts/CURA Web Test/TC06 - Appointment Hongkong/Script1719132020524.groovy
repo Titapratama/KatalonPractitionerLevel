@@ -23,33 +23,33 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Username'), 
     'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/button_Login'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/select_Tokyo CURA Healthcare Center        _5b4107'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/select_Tokyo'), 
     'Seoul CURA Healthcare Center', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/select_Tokyo CURA Healthcare Center        _5b4107'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/select_Tokyo'), 
     'Hongkong CURA Healthcare Center', true)
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Apply for hospital readmission_hospit_63901f'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_readmission'))
 
 WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_None_programs'))
 
 WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Medicare_programs'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/span_Visit Date (Required)_glyphicon glyphi_cada34'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/span_Visit Date'))
 
 WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/td_1'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Visit Date (Required)_visit_date'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Visit Date'))
 
-WebUI.setText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/textarea_Comment_comment'), 
+WebUI.setText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/textarea_Comment'), 
     'Lets meet at 8 PM')
 
 WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/button_Book Appointment'))
@@ -58,9 +58,9 @@ WebUI.takeScreenshotAsCheckpoint('Hongkong Appointment Confirmation')
 
 WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/h2_Appointment Confirmation'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_Please be informed that your appointment _11813a'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_ your appointment'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_Hongkong CURA Healthcare Center'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_Hongkong'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_Yes'), 
     0)
@@ -74,9 +74,9 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hong
 WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_Lets meet at 8 PM'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/a_Go to Homepage'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/Go Homepage'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/h1_CURA Healthcare Service'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/h1_CURA Service'))
 
 WebUI.closeBrowser()
 

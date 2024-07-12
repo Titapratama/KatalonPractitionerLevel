@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('9. Homepage of CURA/Page_CURA/h1_CURA Healthcare Service'), 0)
+WebUI.verifyElementPresent(findTestObject('9. Homepage of CURA/Page_CURA/h1_CURA Service'), 0)
 
-WebUI.click(findTestObject('6. CURA menu/Page_CURA/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('6. CURA menu/Page_CURA/i_CURA_fa fa-bars'))
 
 WebUI.click(findTestObject('11. Login menu check/Page_CURA/a_Home'))
 
-WebUI.verifyElementPresent(findTestObject('11. Login menu check/Page_CURA/h1_CURA Healthcare Service'), 0)
+WebUI.verifyElementPresent(findTestObject('11. Login menu check/Page_CURA/h1_CURA Service'), 0)
 
-WebUI.click(findTestObject('11. Login menu check/Page_CURA/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('11. Login menu check/Page_CURA/i_CURA fa fa-bars'))
 
 WebUI.click(findTestObject('8. History check/Page_CURA/a_History'))
 
-WebUI.click(findTestObject('8. History check/Page_CURA/a_Go to Homepage'))
+WebUI.click(findTestObject('8. History check/Page_CURA/a_Go Homepage'))
 

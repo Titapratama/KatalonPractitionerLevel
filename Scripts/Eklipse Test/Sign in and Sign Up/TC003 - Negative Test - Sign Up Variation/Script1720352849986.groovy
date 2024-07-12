@@ -30,7 +30,7 @@ WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_email'), 'titaa
 
 WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password'), 'Tita123.')
 
-WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password_confirmation'), 'Tita123.')
+WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_password_confirmation'), 'Tita123.')
 
 WebUI.click(findTestObject('Sign up page/Page_Eklipse/button_Sign Up'))
 
@@ -38,7 +38,7 @@ WebUI.delay(3)
 
 String result = ''
 
-if (WebUI.verifyElementPresent(findTestObject('Sign up page/Page_Eklipse/div_The email has already been taken'), 0)) {
+if (WebUI.verifyElementPresent(findTestObject('Sign up page/Page_Eklipse/email already taken'), 0)) {
     result += '1. Passed: The email has already ben taken\n'
 } else {
     result += '1. Failed: Expected Element \'The email has already been taken\' not found\n'
@@ -51,13 +51,13 @@ WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_email'), 'titaa
 
 WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password'), 'Tita123.')
 
-WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password_confirmation'), 'tita123.')
+WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_password_confirmation'), 'tita123.')
 
 WebUI.click(findTestObject('Sign up page/Page_Eklipse/button_Sign Up'))
 
 WebUI.delay(3)
 
-if (WebUI.verifyElementPresent(findTestObject('Sign up page/Page_Eklipse/div_Password  Confirm Password does not match'), 
+if (WebUI.verifyElementPresent(findTestObject('Sign up page/Page_Eklipse/Password Confirm not match'), 
     0)) {
     result += '1. Passed: Password confirm Password does not match\n'
 } else {
@@ -71,13 +71,13 @@ WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_email'), 'titaa
 
 WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password'), 'Tita12.')
 
-WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password_confirmation'), 'Tita12.')
+WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_password_confirmation'), 'Tita12.')
 
 WebUI.click(findTestObject('Sign up page/Page_Eklipse/button_Sign Up'))
 
 WebUI.delay(3)
 
-if (WebUI.verifyElementPresent(findTestObject('Sign up page/Page_Eklipse/div_The password field must be at least 8 c_247518'), 
+if (WebUI.verifyElementPresent(findTestObject('Sign up page/Page_Eklipse/The password must be 8car'), 
     0)) {
     result += '1. Passed: The password field must be at least 8 characters\n'
 } else {
@@ -91,7 +91,7 @@ WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_email'), '')
 
 WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password'), '')
 
-WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password_confirmation'), '')
+WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_password_confirmation'), '')
 
 WebUI.click(findTestObject('Sign up page/Page_Eklipse/button_Sign Up'))
 

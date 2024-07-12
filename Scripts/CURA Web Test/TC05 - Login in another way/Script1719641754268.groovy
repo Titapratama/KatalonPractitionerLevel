@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CURA Web Test/Properties/TCP01 - Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h1_CURA Healthcare Service'), 
+WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h1_CURA Service'), 
     'CURA Healthcare Service')
 
 WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_Make Appointment'))
@@ -29,7 +29,7 @@ WebUI.takeScreenshotAsCheckpoint('Login page')
 WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h2_Login'), 
     'Login')
 
-WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_CURA Healthcare_menu-toggle'))
+WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_CURA menu'))
 
 WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_Login'))
 
@@ -38,14 +38,14 @@ WebUI.takeScreenshotAsCheckpoint('Login page')
 WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h2_Login'), 
     'Login')
 
-WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/i_CURA fa fa-bars'))
 
 WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_Home'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h1_CURA Healthcare Service'), 
+WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h1_CURA Service'), 
     'CURA Healthcare Service')
 
-WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/i_CURA fa fa-bars'))
 
 WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_Login'))
 

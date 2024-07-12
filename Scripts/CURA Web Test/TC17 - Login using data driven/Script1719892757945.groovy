@@ -36,6 +36,6 @@ WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login But
 if ((username == 'John Doe') && (password == 'ThisIsNotAPassword')) {
     WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/h2_Make Appointment'))
 } else {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/p_Login failed Please ensure the username a_eb55b5'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/p_Login failed'))
 }
 

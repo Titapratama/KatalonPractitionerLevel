@@ -54,7 +54,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_
 WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/div_28062024'), 
     '28/06/2024')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Hongkong CURA Healthcare Center'), 
+WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Hongkong'), 
     'Hongkong CURA Healthcare Center')
 
 WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Yes'), 'Yes')

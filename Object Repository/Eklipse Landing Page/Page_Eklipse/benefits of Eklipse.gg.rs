@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>benefits of Eklipse.gg</name>
+   <tag></tag>
+   <elementGuidId>a71137fa-fd94-446c-9951-6e7dea65b495</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@id='elementor-tab-title-1157']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#elementor-tab-title-1157 > a.elementor-accordion-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;What are the benefits of Eklipse.gg?&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>eef1d2c7-5cac-4133-9789-207588687b03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>elementor-accordion-title</value>
+      <webElementGuid>c290ddb8-a32b-4b24-a8e9-6e89b40b4c01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>aa278060-f7e6-47e9-91bf-7e40fa120c8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>What are the benefits of Eklipse.gg?</value>
+      <webElementGuid>037a7420-9edc-488a-93da-0fba90b803e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;elementor-tab-title-1157&quot;)/a[@class=&quot;elementor-accordion-title&quot;]</value>
+      <webElementGuid>71751a3d-28bb-49e3-a8ba-c522b17fbe97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h2[@id='elementor-tab-title-1157']/a</value>
+      <webElementGuid>1c842fa6-94a4-49b8-88ed-d08712b31582</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'What are the benefits of Eklipse.gg?')]</value>
+      <webElementGuid>c14630d2-08bc-4d57-a474-b4288545e443</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Can I share highlights video to social media platforms?'])[1]/following::a[1]</value>
+      <webElementGuid>c624bb49-7d23-44b4-ac36-8e187d4adc33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You can check your clipped streams by going to the “Processed” tab in the Clips > Streams menu.'])[1]/following::a[2]</value>
+      <webElementGuid>17405bea-e09e-4bb0-b4ac-1da8bcc50aa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Try Now'])[1]/preceding::a[1]</value>
+      <webElementGuid>ac74cf10-7980-4b40-a3af-f1a3dc8fdedc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='What are the benefits of Eklipse.gg?']/parent::*</value>
+      <webElementGuid>a85a3f2f-3cec-4e7d-ad35-bf37538733c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/h2/a</value>
+      <webElementGuid>3a7d62cb-9005-4f04-a7f2-d3ac4f28cc90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'What are the benefits of Eklipse.gg?' or . = 'What are the benefits of Eklipse.gg?')]</value>
+      <webElementGuid>d06a7a3c-37c1-4844-8a48-03697ba0634d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

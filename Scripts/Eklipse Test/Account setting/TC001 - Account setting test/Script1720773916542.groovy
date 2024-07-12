@@ -43,23 +43,23 @@ WebUI.setText(findTestObject('Object Repository/Eklipse Account Setting/Page_Ekl
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/input_Email_Email'))
 
-WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/button_Save Changes'))
+WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/Save Changes'))
 
-WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/button_Continue'))
+WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/Continue'))
 
-WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/button_Change Password'))
+WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/Change Password'))
 
-WebUI.setText(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/input_Current password_currentPassword'), 
+WebUI.setText(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/input_currentPassword'), 
     'tita123.')
 
-WebUI.setText(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/input_New password_newPassword'), 'Tita123.')
+WebUI.setText(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/input_newPassword'), 'Tita123.')
 
-WebUI.setText(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/input_Confirm password_confirmPassword'), 
+WebUI.setText(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/input_confirmPassword'), 
     'Tita123.')
 
-WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/button_Save Changes'))
+WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/Save Changes'))
 
-WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/button_Continue'))
+WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/Continue'))
 
 WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/i_See all_ic-user'))
 
@@ -69,19 +69,19 @@ WebUI.setText(findTestObject('Object Repository/Eklipse Account Setting/Page_Ekl
 
 WebUI.setText(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_password'), 'tita123.')
 
-WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/img_OR_view-password cursor-pointer'))
+WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/img_OR'))
 
 WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/button_Sign In'))
 
 WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/h2_Login Failed'), 0)
 
-WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/button_Continue'))
+WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/Continue'))
 
 WebUI.setText(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_password_1'), 'Tita123.')
 
 WebUI.click(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/button_Sign In'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/h1_Generate Your Stream Highlights'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Eklipse Account Setting/Page_Eklipse/Generate Highlights'), 
     0)
 
 WebUI.closeBrowser()

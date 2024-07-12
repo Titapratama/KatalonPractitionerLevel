@@ -39,7 +39,7 @@ String warningText = WebUI.getAttribute(findTestObject('Sign in page/Page_Eklips
 if ((emailSignIn = !('tita71@gmail')) && (passwordSignIn != 'Tita123.')) {
     WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/h2_Login Failed'), 0)
 
-    WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/div_Your account or password is incorrect. _aee608'), 
+    WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/account password incorrect'), 
         0)
 
     WebUI.click(findTestObject('Sign in page/Page_Eklipse/button_Continue'))

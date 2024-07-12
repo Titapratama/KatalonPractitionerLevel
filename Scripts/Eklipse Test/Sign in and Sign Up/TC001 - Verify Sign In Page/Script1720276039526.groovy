@@ -31,27 +31,27 @@ WebUI.verifyImagePresent(findTestObject('Sign in page/Page_Eklipse/Eklipse gg im
 
 WebUI.verifyImagePresent(findTestObject('Sign in page/Page_Eklipse/Eklipse gg image_Right'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/Easily get highlights, edits, and share Text'), 0)
+WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/Easily highlights edits'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/Automate highlights from Twitch, YouTub Text'), 0)
+WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/Automate highlights'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/Edit highlights into shareable clips Text'), 0)
+WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/Edit highlights to shareable'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/Publish everything at once and boost Text'), 0)
+WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/Publish everything Text'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/Welcome back Text'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Sign in page/Page_Eklipse/Continue with Label'), 0)
 
-WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/Continue with twitch button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/Continue twitch'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/Continue with_bg-white'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/Continue with_white'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/Continue with_btn-google nic-google'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/Continue with_google'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/Continue with_kep-login-facebook metro'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/Continue with facebook'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/button_Forgot your password'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/Forgot your password'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementClickable(findTestObject('Sign in page/Page_Eklipse/button_Sign In'), FailureHandling.STOP_ON_FAILURE)
 

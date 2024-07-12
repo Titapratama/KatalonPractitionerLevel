@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>How Twitch YouTube</name>
+   <tag></tag>
+   <elementGuidId>40552932-cdc4-4efc-a0bb-9546c8c2c0d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@id='elementor-tab-title-1153']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#elementor-tab-title-1153 > a.elementor-accordion-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;How To Clip Your Twitch / YouTube / Facebook Gaming Stream Automatically with AI&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>337916c9-ad35-493d-ad6b-2662898ac01d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>elementor-accordion-title</value>
+      <webElementGuid>ce8edd50-650c-4dc6-999d-c19666f8894a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>081f0027-67f7-4cd8-adea-4fb5ac081a6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>How To Clip Your Twitch / YouTube /  Facebook Gaming Stream Automatically with AI Using Eklipse</value>
+      <webElementGuid>9d9d71be-652b-4366-82ad-95a659e75e41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;elementor-tab-title-1153&quot;)/a[@class=&quot;elementor-accordion-title&quot;]</value>
+      <webElementGuid>75fbfb60-8a54-4d05-b1ae-cf8ad9e582cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h2[@id='elementor-tab-title-1153']/a</value>
+      <webElementGuid>12ceee7d-4b60-428b-94f7-0019ec5e0652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'How To Clip Your Twitch / YouTube /  Facebook Gaming Stream Automatically with AI Using Eklipse')]</value>
+      <webElementGuid>7cb5676e-7855-47cb-a25e-6a3f48396989</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Try Our FREE Product NOW!'])[1]/following::a[1]</value>
+      <webElementGuid>0f653530-24fd-4ad3-93ba-6d7dac1927ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='transform lengthy videos into short viral moments. With YouTube IRL Video Highlights'])[1]/following::a[2]</value>
+      <webElementGuid>7d825aa4-c666-407d-acf3-76cf41e5a3a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up and create your Eklipse account.'])[1]/preceding::a[1]</value>
+      <webElementGuid>7b181027-9d1d-48fe-8a4d-f0a8655caeb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click on the user profile icon > account settings > toggle the “Auto-processing” option.'])[1]/preceding::a[1]</value>
+      <webElementGuid>8f7de5a7-b8ef-4914-90c3-4b69e2964904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/h2/a</value>
+      <webElementGuid>23365432-719e-4790-ba3b-5cb7f6ac59ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'How To Clip Your Twitch / YouTube /  Facebook Gaming Stream Automatically with AI Using Eklipse' or . = 'How To Clip Your Twitch / YouTube /  Facebook Gaming Stream Automatically with AI Using Eklipse')]</value>
+      <webElementGuid>6bd8fef1-d387-4c8a-abb0-700ec2cdf9a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

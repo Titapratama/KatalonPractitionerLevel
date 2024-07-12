@@ -30,7 +30,7 @@ public class ifStatement {
 		if ((userName == 'John Doe') && (passWord == 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')) {
 			WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/h2_Make Appointment'))
 		} else {
-			WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/p_Login failed Please ensure the username a_eb55b5'))
+			WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/p_Login failed'))
 		}
 	}
 }

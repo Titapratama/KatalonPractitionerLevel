@@ -33,9 +33,9 @@ WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_email'), 'titaa
 
 WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password'), 'tita123.')
 
-WebUI.click(findTestObject('Sign up page/Page_Eklipse/img_OR_view-password cursor-pointer'))
+WebUI.click(findTestObject('Sign up page/Page_Eklipse/img_view-password'))
 
-WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_OR_password_confirmation'), 'tita123.')
+WebUI.setText(findTestObject('Sign up page/Page_Eklipse/input_password_confirmation'), 'tita123.')
 
 WebUI.click(findTestObject('Sign up page/Page_Eklipse/button_Sign Up'))
 

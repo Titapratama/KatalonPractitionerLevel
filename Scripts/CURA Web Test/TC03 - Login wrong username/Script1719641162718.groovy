@@ -21,15 +21,15 @@ WebUI.callTestCase(findTestCase('CURA Web Test/Properties/TCP01 - Open browser')
 
 WebUI.click(findTestObject('7. Failed Login/Page_CURA/a_Make Appointment'))
 
-userName = WebUI.getAttribute(findTestObject('Object Repository/7. Failed Login/Page_CURA/input_Username_username'), 
+userName = WebUI.getAttribute(findTestObject('Object Repository/7. Failed Login/Page_CURA/input_Username'), 
     'username')
 
-passWord = WebUI.getAttribute(findTestObject('Object Repository/7. Failed Login/Page_CURA/input_Password_password'), 
+passWord = WebUI.getAttribute(findTestObject('Object Repository/7. Failed Login/Page_CURA/input_Password'), 
     'password')
 
 WebUI.click(findTestObject('Object Repository/7. Failed Login/Page_CURA/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/7. Failed Login/Page_CURA/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/7. Failed Login/Page_CURA/input_Username'), 
     'John')
 
 WebUI.click(findTestObject('Object Repository/7. Failed Login/Page_CURA/button_Login'))
@@ -37,6 +37,6 @@ WebUI.click(findTestObject('Object Repository/7. Failed Login/Page_CURA/button_L
 if ((userName == 'John Doe') && (passWord == 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')) {
     WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/h2_Make Appointment'))
 } else {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/p_Login failed Please ensure the username a_eb55b5'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/p_Login failed'))
 }
 
