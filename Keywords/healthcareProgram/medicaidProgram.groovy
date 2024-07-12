@@ -23,6 +23,6 @@ import internal.GlobalVariable
 public class medicaidProgram {
 	@Keyword
 	public void main() {
-		WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Medicaid'))
+		WebUI.click(findTestObject('1. CURA Object button/Medicaid'))
 	}
 }

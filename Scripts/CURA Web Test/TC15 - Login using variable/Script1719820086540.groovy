@@ -23,11 +23,11 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 String loginParameter = 'varibleLogin'
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Make Appointment'))
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), Username)
+WebUI.setText(findTestObject('1. CURA Object button/Username'), Username)
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), Password)
+WebUI.setText(findTestObject('1. CURA Object button/Password'), Password)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
+WebUI.click(findTestObject('1. CURA Object button/Login Button'))
 

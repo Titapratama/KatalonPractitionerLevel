@@ -34,13 +34,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Make Appointment'))
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), username)
+WebUI.setText(findTestObject('1. CURA Object button/Username'), username)
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), password)
+WebUI.setText(findTestObject('1. CURA Object button/Password'), password)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
+WebUI.click(findTestObject('1. CURA Object button/Login Button'))
 
-WebUI.verifyElementText(findTestObject('2. CURA Test Object (Verify parameter)/Make Appointment Text'), 'Make Appointment')
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Make Appointment'), 'Make Appointment')
 

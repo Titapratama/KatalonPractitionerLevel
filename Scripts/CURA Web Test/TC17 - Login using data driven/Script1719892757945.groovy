@@ -19,23 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CURA Web Test/Properties/TCP01 - Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Make Appointment'))
 
 String loginParameter = 'varibleLogin'
 
-username = WebUI.getAttribute(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), Username)
+username = WebUI.getAttribute(findTestObject('1. CURA Object button/Username'), Username)
 
-password = WebUI.getAttribute(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), Password)
+password = WebUI.getAttribute(findTestObject('1. CURA Object button/Password'), Password)
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), Username)
+WebUI.setText(findTestObject('1. CURA Object button/Username'), Username)
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), Password)
+WebUI.setText(findTestObject('1. CURA Object button/Password'), Password)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
+WebUI.click(findTestObject('1. CURA Object button/Login Button'))
 
 if ((username == 'John Doe') && (password == 'ThisIsNotAPassword')) {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/h2_Make Appointment'))
+    WebUI.verifyElementVisible(findTestObject('7. Failed Login/Page_CURA/h2_Make Appointment'))
 } else {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/p_Login failed'))
+    WebUI.verifyElementVisible(findTestObject('7. Failed Login/Page_CURA/p_Login failed'))
 }
 

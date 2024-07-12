@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Menu'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1. CURA Object button/Menu'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Logout'))
+WebUI.click(findTestObject('1. CURA Object button/Logout'))
 
-WebUI.verifyElementText(findTestObject('2. CURA Test Object (Verify parameter)/CURA Healthcare Service Label'), 'CURA Healthcare Service')
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Healthcare Service'), 'CURA Healthcare Service')
 

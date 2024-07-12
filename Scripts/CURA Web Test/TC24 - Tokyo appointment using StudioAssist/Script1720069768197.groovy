@@ -29,21 +29,20 @@ Click Book appoinment
  *  @param comment The comment for the appointment
  */
 // Select the Facility
-WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), 'Tokyo CURA Healthcare Center', 
-    true)
+WebUI.selectOptionByValue(findTestObject('1. CURA Object button/Facility'), 'Tokyo CURA Healthcare Center', true)
 
 // Click Medicaid
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Medicaid'))
+WebUI.click(findTestObject('1. CURA Object button/Medicaid'))
 
 // Click Visit date
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'))
+WebUI.click(findTestObject('1. CURA Object button/Visit Date'))
 
 // Set text in the Visit date to 09/09/2024
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), '09/09/2024')
+WebUI.setText(findTestObject('1. CURA Object button/Visit Date'), '09/09/2024')
 
 // Set Comment to Meet dr. Setiadi at 09:00 AM
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment'), 'Meet dr. Setiadi at 09:00 AM')
+WebUI.setText(findTestObject('1. CURA Object button/Comment'), 'Meet dr. Setiadi at 09:00 AM')
 
 // Click Book appointment
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Book Appointment'))
 

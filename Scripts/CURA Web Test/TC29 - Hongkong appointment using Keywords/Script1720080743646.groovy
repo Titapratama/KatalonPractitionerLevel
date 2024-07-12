@@ -25,11 +25,11 @@ CustomKeywords.'appointmentPage.facilityHongkong.main'()
 
 CustomKeywords.'healthcareProgram.medicareProgram.main'()
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), '04/09/2024')
+WebUI.setText(findTestObject('1. CURA Object button/Visit Date'), '04/09/2024')
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment'), 'I wanna reschedule my appointment to 05/09/2024')
+WebUI.setText(findTestObject('1. CURA Object button/Comment'), 'I wanna reschedule my appointment to 05/09/2024')
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Book Appointment'))
 
 CustomKeywords.'propertiesPage.logoutMenu.main'()
 

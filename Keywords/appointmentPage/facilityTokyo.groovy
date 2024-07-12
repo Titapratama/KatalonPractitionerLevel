@@ -23,6 +23,6 @@ import internal.GlobalVariable
 public class facilityTokyo {
 	@Keyword
 	public void main() {
-		WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'),GlobalVariable.FacilityTokyo,true)
+		WebUI.selectOptionByValue(findTestObject('1. CURA Object button/Facility'),GlobalVariable.FacilityTokyo,true)
 	}
 }

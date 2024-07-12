@@ -23,15 +23,15 @@ CustomKeywords.'propertiesPage.loginMenu.main'()
 
 CustomKeywords.'appointmentPage.facilitySeoul.menu'()
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission'))
+WebUI.click(findTestObject('1. CURA Object button/Hospital Readmission'))
 
 CustomKeywords.'healthcareProgram.medicaidProgram.main'()
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), '03/08/2024')
+WebUI.setText(findTestObject('1. CURA Object button/Visit Date'), '03/08/2024')
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment'), 'I wanna meet dr. Andira')
+WebUI.setText(findTestObject('1. CURA Object button/Comment'), 'I wanna meet dr. Andira')
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Book Appointment'))
 
 CustomKeywords.'propertiesPage.logoutMenu.main'()
 

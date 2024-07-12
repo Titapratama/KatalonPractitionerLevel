@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS14 - Login and Logout using Keywords" time="18.611" tests="3" failures="0" errors="0">
+   <testsuite name="TS14 - Login and Logout using Keywords" tests="3" failures="0" errors="0" time="18.611" skipped="0" timestamp="12-07-2024T20:02:15" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/CURA Test suites/TS14 - Login and Logout using Keywords">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240712_194912\\CURA Test suites\\TS14 - Login and Logout using Keywords\\20240712_194939"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240712_194912\\CURA Test suites\\TS14 - Login and Logout using Keywords\\20240712_194939\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="9d324b898a99e10ce7e393824e518646"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CURA Web Test/TC26 - Open browser using Keywords" time="4.074" classname="Test Cases/CURA Web Test/TC26 - Open browser using Keywords" status="PASSED">
+         <system-out><![CDATA[12-07-2024T20:02:15 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/TC26 - Open browser using Keywords: Test Cases/CURA Web Test/TC26 - Open browser using Keywords
+
+12-07-2024T20:02:16 - [TEST_STEP][PASSED] - propertiesPage.openBrowser.main(): propertiesPage.openBrowser.main is PASSED
+
+12-07-2024T20:02:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T20:02:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T20:02:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-07-2024T20:02:19 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+12-07-2024T20:02:19 - [MESSAGE][PASSED] - propertiesPage.openBrowser.main is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Web Test/TC27 - Login using Keywords" time="12.438" classname="Test Cases/CURA Web Test/TC27 - Login using Keywords" status="PASSED">
+         <system-out><![CDATA[12-07-2024T20:02:19 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/TC27 - Login using Keywords: Test Cases/CURA Web Test/TC27 - Login using Keywords
+
+12-07-2024T20:02:20 - [TEST_STEP][PASSED] - propertiesPage.loginMenu.main(): propertiesPage.loginMenu.main is PASSED
+
+12-07-2024T20:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+12-07-2024T20:02:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. CURA Object Text/Login Text' are matched.
+
+12-07-2024T20:02:30 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/1. CURA Object button/Username'
+
+12-07-2024T20:02:31 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Object button/Password'
+
+12-07-2024T20:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Login Button' is clicked on
+
+12-07-2024T20:02:32 - [MESSAGE][PASSED] - propertiesPage.loginMenu.main is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Web Test/TC31- Logout using Keywords" time="1.99" classname="Test Cases/CURA Web Test/TC31- Logout using Keywords" status="PASSED">
+         <system-out><![CDATA[12-07-2024T20:02:32 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/TC31- Logout using Keywords: Test Cases/CURA Web Test/TC31- Logout using Keywords
+
+12-07-2024T20:02:32 - [TEST_STEP][PASSED] - propertiesPage.logoutMenu.main(): propertiesPage.logoutMenu.main is PASSED
+
+12-07-2024T20:02:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. CURA Object Text/Make Appointment' are matched.
+
+12-07-2024T20:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Menu' is clicked on
+
+12-07-2024T20:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Logout' is clicked on
+
+12-07-2024T20:02:34 - [MESSAGE][PASSED] - Browser is closed
+
+12-07-2024T20:02:34 - [MESSAGE][PASSED] - propertiesPage.logoutMenu.main is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T20:02:15 - [TEST_SUITE][PASSED] - TS14 - Login and Logout using Keywords: Test Cases/CURA Web Test/TC31- Logout using Keywords]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

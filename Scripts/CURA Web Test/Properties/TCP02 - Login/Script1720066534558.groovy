@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Make Appointment'))
 
-WebUI.verifyElementText(findTestObject('2. CURA Test Object (Verify parameter)/Login Text'), 'Login')
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Login Text'), 'Login')
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), GlobalVariable.Username)
+WebUI.setText(findTestObject('1. CURA Object button/Username'), GlobalVariable.Username)
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), GlobalVariable.Password)
+WebUI.setText(findTestObject('1. CURA Object button/Password'), GlobalVariable.Password)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
+WebUI.click(findTestObject('1. CURA Object button/Login Button'))
 

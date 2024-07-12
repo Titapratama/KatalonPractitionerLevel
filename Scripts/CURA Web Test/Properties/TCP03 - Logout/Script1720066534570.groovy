@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementText(findTestObject('2. CURA Test Object (Verify parameter)/Make Appointment Text'), 'Make Appointment')
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Make Appointment'), 'Make Appointment')
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Menu'))
+WebUI.click(findTestObject('1. CURA Object button/Menu'))
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Logout'))
+WebUI.click(findTestObject('1. CURA Object button/Logout'))
 
 WebUI.closeBrowser()
 

@@ -21,23 +21,23 @@ WebUI.callTestCase(findTestCase('CURA Web Test/Properties/TCP01 - Open browser')
 
 WebUI.callTestCase(findTestCase('CURA Web Test/Properties/TCP02 - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), facility, true)
+WebUI.selectOptionByValue(findTestObject('1. CURA Object button/Facility'), facility, true)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission'))
+WebUI.click(findTestObject('1. CURA Object button/Hospital Readmission'))
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/None'))
+WebUI.click(findTestObject('1. CURA Object button/None'))
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'))
+WebUI.click(findTestObject('1. CURA Object button/Visit Date'))
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), visitdate)
+WebUI.setText(findTestObject('1. CURA Object button/Visit Date'), visitdate)
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment'), comment)
+WebUI.setText(findTestObject('1. CURA Object button/Comment'), comment)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Book Appointment'))
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Menu'))
+WebUI.click(findTestObject('1. CURA Object button/Menu'))
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Home'))
+WebUI.click(findTestObject('1. CURA Object button/Home'))
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Make Appointment'))
 

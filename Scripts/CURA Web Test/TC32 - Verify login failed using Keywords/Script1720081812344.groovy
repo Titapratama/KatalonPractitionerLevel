@@ -19,11 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'propertiesPage.openBrowser.main'()
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), 'John Doe')
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), 'thisisnotapassword')
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login button'))
+WebUI.click(findTestObject('1. CURA Object button/Make Appointment'))
+
+WebUI.setText(findTestObject('1. CURA Object button/Username'), 'John Doe')
+
+WebUI.setText(findTestObject('1. CURA Object button/Password'), 'thisisnotapassword')
+
+WebUI.click(findTestObject('1. CURA Object button/Login Button'))
 
 CustomKeywords.'usernameAndPasswordCheck.ifStatement.main'()
 
 WebUI.closeBrowser()
+

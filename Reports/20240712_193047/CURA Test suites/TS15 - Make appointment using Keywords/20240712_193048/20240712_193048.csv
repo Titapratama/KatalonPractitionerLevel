@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS15 - Make appointment using Keywords,Chrome 126.0.0.0,,,12-07-2024 19:30:56,12-07-2024 19:33:25,2m - 28.820s,FAILED
+,,,,,,,
+Test Cases/CURA Web Test/TC26 - Open browser using Keywords,Chrome 126.0.0.0,,Keywords,12-07-2024 19:30:56,12-07-2024 19:31:08,11.812s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,12-07-2024 19:30:56,12-07-2024 19:31:08,11.439s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC27 - Login using Keywords,Chrome 126.0.0.0,,Keywords,12-07-2024 19:31:08,12-07-2024 19:31:12,4.436s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,12-07-2024 19:31:08,12-07-2024 19:31:12,4.323s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC31- Logout using Keywords,Chrome 126.0.0.0,,Keywords,12-07-2024 19:31:12,12-07-2024 19:31:16,3.119s,PASSED
+propertiesPage.logoutMenu.main(),Chrome 126.0.0.0,,,12-07-2024 19:31:13,12-07-2024 19:31:16,3.002s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC28 - Seoul Appointment using Keywords,Chrome 126.0.0.0,,,12-07-2024 19:31:51,12-07-2024 19:32:07,15.184s,FAILED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,12-07-2024 19:31:51,12-07-2024 19:32:02,10.419s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,12-07-2024 19:32:02,12-07-2024 19:32:06,4.458s,PASSED
+appointmentPage.facilitySeoul.menu(),Chrome 126.0.0.0,,,12-07-2024 19:32:06,12-07-2024 19:32:07,0.281s,FAILED
+,,,,,,,
+Test Cases/CURA Web Test/TC29 - Hongkong appointment using Keywords,Chrome 126.0.0.0,,,12-07-2024 19:32:37,12-07-2024 19:32:52,14.419s,FAILED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,12-07-2024 19:32:37,12-07-2024 19:32:48,10.362s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,12-07-2024 19:32:48,12-07-2024 19:32:51,3.745s,PASSED
+appointmentPage.facilityHongkong.main(),Chrome 126.0.0.0,,,12-07-2024 19:32:51,12-07-2024 19:32:52,0.302s,FAILED
+,,,,,,,
+Test Cases/CURA Web Test/TC30 - Tokyo appointment using Keywords,Chrome 126.0.0.0,,,12-07-2024 19:33:21,12-07-2024 19:33:25,3.326s,FAILED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,12-07-2024 19:33:21,12-07-2024 19:33:23,2.039s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,12-07-2024 19:33:23,12-07-2024 19:33:25,1.277s,FAILED

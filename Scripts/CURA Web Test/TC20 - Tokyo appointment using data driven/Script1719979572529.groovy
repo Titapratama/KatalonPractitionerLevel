@@ -18,25 +18,26 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'propertiesPage.openBrowser.main'()
+
 CustomKeywords.'propertiesPage.loginMenu.main'()
 
-WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), facility, true)
+WebUI.selectOptionByValue(findTestObject('1. CURA Object button/Facility'), facility, true)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Medicare'))
+WebUI.click(findTestObject('1. CURA Object button/Medicare'))
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'))
+WebUI.click(findTestObject('1. CURA Object button/Visit Date'))
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), datevisit)
+WebUI.setText(findTestObject('1. CURA Object button/Visit Date'), datevisit)
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment'), commentbook)
+WebUI.setText(findTestObject('1. CURA Object button/Comment'), commentbook)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Book Appointment'))
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Menu'))
+WebUI.click(findTestObject('1. CURA Object button/Menu'))
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Home'))
+WebUI.click(findTestObject('1. CURA Object button/Home'))
 
-WebUI.verifyElementPresent(findTestObject('2. CURA Test Object (Verify parameter)/CURA Healthcare Service Label'), 0)
+WebUI.verifyElementPresent(findTestObject('2. CURA Object Text/Healthcare Service'), 0)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Make Appointment'))
 

@@ -23,15 +23,15 @@ WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Make Appointment'))
 
 WebUI.takeScreenshotAsCheckpoint('Login page')
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), GlobalVariable.Username)
+WebUI.setText(findTestObject('1. CURA Object button/Username'), GlobalVariable.Username)
 
-WebUI.setEncryptedText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setText(findTestObject('1. CURA Object button/Password'), GlobalVariable.Password)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
+WebUI.click(findTestObject('1. CURA Object button/Login Button'))
 
 WebUI.delay(2)
 

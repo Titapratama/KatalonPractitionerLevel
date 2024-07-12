@@ -23,9 +23,11 @@ import internal.GlobalVariable
 public class loginMenu {
 	@Keyword
 	public void main() {
-		WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
-		WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), GlobalVariable.Username)
-		WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), GlobalVariable.Password)
-		WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
+		WebUI.click(findTestObject('1. CURA Object button/Make Appointment'))
+		WebUI.verifyElementText(findTestObject('2. CURA Object Text/Login Text'), 'Login')
+		WebUI.setText(findTestObject('1. CURA Object button/Username'), GlobalVariable.Username)
+		WebUI.setText(findTestObject('1. CURA Object button/Password'), GlobalVariable.Password)
+		WebUI.click(findTestObject('1. CURA Object button/Login Button'))
+
 	}
 }

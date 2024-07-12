@@ -28,44 +28,43 @@ Click Book Appointment button
  *  Verify Make Appointment element text
  *
  */
-WebUI.verifyElementText(findTestObject('2. CURA Test Object (Verify parameter)/Make Appointment Text'), 'Make Appointment')
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Make Appointment'), 'Make Appointment')
 
 /*
  *  Select value in the Facility then select Hongkong CURA Healthcare Center
  *
  */
-WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), 'Hongkong CURA Healthcare Center', 
-    true)
+WebUI.selectOptionByValue(findTestObject('1. CURA Object button/Facility'), 'Hongkong CURA Healthcare Center', true)
 
 /*
  *  Click Readmission
  *
  */
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission'))
+WebUI.click(findTestObject('1. CURA Object button/Hospital Readmission'))
 
 /*
  *  Click None
  *
  */
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/None'))
+WebUI.click(findTestObject('1. CURA Object button/None'))
 
 /*
  *  Set Visit date to 02/07/2025
  *
  */
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), '02/07/2025')
+WebUI.setText(findTestObject('1. CURA Object button/Visit Date'), '02/07/2025')
 
 /*
  *  Write Comment to Meet dr. Alexandra Abraham
  *
  */
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment'), 'Meet dr. Alexandra Abraham')
+WebUI.setText(findTestObject('1. CURA Object button/Comment'), 'Meet dr. Alexandra Abraham')
 
 /*
  *  Click Book Appointment button
  *
  */
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Book Appointment'))
 
 /*Click Menu
 Click Home
@@ -73,17 +72,17 @@ Click Make Appointment
  *  Click Menu
  *
  */
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Menu'))
+WebUI.click(findTestObject('1. CURA Object button/Menu'))
 
 /*
  *  Click Home
  *
  */
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Home'))
+WebUI.click(findTestObject('1. CURA Object button/Home'))
 
 /*
  *  Click Make Appointment
  *
  */
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Make Appointment'))
 

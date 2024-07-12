@@ -22,8 +22,7 @@ import internal.GlobalVariable
 
 public class noneProgram {
 	@Keyword
-	public void main()
-	{
-		WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/None'))
+	public void main() {
+		WebUI.click(findTestObject('1. CURA Object button/None'))
 	}
 }

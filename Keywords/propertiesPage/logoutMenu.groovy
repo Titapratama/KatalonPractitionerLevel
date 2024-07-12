@@ -23,9 +23,9 @@ import internal.GlobalVariable
 public class logoutMenu {
 	@Keyword
 	public void main() {
-		WebUI.verifyElementText(findTestObject('2. CURA Test Object (Verify parameter)/Make Appointment Text'), 'Make Appointment')
-		WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Menu'))
-		WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Logout'))
+		WebUI.verifyElementText(findTestObject('2. CURA Object Text/Make Appointment'), 'Make Appointment')
+		WebUI.click(findTestObject('1. CURA Object button/Menu'))
+		WebUI.click(findTestObject('1. CURA Object button/Logout'))
 		WebUI.closeBrowser()
 	}
 }

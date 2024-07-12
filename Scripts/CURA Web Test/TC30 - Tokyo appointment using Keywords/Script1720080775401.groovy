@@ -23,13 +23,13 @@ CustomKeywords.'propertiesPage.loginMenu.main'()
 
 CustomKeywords.'appointmentPage.facilityTokyo.main'()
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission'))
+WebUI.click(findTestObject('1. CURA Object button/Hospital Readmission'))
 
 CustomKeywords.'healthcareProgram.noneProgram.main'()
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), '03/07/2024')
+WebUI.setText(findTestObject('1. CURA Object button/Visit Date'), '03/07/2024')
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
+WebUI.click(findTestObject('1. CURA Object button/Book Appointment'))
 
 CustomKeywords.'propertiesPage.logoutMenu.main'()
 

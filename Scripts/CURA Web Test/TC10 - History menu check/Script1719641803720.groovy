@@ -17,54 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('CURA Web Test/Properties/TCP01 - Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.callTestCase(findTestCase('CURA Web Test/Properties/TCP02 - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Make Appointment'))
+WebUI.selectOptionByValue(findTestObject('1. CURA Object button/Facility'), 'Hongkong CURA Healthcare Center', true)
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Username'), 'John Doe')
+WebUI.click(findTestObject('1. CURA Object button/Hospital Readmission'))
 
-WebUI.setEncryptedText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setText(findTestObject('1. CURA Object button/Visit Date'), '28/06/2024')
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
+WebUI.setText(findTestObject('1. CURA Object button/Comment'), 'Let\'s meet at 9 AM')
 
-WebUI.selectOptionByValue(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Facility'), 'Hongkong CURA Healthcare Center', 
-    true)
+WebUI.click(findTestObject('1. CURA Object button/Book Appointment'))
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission'))
+WebUI.verifyElementText(findTestObject('4. Appointment Hongkong/Page_CURA/h2_Appointment Confirmation'), 'Appointment Confirmation')
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Visit Date'), '28/06/2024')
+WebUI.click(findTestObject('1. CURA Object button/Menu'))
 
-WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment'), 'Let\'s meet at 9 AM')
-
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
-
-WebUI.verifyElementText(findTestObject('4. Appointment Hongkong/Page_CURA/h2_Appointment Confirmation'), 
-    'Appointment Confirmation')
-
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Menu'))
-
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/History'))
+WebUI.click(findTestObject('1. CURA Object button/History'))
 
 WebUI.takeScreenshotAsCheckpoint('History Hongkong Appointment')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/h2_History'), 'History')
+WebUI.verifyElementText(findTestObject('8. History check/Page_CURA/h2_History'), 'History')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/div_28062024'), 
-    '28/06/2024')
+WebUI.verifyElementText(findTestObject('8. History check/Page_CURA/div_28062024'), '28/06/2024')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Hongkong'), 
-    'Hongkong CURA Healthcare Center')
+WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Hongkong'), 'Hongkong CURA Healthcare Center')
 
 WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Yes'), 'Yes')
 
 WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Medicare'), 'Medicare')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Lets meet at 9 AM'), 
-    'Let\'s meet at 9 AM')
+WebUI.verifyElementText(findTestObject('8. History check/Page_CURA/p_Lets meet at 9 AM'), 'Let\'s meet at 9 AM')
 
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Go to Homepage'))
+WebUI.click(findTestObject('1. CURA Object button/Go to Homepage'))
 
-WebUI.verifyElementText(findTestObject('2. CURA Test Object (Verify parameter)/CURA Healthcare Service Label'), 'CURA Healthcare Service')
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Healthcare Service'), 'CURA Healthcare Service')
 
