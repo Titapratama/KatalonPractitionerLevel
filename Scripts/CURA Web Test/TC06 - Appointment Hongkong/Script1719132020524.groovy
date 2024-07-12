@@ -21,62 +21,62 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Username_username'), 
     'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Password_password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/button_Login'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/select_Tokyo CURA Healthcare Center        _5b4107'), 
     'Seoul CURA Healthcare Center', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/select_Tokyo CURA Healthcare Center        _5b4107'), 
     'Hongkong CURA Healthcare Center', true)
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Apply for hospital readmission_hospit_63901f'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/input_None_programs'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_None_programs'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/input_Medicare_programs'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Medicare_programs'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/span_Visit Date (Required)_glyphicon glyphi_cada34'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/td_1'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/td_1'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/input_Visit Date (Required)_visit_date'))
 
-WebUI.setText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/textarea_Comment_comment'), 
+WebUI.setText(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/textarea_Comment_comment'), 
     'Lets meet at 8 PM')
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/button_Book Appointment'))
 
 WebUI.takeScreenshotAsCheckpoint('Hongkong Appointment Confirmation')
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/h2_Appointment Confirmation'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_Please be informed that your appointment _11813a'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_Hongkong CURA Healthcare Center'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/p_Yes'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_Yes'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/p_Medicare'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_Medicare'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/p_01072024'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_01072024'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/p_Lets meet at 8 PM'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/p_Lets meet at 8 PM'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/a_Go to Homepage'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/a_Go to Homepage'))
 
-WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA Healthcare Service/h1_CURA Healthcare Service'))
+WebUI.click(findTestObject('Object Repository/4. Appointment Hongkong/Page_CURA/h1_CURA Healthcare Service'))
 
 WebUI.closeBrowser()
 

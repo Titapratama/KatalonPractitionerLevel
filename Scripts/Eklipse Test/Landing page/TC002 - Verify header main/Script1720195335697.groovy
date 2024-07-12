@@ -23,38 +23,38 @@ WebUI.navigateToUrl('https://eklipse.gg/')
 
 WebUI.maximizeWindow()
 
-WebUI.verifyImagePresent(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/img_Features_logo-desktop'), 
+WebUI.verifyImagePresent(findTestObject('Eklipse Landing Page/Page_Eklipse/img_Features_logo-desktop'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/FEATURES landing page'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse/FEATURES landing page'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/FEATURES landing page'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse/FEATURES landing page'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Use Case                                                                                                                                                    COD Streamers'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse/Use Case                                                                                                                                                    COD Streamers'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Use Case                                                                                                                                                    COD Streamers'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse/Use Case                                                                                                                                                    COD Streamers'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Discovery'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse/Discovery'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Discovery'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse/Discovery'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Premium'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse/Premium'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Premium'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse/Premium'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse/Sign In'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse/Sign In'))
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Start for Free'), 
+WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse/Start for Free'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Start for Free'))
+WebUI.verifyElementClickable(findTestObject('Eklipse Landing Page/Page_Eklipse/Start for Free'))
 
 WebUI.closeBrowser()
 

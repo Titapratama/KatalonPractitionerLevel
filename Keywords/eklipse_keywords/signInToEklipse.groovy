@@ -23,6 +23,6 @@ import internal.GlobalVariable
 public class signInToEklipse {
 	@Keyword
 	public void main() {
-		WebUI.click(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In'))
+		WebUI.click(findTestObject('Eklipse Landing Page/Page_Eklipse/Sign In'))
 	}
 }

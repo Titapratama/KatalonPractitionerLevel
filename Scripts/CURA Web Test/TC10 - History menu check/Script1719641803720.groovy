@@ -40,7 +40,7 @@ WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Comment
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Book Appointment'))
 
-WebUI.verifyElementText(findTestObject('4. Appointment Hongkong/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 
+WebUI.verifyElementText(findTestObject('4. Appointment Hongkong/Page_CURA/h2_Appointment Confirmation'), 
     'Appointment Confirmation')
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Menu'))
@@ -49,19 +49,19 @@ WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/History')
 
 WebUI.takeScreenshotAsCheckpoint('History Hongkong Appointment')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA Healthcare Service/h2_History'), 'History')
+WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/h2_History'), 'History')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA Healthcare Service/div_28062024'), 
+WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/div_28062024'), 
     '28/06/2024')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center'), 
+WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Hongkong CURA Healthcare Center'), 
     'Hongkong CURA Healthcare Center')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA Healthcare Service/p_Yes'), 'Yes')
+WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Yes'), 'Yes')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA Healthcare Service/p_Medicare'), 'Medicare')
+WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Medicare'), 'Medicare')
 
-WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA Healthcare Service/p_Lets meet at 9 AM'), 
+WebUI.verifyElementText(findTestObject('Object Repository/8. History check/Page_CURA/p_Lets meet at 9 AM'), 
     'Let\'s meet at 9 AM')
 
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Go to Homepage'))

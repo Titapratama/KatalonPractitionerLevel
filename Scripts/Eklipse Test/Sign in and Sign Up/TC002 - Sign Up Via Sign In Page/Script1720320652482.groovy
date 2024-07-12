@@ -21,7 +21,7 @@ CustomKeywords.'eklipse_keywords.openBrowserEklipse.main'()
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In'))
+WebUI.click(findTestObject('Eklipse Landing Page/Page_Eklipse/Sign In'))
 
 WebUI.click(findTestObject('Sign in page/Page_Eklipse/button_Sign Up'))
 

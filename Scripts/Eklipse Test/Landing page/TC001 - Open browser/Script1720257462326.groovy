@@ -21,5 +21,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://eklipse.gg/')
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 

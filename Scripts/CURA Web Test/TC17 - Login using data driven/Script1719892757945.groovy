@@ -34,8 +34,8 @@ WebUI.setText(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Passwor
 WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Login Button'))
 
 if ((username == 'John Doe') && (password == 'ThisIsNotAPassword')) {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/h2_Make Appointment'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/h2_Make Appointment'))
 } else {
-    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
+    WebUI.verifyElementVisible(findTestObject('Object Repository/7. Failed Login/Page_CURA/p_Login failed Please ensure the username a_eb55b5'))
 }
 

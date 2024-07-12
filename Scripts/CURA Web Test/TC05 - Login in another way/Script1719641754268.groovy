@@ -19,36 +19,36 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CURA Web Test/Properties/TCP01 - Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
+WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h1_CURA Healthcare Service'), 
     'CURA Healthcare Service')
 
-WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_Make Appointment'))
 
 WebUI.takeScreenshotAsCheckpoint('Login page')
 
-WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h2_Login'), 
+WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h2_Login'), 
     'Login')
 
-WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_CURA Healthcare_menu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_Login'))
 
 WebUI.takeScreenshotAsCheckpoint('Login page')
 
-WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h2_Login'), 
+WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h2_Login'), 
     'Login')
 
-WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/a_Home'))
+WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_Home'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
+WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h1_CURA Healthcare Service'), 
     'CURA Healthcare Service')
 
-WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('Object Repository/11. Login menu check/Page_CURA/a_Login'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA Healthcare Service/h2_Login'), 
+WebUI.verifyElementText(findTestObject('Object Repository/11. Login menu check/Page_CURA/h2_Login'), 
     'Login')
 

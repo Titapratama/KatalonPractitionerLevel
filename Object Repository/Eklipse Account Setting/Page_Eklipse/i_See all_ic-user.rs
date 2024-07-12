@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_See all_ic-user</name>
+   <tag></tag>
+   <elementGuidId>03824fa7-ea74-42cf-9145-45d19100d291</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard']/div[3]/div/header/div/div/ul[5]/li/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.ic-user</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=banner >> internal:role=link >> nth=4</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>64be20e9-562a-4184-a7c3-fb28564cd407</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ic-user</value>
+      <webElementGuid>038b81ad-2d47-421f-ac39-10933eedbd17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard&quot;)/div[@class=&quot;ek-dashboard&quot;]/div[@class=&quot;content&quot;]/header[@class=&quot;ek-header&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/div[@class=&quot;navigation d-flex show-desktop&quot;]/ul[@class=&quot;nav-account nav&quot;]/li[@class=&quot;dropdown nav-item&quot;]/a[@class=&quot;nav-link&quot;]/i[@class=&quot;ic-user&quot;]</value>
+      <webElementGuid>b7a6bd69-9cb8-4b4e-a5fa-e02fcb617512</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard']/div[3]/div/header/div/div/ul[5]/li/a/i</value>
+      <webElementGuid>57f65f7f-220e-432b-b857-2cceee200001</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[5]/li/a/i</value>
+      <webElementGuid>429d47e8-8f9a-4eb5-b66a-9832455293c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
