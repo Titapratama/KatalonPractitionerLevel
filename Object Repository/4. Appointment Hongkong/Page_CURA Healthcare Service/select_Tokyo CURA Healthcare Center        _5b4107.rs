@@ -4,16 +4,7 @@
    <name>select_Tokyo CURA Healthcare Center        _5b4107</name>
    <tag></tag>
    <elementGuidId>10fd2ad3-3960-4b9b-a324-43f491e7e1ea</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//select[@id='combo_facility']</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'combo_facility' and @name = 'facility' and (text() = '&#xd;
@@ -30,8 +21,15 @@
          <key>CSS</key>
          <value>#combo_facility</value>
       </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='combo_facility']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>IMAGE</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>

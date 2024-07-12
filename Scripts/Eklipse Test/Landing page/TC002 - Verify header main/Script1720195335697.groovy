@@ -23,7 +23,8 @@ WebUI.navigateToUrl('https://eklipse.gg/')
 
 WebUI.maximizeWindow()
 
-WebUI.verifyImagePresent(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/img_Features_logo-desktop'))
+WebUI.verifyImagePresent(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/img_Features_logo-desktop'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementVisibleInViewport(findTestObject('Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/FEATURES landing page'), 
     0)

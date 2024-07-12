@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS003 - Sign Up Via Sign In Page Variation" time="12.01" tests="2" failures="0" errors="0">
+   <testsuite name="TS003 - Sign Up Via Sign In Page Variation" tests="2" failures="0" errors="0" time="12.01" skipped="0" timestamp="12-07-2024T13:50:06" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/Eklipse Test suite/TS003 - Sign Up Via Sign In Page Variation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240712_134959\\Eklipse Test suite\\TS003 - Sign Up Via Sign In Page Variation\\20240712_135000"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240712_134959\\Eklipse Test suite\\TS003 - Sign Up Via Sign In Page Variation\\20240712_135000\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="b9d3c97daff813a2094266427c88dc4d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Open - Sign In - Sign Up" time="11.619" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Open - Sign In - Sign Up" status="PASSED">
+         <system-out><![CDATA[12-07-2024T13:50:06 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Open - Sign In - Sign Up: Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Open - Sign In - Sign Up
+
+12-07-2024T13:50:06 - [TEST_STEP][PASSED] - eklipse_keywords.openBrowserEklipse.main(): eklipse_keywords.openBrowserEklipse.main is PASSED
+
+12-07-2024T13:50:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-07-2024T13:50:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-07-2024T13:50:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-07-2024T13:50:14 - [MESSAGE][PASSED] - Navigate to 'https://eklipse.gg/' successfully
+
+12-07-2024T13:50:14 - [MESSAGE][PASSED] - eklipse_keywords.openBrowserEklipse.main is PASSED
+
+12-07-2024T13:50:14 - [TEST_STEP][PASSED] - eklipse_keywords.signInToEklipse.main(): eklipse_keywords.signInToEklipse.main is PASSED
+
+12-07-2024T13:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Eklipse Landing Page/Page_Eklipse - Convert Twitch Clip To TikTok, Reels,  Shorts For Free/Sign In' is clicked on
+
+12-07-2024T13:50:17 - [MESSAGE][PASSED] - eklipse_keywords.signInToEklipse.main is PASSED
+
+12-07-2024T13:50:17 - [TEST_STEP][PASSED] - click(findTestObject("Sign in page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign in page/Page_Eklipse/button_Sign Up' is clicked on
+
+12-07-2024T13:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign in page/Page_Eklipse/button_Sign Up' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser" time="0.246" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser" status="PASSED">
+         <system-out><![CDATA[12-07-2024T13:50:17 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser: Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser
+
+12-07-2024T13:50:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-07-2024T13:50:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-07-2024T13:50:06 - [TEST_SUITE][PASSED] - TS003 - Sign Up Via Sign In Page Variation: Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

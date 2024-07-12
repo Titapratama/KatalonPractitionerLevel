@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS15 - Make appointment using Keywords,Chrome 126.0.0.0,,,12-07-2024 13:13:28,12-07-2024 13:14:12,44.138s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC26 - Open browser using Keywords,Chrome 126.0.0.0,,Keywords,12-07-2024 13:13:28,12-07-2024 13:13:33,4.796s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:28,12-07-2024 13:13:33,4.594s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC27 - Login using Keywords,Chrome 126.0.0.0,,Keywords,12-07-2024 13:13:33,12-07-2024 13:13:36,2.979s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:33,12-07-2024 13:13:36,2.923s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC31- Logout using Keywords,Chrome 126.0.0.0,,Keywords,12-07-2024 13:13:36,12-07-2024 13:13:38,1.638s,PASSED
+propertiesPage.logoutMenu.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:36,12-07-2024 13:13:38,1.589s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC28 - Seoul Appointment using Keywords,Chrome 126.0.0.0,,,12-07-2024 13:13:38,12-07-2024 13:13:50,11.868s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:38,12-07-2024 13:13:41,3.620s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:41,12-07-2024 13:13:44,2.858s,PASSED
+appointmentPage.facilitySeoul.menu(),Chrome 126.0.0.0,,,12-07-2024 13:13:44,12-07-2024 13:13:45,1.063s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Chrome 126.0.0.0,,,12-07-2024 13:13:45,12-07-2024 13:13:46,0.288s,PASSED
+healthcareProgram.medicaidProgram.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:46,12-07-2024 13:13:46,0.296s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), ""03/08/2024"")",Chrome 126.0.0.0,,,12-07-2024 13:13:46,12-07-2024 13:13:46,0.603s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), ""I wanna meet dr. Andira"")",Chrome 126.0.0.0,,,12-07-2024 13:13:46,12-07-2024 13:13:47,0.788s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Chrome 126.0.0.0,,,12-07-2024 13:13:47,12-07-2024 13:13:48,0.568s,PASSED
+propertiesPage.logoutMenu.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:48,12-07-2024 13:13:50,1.723s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC29 - Hongkong appointment using Keywords,Chrome 126.0.0.0,,,12-07-2024 13:13:50,12-07-2024 13:14:00,10.912s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:50,12-07-2024 13:13:53,3.283s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:53,12-07-2024 13:13:56,2.853s,PASSED
+appointmentPage.facilityHongkong.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:56,12-07-2024 13:13:57,0.927s,PASSED
+healthcareProgram.medicareProgram.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:57,12-07-2024 13:13:57,0.288s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), ""04/09/2024"")",Chrome 126.0.0.0,,,12-07-2024 13:13:57,12-07-2024 13:13:58,0.566s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Comment""), ""I wanna reschedule my appointment to 05/09/2024"")",Chrome 126.0.0.0,,,12-07-2024 13:13:58,12-07-2024 13:13:58,0.864s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Chrome 126.0.0.0,,,12-07-2024 13:13:58,12-07-2024 13:13:59,0.573s,PASSED
+propertiesPage.logoutMenu.main(),Chrome 126.0.0.0,,,12-07-2024 13:13:59,12-07-2024 13:14:00,1.510s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC30 - Tokyo appointment using Keywords,Chrome 126.0.0.0,,,12-07-2024 13:14:00,12-07-2024 13:14:12,11.827s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,12-07-2024 13:14:01,12-07-2024 13:14:04,3.455s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,12-07-2024 13:14:04,12-07-2024 13:14:07,2.820s,PASSED
+appointmentPage.facilityTokyo.main(),Chrome 126.0.0.0,,,12-07-2024 13:14:07,12-07-2024 13:14:08,0.823s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Apply for Hospital Readmission""))",Chrome 126.0.0.0,,,12-07-2024 13:14:08,12-07-2024 13:14:08,0.288s,PASSED
+healthcareProgram.noneProgram.main(),Chrome 126.0.0.0,,,12-07-2024 13:14:08,12-07-2024 13:14:08,0.285s,PASSED
+"setText(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Visit Date""), ""03/07/2024"")",Chrome 126.0.0.0,,,12-07-2024 13:14:08,12-07-2024 13:14:09,0.610s,PASSED
+"click(findTestObject(""1. CURA Test Object (Click, Set, Dropdown)/Book Appointment""))",Chrome 126.0.0.0,,,12-07-2024 13:14:09,12-07-2024 13:14:10,0.795s,PASSED
+propertiesPage.logoutMenu.main(),Chrome 126.0.0.0,,,12-07-2024 13:14:10,12-07-2024 13:14:12,2.699s,PASSED

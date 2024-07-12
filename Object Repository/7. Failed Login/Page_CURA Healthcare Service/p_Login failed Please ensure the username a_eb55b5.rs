@@ -6,12 +6,12 @@
    <elementGuidId>9db4c7de-3bfc-4843-b706-af0ed4d6d62f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='login']/div/div/div/p[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>p.lead.text-danger</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::p[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
