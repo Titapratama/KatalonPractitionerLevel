@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS005 - Sign In page,Chrome 126.0.0.0,,,13-07-2024 23:08:19,13-07-2024 23:09:36,1m - 17.779s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC001 - Verify Sign In Page,Chrome 126.0.0.0,,,13-07-2024 23:09:21,13-07-2024 23:09:36,15.430s,FAILED
+eklipse_keywords.openBrowserEklipse.main(),Chrome 126.0.0.0,,,13-07-2024 23:09:21,13-07-2024 23:09:28,6.779s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,13-07-2024 23:09:28,13-07-2024 23:09:28,0.087s,PASSED
+"click(findTestObject(""Eklipse Landing Page/Page_Eklipse/Sign In""))",Chrome 126.0.0.0,,,13-07-2024 23:09:28,13-07-2024 23:09:31,2.634s,PASSED
+deleteAllCookies(),Chrome 126.0.0.0,,,13-07-2024 23:09:31,13-07-2024 23:09:31,0.079s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,13-07-2024 23:09:31,13-07-2024 23:09:31,0.399s,PASSED
+"verifyImagePresent(findTestObject(""Sign in page/Page_Eklipse/Eklipse gg image_Left""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:31,13-07-2024 23:09:31,0.316s,FAILED
+"verifyImagePresent(findTestObject(""Sign in page/Page_Eklipse/Eklipse gg image_Right""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:31,13-07-2024 23:09:32,0.319s,FAILED
+"verifyElementPresent(findTestObject(""Sign in page/Page_Eklipse/Easily highlights edits""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:09:32,13-07-2024 23:09:32,0.246s,PASSED
+"verifyElementPresent(findTestObject(""Sign in page/Page_Eklipse/Automate highlights""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:09:32,13-07-2024 23:09:32,0.254s,PASSED
+"verifyElementPresent(findTestObject(""Sign in page/Page_Eklipse/Edit highlights to shareable""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:09:32,13-07-2024 23:09:32,0.247s,PASSED
+"verifyElementPresent(findTestObject(""Sign in page/Page_Eklipse/Publish everything Text""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:09:32,13-07-2024 23:09:33,0.250s,PASSED
+"verifyElementPresent(findTestObject(""Sign in page/Page_Eklipse/Welcome back Text""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:09:33,13-07-2024 23:09:33,0.237s,PASSED
+"verifyElementPresent(findTestObject(""Sign in page/Page_Eklipse/Continue with Label""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:09:33,13-07-2024 23:09:33,0.383s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/Continue twitch""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:33,13-07-2024 23:09:34,0.266s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/Continue with_white""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:34,13-07-2024 23:09:34,0.269s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/Continue with_google""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:34,13-07-2024 23:09:34,0.264s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/Continue with facebook""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:34,13-07-2024 23:09:34,0.262s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/Forgot your password""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:34,13-07-2024 23:09:35,0.254s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/button_Sign In""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:35,13-07-2024 23:09:35,0.264s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/button_Sign Up""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:35,13-07-2024 23:09:35,0.291s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/button_Reject""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:35,13-07-2024 23:09:35,0.276s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/button_Accept""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:35,13-07-2024 23:09:36,0.268s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/Privacy Policy""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:36,13-07-2024 23:09:36,0.280s,PASSED
+"verifyElementClickable(findTestObject(""Sign in page/Page_Eklipse/Close cookie""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:09:36,13-07-2024 23:09:36,0.262s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,13-07-2024 23:09:36,13-07-2024 23:09:36,0.228s,PASSED

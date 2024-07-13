@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS004 - Landing Page,Chrome 126.0.0.0,,,13-07-2024 23:06:40,13-07-2024 23:07:14,33.668s,PASSED
+,,,,,,,
+Test Cases/Eklipse Test/Landing page/TC001 - Open browser,Chrome 126.0.0.0,,,13-07-2024 23:06:40,13-07-2024 23:06:52,11.800s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,13-07-2024 23:06:40,13-07-2024 23:06:42,1.331s,PASSED
+"navigateToUrl(""https://eklipse.gg/"")",Chrome 126.0.0.0,,,13-07-2024 23:06:42,13-07-2024 23:06:52,10.263s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,13-07-2024 23:06:52,13-07-2024 23:06:52,0.003s,NOT_RUN
+,,,,,,,
+Test Cases/Eklipse Test/Landing page/TC002 - Verify header main,Chrome 126.0.0.0,,,13-07-2024 23:06:52,13-07-2024 23:07:06,14.212s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,13-07-2024 23:06:52,13-07-2024 23:06:53,0.806s,PASSED
+"navigateToUrl(""https://eklipse.gg/"")",Chrome 126.0.0.0,,,13-07-2024 23:06:53,13-07-2024 23:07:00,7.109s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,13-07-2024 23:07:00,13-07-2024 23:07:00,0.186s,PASSED
+"verifyImagePresent(findTestObject(""Eklipse Landing Page/Page_Eklipse/img_Features_logo-desktop""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 23:07:00,13-07-2024 23:07:03,2.287s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Eklipse Landing Page/Page_Eklipse/FEATURES landing page""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:07:03,13-07-2024 23:07:03,0.351s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Landing Page/Page_Eklipse/FEATURES landing page""))",Chrome 126.0.0.0,,,13-07-2024 23:07:03,13-07-2024 23:07:03,0.255s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Eklipse Landing Page/Page_Eklipse/Use Case COD streamer""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:07:03,13-07-2024 23:07:04,0.295s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Landing Page/Page_Eklipse/Use Case COD streamer""))",Chrome 126.0.0.0,,,13-07-2024 23:07:04,13-07-2024 23:07:04,0.261s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Eklipse Landing Page/Page_Eklipse/Discovery""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:07:04,13-07-2024 23:07:04,0.315s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Landing Page/Page_Eklipse/Discovery""))",Chrome 126.0.0.0,,,13-07-2024 23:07:04,13-07-2024 23:07:04,0.269s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Eklipse Landing Page/Page_Eklipse/Premium""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:07:04,13-07-2024 23:07:05,0.300s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Landing Page/Page_Eklipse/Premium""))",Chrome 126.0.0.0,,,13-07-2024 23:07:05,13-07-2024 23:07:05,0.267s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Eklipse Landing Page/Page_Eklipse/Sign In""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:07:05,13-07-2024 23:07:05,0.289s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Landing Page/Page_Eklipse/Sign In""))",Chrome 126.0.0.0,,,13-07-2024 23:07:05,13-07-2024 23:07:05,0.274s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Eklipse Landing Page/Page_Eklipse/Start for Free""), 0)",Chrome 126.0.0.0,,,13-07-2024 23:07:05,13-07-2024 23:07:06,0.310s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Landing Page/Page_Eklipse/Start for Free""))",Chrome 126.0.0.0,,,13-07-2024 23:07:06,13-07-2024 23:07:06,0.244s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,13-07-2024 23:07:06,13-07-2024 23:07:06,0.170s,PASSED
+,,,,,,,
+Test Cases/Eklipse Test/Landing page/TC003 - Verify web title,Chrome 126.0.0.0,,Landing page,13-07-2024 23:07:06,13-07-2024 23:07:14,7.538s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,13-07-2024 23:07:06,13-07-2024 23:07:07,0.609s,PASSED
+"navigateToUrl(""https://eklipse.gg/"")",Chrome 126.0.0.0,,,13-07-2024 23:07:07,13-07-2024 23:07:14,6.657s,PASSED
+"waitForImagePresent(findTestObject(""Eklipse Landing Page/Page_Eklipse/img_Features_logo-desktop""), 3)",Chrome 126.0.0.0,,,13-07-2024 23:07:14,13-07-2024 23:07:14,0.002s,NOT_RUN
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,13-07-2024 23:07:14,13-07-2024 23:07:14,0.001s,NOT_RUN
+title1 = getWindowTitle(),Chrome 126.0.0.0,,,13-07-2024 23:07:14,13-07-2024 23:07:14,0.015s,PASSED
+"title2 = ""Eklipse - Convert Twitch Clip To TikTok, Reels, & Shorts For Free""",Chrome 126.0.0.0,,,13-07-2024 23:07:14,13-07-2024 23:07:14,0.001s,PASSED
+"verifyEqual(title1, title2)",Chrome 126.0.0.0,,,13-07-2024 23:07:14,13-07-2024 23:07:14,0.016s,PASSED
+if (title1.equals(title2)),Chrome 126.0.0.0,,,13-07-2024 23:07:14,13-07-2024 23:07:14,0.036s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,13-07-2024 23:07:14,13-07-2024 23:07:14,0.135s,PASSED

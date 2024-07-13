@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS004 - Landing Page" time="33.668" tests="3" failures="0" errors="0">
+   <testsuite name="TS004 - Landing Page" tests="3" failures="0" errors="0" time="33.668" skipped="0" timestamp="13-07-2024T23:06:40" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/Eklipse Test suite/TS004 - Landing Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230633\\Eklipse Test suite\\TS004 - Landing Page\\20240713_230634"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230633\\Eklipse Test suite\\TS004 - Landing Page\\20240713_230634\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="b328fe83a0100dae0dadae56b4ec2ff4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Eklipse Test/Landing page/TC001 - Open browser" time="11.8" classname="Test Cases/Eklipse Test/Landing page/TC001 - Open browser" status="PASSED">
+         <system-out><![CDATA[13-07-2024T23:06:40 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Landing page/TC001 - Open browser: Test Cases/Eklipse Test/Landing page/TC001 - Open browser
+
+13-07-2024T23:06:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-07-2024T23:06:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-07-2024T23:06:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-07-2024T23:06:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-07-2024T23:06:42 - [TEST_STEP][PASSED] - navigateToUrl("https://eklipse.gg/"): Navigate to 'https://eklipse.gg/' successfully
+
+13-07-2024T23:06:52 - [MESSAGE][PASSED] - Navigate to 'https://eklipse.gg/' successfully
+
+13-07-2024T23:06:52 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+13-07-2024T23:06:52 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Landing page/TC002 - Verify header main" time="14.212" classname="Test Cases/Eklipse Test/Landing page/TC002 - Verify header main" status="PASSED">
+         <system-out><![CDATA[13-07-2024T23:06:52 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Landing page/TC002 - Verify header main: Test Cases/Eklipse Test/Landing page/TC002 - Verify header main
+
+13-07-2024T23:06:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-07-2024T23:06:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-07-2024T23:06:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-07-2024T23:06:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-07-2024T23:06:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-07-2024T23:06:53 - [TEST_STEP][PASSED] - navigateToUrl("https://eklipse.gg/"): Navigate to 'https://eklipse.gg/' successfully
+
+13-07-2024T23:07:00 - [MESSAGE][PASSED] - Navigate to 'https://eklipse.gg/' successfully
+
+13-07-2024T23:07:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-07-2024T23:07:00 - [MESSAGE][PASSED] - Current window maximized
+
+13-07-2024T23:07:00 - [TEST_STEP][PASSED] - verifyImagePresent(findTestObject("Eklipse Landing Page/Page_Eklipse/img_Features_logo-desktop"), CONTINUE_ON_FAILURE): Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse.gg logo.png' is present
+
+13-07-2024T23:07:03 - [MESSAGE][PASSED] - Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse.gg logo.png' is present
+
+13-07-2024T23:07:03 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Eklipse Landing Page/Page_Eklipse/FEATURES landing page"), 0): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/FEATURES landing page' is present and visible in viewport
+
+13-07-2024T23:07:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:07:03 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/FEATURES landing page' is present and visible in viewport
+
+13-07-2024T23:07:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/FEATURES landing page")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/FEATURES landing page' is clickable
+
+13-07-2024T23:07:03 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/FEATURES landing page' is clickable
+
+13-07-2024T23:07:03 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Eklipse Landing Page/Page_Eklipse/Use Case COD streamer"), 0): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Use Case COD streamer' is present and visible in viewport
+
+13-07-2024T23:07:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Use Case COD streamer' is present and visible in viewport
+
+13-07-2024T23:07:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Use Case COD streamer")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Use Case COD streamer' is clickable
+
+13-07-2024T23:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Use Case COD streamer' is clickable
+
+13-07-2024T23:07:04 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Eklipse Landing Page/Page_Eklipse/Discovery"), 0): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Discovery' is present and visible in viewport
+
+13-07-2024T23:07:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Discovery' is present and visible in viewport
+
+13-07-2024T23:07:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Discovery")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Discovery' is clickable
+
+13-07-2024T23:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Discovery' is clickable
+
+13-07-2024T23:07:04 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Eklipse Landing Page/Page_Eklipse/Premium"), 0): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Premium' is present and visible in viewport
+
+13-07-2024T23:07:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Premium' is present and visible in viewport
+
+13-07-2024T23:07:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Premium")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Premium' is clickable
+
+13-07-2024T23:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Premium' is clickable
+
+13-07-2024T23:07:05 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Eklipse Landing Page/Page_Eklipse/Sign In"), 0): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is present and visible in viewport
+
+13-07-2024T23:07:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is present and visible in viewport
+
+13-07-2024T23:07:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Sign In")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is clickable
+
+13-07-2024T23:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is clickable
+
+13-07-2024T23:07:05 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Eklipse Landing Page/Page_Eklipse/Start for Free"), 0): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Start for Free' is present and visible in viewport
+
+13-07-2024T23:07:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Start for Free' is present and visible in viewport
+
+13-07-2024T23:07:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Start for Free")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Start for Free' is clickable
+
+13-07-2024T23:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Start for Free' is clickable
+
+13-07-2024T23:07:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-07-2024T23:07:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Landing page/TC003 - Verify web title" time="7.538" classname="Test Cases/Eklipse Test/Landing page/TC003 - Verify web title" status="PASSED">
+         <system-out><![CDATA[13-07-2024T23:07:06 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Landing page/TC003 - Verify web title: Test Cases/Eklipse Test/Landing page/TC003 - Verify web title
+
+13-07-2024T23:07:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-07-2024T23:07:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-07-2024T23:07:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-07-2024T23:07:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-07-2024T23:07:07 - [TEST_STEP][PASSED] - navigateToUrl("https://eklipse.gg/"): Navigate to 'https://eklipse.gg/' successfully
+
+13-07-2024T23:07:14 - [MESSAGE][PASSED] - Navigate to 'https://eklipse.gg/' successfully
+
+13-07-2024T23:07:14 - [TEST_STEP][NOT_RUN] - waitForImagePresent(findTestObject("Eklipse Landing Page/Page_Eklipse/img_Features_logo-desktop"), 3): NOT_RUN: waitForImagePresent(findTestObject("Eklipse Landing Page/Page_Eklipse/img_Features_logo-desktop"), 3)
+
+13-07-2024T23:07:14 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForImagePresent(findTestObject("Eklipse Landing Page/Page_Eklipse/img_Features_logo-desktop"), 3)
+
+13-07-2024T23:07:14 - [TEST_STEP][NOT_RUN] - takeFullPageScreenshot(): NOT_RUN: takeFullPageScreenshot()
+
+13-07-2024T23:07:14 - [MESSAGE][NOT_RUN] - NOT_RUN: takeFullPageScreenshot()
+
+13-07-2024T23:07:14 - [TEST_STEP][PASSED] - title1 = getWindowTitle(): Current window's title is: 'Eklipse - Convert Twitch Clip To TikTok, Reels, & Shorts For Free'
+
+13-07-2024T23:07:14 - [MESSAGE][PASSED] - Current window's title is: 'Eklipse - Convert Twitch Clip To TikTok, Reels, & Shorts For Free'
+
+13-07-2024T23:07:14 - [TEST_STEP][PASSED] - title2 = "Eklipse - Convert Twitch Clip To TikTok, Reels, & Shorts For Free": null
+
+13-07-2024T23:07:14 - [TEST_STEP][PASSED] - verifyEqual(title1, title2): Actual object 'Eklipse - Convert Twitch Clip To TikTok, Reels, & Shorts For Free' and expected object 'Eklipse - Convert Twitch Clip To TikTok, Reels, & Shorts For Free' are equal
+
+13-07-2024T23:07:14 - [MESSAGE][PASSED] - Actual object 'Eklipse - Convert Twitch Clip To TikTok, Reels, & Shorts For Free' and expected object 'Eklipse - Convert Twitch Clip To TikTok, Reels, & Shorts For Free' are equal
+
+13-07-2024T23:07:14 - [TEST_STEP][PASSED] - if (title1.equals(title2)): Execute JavaScript 'alert('PAGE TITLE MATCHED')' successfully
+
+13-07-2024T23:07:14 - [TEST_STEP][PASSED] - comment("PAGE TITLE MATCHED"): PAGE TITLE MATCHED
+
+13-07-2024T23:07:14 - [MESSAGE][INFO] - PAGE TITLE MATCHED
+
+13-07-2024T23:07:14 - [TEST_STEP][PASSED] - executeJavaScript("alert('PAGE TITLE MATCHED')", null): Execute JavaScript 'alert('PAGE TITLE MATCHED')' successfully
+
+13-07-2024T23:07:14 - [MESSAGE][PASSED] - Execute JavaScript 'alert('PAGE TITLE MATCHED')' successfully
+
+13-07-2024T23:07:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-07-2024T23:07:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-07-2024T23:06:40 - [TEST_SUITE][PASSED] - TS004 - Landing Page: Test Cases/Eklipse Test/Landing page/TC003 - Verify web title]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

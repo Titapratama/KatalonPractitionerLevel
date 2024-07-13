@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DTS03 - Script using StudioAssist" time="22.5" tests="5" failures="1" errors="0">
+   <testsuite name="DTS03 - Script using StudioAssist" tests="5" failures="1" errors="0" time="22.5" skipped="0" timestamp="13-07-2024T21:53:36" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/CURA Test suites/DTS03 - Script using StudioAssist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_215329\\CURA Test suites\\DTS03 - Script using StudioAssist\\20240713_215330"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_215329\\CURA Test suites\\DTS03 - Script using StudioAssist\\20240713_215330\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_215329\\CURA Test suites\\DTS03 - Script using StudioAssist\\20240713_215330\\1720882438385.png"/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="906f9dca07b58dca4a5d12dc17a16ef1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CURA Web Test/TC21 - Login using StudioAssist" time="7.687" classname="Test Cases/CURA Web Test/TC21 - Login using StudioAssist" status="PASSED">
+         <system-out><![CDATA[13-07-2024T21:53:36 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/TC21 - Login using StudioAssist: Test Cases/CURA Web Test/TC21 - Login using StudioAssist
+
+13-07-2024T21:53:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-07-2024T21:53:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-07-2024T21:53:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-07-2024T21:53:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-07-2024T21:53:37 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+13-07-2024T21:53:40 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+13-07-2024T21:53:40 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Make Appointment")): Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+13-07-2024T21:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+13-07-2024T21:53:41 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Username"), username): Text 'John Doe' is set on object 'Object Repository/1. CURA Object button/Username'
+
+13-07-2024T21:53:42 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/1. CURA Object button/Username'
+
+13-07-2024T21:53:42 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Object button/Password'
+
+13-07-2024T21:53:42 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Object button/Password'
+
+13-07-2024T21:53:42 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Login Button")): Object: 'Object Repository/1. CURA Object button/Login Button' is clicked on
+
+13-07-2024T21:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Login Button' is clicked on
+
+13-07-2024T21:53:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. CURA Object Text/Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/2. CURA Object Text/Make Appointment' are matched.
+
+13-07-2024T21:53:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. CURA Object Text/Make Appointment' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Web Test/TC22 - Hongkong appointment using StudioAssist" time="5.156" classname="Test Cases/CURA Web Test/TC22 - Hongkong appointment using StudioAssist" status="PASSED">
+         <system-out><![CDATA[13-07-2024T21:53:43 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/TC22 - Hongkong appointment using StudioAssist: Test Cases/CURA Web Test/TC22 - Hongkong appointment using StudioAssist
+
+13-07-2024T21:53:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. CURA Object Text/Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/2. CURA Object Text/Make Appointment' are matched.
+
+13-07-2024T21:53:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. CURA Object Text/Make Appointment' are matched.
+
+13-07-2024T21:53:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. CURA Object button/Facility"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/1. CURA Object button/Facility'  using regular expression
+
+13-07-2024T21:53:45 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/1. CURA Object button/Facility'  using regular expression
+
+13-07-2024T21:53:45 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Hospital Readmission")): Object: 'Object Repository/1. CURA Object button/Hospital Readmission' is clicked on
+
+13-07-2024T21:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Hospital Readmission' is clicked on
+
+13-07-2024T21:53:45 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/None")): Object: 'Object Repository/1. CURA Object button/None' is clicked on
+
+13-07-2024T21:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/None' is clicked on
+
+13-07-2024T21:53:45 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Visit Date"), "02/07/2025"): Text '02/07/2025' is set on object 'Object Repository/1. CURA Object button/Visit Date'
+
+13-07-2024T21:53:46 - [MESSAGE][PASSED] - Text '02/07/2025' is set on object 'Object Repository/1. CURA Object button/Visit Date'
+
+13-07-2024T21:53:46 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Comment"), "Meet dr. Alexandra Abraham"): Text 'Meet dr. Alexandra Abraham' is set on object 'Object Repository/1. CURA Object button/Comment'
+
+13-07-2024T21:53:47 - [MESSAGE][PASSED] - Text 'Meet dr. Alexandra Abraham' is set on object 'Object Repository/1. CURA Object button/Comment'
+
+13-07-2024T21:53:47 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Book Appointment")): Object: 'Object Repository/1. CURA Object button/Book Appointment' is clicked on
+
+13-07-2024T21:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Book Appointment' is clicked on
+
+13-07-2024T21:53:47 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Menu")): Object: 'Object Repository/1. CURA Object button/Menu' is clicked on
+
+13-07-2024T21:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Menu' is clicked on
+
+13-07-2024T21:53:48 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Home")): Object: 'Object Repository/1. CURA Object button/Home' is clicked on
+
+13-07-2024T21:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Home' is clicked on
+
+13-07-2024T21:53:48 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Make Appointment")): Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+13-07-2024T21:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Web Test/TC23 - Seoul appointment using StudioAssist" time="5.228" classname="Test Cases/CURA Web Test/TC23 - Seoul appointment using StudioAssist" status="PASSED">
+         <system-out><![CDATA[13-07-2024T21:53:49 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/TC23 - Seoul appointment using StudioAssist: Test Cases/CURA Web Test/TC23 - Seoul appointment using StudioAssist
+
+13-07-2024T21:53:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. CURA Object button/Facility"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/1. CURA Object button/Facility'  using regular expression
+
+13-07-2024T21:53:50 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/1. CURA Object button/Facility'  using regular expression
+
+13-07-2024T21:53:50 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Hospital Readmission")): Object: 'Object Repository/1. CURA Object button/Hospital Readmission' is clicked on
+
+13-07-2024T21:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Hospital Readmission' is clicked on
+
+13-07-2024T21:53:50 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Medicare")): Object: 'Object Repository/1. CURA Object button/Medicare' is clicked on
+
+13-07-2024T21:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Medicare' is clicked on
+
+13-07-2024T21:53:50 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Visit Date"), "05/08/2024"): Text '05/08/2024' is set on object 'Object Repository/1. CURA Object button/Visit Date'
+
+13-07-2024T21:53:51 - [MESSAGE][PASSED] - Text '05/08/2024' is set on object 'Object Repository/1. CURA Object button/Visit Date'
+
+13-07-2024T21:53:51 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Comment"), "I wanna reschedule to 06 August 2024"): Text 'I wanna reschedule to 06 August 2024' is set on object 'Object Repository/1. CURA Object button/Comment'
+
+13-07-2024T21:53:52 - [MESSAGE][PASSED] - Text 'I wanna reschedule to 06 August 2024' is set on object 'Object Repository/1. CURA Object button/Comment'
+
+13-07-2024T21:53:52 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Book Appointment")): Object: 'Object Repository/1. CURA Object button/Book Appointment' is clicked on
+
+13-07-2024T21:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Book Appointment' is clicked on
+
+13-07-2024T21:53:52 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Menu")): Object: 'Object Repository/1. CURA Object button/Menu' is clicked on
+
+13-07-2024T21:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Menu' is clicked on
+
+13-07-2024T21:53:53 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Home")): Object: 'Object Repository/1. CURA Object button/Home' is clicked on
+
+13-07-2024T21:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Home' is clicked on
+
+13-07-2024T21:53:53 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Make Appointment")): Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+13-07-2024T21:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Web Test/TC24 - Tokyo appointment using StudioAssist" time="4.084" classname="Test Cases/CURA Web Test/TC24 - Tokyo appointment using StudioAssist" status="PASSED">
+         <system-out><![CDATA[13-07-2024T21:53:54 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/TC24 - Tokyo appointment using StudioAssist: Test Cases/CURA Web Test/TC24 - Tokyo appointment using StudioAssist
+
+13-07-2024T21:53:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. CURA Object button/Facility"), "Tokyo CURA Healthcare Center", true): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/1. CURA Object button/Facility'  using regular expression
+
+13-07-2024T21:53:55 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/1. CURA Object button/Facility'  using regular expression
+
+13-07-2024T21:53:55 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Medicaid")): Object: 'Object Repository/1. CURA Object button/Medicaid' is clicked on
+
+13-07-2024T21:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Medicaid' is clicked on
+
+13-07-2024T21:53:55 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Visit Date")): Object: 'Object Repository/1. CURA Object button/Visit Date' is clicked on
+
+13-07-2024T21:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Visit Date' is clicked on
+
+13-07-2024T21:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Visit Date"), "09/09/2024"): Text '09/09/2024' is set on object 'Object Repository/1. CURA Object button/Visit Date'
+
+13-07-2024T21:53:56 - [MESSAGE][PASSED] - Text '09/09/2024' is set on object 'Object Repository/1. CURA Object button/Visit Date'
+
+13-07-2024T21:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Comment"), "Meet dr. Setiadi at 09:00 AM"): Text 'Meet dr. Setiadi at 09:00 AM' is set on object 'Object Repository/1. CURA Object button/Comment'
+
+13-07-2024T21:53:57 - [MESSAGE][PASSED] - Text 'Meet dr. Setiadi at 09:00 AM' is set on object 'Object Repository/1. CURA Object button/Comment'
+
+13-07-2024T21:53:57 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Book Appointment")): Object: 'Object Repository/1. CURA Object button/Book Appointment' is clicked on
+
+13-07-2024T21:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Book Appointment' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Web Test/TC25 - Logout using StudioAssist" time="0.198" classname="Test Cases/CURA Web Test/TC25 - Logout using StudioAssist" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CURA Web Test/TC25 - Logout using StudioAssist FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at TC25 - Logout using StudioAssist.run(TC25 - Logout using StudioAssist:28)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1720882410504.run(TempTestSuite1720882410504.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[13-07-2024T21:53:58 - [TEST_CASE][FAILED] - Test Cases/CURA Web Test/TC25 - Logout using StudioAssist: Test Cases/CURA Web Test/TC25 - Logout using StudioAssist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC25 - Logout using StudioAssist.run(TC25 - Logout using StudioAssist:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720882410504.run(TempTestSuite1720882410504.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+13-07-2024T21:53:58 - [TEST_STEP][FAILED] - click(findTestObject("1. CURA Test Object (Click, Set, Dropdown)/Menu")): Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC25 - Logout using StudioAssist.run(TC25 - Logout using StudioAssist:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720882410504.run(TempTestSuite1720882410504.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1720070330376.run(Script1720070330376.groovy:28)
+	... 15 more
+)
+
+13-07-2024T21:53:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/1. CURA Test Object (Click, Set, Dropdown)/Menu' does not exist
+
+13-07-2024T21:53:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+13-07-2024T21:53:58 - [MESSAGE][FAILED] - Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC25 - Logout using StudioAssist.run(TC25 - Logout using StudioAssist:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720882410504.run(TempTestSuite1720882410504.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1720070330376.run(Script1720070330376.groovy:28)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_215329\\CURA Test suites\\DTS03 - Script using StudioAssist\\20240713_215330\\1720882438385.png]]]]></system-out>
+         <system-err><![CDATA[13-07-2024T21:53:58 - [TEST_CASE][FAILED] - Test Cases/CURA Web Test/TC25 - Logout using StudioAssist: Test Cases/CURA Web Test/TC25 - Logout using StudioAssist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC25 - Logout using StudioAssist.run(TC25 - Logout using StudioAssist:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720882410504.run(TempTestSuite1720882410504.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-07-2024T21:53:36 - [TEST_SUITE][FAILED] - DTS03 - Script using StudioAssist: Test Cases/CURA Web Test/TC25 - Logout using StudioAssist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC25 - Logout using StudioAssist.run(TC25 - Logout using StudioAssist:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720882410504.run(TempTestSuite1720882410504.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[13-07-2024T21:53:36 - [TEST_SUITE][FAILED] - DTS03 - Script using StudioAssist: Test Cases/CURA Web Test/TC25 - Logout using StudioAssist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC25 - Logout using StudioAssist.run(TC25 - Logout using StudioAssist:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720882410504.run(TempTestSuite1720882410504.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS12 - Tokyo appointment using data driven,Chrome 126.0.0.0,Data driven test,,13-07-2024 22:52:29,13-07-2024 22:53:09,39.848s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC20 - Tokyo appointment using data driven,Chrome 126.0.0.0,,Data driven,13-07-2024 22:52:29,13-07-2024 22:52:42,12.814s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,13-07-2024 22:52:29,13-07-2024 22:52:33,3.972s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:52:33,13-07-2024 22:52:36,3.252s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), facility, true)",Chrome 126.0.0.0,,,13-07-2024 22:52:36,13-07-2024 22:52:38,1.093s,PASSED
+"click(findTestObject(""1. CURA Object button/Medicare""))",Chrome 126.0.0.0,,,13-07-2024 22:52:38,13-07-2024 22:52:38,0.279s,PASSED
+"click(findTestObject(""1. CURA Object button/Visit Date""))",Chrome 126.0.0.0,,,13-07-2024 22:52:38,13-07-2024 22:52:38,0.303s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), datevisit)",Chrome 126.0.0.0,,,13-07-2024 22:52:38,13-07-2024 22:52:39,0.791s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), commentbook)",Chrome 126.0.0.0,,,13-07-2024 22:52:39,13-07-2024 22:52:40,0.805s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:52:40,13-07-2024 22:52:40,0.546s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,13-07-2024 22:52:40,13-07-2024 22:52:41,0.337s,PASSED
+"click(findTestObject(""1. CURA Object button/Home""))",Chrome 126.0.0.0,,,13-07-2024 22:52:41,13-07-2024 22:52:41,0.581s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Healthcare Service""), 0)",Chrome 126.0.0.0,,,13-07-2024 22:52:41,13-07-2024 22:52:42,0.270s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:52:42,13-07-2024 22:52:42,0.282s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC20 - Tokyo appointment using data driven,Chrome 126.0.0.0,,Data driven,13-07-2024 22:52:42,13-07-2024 22:52:54,11.970s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,13-07-2024 22:52:42,13-07-2024 22:52:45,3.480s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:52:45,13-07-2024 22:52:48,3.166s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), facility, true)",Chrome 126.0.0.0,,,13-07-2024 22:52:48,13-07-2024 22:52:50,1.032s,PASSED
+"click(findTestObject(""1. CURA Object button/Medicare""))",Chrome 126.0.0.0,,,13-07-2024 22:52:50,13-07-2024 22:52:50,0.268s,PASSED
+"click(findTestObject(""1. CURA Object button/Visit Date""))",Chrome 126.0.0.0,,,13-07-2024 22:52:50,13-07-2024 22:52:50,0.296s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), datevisit)",Chrome 126.0.0.0,,,13-07-2024 22:52:50,13-07-2024 22:52:51,0.786s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), commentbook)",Chrome 126.0.0.0,,,13-07-2024 22:52:51,13-07-2024 22:52:52,0.798s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:52:52,13-07-2024 22:52:52,0.559s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,13-07-2024 22:52:52,13-07-2024 22:52:53,0.486s,PASSED
+"click(findTestObject(""1. CURA Object button/Home""))",Chrome 126.0.0.0,,,13-07-2024 22:52:53,13-07-2024 22:52:53,0.565s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Healthcare Service""), 0)",Chrome 126.0.0.0,,,13-07-2024 22:52:53,13-07-2024 22:52:54,0.254s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:52:54,13-07-2024 22:52:54,0.259s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC20 - Tokyo appointment using data driven,Chrome 126.0.0.0,,Data driven,13-07-2024 22:52:54,13-07-2024 22:53:07,12.898s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,13-07-2024 22:52:54,13-07-2024 22:52:57,3.539s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:52:57,13-07-2024 22:53:01,3.168s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), facility, true)",Chrome 126.0.0.0,,,13-07-2024 22:53:01,13-07-2024 22:53:02,1.040s,PASSED
+"click(findTestObject(""1. CURA Object button/Medicare""))",Chrome 126.0.0.0,,,13-07-2024 22:53:02,13-07-2024 22:53:02,0.277s,PASSED
+"click(findTestObject(""1. CURA Object button/Visit Date""))",Chrome 126.0.0.0,,,13-07-2024 22:53:02,13-07-2024 22:53:02,0.287s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), datevisit)",Chrome 126.0.0.0,,,13-07-2024 22:53:02,13-07-2024 22:53:03,0.753s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), commentbook)",Chrome 126.0.0.0,,,13-07-2024 22:53:03,13-07-2024 22:53:04,0.784s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:53:04,13-07-2024 22:53:04,0.566s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,13-07-2024 22:53:04,13-07-2024 22:53:05,0.492s,PASSED
+"click(findTestObject(""1. CURA Object button/Home""))",Chrome 126.0.0.0,,,13-07-2024 22:53:05,13-07-2024 22:53:06,1.417s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Healthcare Service""), 0)",Chrome 126.0.0.0,,,13-07-2024 22:53:06,13-07-2024 22:53:06,0.280s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:53:06,13-07-2024 22:53:07,0.276s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP03 - Logout,Chrome 126.0.0.0,,Helper,13-07-2024 22:53:07,13-07-2024 22:53:09,1.947s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,13-07-2024 22:53:07,13-07-2024 22:53:07,0.357s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,13-07-2024 22:53:07,13-07-2024 22:53:08,0.595s,PASSED
+"click(findTestObject(""1. CURA Object button/Logout""))",Chrome 126.0.0.0,,,13-07-2024 22:53:08,13-07-2024 22:53:09,0.818s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,13-07-2024 22:53:09,13-07-2024 22:53:09,0.140s,PASSED

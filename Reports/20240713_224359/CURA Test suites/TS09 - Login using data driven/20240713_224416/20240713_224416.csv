@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS09 - Login using data driven,Chrome 126.0.0.0,Data driven test,,13-07-2024 22:49:12,13-07-2024 22:49:59,46.892s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC17 - Login using data driven,Chrome 126.0.0.0,,Data driven,13-07-2024 22:49:12,13-07-2024 22:49:21,8.238s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 22:49:13,13-07-2024 22:49:17,4.208s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:49:17,13-07-2024 22:49:18,0.692s,PASSED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,13-07-2024 22:49:18,13-07-2024 22:49:18,0.001s,PASSED
+"username = getAttribute(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:18,13-07-2024 22:49:18,0.495s,PASSED
+"password = getAttribute(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:18,13-07-2024 22:49:18,0.274s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:18,13-07-2024 22:49:19,0.556s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:19,13-07-2024 22:49:20,0.586s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,13-07-2024 22:49:20,13-07-2024 22:49:20,0.855s,PASSED
+"if (username == ""John Doe"" && password == ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,13-07-2024 22:49:20,13-07-2024 22:49:20,0.002s,PASSED
+else,Chrome 126.0.0.0,,,13-07-2024 22:49:20,13-07-2024 22:49:21,0.284s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC17 - Login using data driven,Chrome 126.0.0.0,,Data driven,13-07-2024 22:49:21,13-07-2024 22:49:28,7.304s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 22:49:21,13-07-2024 22:49:24,3.596s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:49:24,13-07-2024 22:49:25,0.662s,PASSED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,13-07-2024 22:49:25,13-07-2024 22:49:25,0.000s,PASSED
+"username = getAttribute(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:25,13-07-2024 22:49:25,0.486s,PASSED
+"password = getAttribute(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:25,13-07-2024 22:49:26,0.268s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:26,13-07-2024 22:49:26,0.580s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:26,13-07-2024 22:49:27,0.558s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,13-07-2024 22:49:27,13-07-2024 22:49:28,0.860s,PASSED
+"if (username == ""John Doe"" && password == ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,13-07-2024 22:49:28,13-07-2024 22:49:28,0.000s,PASSED
+else,Chrome 126.0.0.0,,,13-07-2024 22:49:28,13-07-2024 22:49:28,0.275s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC17 - Login using data driven,Chrome 126.0.0.0,,Data driven,13-07-2024 22:49:28,13-07-2024 22:49:35,7.355s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 22:49:28,13-07-2024 22:49:32,3.527s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:49:32,13-07-2024 22:49:32,0.618s,PASSED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,13-07-2024 22:49:32,13-07-2024 22:49:32,0.001s,PASSED
+"username = getAttribute(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:32,13-07-2024 22:49:33,0.474s,PASSED
+"password = getAttribute(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:33,13-07-2024 22:49:33,0.263s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:33,13-07-2024 22:49:34,0.571s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:34,13-07-2024 22:49:34,0.549s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,13-07-2024 22:49:34,13-07-2024 22:49:35,0.863s,PASSED
+"if (username == ""John Doe"" && password == ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,13-07-2024 22:49:35,13-07-2024 22:49:35,0.000s,PASSED
+else,Chrome 126.0.0.0,,,13-07-2024 22:49:35,13-07-2024 22:49:35,0.474s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC17 - Login using data driven,Chrome 126.0.0.0,,Data driven,13-07-2024 22:49:35,13-07-2024 22:49:43,7.849s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 22:49:35,13-07-2024 22:49:39,4.019s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:49:39,13-07-2024 22:49:40,0.633s,PASSED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,13-07-2024 22:49:40,13-07-2024 22:49:40,0.000s,PASSED
+"username = getAttribute(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:40,13-07-2024 22:49:41,0.479s,PASSED
+"password = getAttribute(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:41,13-07-2024 22:49:41,0.263s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:41,13-07-2024 22:49:41,0.537s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:41,13-07-2024 22:49:42,0.570s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,13-07-2024 22:49:42,13-07-2024 22:49:43,0.863s,PASSED
+"if (username == ""John Doe"" && password == ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,13-07-2024 22:49:43,13-07-2024 22:49:43,0.000s,PASSED
+else,Chrome 126.0.0.0,,,13-07-2024 22:49:43,13-07-2024 22:49:43,0.476s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC17 - Login using data driven,Chrome 126.0.0.0,,Data driven,13-07-2024 22:49:43,13-07-2024 22:49:50,6.896s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 22:49:43,13-07-2024 22:49:47,3.350s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:49:47,13-07-2024 22:49:47,0.677s,PASSED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,13-07-2024 22:49:47,13-07-2024 22:49:47,0.000s,PASSED
+"username = getAttribute(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:47,13-07-2024 22:49:48,0.374s,PASSED
+"password = getAttribute(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:48,13-07-2024 22:49:48,0.264s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:48,13-07-2024 22:49:48,0.567s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:48,13-07-2024 22:49:49,0.554s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,13-07-2024 22:49:49,13-07-2024 22:49:50,0.822s,PASSED
+"if (username == ""John Doe"" && password == ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,13-07-2024 22:49:50,13-07-2024 22:49:50,0.000s,PASSED
+else,Chrome 126.0.0.0,,,13-07-2024 22:49:50,13-07-2024 22:49:50,0.281s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC17 - Login using data driven,Chrome 126.0.0.0,,Data driven,13-07-2024 22:49:50,13-07-2024 22:49:58,7.531s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 22:49:50,13-07-2024 22:49:54,3.568s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:49:54,13-07-2024 22:49:54,0.651s,PASSED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,13-07-2024 22:49:54,13-07-2024 22:49:54,0.001s,PASSED
+"username = getAttribute(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:54,13-07-2024 22:49:55,0.480s,PASSED
+"password = getAttribute(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:55,13-07-2024 22:49:55,0.277s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:49:55,13-07-2024 22:49:56,0.580s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:49:56,13-07-2024 22:49:56,0.598s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,13-07-2024 22:49:56,13-07-2024 22:49:57,0.857s,PASSED
+"if (username == ""John Doe"" && password == ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,13-07-2024 22:49:57,13-07-2024 22:49:57,0.001s,PASSED
+else,Chrome 126.0.0.0,,,13-07-2024 22:49:57,13-07-2024 22:49:58,0.500s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP03 - Logout,Chrome 126.0.0.0,,Helper,13-07-2024 22:49:58,13-07-2024 22:49:59,1.547s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,13-07-2024 22:49:58,13-07-2024 22:49:58,0.289s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,13-07-2024 22:49:58,13-07-2024 22:49:58,0.271s,PASSED
+"click(findTestObject(""1. CURA Object button/Logout""))",Chrome 126.0.0.0,,,13-07-2024 22:49:58,13-07-2024 22:49:59,0.834s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,13-07-2024 22:49:59,13-07-2024 22:49:59,0.118s,PASSED

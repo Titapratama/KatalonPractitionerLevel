@@ -25,13 +25,13 @@ Close the browser
  *  @param menuName The name of the menu to be clicked
  */
 // Click on the menu
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Menu'))
+WebUI.click(findTestObject('1. CURA Object button/Menu'))
 
 /*
  *  Click Logout
  */
 // Click on the logout button
-WebUI.click(findTestObject('1. CURA Test Object (Click, Set, Dropdown)/Logout'))
+WebUI.click(findTestObject('1. CURA Object button/Logout'))
 
 /*
  *  Close the browser

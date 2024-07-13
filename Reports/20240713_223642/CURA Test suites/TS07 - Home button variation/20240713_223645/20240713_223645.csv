@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS07 - Home button variation,Edge Chromium 126,,,13-07-2024 22:37:26,13-07-2024 22:37:39,12.997s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP01 - Open browser,Edge Chromium 126,,Helper,13-07-2024 22:37:26,13-07-2024 22:37:31,4.558s,PASSED
+"openBrowser("""")",Edge Chromium 126,,,13-07-2024 22:37:27,13-07-2024 22:37:28,1.451s,PASSED
+navigateToUrl(URL),Edge Chromium 126,,,13-07-2024 22:37:28,13-07-2024 22:37:31,2.908s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP02 - Login,Edge Chromium 126,,Helper,13-07-2024 22:37:31,13-07-2024 22:37:34,3.459s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Edge Chromium 126,,,13-07-2024 22:37:31,13-07-2024 22:37:32,0.733s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Login Text""), ""Login"")",Edge Chromium 126,,,13-07-2024 22:37:32,13-07-2024 22:37:32,0.504s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Edge Chromium 126,,,13-07-2024 22:37:32,13-07-2024 22:37:33,0.627s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Edge Chromium 126,,,13-07-2024 22:37:33,13-07-2024 22:37:34,0.693s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Edge Chromium 126,,,13-07-2024 22:37:34,13-07-2024 22:37:34,0.841s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC14 - Home button,Edge Chromium 126,,,13-07-2024 22:37:34,13-07-2024 22:37:38,3.193s,PASSED
+"verifyElementPresent(findTestObject(""9. Homepage of CURA/Page_CURA/h1_CURA Service""), 0)",Edge Chromium 126,,,13-07-2024 22:37:34,13-07-2024 22:37:35,0.295s,PASSED
+"click(findTestObject(""6. CURA menu/Page_CURA/i_CURA_fa fa-bars""))",Edge Chromium 126,,,13-07-2024 22:37:35,13-07-2024 22:37:35,0.288s,PASSED
+"click(findTestObject(""11. Login menu check/Page_CURA/a_Home""))",Edge Chromium 126,,,13-07-2024 22:37:35,13-07-2024 22:37:36,0.587s,PASSED
+"verifyElementPresent(findTestObject(""11. Login menu check/Page_CURA/h1_CURA Service""), 0)",Edge Chromium 126,,,13-07-2024 22:37:36,13-07-2024 22:37:36,0.258s,PASSED
+"click(findTestObject(""11. Login menu check/Page_CURA/i_CURA fa fa-bars""))",Edge Chromium 126,,,13-07-2024 22:37:36,13-07-2024 22:37:36,0.270s,PASSED
+"click(findTestObject(""8. History check/Page_CURA/a_History""))",Edge Chromium 126,,,13-07-2024 22:37:36,13-07-2024 22:37:37,0.619s,PASSED
+"click(findTestObject(""8. History check/Page_CURA/a_Go Homepage""))",Edge Chromium 126,,,13-07-2024 22:37:37,13-07-2024 22:37:38,0.803s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP03 - Logout,Edge Chromium 126,,Helper,13-07-2024 22:37:38,13-07-2024 22:37:39,1.618s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Make Appointment""), ""Make Appointment"")",Edge Chromium 126,,,13-07-2024 22:37:38,13-07-2024 22:37:38,0.256s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Edge Chromium 126,,,13-07-2024 22:37:38,13-07-2024 22:37:38,0.278s,PASSED
+"click(findTestObject(""1. CURA Object button/Logout""))",Edge Chromium 126,,,13-07-2024 22:37:38,13-07-2024 22:37:39,0.838s,PASSED
+closeBrowser(),Edge Chromium 126,,,13-07-2024 22:37:39,13-07-2024 22:37:39,0.199s,PASSED

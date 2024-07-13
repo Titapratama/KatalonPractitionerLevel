@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS15 - Make appointment using Keywords,Chrome 126.0.0.0,,,13-07-2024 22:28:05,13-07-2024 22:28:49,44.318s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC26 - Open browser using Keywords,Chrome 126.0.0.0,,Keywords,13-07-2024 22:28:05,13-07-2024 22:28:09,4.644s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:05,13-07-2024 22:28:09,4.426s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC27 - Login using Keywords,Chrome 126.0.0.0,,Keywords,13-07-2024 22:28:09,13-07-2024 22:28:13,3.247s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:09,13-07-2024 22:28:13,3.195s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC31- Logout using Keywords,Chrome 126.0.0.0,,Keywords,13-07-2024 22:28:13,13-07-2024 22:28:15,1.866s,PASSED
+propertiesPage.logoutMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:13,13-07-2024 22:28:15,1.803s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC28 - Seoul Appointment using Keywords,Chrome 126.0.0.0,,,13-07-2024 22:28:15,13-07-2024 22:28:26,11.835s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:15,13-07-2024 22:28:18,3.384s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:18,13-07-2024 22:28:21,3.167s,PASSED
+appointmentPage.facilitySeoul.menu(),Chrome 126.0.0.0,,,13-07-2024 22:28:21,13-07-2024 22:28:22,0.885s,PASSED
+"click(findTestObject(""1. CURA Object button/Hospital Readmission""))",Chrome 126.0.0.0,,,13-07-2024 22:28:22,13-07-2024 22:28:22,0.292s,PASSED
+healthcareProgram.medicaidProgram.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:22,13-07-2024 22:28:23,0.297s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), ""03/08/2024"")",Chrome 126.0.0.0,,,13-07-2024 22:28:23,13-07-2024 22:28:23,0.610s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), ""I wanna meet dr. Andira"")",Chrome 126.0.0.0,,,13-07-2024 22:28:23,13-07-2024 22:28:24,0.826s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:28:24,13-07-2024 22:28:25,0.559s,PASSED
+propertiesPage.logoutMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:25,13-07-2024 22:28:26,1.746s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC29 - Hongkong appointment using Keywords,Chrome 126.0.0.0,,,13-07-2024 22:28:26,13-07-2024 22:28:38,11.445s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:26,13-07-2024 22:28:30,3.384s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:30,13-07-2024 22:28:33,3.140s,PASSED
+appointmentPage.facilityHongkong.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:33,13-07-2024 22:28:34,1.034s,PASSED
+healthcareProgram.medicareProgram.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:34,13-07-2024 22:28:34,0.308s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), ""04/09/2024"")",Chrome 126.0.0.0,,,13-07-2024 22:28:34,13-07-2024 22:28:35,0.597s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), ""I wanna reschedule my appointment to 05/09/2024"")",Chrome 126.0.0.0,,,13-07-2024 22:28:35,13-07-2024 22:28:36,0.852s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:28:36,13-07-2024 22:28:36,0.568s,PASSED
+propertiesPage.logoutMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:36,13-07-2024 22:28:38,1.505s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC30 - Tokyo appointment using Keywords,Chrome 126.0.0.0,,,13-07-2024 22:28:38,13-07-2024 22:28:49,11.128s,PASSED
+propertiesPage.openBrowser.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:38,13-07-2024 22:28:41,3.361s,PASSED
+propertiesPage.loginMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:41,13-07-2024 22:28:44,3.191s,PASSED
+appointmentPage.facilityTokyo.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:44,13-07-2024 22:28:45,0.826s,PASSED
+"click(findTestObject(""1. CURA Object button/Hospital Readmission""))",Chrome 126.0.0.0,,,13-07-2024 22:28:45,13-07-2024 22:28:46,0.283s,PASSED
+healthcareProgram.noneProgram.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:46,13-07-2024 22:28:46,0.295s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), ""03/07/2024"")",Chrome 126.0.0.0,,,13-07-2024 22:28:46,13-07-2024 22:28:46,0.586s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:28:46,13-07-2024 22:28:47,0.797s,PASSED
+propertiesPage.logoutMenu.main(),Chrome 126.0.0.0,,,13-07-2024 22:28:47,13-07-2024 22:28:49,1.736s,PASSED

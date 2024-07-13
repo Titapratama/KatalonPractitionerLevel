@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS005 - Sign In page" time="77.779" tests="1" failures="1" errors="0">
+   <testsuite name="TS005 - Sign In page" tests="1" failures="1" errors="0" time="77.779" skipped="0" timestamp="13-07-2024T23:08:19" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/Eklipse Test suite/TS005 - Sign In page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886913128.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886915872.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886916665.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886939288.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886939850.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886940174.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886955944.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886956520.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886956837.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886971151.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886971752.png, C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886972054.png"/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="0f033fb47f7aa9b091c88093163d1c15"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC001 - Verify Sign In Page" time="15.43" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC001 - Verify Sign In Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Eklipse Test/Sign in and Sign Up/TC001 - Verify Sign In Page FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)&#xa;	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)&#xa;	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present&#xa;	... 27 more&#xa;"/>
+         <system-out><![CDATA[13-07-2024T23:09:21 - [TEST_CASE][FAILED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC001 - Verify Sign In Page: Test Cases/Eklipse Test/Sign in and Sign Up/TC001 - Verify Sign In Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present
+	... 27 more
+
+
+13-07-2024T23:09:21 - [TEST_STEP][PASSED] - eklipse_keywords.openBrowserEklipse.main(): eklipse_keywords.openBrowserEklipse.main is PASSED
+
+13-07-2024T23:09:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-07-2024T23:09:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-07-2024T23:09:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-07-2024T23:09:28 - [MESSAGE][PASSED] - Navigate to 'https://eklipse.gg/' successfully
+
+13-07-2024T23:09:28 - [MESSAGE][PASSED] - eklipse_keywords.openBrowserEklipse.main is PASSED
+
+13-07-2024T23:09:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-07-2024T23:09:28 - [MESSAGE][PASSED] - Current window maximized
+
+13-07-2024T23:09:28 - [TEST_STEP][PASSED] - click(findTestObject("Eklipse Landing Page/Page_Eklipse/Sign In")): Object: 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is clicked on
+
+13-07-2024T23:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is clicked on
+
+13-07-2024T23:09:31 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+13-07-2024T23:09:31 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+13-07-2024T23:09:31 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+13-07-2024T23:09:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+13-07-2024T23:09:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886971151.png]]
+
+13-07-2024T23:09:31 - [TEST_STEP][FAILED] - verifyImagePresent(findTestObject("Sign in page/Page_Eklipse/Eklipse gg image_Left"), CONTINUE_ON_FAILURE): Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+13-07-2024T23:09:31 - [MESSAGE][FAILED] - Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886971752.png]]
+
+13-07-2024T23:09:31 - [TEST_STEP][FAILED] - verifyImagePresent(findTestObject("Sign in page/Page_Eklipse/Eklipse gg image_Right"), CONTINUE_ON_FAILURE): Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Right.png' is NOT present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Right.png' is NOT present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+13-07-2024T23:09:32 - [MESSAGE][FAILED] - Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Right.png' is NOT present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Right.png' is NOT present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240713_230812\\Eklipse Test suite\\TS005 - Sign In page\\20240713_230813\\1720886972054.png]]
+
+13-07-2024T23:09:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Sign in page/Page_Eklipse/Easily highlights edits"), 0): Object 'Object Repository/Sign in page/Page_Eklipse/Easily highlights edits' is present
+
+13-07-2024T23:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:09:32 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Easily highlights edits' is present
+
+13-07-2024T23:09:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Sign in page/Page_Eklipse/Automate highlights"), 0): Object 'Object Repository/Sign in page/Page_Eklipse/Automate highlights' is present
+
+13-07-2024T23:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:09:32 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Automate highlights' is present
+
+13-07-2024T23:09:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Sign in page/Page_Eklipse/Edit highlights to shareable"), 0): Object 'Object Repository/Sign in page/Page_Eklipse/Edit highlights to shareable' is present
+
+13-07-2024T23:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:09:32 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Edit highlights to shareable' is present
+
+13-07-2024T23:09:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Sign in page/Page_Eklipse/Publish everything Text"), 0): Object 'Object Repository/Sign in page/Page_Eklipse/Publish everything Text' is present
+
+13-07-2024T23:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Publish everything Text' is present
+
+13-07-2024T23:09:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Sign in page/Page_Eklipse/Welcome back Text"), 0): Object 'Object Repository/Sign in page/Page_Eklipse/Welcome back Text' is present
+
+13-07-2024T23:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Welcome back Text' is present
+
+13-07-2024T23:09:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Sign in page/Page_Eklipse/Continue with Label"), 0): Object 'Object Repository/Sign in page/Page_Eklipse/Continue with Label' is present
+
+13-07-2024T23:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-07-2024T23:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Continue with Label' is present
+
+13-07-2024T23:09:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/Continue twitch"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/Continue twitch' is clickable
+
+13-07-2024T23:09:34 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Continue twitch' is clickable
+
+13-07-2024T23:09:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/Continue with_white"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/Continue with_white' is clickable
+
+13-07-2024T23:09:34 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Continue with_white' is clickable
+
+13-07-2024T23:09:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/Continue with_google"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/Continue with_google' is clickable
+
+13-07-2024T23:09:34 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Continue with_google' is clickable
+
+13-07-2024T23:09:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/Continue with facebook"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/Continue with facebook' is clickable
+
+13-07-2024T23:09:34 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Continue with facebook' is clickable
+
+13-07-2024T23:09:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/Forgot your password"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/Forgot your password' is clickable
+
+13-07-2024T23:09:35 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Forgot your password' is clickable
+
+13-07-2024T23:09:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/button_Sign In"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/button_Sign In' is clickable
+
+13-07-2024T23:09:35 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/button_Sign In' is clickable
+
+13-07-2024T23:09:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/button_Sign Up"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/button_Sign Up' is clickable
+
+13-07-2024T23:09:35 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/button_Sign Up' is clickable
+
+13-07-2024T23:09:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/button_Reject"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/button_Reject' is clickable
+
+13-07-2024T23:09:35 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/button_Reject' is clickable
+
+13-07-2024T23:09:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/button_Accept"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/button_Accept' is clickable
+
+13-07-2024T23:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/button_Accept' is clickable
+
+13-07-2024T23:09:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/Privacy Policy"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/Privacy Policy' is clickable
+
+13-07-2024T23:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Privacy Policy' is clickable
+
+13-07-2024T23:09:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Sign in page/Page_Eklipse/Close cookie"), STOP_ON_FAILURE): Object 'Object Repository/Sign in page/Page_Eklipse/Close cookie' is clickable
+
+13-07-2024T23:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/Sign in page/Page_Eklipse/Close cookie' is clickable
+
+13-07-2024T23:09:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-07-2024T23:09:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[13-07-2024T23:09:21 - [TEST_CASE][FAILED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC001 - Verify Sign In Page: Test Cases/Eklipse Test/Sign in and Sign Up/TC001 - Verify Sign In Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present
+	... 27 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-07-2024T23:08:19 - [TEST_SUITE][FAILED] - TS005 - Sign In page: Test Cases/Eklipse Test/Sign in and Sign Up/TC001 - Verify Sign In Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present
+	... 24 more]]></system-out>
+      <system-err><![CDATA[13-07-2024T23:08:19 - [TEST_SUITE][FAILED] - TS005 - Sign In page: Test Cases/Eklipse Test/Sign in and Sign Up/TC001 - Verify Sign In Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present (Root cause: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.doCall(VerifyImagePresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword$_verifyImagePresent_closure1.call(VerifyImagePresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.verifyImagePresent(VerifyImagePresentKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyImagePresentKeyword.execute(VerifyImagePresentKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyImagePresent(WebUiBuiltInKeywords.groovy:2820)
+	at TC001 - Verify Sign In Page.run(TC001 - Verify Sign In Page:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1720886893548.run(TempTestSuite1720886893548.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Image: 'C:\Users\Lenovo\git\KatalonPractitionerLevel\../../OneDrive/Dokument/Tita/Lamaran kerja/Eklipse.gg/Eklipse gg image_Left.png' is NOT present
+	... 24 more]]></system-err>
+   </testsuite>
+</testsuites>

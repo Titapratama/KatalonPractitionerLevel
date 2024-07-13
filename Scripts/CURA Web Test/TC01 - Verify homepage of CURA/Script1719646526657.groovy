@@ -18,17 +18,32 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
 WebUI.takeScreenshotAsCheckpoint('CURA Homepage')
-WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/h1_CURA Service'),'CURA Healthcare Service')
-WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/h3_Your Health'),'We Care About Your Health')
-WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/strong_CURA Service'), 'CURA Healthcare Service')
+
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Healthcare Service'), 'CURA Healthcare Service')
+
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/About Your Health'), 'We Care About Your Health')
+
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/strong Healthcare'), 'CURA Healthcare Service')
+
 String ExpectedValue = 'Atlanta 550 Pharr Road NE Suite 525\nAtlanta, GA 30305'
-WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/p_Address'),ExpectedValue)
-WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/li_(678) 813-1KMS'),'(678) 813-1KMS')
-WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/li_infokatalon.com'),'info@katalon.com')
+
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Office Address'), ExpectedValue)
+
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Phone'), '(678) 813-1KMS')
+
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Email'), 'info@katalon.com')
+
 WebUI.verifyElementClickable(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/i_fa fa-facebook'))
+
 WebUI.verifyElementClickable(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/i_fa fa-twitter'))
+
 WebUI.verifyElementClickable(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/i_fa fa-dribbble'))
-WebUI.verifyElementText(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/p_Copyright'),'Copyright © CURA Healthcare Service 2024')
-WebUI.verifyElementClickable(findTestObject('Object Repository/9. Homepage of CURA/Page_CURA/a_Make Appointment'))
+
+WebUI.verifyElementText(findTestObject('2. CURA Object Text/Copyright'), 'Copyright © CURA Healthcare Service 2024')
+
+WebUI.verifyElementClickable(findTestObject('2. CURA Object Text/Make Appointment'))
+

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS06 - Button check,Chrome 126.0.0.0,,,13-07-2024 22:05:34,13-07-2024 22:05:48,13.824s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP01 - Open browser,Chrome 126.0.0.0,,Helper,13-07-2024 22:05:34,13-07-2024 22:05:42,7.754s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,13-07-2024 22:05:34,13-07-2024 22:05:36,1.402s,PASSED
+navigateToUrl(URL),Chrome 126.0.0.0,,,13-07-2024 22:05:36,13-07-2024 22:05:42,6.143s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC11 - All button check,Chrome 126.0.0.0,,,13-07-2024 22:05:42,13-07-2024 22:05:46,4.309s,PASSED
+"verifyElementClickable(findTestObject(""10. Login page/Page_CURA/a_Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:05:42,13-07-2024 22:05:42,0.340s,PASSED
+"click(findTestObject(""10. Login page/Page_CURA/a_Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:05:42,13-07-2024 22:05:43,0.683s,PASSED
+"setText(findTestObject(""10. Login page/Page_CURA/input_Username""), ""John Doe"")",Chrome 126.0.0.0,,,13-07-2024 22:05:43,13-07-2024 22:05:44,0.736s,PASSED
+"setText(findTestObject(""10. Login page/Page_CURA/input_Password""), ""ThisIsNotAPassword"")",Chrome 126.0.0.0,,,13-07-2024 22:05:44,13-07-2024 22:05:44,0.612s,PASSED
+"verifyElementClickable(findTestObject(""10. Login page/Page_CURA/button_Login""))",Chrome 126.0.0.0,,,13-07-2024 22:05:44,13-07-2024 22:05:45,0.292s,PASSED
+"click(findTestObject(""10. Login page/Page_CURA/button_Login""))",Chrome 126.0.0.0,,,13-07-2024 22:05:45,13-07-2024 22:05:46,0.831s,PASSED
+"verifyElementClickable(findTestObject(""3. Appointment/Page_CURA/button_Book Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:05:46,13-07-2024 22:05:46,0.496s,PASSED
+"verifyElementClickable(findTestObject(""8. History check/Page_CURA/i_CURA_fa fa-bars""))",Chrome 126.0.0.0,,,13-07-2024 22:05:46,13-07-2024 22:05:46,0.263s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP03 - Logout,Chrome 126.0.0.0,,Helper,13-07-2024 22:05:46,13-07-2024 22:05:48,1.634s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,13-07-2024 22:05:46,13-07-2024 22:05:47,0.286s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,13-07-2024 22:05:47,13-07-2024 22:05:47,0.281s,PASSED
+"click(findTestObject(""1. CURA Object button/Logout""))",Chrome 126.0.0.0,,,13-07-2024 22:05:47,13-07-2024 22:05:48,0.874s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,13-07-2024 22:05:48,13-07-2024 22:05:48,0.151s,PASSED

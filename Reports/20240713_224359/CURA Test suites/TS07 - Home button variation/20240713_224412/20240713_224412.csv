@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS07 - Home button variation,Chrome 126.0.0.0,,,13-07-2024 22:48:24,13-07-2024 22:48:37,13.387s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP01 - Open browser,Chrome 126.0.0.0,,Helper,13-07-2024 22:48:24,13-07-2024 22:48:28,4.244s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,13-07-2024 22:48:24,13-07-2024 22:48:25,1.295s,PASSED
+navigateToUrl(URL),Chrome 126.0.0.0,,,13-07-2024 22:48:25,13-07-2024 22:48:28,2.729s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP02 - Login,Chrome 126.0.0.0,,Helper,13-07-2024 22:48:28,13-07-2024 22:48:31,3.305s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:48:28,13-07-2024 22:48:29,0.670s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Login Text""), ""Login"")",Chrome 126.0.0.0,,,13-07-2024 22:48:29,13-07-2024 22:48:29,0.496s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:48:29,13-07-2024 22:48:30,0.615s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:48:30,13-07-2024 22:48:31,0.604s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,13-07-2024 22:48:31,13-07-2024 22:48:31,0.841s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC14 - Home button,Chrome 126.0.0.0,,,13-07-2024 22:48:31,13-07-2024 22:48:35,3.081s,PASSED
+"verifyElementPresent(findTestObject(""9. Homepage of CURA/Page_CURA/h1_CURA Service""), 0)",Chrome 126.0.0.0,,,13-07-2024 22:48:31,13-07-2024 22:48:32,0.273s,PASSED
+"click(findTestObject(""6. CURA menu/Page_CURA/i_CURA_fa fa-bars""))",Chrome 126.0.0.0,,,13-07-2024 22:48:32,13-07-2024 22:48:32,0.283s,PASSED
+"click(findTestObject(""11. Login menu check/Page_CURA/a_Home""))",Chrome 126.0.0.0,,,13-07-2024 22:48:32,13-07-2024 22:48:33,0.586s,PASSED
+"verifyElementPresent(findTestObject(""11. Login menu check/Page_CURA/h1_CURA Service""), 0)",Chrome 126.0.0.0,,,13-07-2024 22:48:33,13-07-2024 22:48:33,0.259s,PASSED
+"click(findTestObject(""11. Login menu check/Page_CURA/i_CURA fa fa-bars""))",Chrome 126.0.0.0,,,13-07-2024 22:48:33,13-07-2024 22:48:33,0.277s,PASSED
+"click(findTestObject(""8. History check/Page_CURA/a_History""))",Chrome 126.0.0.0,,,13-07-2024 22:48:33,13-07-2024 22:48:34,0.564s,PASSED
+"click(findTestObject(""8. History check/Page_CURA/a_Go Homepage""))",Chrome 126.0.0.0,,,13-07-2024 22:48:34,13-07-2024 22:48:35,0.784s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP03 - Logout,Chrome 126.0.0.0,,Helper,13-07-2024 22:48:35,13-07-2024 22:48:37,2.601s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,13-07-2024 22:48:35,13-07-2024 22:48:35,0.275s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,13-07-2024 22:48:35,13-07-2024 22:48:35,0.287s,PASSED
+"click(findTestObject(""1. CURA Object button/Logout""))",Chrome 126.0.0.0,,,13-07-2024 22:48:35,13-07-2024 22:48:36,0.842s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,13-07-2024 22:48:36,13-07-2024 22:48:37,1.143s,PASSED

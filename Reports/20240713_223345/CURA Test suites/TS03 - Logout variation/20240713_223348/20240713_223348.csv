@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03 - Logout variation,Chrome 126.0.0.0,,,13-07-2024 22:34:47,13-07-2024 22:35:05,17.980s,FAILED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP01 - Open browser,Chrome 126.0.0.0,,Helper,13-07-2024 22:34:47,13-07-2024 22:34:52,5.474s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,13-07-2024 22:34:47,13-07-2024 22:34:49,1.319s,PASSED
+navigateToUrl(URL),Chrome 126.0.0.0,,,13-07-2024 22:34:49,13-07-2024 22:34:52,3.902s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP02 - Login,Chrome 126.0.0.0,,Helper,13-07-2024 22:34:52,13-07-2024 22:34:56,3.248s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:34:53,13-07-2024 22:34:53,0.671s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Login Text""), ""Login"")",Chrome 126.0.0.0,,,13-07-2024 22:34:53,13-07-2024 22:34:54,0.494s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:34:54,13-07-2024 22:34:54,0.587s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:34:54,13-07-2024 22:34:55,0.587s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,13-07-2024 22:34:55,13-07-2024 22:34:56,0.836s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC12 - Logout via button toggle,Chrome 126.0.0.0,,,13-07-2024 22:34:56,13-07-2024 22:34:57,1.487s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,13-07-2024 22:34:56,13-07-2024 22:34:56,0.307s,PASSED
+"click(findTestObject(""1. CURA Object button/Logout""))",Chrome 126.0.0.0,,,13-07-2024 22:34:56,13-07-2024 22:34:57,0.844s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Healthcare Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,13-07-2024 22:34:57,13-07-2024 22:34:57,0.263s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP02 - Login,Chrome 126.0.0.0,,Helper,13-07-2024 22:34:57,13-07-2024 22:35:00,3.049s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,13-07-2024 22:34:57,13-07-2024 22:34:58,0.546s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Login Text""), ""Login"")",Chrome 126.0.0.0,,,13-07-2024 22:34:58,13-07-2024 22:34:58,0.472s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,13-07-2024 22:34:58,13-07-2024 22:34:59,0.582s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,13-07-2024 22:34:59,13-07-2024 22:34:59,0.610s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,13-07-2024 22:34:59,13-07-2024 22:35:00,0.829s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC13 - Logout via profile menu,Chrome 126.0.0.0,,,13-07-2024 22:35:04,13-07-2024 22:35:05,0.960s,FAILED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,13-07-2024 22:35:04,13-07-2024 22:35:04,0.284s,PASSED
+"click(findTestObject(""1. CURA Object button/Profile""))",Chrome 126.0.0.0,,,13-07-2024 22:35:04,13-07-2024 22:35:04,0.279s,PASSED
+"click(findTestObject(""1. CURA Object button/Logout""))",Chrome 126.0.0.0,,,13-07-2024 22:35:04,13-07-2024 22:35:05,0.383s,FAILED

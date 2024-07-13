@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS001 - Verify Landing Page,Chrome 126.0.0.0,,,13-07-2024 23:01:09,13-07-2024 23:01:19,9.827s,PASSED
+,,,,,,,
+Test Cases/Eklipse Test/Landing page/TC003 - Verify web title,Chrome 126.0.0.0,,Landing page,13-07-2024 23:01:09,13-07-2024 23:01:19,9.672s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,13-07-2024 23:01:09,13-07-2024 23:01:11,1.359s,PASSED
+"navigateToUrl(""https://eklipse.gg/"")",Chrome 126.0.0.0,,,13-07-2024 23:01:11,13-07-2024 23:01:19,7.745s,PASSED
+"waitForImagePresent(findTestObject(""Eklipse Landing Page/Page_Eklipse/img_Features_logo-desktop""), 3)",Chrome 126.0.0.0,,,13-07-2024 23:01:19,13-07-2024 23:01:19,0.003s,NOT_RUN
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,13-07-2024 23:01:19,13-07-2024 23:01:19,0.003s,NOT_RUN
+title1 = getWindowTitle(),Chrome 126.0.0.0,,,13-07-2024 23:01:19,13-07-2024 23:01:19,0.016s,PASSED
+"title2 = ""Eklipse - Convert Twitch Clip To TikTok, Reels, & Shorts For Free""",Chrome 126.0.0.0,,,13-07-2024 23:01:19,13-07-2024 23:01:19,0.001s,PASSED
+"verifyEqual(title1, title2)",Chrome 126.0.0.0,,,13-07-2024 23:01:19,13-07-2024 23:01:19,0.027s,PASSED
+if (title1.equals(title2)),Chrome 126.0.0.0,,,13-07-2024 23:01:19,13-07-2024 23:01:19,0.047s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,13-07-2024 23:01:19,13-07-2024 23:01:19,0.172s,PASSED
