@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='See what other users have said about Eklipse'])[1]/following::a[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Our Affiliates'])[2]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

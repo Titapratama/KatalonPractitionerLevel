@@ -6,12 +6,12 @@
    <elementGuidId>9cbc1d74-75f6-4e77-afab-e363f7ec09d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='See what other users have said about Eklipse'])[1]/following::div[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.elementor-element.elementor-element-348f5bec.e-con-full.e-flex.e-con.e-child</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Our Affiliates'])[2]/following::div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

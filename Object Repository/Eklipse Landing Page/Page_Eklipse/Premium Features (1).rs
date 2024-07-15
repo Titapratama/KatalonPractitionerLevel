@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn more'])[8]/following::a[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Scheduling'])[1]/following::a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

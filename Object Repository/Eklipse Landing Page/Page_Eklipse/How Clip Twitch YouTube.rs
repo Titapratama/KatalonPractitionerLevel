@@ -6,11 +6,11 @@
    <elementGuidId>983d19e2-66b9-49ce-b157-2b10f7e9882f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#elementor-tab-title-1155 > span.elementor-accordion-icon.elementor-accordion-icon-right > span.elementor-accordion-icon-closed > svg > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,7 +20,7 @@
          <value>internal:role=button[name=&quot;How to Clip Kick Stream Automatically with AI?&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Eklipse Landing Page/Page_Eklipse/Features button_under",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027See what other users have said about Eklipse\u0027])[1]/following::a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Our Affiliates\u0027])[2]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240715_150640/Eklipse Test suite/TS008 - Verify landing page button/20240715_150640/Object Repository/Eklipse Landing Page/Page_Eklipse/Features button_under_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_under4",
+      "brokenLocator": "(//a[contains(text(),\u0027Learn more\u0027)])[8]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Scheduling\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240715_150640/Eklipse Test suite/TS008 - Verify landing page button/20240715_150640/Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_under4_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Eklipse Landing Page/Page_Eklipse/Premium Features (1)",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Learn more\u0027])[8]/following::a[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Scheduling\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240715_150640/Eklipse Test suite/TS008 - Verify landing page button/20240715_150640/Object Repository/Eklipse Landing Page/Page_Eklipse/Premium Features (1)_neighbor.png"
+    }
+  ]
+}

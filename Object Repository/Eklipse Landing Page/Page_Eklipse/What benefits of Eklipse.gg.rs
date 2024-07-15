@@ -6,11 +6,11 @@
    <elementGuidId>b72dbde2-6cd3-4296-b8d3-f1931f6866ed</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#elementor-tab-title-1157 > span.elementor-accordion-icon.elementor-accordion-icon-right > span.elementor-accordion-icon-closed > svg > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,7 +20,7 @@
          <value>internal:role=button[name=&quot;What are the benefits of Eklipse.gg?&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS02 - Login variation,Chrome 126.0.0.0,,,15-07-2024 11:25:25,15-07-2024 11:26:22,57.256s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC05 - Login in another way,Chrome 126.0.0.0,,,15-07-2024 11:25:25,15-07-2024 11:25:46,20.521s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,15-07-2024 11:25:26,15-07-2024 11:25:34,7.644s,PASSED
+"verifyElementText(findTestObject(""Object Repository/11. Login menu check/Page_CURA/h1_CURA Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,15-07-2024 11:25:34,15-07-2024 11:25:36,2.027s,PASSED
+"click(findTestObject(""Object Repository/11. Login menu check/Page_CURA/a_Make Appointment""))",Chrome 126.0.0.0,,,15-07-2024 11:25:36,15-07-2024 11:25:37,1.442s,PASSED
+"takeScreenshotAsCheckpoint(""Login page"")",Chrome 126.0.0.0,,,15-07-2024 11:25:37,15-07-2024 11:25:39,1.731s,PASSED
+"verifyElementText(findTestObject(""Object Repository/11. Login menu check/Page_CURA/h2_Login""), ""Login"")",Chrome 126.0.0.0,,,15-07-2024 11:25:39,15-07-2024 11:25:39,0.426s,PASSED
+"click(findTestObject(""Object Repository/11. Login menu check/Page_CURA/a_CURA menu""))",Chrome 126.0.0.0,,,15-07-2024 11:25:39,15-07-2024 11:25:40,0.699s,PASSED
+"click(findTestObject(""Object Repository/11. Login menu check/Page_CURA/a_Login""))",Chrome 126.0.0.0,,,15-07-2024 11:25:40,15-07-2024 11:25:40,0.472s,PASSED
+"takeScreenshotAsCheckpoint(""Login page"")",Chrome 126.0.0.0,,,15-07-2024 11:25:40,15-07-2024 11:25:42,1.362s,PASSED
+"verifyElementText(findTestObject(""Object Repository/11. Login menu check/Page_CURA/h2_Login""), ""Login"")",Chrome 126.0.0.0,,,15-07-2024 11:25:42,15-07-2024 11:25:42,0.584s,PASSED
+"click(findTestObject(""Object Repository/11. Login menu check/Page_CURA/i_CURA fa fa-bars""))",Chrome 126.0.0.0,,,15-07-2024 11:25:42,15-07-2024 11:25:43,0.742s,PASSED
+"click(findTestObject(""Object Repository/11. Login menu check/Page_CURA/a_Home""))",Chrome 126.0.0.0,,,15-07-2024 11:25:43,15-07-2024 11:25:44,0.849s,PASSED
+"verifyElementText(findTestObject(""Object Repository/11. Login menu check/Page_CURA/h1_CURA Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,15-07-2024 11:25:44,15-07-2024 11:25:44,0.331s,PASSED
+"click(findTestObject(""Object Repository/11. Login menu check/Page_CURA/i_CURA fa fa-bars""))",Chrome 126.0.0.0,,,15-07-2024 11:25:44,15-07-2024 11:25:45,0.337s,PASSED
+"click(findTestObject(""Object Repository/11. Login menu check/Page_CURA/a_Login""))",Chrome 126.0.0.0,,,15-07-2024 11:25:45,15-07-2024 11:25:45,0.717s,PASSED
+"verifyElementText(findTestObject(""Object Repository/11. Login menu check/Page_CURA/h2_Login""), ""Login"")",Chrome 126.0.0.0,,,15-07-2024 11:25:45,15-07-2024 11:25:46,0.507s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC04 - Login wrong password,Chrome 126.0.0.0,,,15-07-2024 11:25:46,15-07-2024 11:25:57,11.126s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,15-07-2024 11:25:47,15-07-2024 11:25:52,5.256s,PASSED
+"click(findTestObject(""7. Failed Login/Page_CURA/a_Make Appointment""))",Chrome 126.0.0.0,,,15-07-2024 11:25:52,15-07-2024 11:25:53,0.768s,PASSED
+"userName = getAttribute(findTestObject(""Object Repository/7. Failed Login/Page_CURA/input_Username""), ""username"")",Chrome 126.0.0.0,,,15-07-2024 11:25:53,15-07-2024 11:25:53,0.472s,PASSED
+"passWord = getAttribute(findTestObject(""Object Repository/7. Failed Login/Page_CURA/input_Password""), ""password"")",Chrome 126.0.0.0,,,15-07-2024 11:25:53,15-07-2024 11:25:54,0.317s,PASSED
+"click(findTestObject(""Object Repository/7. Failed Login/Page_CURA/a_Make Appointment""))",Chrome 126.0.0.0,,,15-07-2024 11:25:54,15-07-2024 11:25:54,0.415s,PASSED
+"setText(findTestObject(""Object Repository/7. Failed Login/Page_CURA/input_Username""), "" John Doe"")",Chrome 126.0.0.0,,,15-07-2024 11:25:54,15-07-2024 11:25:55,0.813s,PASSED
+"setText(findTestObject(""10. Login page/Page_CURA/input_Password""), ""This"")",Chrome 126.0.0.0,,,15-07-2024 11:25:55,15-07-2024 11:25:55,0.736s,PASSED
+"click(findTestObject(""Object Repository/7. Failed Login/Page_CURA/button_Login""))",Chrome 126.0.0.0,,,15-07-2024 11:25:55,15-07-2024 11:25:57,1.066s,PASSED
+"if (userName == ""John Doe"" && passWord == ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 126.0.0.0,,,15-07-2024 11:25:57,15-07-2024 11:25:57,0.008s,PASSED
+else,Chrome 126.0.0.0,,,15-07-2024 11:25:57,15-07-2024 11:25:57,0.487s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC03 - Login wrong username,Chrome 126.0.0.0,,,15-07-2024 11:25:57,15-07-2024 11:26:06,8.810s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,15-07-2024 11:25:57,15-07-2024 11:26:02,4.380s,PASSED
+"click(findTestObject(""7. Failed Login/Page_CURA/a_Make Appointment""))",Chrome 126.0.0.0,,,15-07-2024 11:26:02,15-07-2024 11:26:02,0.736s,PASSED
+"userName = getAttribute(findTestObject(""Object Repository/7. Failed Login/Page_CURA/input_Username""), ""username"")",Chrome 126.0.0.0,,,15-07-2024 11:26:02,15-07-2024 11:26:03,0.495s,PASSED
+"passWord = getAttribute(findTestObject(""Object Repository/7. Failed Login/Page_CURA/input_Password""), ""password"")",Chrome 126.0.0.0,,,15-07-2024 11:26:03,15-07-2024 11:26:03,0.317s,PASSED
+"click(findTestObject(""Object Repository/7. Failed Login/Page_CURA/a_Make Appointment""))",Chrome 126.0.0.0,,,15-07-2024 11:26:03,15-07-2024 11:26:04,0.407s,PASSED
+"setText(findTestObject(""Object Repository/7. Failed Login/Page_CURA/input_Username""), ""John"")",Chrome 126.0.0.0,,,15-07-2024 11:26:04,15-07-2024 11:26:04,0.717s,PASSED
+"click(findTestObject(""Object Repository/7. Failed Login/Page_CURA/button_Login""))",Chrome 126.0.0.0,,,15-07-2024 11:26:04,15-07-2024 11:26:05,1.022s,PASSED
+"if (userName == ""John Doe"" && passWord == ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 126.0.0.0,,,15-07-2024 11:26:05,15-07-2024 11:26:05,0.008s,PASSED
+else,Chrome 126.0.0.0,,,15-07-2024 11:26:05,15-07-2024 11:26:06,0.545s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC02 - Login normally,Chrome 126.0.0.0,,Regression,15-07-2024 11:26:06,15-07-2024 11:26:20,14.446s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,15-07-2024 11:26:06,15-07-2024 11:26:10,3.975s,PASSED
+delay(2),Chrome 126.0.0.0,,,15-07-2024 11:26:10,15-07-2024 11:26:12,2.034s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,15-07-2024 11:26:12,15-07-2024 11:26:14,1.386s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,15-07-2024 11:26:14,15-07-2024 11:26:14,0.757s,PASSED
+"takeScreenshotAsCheckpoint(""Login page"")",Chrome 126.0.0.0,,,15-07-2024 11:26:14,15-07-2024 11:26:15,0.726s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,15-07-2024 11:26:15,15-07-2024 11:26:16,0.849s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,15-07-2024 11:26:16,15-07-2024 11:26:17,0.902s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,15-07-2024 11:26:17,15-07-2024 11:26:18,0.946s,PASSED
+delay(2),Chrome 126.0.0.0,,,15-07-2024 11:26:18,15-07-2024 11:26:20,2.020s,PASSED
+"takeScreenshotAsCheckpoint(""Make appointment page"")",Chrome 126.0.0.0,,,15-07-2024 11:26:20,15-07-2024 11:26:20,0.550s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP03 - Logout,Chrome 126.0.0.0,,Helper,15-07-2024 11:26:20,15-07-2024 11:26:22,2.059s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,15-07-2024 11:26:20,15-07-2024 11:26:21,0.325s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,15-07-2024 11:26:21,15-07-2024 11:26:21,0.399s,PASSED
+"click(findTestObject(""1. CURA Object button/Logout""))",Chrome 126.0.0.0,,,15-07-2024 11:26:21,15-07-2024 11:26:22,0.939s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,15-07-2024 11:26:22,15-07-2024 11:26:22,0.280s,PASSED

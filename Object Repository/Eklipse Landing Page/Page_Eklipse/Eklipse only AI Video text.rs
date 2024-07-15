@@ -6,12 +6,12 @@
    <elementGuidId>e030bd31-911a-412c-94f2-6d769d021ba0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='with AI'])[1]/following::h3[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h3.elementor-heading-title.elementor-size-default</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitch Streams'])[1]/preceding::h3[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

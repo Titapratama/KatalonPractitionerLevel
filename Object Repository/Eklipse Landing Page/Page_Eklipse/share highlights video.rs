@@ -6,11 +6,11 @@
    <elementGuidId>03b234ea-a491-4545-81b7-94d0dbc7b2ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#elementor-tab-title-1156 > span.elementor-accordion-icon.elementor-accordion-icon-right > span.elementor-accordion-icon-closed > svg > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,7 +20,7 @@
          <value>internal:role=button[name=&quot;Can I share highlights video to social media platforms?&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
