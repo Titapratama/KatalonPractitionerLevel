@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS002 - Cross browser testing</name>
+   <name>TS007 - LandingPage text</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>55935f14-d6c2-41eb-800d-0f1d1c974235</testSuiteGuid>
+   <testSuiteGuid>81365803-4826-41d7-a539-e0ed3ce88c9d</testSuiteGuid>
    <testCaseLink>
-      <guid>634bd40f-870b-452d-bb50-91eff5591cec</guid>
+      <guid>a6ae58d4-6f00-4fa8-b0a8-57333944abde</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Eklipse Test/Landing page/TC001 - Open browser</testCaseId>
+      <testCaseId>Test Cases/Eklipse Test/Landing page/TC004 - LandingPage text</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

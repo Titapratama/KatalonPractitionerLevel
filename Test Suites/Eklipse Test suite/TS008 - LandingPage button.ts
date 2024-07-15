@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS008 - Verify landing page button</name>
+   <name>TS008 - LandingPage button</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -15,7 +15,7 @@
       <guid>94db7d39-d40a-43e3-85d1-6ed5271bbf28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Eklipse Test/Landing page/TC005 - Verify landing page button</testCaseId>
+      <testCaseId>Test Cases/Eklipse Test/Landing page/TC005 - LandingPage button</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
