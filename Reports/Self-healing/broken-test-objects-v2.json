@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Eklipse Account Setting/Page_Eklipse/input_Name_Name",
+      "brokenLocator": "//input[@name\u003d\u0027Name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Eklipse Account Setting/Page_Eklipse/input_Name_Name_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Eklipse Account Setting/Page_Eklipse/input_Email_Email",
+      "brokenLocator": "//input[@name\u003d\u0027Email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Eklipse Account Setting/Page_Eklipse/input_Email_Email_position.png"
+    }
+  ]
 }

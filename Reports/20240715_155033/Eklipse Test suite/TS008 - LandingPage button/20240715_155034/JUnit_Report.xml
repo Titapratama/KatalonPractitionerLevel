@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS008 - LandingPage button" time="28.86" tests="1" failures="0" errors="0">
+   <testsuite name="TS008 - LandingPage button" tests="1" failures="0" errors="0" time="28.86" skipped="0" timestamp="15-07-2024T15:50:42" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/Eklipse Test suite/TS008 - LandingPage button">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240715_155033\\Eklipse Test suite\\TS008 - LandingPage button\\20240715_155034"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240715_155033\\Eklipse Test suite\\TS008 - LandingPage button\\20240715_155034\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="1563747e9c48fe8ef66a02ab16f44696"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Eklipse Test/Landing page/TC005 - LandingPage button" time="28.741" classname="Test Cases/Eklipse Test/Landing page/TC005 - LandingPage button" status="PASSED">
+         <system-out><![CDATA[15-07-2024T15:50:42 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Landing page/TC005 - LandingPage button: Test Cases/Eklipse Test/Landing page/TC005 - LandingPage button
+
+15-07-2024T15:50:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Eklipse Test/Landing page/TC001 - Open browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Eklipse Test/Landing page/TC001 - Open browser' successfully
+
+15-07-2024T15:50:43 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Landing page/TC001 - Open browser: Test Cases/Eklipse Test/Landing page/TC001 - Open browser
+
+15-07-2024T15:50:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-07-2024T15:50:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-07-2024T15:50:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-07-2024T15:50:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-07-2024T15:50:45 - [TEST_STEP][PASSED] - navigateToUrl("https://eklipse.gg/"): Navigate to 'https://eklipse.gg/' successfully
+
+15-07-2024T15:50:51 - [MESSAGE][PASSED] - Navigate to 'https://eklipse.gg/' successfully
+
+15-07-2024T15:50:51 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+15-07-2024T15:50:51 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+15-07-2024T15:50:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Eklipse Test/Landing page/TC001 - Open browser' successfully
+
+15-07-2024T15:50:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/1 AI HIGHLIGHTS")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/1 AI HIGHLIGHTS' is clickable
+
+15-07-2024T15:50:52 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/1 AI HIGHLIGHTS' is clickable
+
+15-07-2024T15:50:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/a_Contact Us")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Contact Us' is clickable
+
+15-07-2024T15:50:52 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Contact Us' is clickable
+
+15-07-2024T15:50:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/a_Eklipse Premium")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Eklipse Premium' is clickable
+
+15-07-2024T15:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Eklipse Premium' is clickable
+
+15-07-2024T15:50:53 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/a_Help")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Help' is clickable
+
+15-07-2024T15:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Help' is clickable
+
+15-07-2024T15:50:53 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/a_Our Affiliates")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Our Affiliates' is clickable
+
+15-07-2024T15:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Our Affiliates' is clickable
+
+15-07-2024T15:50:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/a_Privacy")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Privacy' is clickable
+
+15-07-2024T15:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Privacy' is clickable
+
+15-07-2024T15:50:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/a_Refund Policy")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Refund Policy' is clickable
+
+15-07-2024T15:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Refund Policy' is clickable
+
+15-07-2024T15:50:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/a_Terms")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Terms' is clickable
+
+15-07-2024T15:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Terms' is clickable
+
+15-07-2024T15:50:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/a_Try Now")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Try Now' is clickable
+
+15-07-2024T15:50:55 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/a_Try Now' is clickable
+
+15-07-2024T15:50:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/AI Sport")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/AI Sport' is clickable
+
+15-07-2024T15:50:55 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/AI Sport' is clickable
+
+15-07-2024T15:50:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/AI-Edit beta")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/AI-Edit beta' is clickable
+
+15-07-2024T15:50:55 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/AI-Edit beta' is clickable
+
+15-07-2024T15:50:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Basic info")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Basic info' is clickable
+
+15-07-2024T15:50:56 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Basic info' is clickable
+
+15-07-2024T15:50:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/benefits of Eklipse.gg")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/benefits of Eklipse.gg' is clickable
+
+15-07-2024T15:50:56 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/benefits of Eklipse.gg' is clickable
+
+15-07-2024T15:50:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Blog")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Blog' is clickable
+
+15-07-2024T15:50:56 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Blog' is clickable
+
+15-07-2024T15:50:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Content Planner")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Content Planner' is clickable
+
+15-07-2024T15:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Content Planner' is clickable
+
+15-07-2024T15:50:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Content Publisher")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Content Publisher' is clickable
+
+15-07-2024T15:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Content Publisher' is clickable
+
+15-07-2024T15:50:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Eklipse Studio")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Eklipse Studio' is clickable
+
+15-07-2024T15:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Eklipse Studio' is clickable
+
+15-07-2024T15:50:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Features button_under")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Features button_under' is clickable
+
+15-07-2024T15:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Features button_under' is clickable
+
+15-07-2024T15:50:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Gaming Stream Highlights")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Gaming Stream Highlights' is clickable
+
+15-07-2024T15:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Gaming Stream Highlights' is clickable
+
+15-07-2024T15:50:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Help")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Help' is clickable
+
+15-07-2024T15:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Help' is clickable
+
+15-07-2024T15:50:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/How can get highlights")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How can get highlights' is clickable
+
+15-07-2024T15:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How can get highlights' is clickable
+
+15-07-2024T15:50:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/How Clip Automatically")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How Clip Automatically' is clickable
+
+15-07-2024T15:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How Clip Automatically' is clickable
+
+15-07-2024T15:50:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/How does Eklipse work")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How does Eklipse work' is clickable
+
+15-07-2024T15:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How does Eklipse work' is clickable
+
+15-07-2024T15:50:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/How Eklipse studio work")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How Eklipse studio work' is clickable
+
+15-07-2024T15:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How Eklipse studio work' is clickable
+
+15-07-2024T15:51:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/How Twitch YouTube")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How Twitch YouTube' is clickable
+
+15-07-2024T15:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How Twitch YouTube' is clickable
+
+15-07-2024T15:51:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/How YouTube Highlights Work")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How YouTube Highlights Work' is clickable
+
+15-07-2024T15:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/How YouTube Highlights Work' is clickable
+
+15-07-2024T15:51:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Howconvert clips to Reels")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Howconvert clips to Reels' is clickable
+
+15-07-2024T15:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Howconvert clips to Reels' is clickable
+
+15-07-2024T15:51:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Is YouTube Highlights free")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Is YouTube Highlights free' is clickable
+
+15-07-2024T15:51:01 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Is YouTube Highlights free' is clickable
+
+15-07-2024T15:51:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Kick Clip downloader")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Kick Clip downloader' is clickable
+
+15-07-2024T15:51:01 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Kick Clip downloader' is clickable
+
+15-07-2024T15:51:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Kick Support")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Kick Support' is clickable
+
+15-07-2024T15:51:01 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Kick Support' is clickable
+
+15-07-2024T15:51:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Learn more_AI -Edit")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_AI -Edit' is clickable
+
+15-07-2024T15:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_AI -Edit' is clickable
+
+15-07-2024T15:51:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Learn more_content publisher")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_content publisher' is clickable
+
+15-07-2024T15:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_content publisher' is clickable
+
+15-07-2024T15:51:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Learn more_Gaming highlight")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_Gaming highlight' is clickable
+
+15-07-2024T15:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_Gaming highlight' is clickable
+
+15-07-2024T15:51:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Learn more_Mobile app")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_Mobile app' is clickable
+
+15-07-2024T15:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_Mobile app' is clickable
+
+15-07-2024T15:51:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Learn more_under")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_under' is clickable
+
+15-07-2024T15:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_under' is clickable
+
+15-07-2024T15:51:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Learn more_under2")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_under2' is clickable
+
+15-07-2024T15:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_under2' is clickable
+
+15-07-2024T15:51:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Learn more_under3")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_under3' is clickable
+
+15-07-2024T15:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_under3' is clickable
+
+15-07-2024T15:51:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Learn more_under4")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_under4' is clickable
+
+15-07-2024T15:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn more_under4' is clickable
+
+15-07-2024T15:51:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Learn Premium")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn Premium' is clickable
+
+15-07-2024T15:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Learn Premium' is clickable
+
+15-07-2024T15:51:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Mobile App")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Mobile App' is clickable
+
+15-07-2024T15:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Mobile App' is clickable
+
+15-07-2024T15:51:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Need supportJoin Discord")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Need supportJoin Discord' is clickable
+
+15-07-2024T15:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Need supportJoin Discord' is clickable
+
+15-07-2024T15:51:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Premium")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Premium' is clickable
+
+15-07-2024T15:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Premium' is clickable
+
+15-07-2024T15:51:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Premium Features (1)")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Premium Features (1)' is clickable
+
+15-07-2024T15:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Premium Features (1)' is clickable
+
+15-07-2024T15:51:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Pro Edits")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Pro Edits' is clickable
+
+15-07-2024T15:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Pro Edits' is clickable
+
+15-07-2024T15:51:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/share highlights vid")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/share highlights vid' is clickable
+
+15-07-2024T15:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/share highlights vid' is clickable
+
+15-07-2024T15:51:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Sign In")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is clickable
+
+15-07-2024T15:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is clickable
+
+15-07-2024T15:51:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Sign Up For Free")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign Up For Free' is clickable
+
+15-07-2024T15:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign Up For Free' is clickable
+
+15-07-2024T15:51:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Start for Free")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Start for Free' is clickable
+
+15-07-2024T15:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Start for Free' is clickable
+
+15-07-2024T15:51:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Studio")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Studio' is clickable
+
+15-07-2024T15:51:08 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Studio' is clickable
+
+15-07-2024T15:51:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Twitch Clip")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Twitch Clip' is clickable
+
+15-07-2024T15:51:08 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Twitch Clip' is clickable
+
+15-07-2024T15:51:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Voice Command")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Voice Command' is clickable
+
+15-07-2024T15:51:08 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Voice Command' is clickable
+
+15-07-2024T15:51:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/What are highlights")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/What are highlights' is clickable
+
+15-07-2024T15:51:09 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/What are highlights' is clickable
+
+15-07-2024T15:51:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/What is Eklipse explanation")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/What is Eklipse explanation' is clickable
+
+15-07-2024T15:51:09 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/What is Eklipse explanation' is clickable
+
+15-07-2024T15:51:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/What is Eklipse Studio")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/What is Eklipse Studio' is clickable
+
+15-07-2024T15:51:09 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/What is Eklipse Studio' is clickable
+
+15-07-2024T15:51:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/What is Eklipse_Discovery")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/What is Eklipse_Discovery' is clickable
+
+15-07-2024T15:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/What is Eklipse_Discovery' is clickable
+
+15-07-2024T15:51:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/What YouTube Highlights")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/What YouTube Highlights' is clickable
+
+15-07-2024T15:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/What YouTube Highlights' is clickable
+
+15-07-2024T15:51:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Where should I start")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Where should I start' is clickable
+
+15-07-2024T15:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Where should I start' is clickable
+
+15-07-2024T15:51:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Landing Page/Page_Eklipse/Youtube Highligths")): Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Youtube Highligths' is clickable
+
+15-07-2024T15:51:11 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Landing Page/Page_Eklipse/Youtube Highligths' is clickable
+
+15-07-2024T15:51:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-07-2024T15:51:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-07-2024T15:50:42 - [TEST_SUITE][PASSED] - TS008 - LandingPage button: Test Cases/Eklipse Test/Landing page/TC005 - LandingPage button]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

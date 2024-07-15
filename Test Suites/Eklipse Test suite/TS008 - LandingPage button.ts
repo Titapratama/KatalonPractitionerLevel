@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>583b372b-f41f-4111-b636-23d01b629b70</testSuiteGuid>
    <testCaseLink>
-      <guid>94db7d39-d40a-43e3-85d1-6ed5271bbf28</guid>
+      <guid>13807d3f-c78b-4179-9eba-2ce289d138b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Eklipse Test/Landing page/TC005 - LandingPage button</testCaseId>

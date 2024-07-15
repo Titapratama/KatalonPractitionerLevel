@@ -15,7 +15,7 @@
       <guid>6079732b-ec35-4744-b8a6-bbbfc1355236</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Eklipse Test/Account setting/TC001 - Account setting test</testCaseId>
+      <testCaseId>Test Cases/Eklipse Test/Account setting/TC001 - Account set test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
