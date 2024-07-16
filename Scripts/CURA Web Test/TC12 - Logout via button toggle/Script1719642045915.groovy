@@ -23,3 +23,5 @@ WebUI.click(findTestObject('12. Log out/Page_CURA/a_Logout'))
 
 WebUI.verifyElementText(findTestObject('2. CURA Object Text/Healthcare Service'), 'CURA Healthcare Service')
 
+WebUI.closeBrowser()
+

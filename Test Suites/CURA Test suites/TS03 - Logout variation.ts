@@ -12,17 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>2c17d53d-6f41-4f57-b17c-f1f56488ea63</testSuiteGuid>
    <testCaseLink>
-      <guid>77d7121b-e2ea-4e36-aec9-5a29e727ecc2</guid>
+      <guid>290c8a19-84d4-46c8-bccf-68db76399e1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CURA Web Test/Properties/TCP01 - Open browser</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2406057e-74c2-44b1-ac6a-76ddeb7f1012</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CURA Web Test/Properties/TCP02 - Login</testCaseId>
+      <testCaseId>Test Cases/CURA Web Test/TC02 - Login normally</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
