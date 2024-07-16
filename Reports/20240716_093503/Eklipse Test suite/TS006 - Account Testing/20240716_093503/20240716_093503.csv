@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS006 - Account Testing,Chrome 126.0.0.0,,,16-07-2024 09:35:10,16-07-2024 10:02:08,26m - 57.807s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Account setting/TC001 - Account set test,Chrome 126.0.0.0,,,16-07-2024 10:00:00,16-07-2024 10:02:08,2m - 7.564s,FAILED
+"callTestCase(findTestCase(""Eklipse Test/Landing page/TC001 - Open browser""), [:], CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:00:00,16-07-2024 10:00:08,7.718s,PASSED
+"click(findTestObject(""Eklipse Landing Page/Page_Eklipse/Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:00:08,16-07-2024 10:00:12,4.076s,PASSED
+"setText(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_username""), ""tita71@gmail.com"", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:00:12,16-07-2024 10:00:14,1.731s,PASSED
+"setText(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_password""), ""tita123."", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:00:14,16-07-2024 10:00:15,0.606s,PASSED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/button_Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:00:15,16-07-2024 10:00:15,0.367s,PASSED
+deleteAllCookies(CONTINUE_ON_FAILURE),Chrome 126.0.0.0,,,16-07-2024 10:00:15,16-07-2024 10:00:15,0.083s,PASSED
+"waitForElementClickable(findTestObject(""Eklipse Account Setting/Page_Eklipse/button_Skip for now""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:00:15,16-07-2024 10:00:35,19.501s,PASSED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/button_Skip for now""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:00:35,16-07-2024 10:01:08,33.192s,FAILED
+"delay(5, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:08,16-07-2024 10:01:13,5.008s,PASSED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/i_See all_ic-user""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:13,16-07-2024 10:01:45,32.197s,PASSED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/span_Account Settings""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:45,16-07-2024 10:01:46,1.072s,FAILED
+"setText(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/input_Name_Name""), ""Thaitea"", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:46,16-07-2024 10:01:47,1.024s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/input_Email_Email""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:47,16-07-2024 10:01:48,1.023s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/Save Changes""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:48,16-07-2024 10:01:49,1.024s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/Continue""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:49,16-07-2024 10:01:50,1.020s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/Change Password""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:50,16-07-2024 10:01:51,1.041s,FAILED
+"setText(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/input_currentPassword""), ""tita123."", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:51,16-07-2024 10:01:52,1.022s,FAILED
+"setText(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/input_newPassword""), ""Tita123."", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:52,16-07-2024 10:01:53,1.024s,FAILED
+"setText(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/input_confirmPassword""), ""Tita123."", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:53,16-07-2024 10:01:54,1.029s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/Save Changes""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:54,16-07-2024 10:01:55,1.055s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/Continue""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:55,16-07-2024 10:01:56,1.036s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/i_See all_ic-user""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:56,16-07-2024 10:01:57,1.029s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/span_Logout""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:57,16-07-2024 10:01:58,1.078s,FAILED
+"setText(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_username""), ""tita71@gmail.com"", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:58,16-07-2024 10:01:59,1.028s,FAILED
+"setText(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_password""), ""tita123."", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:01:59,16-07-2024 10:02:00,1.021s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/img_OR""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:02:00,16-07-2024 10:02:02,1.021s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/button_Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:02:02,16-07-2024 10:02:03,1.024s,FAILED
+"verifyElementPresent(findTestObject(""Sign in page/Page_Eklipse/h2_Login Failed""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:02:03,16-07-2024 10:02:04,1.042s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/Continue""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:02:04,16-07-2024 10:02:05,1.185s,FAILED
+"setText(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_password_1""), ""Tita123."", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:02:05,16-07-2024 10:02:06,1.019s,FAILED
+"click(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/button_Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:02:06,16-07-2024 10:02:07,1.022s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Eklipse Account Setting/Page_Eklipse/Generate Highlights""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:02:07,16-07-2024 10:02:08,1.029s,FAILED
+closeBrowser(),Chrome 126.0.0.0,,,16-07-2024 10:02:08,16-07-2024 10:02:08,0.186s,PASSED

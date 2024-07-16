@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_username",
+      "brokenLocator": "//input[@id\u003d\u0027username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240716_093503/Eklipse Test suite/TS006 - Account Testing/20240716_093503/Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_username_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_password",
+      "brokenLocator": "//input[@id\u003d\u0027password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240716_093503/Eklipse Test suite/TS006 - Account Testing/20240716_093503/Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Sign in page/Page_Eklipse/h2_Login Failed",
+      "brokenLocator": "//h2[@id\u003d\u0027swal2-title\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//h2",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240716_093503/Eklipse Test suite/TS006 - Account Testing/20240716_093503/Object Repository/Sign in page/Page_Eklipse/h2_Login Failed_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_password_1",
+      "brokenLocator": "//input[@id\u003d\u0027password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240716_093503/Eklipse Test suite/TS006 - Account Testing/20240716_093503/Object Repository/Eklipse Account Setting/Page_Eklipse/input_OR_password_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Eklipse Account Setting/Page_Eklipse/Generate Highlights",
+      "brokenLocator": "//div[@id\u003d\u0027dashboard\u0027]/div[3]/div/div/div/div[2]/div/div/h1",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027YouTube Highlights\u0027])[1]/following::h1[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240716_093503/Eklipse Test suite/TS006 - Account Testing/20240716_093503/Object Repository/Eklipse Account Setting/Page_Eklipse/Generate Highlights_neighbor.png"
+    }
+  ]
+}

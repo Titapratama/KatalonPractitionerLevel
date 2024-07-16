@@ -6,12 +6,12 @@
    <elementGuidId>bd3409e2-530c-489a-ac3e-881860167bd6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='history']/div/div[3]/p/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn.btn-default</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

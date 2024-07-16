@@ -26,16 +26,14 @@ WebUI.click(findTestObject('Object Repository/3. Appointment/Page_CURA/Make Appo
 
 WebUI.setText(findTestObject('Object Repository/3. Appointment/Page_CURA/input_Username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/3. Appointment/Page_CURA/input_Password_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Object Repository/3. Appointment/Page_CURA/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Object Repository/3. Appointment/Page_CURA/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/3. Appointment/Page_CURA/h2_Make Appointment'), 
-    'Make Appointment')
+WebUI.verifyElementText(findTestObject('Object Repository/3. Appointment/Page_CURA/h2_Make Appointment'), 'Make Appointment')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/3. Appointment/Page_CURA/select_Tokyo'), 
-    'Seoul CURA Healthcare Center', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/3. Appointment/Page_CURA/select_Tokyo'), 'Seoul CURA Healthcare Center', 
+    true)
 
 WebUI.click(findTestObject('Object Repository/3. Appointment/Page_CURA/input_readmission'))
 
@@ -45,7 +43,7 @@ WebUI.click(findTestObject('Object Repository/3. Appointment/Page_CURA/button_Bo
 
 WebUI.click(findTestObject('Object Repository/3. Appointment/Page_CURA/input_Visit Date'))
 
-WebUI.click(findTestObject('Object Repository/3. Appointment/Page_CURA/td_29'))
+WebUI.setText(findTestObject('1. CURA Object button/Visit Date'), '29/06/2024')
 
 WebUI.setText(findTestObject('Object Repository/3. Appointment/Page_CURA/textarea_Comment'), 'At 9 Am')
 
@@ -53,14 +51,11 @@ WebUI.click(findTestObject('Object Repository/3. Appointment/Page_CURA/button_Bo
 
 WebUI.takeScreenshotAsCheckpoint('Seoul Appoinment Confirmation')
 
-WebUI.verifyElementText(findTestObject('Object Repository/3. Appointment/Page_CURA/Appointment Confirmation'), 
-    'Appointment Confirmation')
+WebUI.verifyElementText(findTestObject('Object Repository/3. Appointment/Page_CURA/Appointment Confirmation'), 'Appointment Confirmation')
 
-WebUI.verifyElementText(findTestObject('Object Repository/3. Appointment/Page_CURA/p_your appointment'), 
-    'Please be informed that your appointment has been booked as following:')
+WebUI.verifyElementText(findTestObject('Object Repository/3. Appointment/Page_CURA/p_your appointment'), 'Please be informed that your appointment has been booked as following:')
 
-WebUI.verifyElementText(findTestObject('Object Repository/3. Appointment/Page_CURA/p_Seoul'), 
-    'Seoul CURA Healthcare Center')
+WebUI.verifyElementText(findTestObject('Object Repository/3. Appointment/Page_CURA/p_Seoul'), 'Seoul CURA Healthcare Center')
 
 WebUI.verifyElementText(findTestObject('Object Repository/3. Appointment/Page_CURA/p_Yes'), 'Yes')
 

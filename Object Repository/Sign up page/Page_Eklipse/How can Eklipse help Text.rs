@@ -6,12 +6,12 @@
    <elementGuidId>38e3d790-8a1a-4920-a2da-23e62c7e55e2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dashboard']/div/div/div/div[2]/h1</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h1.text-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

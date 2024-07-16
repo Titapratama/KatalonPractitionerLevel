@@ -6,12 +6,12 @@
    <elementGuidId>fa49a8c4-c5db-4e76-b1a4-9787a67c30ee</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dashboard']/div[3]/div/div/div/div[2]/div/div/h1</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h1.mb-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube Highlights'])[1]/following::h1[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

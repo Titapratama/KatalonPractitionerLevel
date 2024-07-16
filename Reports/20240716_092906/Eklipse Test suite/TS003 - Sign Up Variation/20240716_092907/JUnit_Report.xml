@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS003 - Sign Up Variation" time="45.402" tests="2" failures="0" errors="0">
+   <testsuite name="TS003 - Sign Up Variation" tests="2" failures="0" errors="0" time="45.402" skipped="0" timestamp="16-07-2024T09:29:15" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/Eklipse Test suite/TS003 - Sign Up Variation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240716_092906\\Eklipse Test suite\\TS003 - Sign Up Variation\\20240716_092907"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240716_092906\\Eklipse Test suite\\TS003 - Sign Up Variation\\20240716_092907\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="a02e52e9f202fb7b13640936bd282221"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Variation" time="44.881" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Variation" status="PASSED">
+         <system-out><![CDATA[16-07-2024T09:29:15 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Variation: Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Variation
+
+16-07-2024T09:29:16 - [TEST_STEP][PASSED] - eklipse_keywords.openBrowserEklipse.main(): eklipse_keywords.openBrowserEklipse.main is PASSED
+
+16-07-2024T09:29:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-07-2024T09:29:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-07-2024T09:29:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-07-2024T09:29:24 - [MESSAGE][PASSED] - Navigate to 'https://eklipse.gg/' successfully
+
+16-07-2024T09:29:24 - [MESSAGE][PASSED] - eklipse_keywords.openBrowserEklipse.main is PASSED
+
+16-07-2024T09:29:24 - [TEST_STEP][PASSED] - eklipse_keywords.signInToEklipse.main(): eklipse_keywords.signInToEklipse.main is PASSED
+
+16-07-2024T09:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is clicked on
+
+16-07-2024T09:29:28 - [MESSAGE][PASSED] - eklipse_keywords.signInToEklipse.main is PASSED
+
+16-07-2024T09:29:28 - [TEST_STEP][PASSED] - click(findTestObject("Sign in page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign in page/Page_Eklipse/button_Sign Up' is clicked on
+
+16-07-2024T09:29:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign in page/Page_Eklipse/button_Sign Up' is clicked on
+
+16-07-2024T09:29:29 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_name"), "April"): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+16-07-2024T09:29:30 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+16-07-2024T09:29:30 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_email"), "titaapratama@gmail.com"): Text 'titaapratama@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+16-07-2024T09:29:31 - [MESSAGE][PASSED] - Text 'titaapratama@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+16-07-2024T09:29:31 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_password"), "Tita123."): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+16-07-2024T09:29:32 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+16-07-2024T09:29:32 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_password_confirmation"), "Tita123."): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_password_confirmation'
+
+16-07-2024T09:29:33 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_password_confirmation'
+
+16-07-2024T09:29:33 - [TEST_STEP][PASSED] - click(findTestObject("Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+16-07-2024T09:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+16-07-2024T09:29:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-07-2024T09:29:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-07-2024T09:29:37 - [TEST_STEP][PASSED] - result = "": null
+
+16-07-2024T09:29:37 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Sign up page/Page_Eklipse/email already taken"), 0)): null
+
+16-07-2024T09:29:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-07-2024T09:29:37 - [MESSAGE][PASSED] - Object 'Object Repository/Sign up page/Page_Eklipse/email already taken' is present
+
+16-07-2024T09:29:37 - [TEST_STEP][PASSED] - result += "1. Passed: The email has already ben taken
+": null
+
+16-07-2024T09:29:37 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_name"), "April"): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+16-07-2024T09:29:38 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+16-07-2024T09:29:38 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_email"), "titaapratama@gmail.com"): Text 'titaapratama@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+16-07-2024T09:29:39 - [MESSAGE][PASSED] - Text 'titaapratama@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+16-07-2024T09:29:39 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_password"), "Tita123."): Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+16-07-2024T09:29:40 - [MESSAGE][PASSED] - Text 'Tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+16-07-2024T09:29:40 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_password_confirmation"), "tita123."): Text 'tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_password_confirmation'
+
+16-07-2024T09:29:41 - [MESSAGE][PASSED] - Text 'tita123.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_password_confirmation'
+
+16-07-2024T09:29:41 - [TEST_STEP][PASSED] - click(findTestObject("Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+16-07-2024T09:29:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+16-07-2024T09:29:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-07-2024T09:29:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-07-2024T09:29:44 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Sign up page/Page_Eklipse/Password Confirm not match"), 0)): null
+
+16-07-2024T09:29:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-07-2024T09:29:45 - [MESSAGE][PASSED] - Object 'Object Repository/Sign up page/Page_Eklipse/Password Confirm not match' is present
+
+16-07-2024T09:29:45 - [TEST_STEP][PASSED] - result += "1. Passed: Password confirm Password does not match
+": null
+
+16-07-2024T09:29:45 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_name"), "April"): Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+16-07-2024T09:29:45 - [MESSAGE][PASSED] - Text 'April' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+16-07-2024T09:29:46 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_email"), "titaapratama@gmail.com"): Text 'titaapratama@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+16-07-2024T09:29:46 - [MESSAGE][PASSED] - Text 'titaapratama@gmail.com' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+16-07-2024T09:29:46 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_password"), "Tita12."): Text 'Tita12.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+16-07-2024T09:29:47 - [MESSAGE][PASSED] - Text 'Tita12.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+16-07-2024T09:29:47 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_password_confirmation"), "Tita12."): Text 'Tita12.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_password_confirmation'
+
+16-07-2024T09:29:48 - [MESSAGE][PASSED] - Text 'Tita12.' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_password_confirmation'
+
+16-07-2024T09:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+16-07-2024T09:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+16-07-2024T09:29:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-07-2024T09:29:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-07-2024T09:29:52 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Sign up page/Page_Eklipse/The password must be 8car"), 0)): null
+
+16-07-2024T09:29:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-07-2024T09:29:52 - [MESSAGE][PASSED] - Object 'Object Repository/Sign up page/Page_Eklipse/The password must be 8car' is present
+
+16-07-2024T09:29:52 - [TEST_STEP][PASSED] - result += "1. Passed: The password field must be at least 8 characters
+": null
+
+16-07-2024T09:29:52 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_name"), ""): Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+16-07-2024T09:29:53 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name'
+
+16-07-2024T09:29:53 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_email"), ""): Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+16-07-2024T09:29:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_email'
+
+16-07-2024T09:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_OR_password"), ""): Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+16-07-2024T09:29:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_OR_password'
+
+16-07-2024T09:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Sign up page/Page_Eklipse/input_password_confirmation"), ""): Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_password_confirmation'
+
+16-07-2024T09:29:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Sign up page/Page_Eklipse/input_password_confirmation'
+
+16-07-2024T09:29:55 - [TEST_STEP][PASSED] - click(findTestObject("Sign up page/Page_Eklipse/button_Sign Up")): Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+16-07-2024T09:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up page/Page_Eklipse/button_Sign Up' is clicked on
+
+16-07-2024T09:29:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-07-2024T09:29:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-07-2024T09:29:59 - [TEST_STEP][PASSED] - isWarningDisplayed = verifyElementPresent(findTestObject("Sign up page/Page_Eklipse/input_OR_name"), 10): Object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is present
+
+16-07-2024T09:29:59 - [MESSAGE][PASSED] - Object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is present
+
+16-07-2024T09:29:59 - [TEST_STEP][PASSED] - warningText = getAttribute(findTestObject("Sign up page/Page_Eklipse/input_OR_name"), "validationMessage"): Attribute 'validationMessage' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'Please fill out this field.'
+
+16-07-2024T09:29:59 - [MESSAGE][PASSED] - Attribute 'validationMessage' of object 'Object Repository/Sign up page/Page_Eklipse/input_OR_name' is: 'Please fill out this field.'
+
+16-07-2024T09:29:59 - [TEST_STEP][PASSED] - if (isWarningDisplayed && warningText == "Please fill out this field."): null
+
+16-07-2024T09:29:59 - [TEST_STEP][PASSED] - println("Test Passed: Warning text detected correctly."): null
+
+16-07-2024T09:29:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-07-2024T09:30:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser" time="0.223" classname="Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser" status="PASSED">
+         <system-out><![CDATA[16-07-2024T09:30:00 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser: Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser
+
+16-07-2024T09:30:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-07-2024T09:30:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-07-2024T09:29:15 - [TEST_SUITE][PASSED] - TS003 - Sign Up Variation: Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

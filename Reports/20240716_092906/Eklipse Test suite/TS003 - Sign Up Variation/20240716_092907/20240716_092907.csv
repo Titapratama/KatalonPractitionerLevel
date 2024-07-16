@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS003 - Sign Up Variation,Chrome 126.0.0.0,,,16-07-2024 09:29:15,16-07-2024 09:30:00,45.402s,PASSED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC003 - Negative Test - Sign Up Variation,Chrome 126.0.0.0,,,16-07-2024 09:29:15,16-07-2024 09:30:00,44.881s,PASSED
+eklipse_keywords.openBrowserEklipse.main(),Chrome 126.0.0.0,,,16-07-2024 09:29:16,16-07-2024 09:29:24,8.431s,PASSED
+eklipse_keywords.signInToEklipse.main(),Chrome 126.0.0.0,,,16-07-2024 09:29:24,16-07-2024 09:29:28,4.231s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,16-07-2024 09:29:28,16-07-2024 09:29:29,1.105s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_name""), ""April"")",Chrome 126.0.0.0,,,16-07-2024 09:29:29,16-07-2024 09:29:30,0.946s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_email""), ""titaapratama@gmail.com"")",Chrome 126.0.0.0,,,16-07-2024 09:29:30,16-07-2024 09:29:31,0.909s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_password""), ""Tita123."")",Chrome 126.0.0.0,,,16-07-2024 09:29:31,16-07-2024 09:29:32,0.740s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_password_confirmation""), ""Tita123."")",Chrome 126.0.0.0,,,16-07-2024 09:29:32,16-07-2024 09:29:33,1.222s,PASSED
+"click(findTestObject(""Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,16-07-2024 09:29:33,16-07-2024 09:29:34,0.625s,PASSED
+delay(3),Chrome 126.0.0.0,,,16-07-2024 09:29:34,16-07-2024 09:29:37,3.041s,PASSED
+"result = """"",Chrome 126.0.0.0,,,16-07-2024 09:29:37,16-07-2024 09:29:37,0.003s,PASSED
+"if (verifyElementPresent(findTestObject(""Sign up page/Page_Eklipse/email already taken""), 0))",Chrome 126.0.0.0,,,16-07-2024 09:29:37,16-07-2024 09:29:37,0.484s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_name""), ""April"")",Chrome 126.0.0.0,,,16-07-2024 09:29:37,16-07-2024 09:29:38,0.771s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_email""), ""titaapratama@gmail.com"")",Chrome 126.0.0.0,,,16-07-2024 09:29:38,16-07-2024 09:29:39,0.821s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_password""), ""Tita123."")",Chrome 126.0.0.0,,,16-07-2024 09:29:39,16-07-2024 09:29:40,0.794s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_password_confirmation""), ""tita123."")",Chrome 126.0.0.0,,,16-07-2024 09:29:40,16-07-2024 09:29:41,0.966s,PASSED
+"click(findTestObject(""Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,16-07-2024 09:29:41,16-07-2024 09:29:41,0.512s,PASSED
+delay(3),Chrome 126.0.0.0,,,16-07-2024 09:29:41,16-07-2024 09:29:44,3.025s,PASSED
+"if (verifyElementPresent(findTestObject(""Sign up page/Page_Eklipse/Password Confirm not match""), 0))",Chrome 126.0.0.0,,,16-07-2024 09:29:44,16-07-2024 09:29:45,0.344s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_name""), ""April"")",Chrome 126.0.0.0,,,16-07-2024 09:29:45,16-07-2024 09:29:46,0.878s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_email""), ""titaapratama@gmail.com"")",Chrome 126.0.0.0,,,16-07-2024 09:29:46,16-07-2024 09:29:46,0.913s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_password""), ""Tita12."")",Chrome 126.0.0.0,,,16-07-2024 09:29:46,16-07-2024 09:29:47,0.797s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_password_confirmation""), ""Tita12."")",Chrome 126.0.0.0,,,16-07-2024 09:29:47,16-07-2024 09:29:48,1.019s,PASSED
+"click(findTestObject(""Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,16-07-2024 09:29:48,16-07-2024 09:29:49,0.410s,PASSED
+delay(3),Chrome 126.0.0.0,,,16-07-2024 09:29:49,16-07-2024 09:29:52,3.019s,PASSED
+"if (verifyElementPresent(findTestObject(""Sign up page/Page_Eklipse/The password must be 8car""), 0))",Chrome 126.0.0.0,,,16-07-2024 09:29:52,16-07-2024 09:29:52,0.355s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_name""), """")",Chrome 126.0.0.0,,,16-07-2024 09:29:52,16-07-2024 09:29:53,0.815s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_email""), """")",Chrome 126.0.0.0,,,16-07-2024 09:29:53,16-07-2024 09:29:54,0.776s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_OR_password""), """")",Chrome 126.0.0.0,,,16-07-2024 09:29:54,16-07-2024 09:29:54,0.805s,PASSED
+"setText(findTestObject(""Sign up page/Page_Eklipse/input_password_confirmation""), """")",Chrome 126.0.0.0,,,16-07-2024 09:29:54,16-07-2024 09:29:55,0.816s,PASSED
+"click(findTestObject(""Sign up page/Page_Eklipse/button_Sign Up""))",Chrome 126.0.0.0,,,16-07-2024 09:29:55,16-07-2024 09:29:56,0.468s,PASSED
+delay(3),Chrome 126.0.0.0,,,16-07-2024 09:29:56,16-07-2024 09:29:59,3.017s,PASSED
+"isWarningDisplayed = verifyElementPresent(findTestObject(""Sign up page/Page_Eklipse/input_OR_name""), 10)",Chrome 126.0.0.0,,,16-07-2024 09:29:59,16-07-2024 09:29:59,0.320s,PASSED
+"warningText = getAttribute(findTestObject(""Sign up page/Page_Eklipse/input_OR_name""), ""validationMessage"")",Chrome 126.0.0.0,,,16-07-2024 09:29:59,16-07-2024 09:29:59,0.371s,PASSED
+"if (isWarningDisplayed && warningText == ""Please fill out this field."")",Chrome 126.0.0.0,,,16-07-2024 09:29:59,16-07-2024 09:29:59,0.016s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,16-07-2024 09:29:59,16-07-2024 09:30:00,0.597s,PASSED
+,,,,,,,
+Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Close browser,Chrome 126.0.0.0,,,16-07-2024 09:30:00,16-07-2024 09:30:00,0.223s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,16-07-2024 09:30:00,16-07-2024 09:30:00,0.019s,PASSED

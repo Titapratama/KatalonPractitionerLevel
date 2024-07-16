@@ -1,0 +1,99 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS04 - Appointment check,Chrome 126.0.0.0,,,16-07-2024 10:05:23,16-07-2024 10:06:30,1m - 7.227s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC01 - Verify homepage of CURA,Chrome 126.0.0.0,,Regression,16-07-2024 10:05:23,16-07-2024 10:05:34,11.083s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,16-07-2024 10:05:24,16-07-2024 10:05:26,2.540s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,16-07-2024 10:05:26,16-07-2024 10:05:29,2.842s,PASSED
+"takeScreenshotAsCheckpoint(""CURA Homepage"")",Chrome 126.0.0.0,,,16-07-2024 10:05:29,16-07-2024 10:05:31,1.278s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Healthcare Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,16-07-2024 10:05:31,16-07-2024 10:05:31,0.390s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/About Your Health""), ""We Care About Your Health"")",Chrome 126.0.0.0,,,16-07-2024 10:05:31,16-07-2024 10:05:31,0.300s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/strong Healthcare""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,16-07-2024 10:05:31,16-07-2024 10:05:32,0.376s,PASSED
+"ExpectedValue = ""Atlanta 550 Pharr Road NE Suite 525
+Atlanta, GA 30305""",Chrome 126.0.0.0,,,16-07-2024 10:05:32,16-07-2024 10:05:32,0.003s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Office Address""), ExpectedValue)",Chrome 126.0.0.0,,,16-07-2024 10:05:32,16-07-2024 10:05:32,0.342s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Phone""), ""(678) 813-1KMS"")",Chrome 126.0.0.0,,,16-07-2024 10:05:32,16-07-2024 10:05:32,0.382s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Email""), ""info@katalon.com"")",Chrome 126.0.0.0,,,16-07-2024 10:05:32,16-07-2024 10:05:33,0.311s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA/i_fa fa-facebook""))",Chrome 126.0.0.0,,,16-07-2024 10:05:33,16-07-2024 10:05:33,0.397s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA/i_fa fa-twitter""))",Chrome 126.0.0.0,,,16-07-2024 10:05:33,16-07-2024 10:05:33,0.339s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/9. Homepage of CURA/Page_CURA/i_fa fa-dribbble""))",Chrome 126.0.0.0,,,16-07-2024 10:05:33,16-07-2024 10:05:34,0.359s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Copyright""), ""Copyright © CURA Healthcare Service 2024"")",Chrome 126.0.0.0,,,16-07-2024 10:05:34,16-07-2024 10:05:34,0.349s,PASSED
+"verifyElementClickable(findTestObject(""2. CURA Object Text/Make Appointment""))",Chrome 126.0.0.0,,,16-07-2024 10:05:34,16-07-2024 10:05:34,0.327s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC08 - Appointment Tokyo,Chrome 126.0.0.0,,,16-07-2024 10:05:35,16-07-2024 10:05:53,18.892s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,16-07-2024 10:05:35,16-07-2024 10:05:36,1.074s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,16-07-2024 10:05:36,16-07-2024 10:05:39,3.117s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,16-07-2024 10:05:39,16-07-2024 10:05:40,1.085s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), ""John Doe"")",Chrome 126.0.0.0,,,16-07-2024 10:05:40,16-07-2024 10:05:41,0.872s,PASSED
+"setEncryptedText(findTestObject(""1. CURA Object button/Password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 126.0.0.0,,,16-07-2024 10:05:41,16-07-2024 10:05:41,0.556s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,16-07-2024 10:05:41,16-07-2024 10:05:42,1.052s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), ""Hongkong CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,16-07-2024 10:05:42,16-07-2024 10:05:44,1.223s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), ""Tokyo CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,16-07-2024 10:05:44,16-07-2024 10:05:45,1.055s,PASSED
+"click(findTestObject(""1. CURA Object button/Hospital Readmission""))",Chrome 126.0.0.0,,,16-07-2024 10:05:45,16-07-2024 10:05:45,0.410s,PASSED
+"uncheck(findTestObject(""1. CURA Object button/Hospital Readmission""))",Chrome 126.0.0.0,,,16-07-2024 10:05:45,16-07-2024 10:05:46,0.344s,PASSED
+"click(findTestObject(""1. CURA Object button/None""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:05:46,16-07-2024 10:05:46,0.430s,PASSED
+"click(findTestObject(""1. CURA Object button/Medicare""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:05:46,16-07-2024 10:05:46,0.379s,PASSED
+"click(findTestObject(""1. CURA Object button/Medicaid""))",Chrome 126.0.0.0,,,16-07-2024 10:05:46,16-07-2024 10:05:47,0.393s,PASSED
+"click(findTestObject(""1. CURA Object button/Medicare""))",Chrome 126.0.0.0,,,16-07-2024 10:05:47,16-07-2024 10:05:47,0.335s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), ""30/06/2024"")",Chrome 126.0.0.0,,,16-07-2024 10:05:47,16-07-2024 10:05:48,0.698s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,16-07-2024 10:05:48,16-07-2024 10:05:49,0.865s,PASSED
+"takeScreenshotAsCheckpoint(""Tokyo Appointment Confirmation"")",Chrome 126.0.0.0,,,16-07-2024 10:05:49,16-07-2024 10:05:49,0.743s,PASSED
+"verifyElementText(findTestObject(""5. Appointment Tokyo/Page_CURA/Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 126.0.0.0,,,16-07-2024 10:05:49,16-07-2024 10:05:50,0.381s,PASSED
+"verifyElementText(findTestObject(""5. Appointment Tokyo/Page_CURA/p_your appointment""), ""Please be informed that your appointment has been booked as following:"")",Chrome 126.0.0.0,,,16-07-2024 10:05:50,16-07-2024 10:05:50,0.323s,PASSED
+"verifyElementText(findTestObject(""5. Appointment Tokyo/Page_CURA/p_Tokyo""), ""Tokyo CURA Healthcare Center"")",Chrome 126.0.0.0,,,16-07-2024 10:05:50,16-07-2024 10:05:50,0.320s,PASSED
+"verifyElementText(findTestObject(""5. Appointment Tokyo/Page_CURA/p_Yes""), ""No"")",Chrome 126.0.0.0,,,16-07-2024 10:05:50,16-07-2024 10:05:51,0.376s,PASSED
+"verifyElementText(findTestObject(""5. Appointment Tokyo/Page_CURA/p_Medicare""), ""Medicare"")",Chrome 126.0.0.0,,,16-07-2024 10:05:51,16-07-2024 10:05:51,0.348s,PASSED
+"verifyElementText(findTestObject(""5. Appointment Tokyo/Page_CURA/p_30062024""), ""30/06/2024"")",Chrome 126.0.0.0,,,16-07-2024 10:05:51,16-07-2024 10:05:51,0.351s,PASSED
+"verifyElementText(findTestObject(""5. Appointment Tokyo/Page_CURA/div_Comment""), """")",Chrome 126.0.0.0,,,16-07-2024 10:05:51,16-07-2024 10:05:52,0.320s,PASSED
+"click(findTestObject(""5. Appointment Tokyo/Page_CURA/Go Homepage""))",Chrome 126.0.0.0,,,16-07-2024 10:05:52,16-07-2024 10:05:53,0.753s,PASSED
+"verifyElementText(findTestObject(""5. Appointment Tokyo/Page_CURA/CURA Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,16-07-2024 10:05:53,16-07-2024 10:05:53,0.379s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,16-07-2024 10:05:53,16-07-2024 10:05:53,0.462s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC06 - Appointment Hongkong,Chrome 126.0.0.0,,Regression,16-07-2024 10:05:53,16-07-2024 10:06:12,18.926s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,16-07-2024 10:05:54,16-07-2024 10:05:55,0.961s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,16-07-2024 10:05:55,16-07-2024 10:05:58,2.872s,PASSED
+"click(findTestObject(""4. Appointment Hongkong/Page_CURA/a_Make Appointment""))",Chrome 126.0.0.0,,,16-07-2024 10:05:58,16-07-2024 10:05:58,0.924s,PASSED
+"setText(findTestObject(""4. Appointment Hongkong/Page_CURA/input_Username""), ""John Doe"")",Chrome 126.0.0.0,,,16-07-2024 10:05:58,16-07-2024 10:05:59,1.036s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/input_Password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 126.0.0.0,,,16-07-2024 10:05:59,16-07-2024 10:06:00,0.503s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/button_Login""))",Chrome 126.0.0.0,,,16-07-2024 10:06:00,16-07-2024 10:06:01,1.020s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/select_Tokyo""), ""Seoul CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,16-07-2024 10:06:01,16-07-2024 10:06:02,1.228s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/select_Tokyo""), ""Hongkong CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,16-07-2024 10:06:02,16-07-2024 10:06:03,1.071s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/input_readmission""))",Chrome 126.0.0.0,,,16-07-2024 10:06:03,16-07-2024 10:06:04,0.408s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/input_None_programs""))",Chrome 126.0.0.0,,,16-07-2024 10:06:04,16-07-2024 10:06:04,0.384s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/input_Medicare_programs""))",Chrome 126.0.0.0,,,16-07-2024 10:06:04,16-07-2024 10:06:04,0.372s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/span_Visit Date""))",Chrome 126.0.0.0,,,16-07-2024 10:06:04,16-07-2024 10:06:05,0.374s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/td_1""))",Chrome 126.0.0.0,,,16-07-2024 10:06:05,16-07-2024 10:06:05,0.472s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/input_Visit Date""))",Chrome 126.0.0.0,,,16-07-2024 10:06:05,16-07-2024 10:06:06,0.574s,PASSED
+"setText(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/textarea_Comment""), ""Lets meet at 8 PM"")",Chrome 126.0.0.0,,,16-07-2024 10:06:06,16-07-2024 10:06:07,0.943s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/button_Book Appointment""))",Chrome 126.0.0.0,,,16-07-2024 10:06:07,16-07-2024 10:06:08,0.733s,PASSED
+"takeScreenshotAsCheckpoint(""Hongkong Appointment Confirmation"")",Chrome 126.0.0.0,,,16-07-2024 10:06:08,16-07-2024 10:06:08,0.616s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/h2_Appointment Confirmation""))",Chrome 126.0.0.0,,,16-07-2024 10:06:08,16-07-2024 10:06:09,0.346s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/p_ your appointment""))",Chrome 126.0.0.0,,,16-07-2024 10:06:09,16-07-2024 10:06:09,0.355s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/p_Hongkong""))",Chrome 126.0.0.0,,,16-07-2024 10:06:09,16-07-2024 10:06:09,0.354s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/p_Yes""), 0)",Chrome 126.0.0.0,,,16-07-2024 10:06:09,16-07-2024 10:06:10,0.475s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/p_Medicare""), 0)",Chrome 126.0.0.0,,,16-07-2024 10:06:10,16-07-2024 10:06:10,0.314s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/p_01072024""), 0)",Chrome 126.0.0.0,,,16-07-2024 10:06:10,16-07-2024 10:06:10,0.331s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/p_Lets meet at 8 PM""), 0)",Chrome 126.0.0.0,,,16-07-2024 10:06:10,16-07-2024 10:06:11,0.308s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/Go Homepage""))",Chrome 126.0.0.0,,,16-07-2024 10:06:11,16-07-2024 10:06:11,0.742s,PASSED
+"click(findTestObject(""Object Repository/4. Appointment Hongkong/Page_CURA/h1_CURA Service""))",Chrome 126.0.0.0,,,16-07-2024 10:06:11,16-07-2024 10:06:12,0.342s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,16-07-2024 10:06:12,16-07-2024 10:06:12,0.603s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC10 - History menu check,Chrome 126.0.0.0,,Regression,16-07-2024 10:06:12,16-07-2024 10:06:30,18.085s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:06:13,16-07-2024 10:06:17,4.188s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP02 - Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:06:17,16-07-2024 10:06:21,4.096s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), ""Hongkong CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,16-07-2024 10:06:21,16-07-2024 10:06:22,1.277s,PASSED
+"click(findTestObject(""1. CURA Object button/Hospital Readmission""))",Chrome 126.0.0.0,,,16-07-2024 10:06:22,16-07-2024 10:06:22,0.376s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), ""28/06/2024"")",Chrome 126.0.0.0,,,16-07-2024 10:06:22,16-07-2024 10:06:23,0.816s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), ""Let's meet at 9 AM"")",Chrome 126.0.0.0,,,16-07-2024 10:06:23,16-07-2024 10:06:24,0.885s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,16-07-2024 10:06:24,16-07-2024 10:06:25,0.720s,PASSED
+"verifyElementText(findTestObject(""4. Appointment Hongkong/Page_CURA/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 126.0.0.0,,,16-07-2024 10:06:25,16-07-2024 10:06:25,0.545s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,16-07-2024 10:06:25,16-07-2024 10:06:26,0.330s,PASSED
+"click(findTestObject(""1. CURA Object button/History""))",Chrome 126.0.0.0,,,16-07-2024 10:06:26,16-07-2024 10:06:27,0.914s,PASSED
+"takeScreenshotAsCheckpoint(""History Hongkong Appointment"")",Chrome 126.0.0.0,,,16-07-2024 10:06:27,16-07-2024 10:06:27,0.721s,PASSED
+"verifyElementText(findTestObject(""8. History check/Page_CURA/h2_History""), ""History"")",Chrome 126.0.0.0,,,16-07-2024 10:06:27,16-07-2024 10:06:28,0.340s,PASSED
+"verifyElementText(findTestObject(""8. History check/Page_CURA/div_28062024""), ""28/06/2024"")",Chrome 126.0.0.0,,,16-07-2024 10:06:28,16-07-2024 10:06:28,0.314s,PASSED
+"verifyElementText(findTestObject(""Object Repository/8. History check/Page_CURA/p_Hongkong""), ""Hongkong CURA Healthcare Center"")",Chrome 126.0.0.0,,,16-07-2024 10:06:28,16-07-2024 10:06:28,0.327s,PASSED
+"verifyElementText(findTestObject(""Object Repository/8. History check/Page_CURA/p_Yes""), ""Yes"")",Chrome 126.0.0.0,,,16-07-2024 10:06:28,16-07-2024 10:06:29,0.318s,PASSED
+"verifyElementText(findTestObject(""Object Repository/8. History check/Page_CURA/p_Medicare""), ""Medicare"")",Chrome 126.0.0.0,,,16-07-2024 10:06:29,16-07-2024 10:06:29,0.325s,PASSED
+"verifyElementText(findTestObject(""8. History check/Page_CURA/p_Lets meet at 9 AM""), ""Let's meet at 9 AM"")",Chrome 126.0.0.0,,,16-07-2024 10:06:29,16-07-2024 10:06:29,0.353s,PASSED
+"click(findTestObject(""1. CURA Object button/Go to Homepage""))",Chrome 126.0.0.0,,,16-07-2024 10:06:29,16-07-2024 10:06:30,0.753s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Healthcare Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,16-07-2024 10:06:30,16-07-2024 10:06:30,0.311s,PASSED

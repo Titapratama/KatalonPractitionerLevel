@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS08 - Hongkong appointment using variable,Chrome 126.0.0.0,,,16-07-2024 10:12:34,16-07-2024 10:12:50,16.329s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC15 - Login using variable,Chrome 126.0.0.0,,,16-07-2024 10:12:34,16-07-2024 10:12:43,9.139s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,16-07-2024 10:12:34,16-07-2024 10:12:36,1.662s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,16-07-2024 10:12:36,16-07-2024 10:12:39,3.009s,PASSED
+"loginParameter = ""varibleLogin""",Chrome 126.0.0.0,,,16-07-2024 10:12:39,16-07-2024 10:12:39,0.003s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,16-07-2024 10:12:39,16-07-2024 10:12:40,0.906s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,16-07-2024 10:12:40,16-07-2024 10:12:41,0.989s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,16-07-2024 10:12:41,16-07-2024 10:12:42,0.957s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,16-07-2024 10:12:42,16-07-2024 10:12:43,1.108s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC16 - Appointment Hongkong using variable,Chrome 126.0.0.0,,,16-07-2024 10:12:43,16-07-2024 10:12:48,4.831s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), ""Hongkong CURA Healthcare Center"", true, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:12:43,16-07-2024 10:12:45,1.103s,PASSED
+"click(findTestObject(""1. CURA Object button/Hospital Readmission""))",Chrome 126.0.0.0,,,16-07-2024 10:12:45,16-07-2024 10:12:45,0.386s,PASSED
+"click(findTestObject(""1. CURA Object button/Medicaid""))",Chrome 126.0.0.0,,,16-07-2024 10:12:45,16-07-2024 10:12:45,0.365s,PASSED
+"click(findTestObject(""1. CURA Object button/Visit Date""))",Chrome 126.0.0.0,,,16-07-2024 10:12:45,16-07-2024 10:12:46,0.419s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), ""18/07/2024"")",Chrome 126.0.0.0,,,16-07-2024 10:12:46,16-07-2024 10:12:46,0.804s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), Comment4)",Chrome 126.0.0.0,,,16-07-2024 10:12:46,16-07-2024 10:12:47,0.866s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,16-07-2024 10:12:47,16-07-2024 10:12:48,0.658s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC12 - Logout via button toggle,Chrome 126.0.0.0,,,16-07-2024 10:12:48,16-07-2024 10:12:50,1.963s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,16-07-2024 10:12:48,16-07-2024 10:12:48,0.354s,PASSED
+"click(findTestObject(""1. CURA Object button/Logout""))",Chrome 126.0.0.0,,,16-07-2024 10:12:48,16-07-2024 10:12:50,1.137s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Healthcare Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,16-07-2024 10:12:50,16-07-2024 10:12:50,0.368s,PASSED
