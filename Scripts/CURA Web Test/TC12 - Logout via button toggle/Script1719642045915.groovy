@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('1. CURA Object button/Menu'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('1. CURA Object button/Logout'))
+WebUI.click(findTestObject('12. Log out/Page_CURA/a_Logout'))
 
 WebUI.verifyElementText(findTestObject('2. CURA Object Text/Healthcare Service'), 'CURA Healthcare Service')
 
