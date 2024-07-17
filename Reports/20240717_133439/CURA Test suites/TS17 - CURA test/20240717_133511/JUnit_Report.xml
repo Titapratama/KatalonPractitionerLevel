@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS17 - CURA test" time="34.048" tests="2" failures="0" errors="0">
+   <testsuite name="TS17 - CURA test" tests="2" failures="0" errors="0" time="34.048" skipped="0" timestamp="17-07-2024T13:51:08" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/CURA Test suites/TS17 - CURA test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240717_133439\\CURA Test suites\\TS17 - CURA test\\20240717_133511"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240717_133439\\CURA Test suites\\TS17 - CURA test\\20240717_133511\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="36c6a49f264538bca5fd4d819cad1eb9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CURA Web Test/TC33 - Button check" time="20.794" classname="Test Cases/CURA Web Test/TC33 - Button check" status="PASSED">
+         <system-out><![CDATA[17-07-2024T13:51:08 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/TC33 - Button check: Test Cases/CURA Web Test/TC33 - Button check
+
+17-07-2024T13:51:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CURA Web Test/Properties/TCP01 - Open browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CURA Web Test/Properties/TCP01 - Open browser' successfully
+
+17-07-2024T13:51:10 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/Properties/TCP01 - Open browser: Test Cases/CURA Web Test/Properties/TCP01 - Open browser
+
+17-07-2024T13:51:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-07-2024T13:51:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-07-2024T13:51:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-07-2024T13:51:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-07-2024T13:51:11 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+17-07-2024T13:51:15 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+17-07-2024T13:51:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CURA Web Test/Properties/TCP01 - Open browser' successfully
+
+17-07-2024T13:51:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Make Appointment"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Make Appointment' is clickable
+
+17-07-2024T13:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Make Appointment' is clickable
+
+17-07-2024T13:51:16 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/facebook"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/facebook' is clickable
+
+17-07-2024T13:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/facebook' is clickable
+
+17-07-2024T13:51:16 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/twitter"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/twitter' is clickable
+
+17-07-2024T13:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/twitter' is clickable
+
+17-07-2024T13:51:17 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/dribble"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/dribble' is clickable
+
+17-07-2024T13:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/dribble' is clickable
+
+17-07-2024T13:51:17 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Make Appointment"), CONTINUE_ON_FAILURE): Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+17-07-2024T13:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+17-07-2024T13:51:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Login Button"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Login Button' is clickable
+
+17-07-2024T13:51:18 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Login Button' is clickable
+
+17-07-2024T13:51:18 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Menu"), CONTINUE_ON_FAILURE): Object: 'Object Repository/1. CURA Object button/Menu' is clicked on
+
+17-07-2024T13:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Menu' is clicked on
+
+17-07-2024T13:51:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Home"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Home' is clickable
+
+17-07-2024T13:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Home' is clickable
+
+17-07-2024T13:51:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Login"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Login' is clickable
+
+17-07-2024T13:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Login' is clickable
+
+17-07-2024T13:51:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CURA Web Test/Properties/TCP02 - Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/CURA Web Test/Properties/TCP02 - Login' successfully
+
+17-07-2024T13:51:20 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/Properties/TCP02 - Login: Test Cases/CURA Web Test/Properties/TCP02 - Login
+
+17-07-2024T13:51:20 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Make Appointment")): Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+17-07-2024T13:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+17-07-2024T13:51:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. CURA Object Text/Login Text"), "Login"): Actual text and expected text of test object 'Object Repository/2. CURA Object Text/Login Text' are matched.
+
+17-07-2024T13:51:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. CURA Object Text/Login Text' are matched.
+
+17-07-2024T13:51:20 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Username"), Username): Text 'John Doe' is set on object 'Object Repository/1. CURA Object button/Username'
+
+17-07-2024T13:51:21 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/1. CURA Object button/Username'
+
+17-07-2024T13:51:21 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Object button/Password'
+
+17-07-2024T13:51:22 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Object button/Password'
+
+17-07-2024T13:51:22 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Login Button")): Object: 'Object Repository/1. CURA Object button/Login Button' is clicked on
+
+17-07-2024T13:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Login Button' is clicked on
+
+17-07-2024T13:51:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CURA Web Test/Properties/TCP02 - Login' successfully
+
+17-07-2024T13:51:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Facility"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Facility' is clickable
+
+17-07-2024T13:51:24 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Facility' is clickable
+
+17-07-2024T13:51:24 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("1. CURA Object button/Hospital Readmission"), 0): Object 'Object Repository/1. CURA Object button/Hospital Readmission' is not checked
+
+17-07-2024T13:51:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:24 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Hospital Readmission' is not checked
+
+17-07-2024T13:51:24 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Hospital Readmission")): Object 'Object Repository/1. CURA Object button/Hospital Readmission' is clickable
+
+17-07-2024T13:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Hospital Readmission' is clickable
+
+17-07-2024T13:51:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Medicaid")): Object 'Object Repository/1. CURA Object button/Medicaid' is clickable
+
+17-07-2024T13:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Medicaid' is clickable
+
+17-07-2024T13:51:25 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("1. CURA Object button/Medicare"), 0): Object 'Object Repository/1. CURA Object button/Medicare' is checked
+
+17-07-2024T13:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Medicare' is checked
+
+17-07-2024T13:51:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Medicare")): Object 'Object Repository/1. CURA Object button/Medicare' is clickable
+
+17-07-2024T13:51:26 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Medicare' is clickable
+
+17-07-2024T13:51:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/None")): Object 'Object Repository/1. CURA Object button/None' is clickable
+
+17-07-2024T13:51:26 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/None' is clickable
+
+17-07-2024T13:51:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Calendar Visit Date"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Calendar Visit Date' is clickable
+
+17-07-2024T13:51:26 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Calendar Visit Date' is clickable
+
+17-07-2024T13:51:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Comment"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Comment' is clickable
+
+17-07-2024T13:51:27 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Comment' is clickable
+
+17-07-2024T13:51:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Book Appointment"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Book Appointment' is clickable
+
+17-07-2024T13:51:27 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Book Appointment' is clickable
+
+17-07-2024T13:51:27 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Menu"), CONTINUE_ON_FAILURE): Object: 'Object Repository/1. CURA Object button/Menu' is clicked on
+
+17-07-2024T13:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Menu' is clicked on
+
+17-07-2024T13:51:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Home"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Home' is clickable
+
+17-07-2024T13:51:28 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Home' is clickable
+
+17-07-2024T13:51:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/History"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/History' is clickable
+
+17-07-2024T13:51:28 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/History' is clickable
+
+17-07-2024T13:51:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Profile"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Profile' is clickable
+
+17-07-2024T13:51:28 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Profile' is clickable
+
+17-07-2024T13:51:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. CURA Object button/Logout"), CONTINUE_ON_FAILURE): Object 'Object Repository/1. CURA Object button/Logout' is clickable
+
+17-07-2024T13:51:29 - [MESSAGE][PASSED] - Object 'Object Repository/1. CURA Object button/Logout' is clickable
+
+17-07-2024T13:51:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-07-2024T13:51:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Web Test/TC34 - Verify Text" time="12.95" classname="Test Cases/CURA Web Test/TC34 - Verify Text" status="PASSED">
+         <system-out><![CDATA[17-07-2024T13:51:29 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/TC34 - Verify Text: Test Cases/CURA Web Test/TC34 - Verify Text
+
+17-07-2024T13:51:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CURA Web Test/Properties/TCP01 - Open browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CURA Web Test/Properties/TCP01 - Open browser' successfully
+
+17-07-2024T13:51:29 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/Properties/TCP01 - Open browser: Test Cases/CURA Web Test/Properties/TCP01 - Open browser
+
+17-07-2024T13:51:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-07-2024T13:51:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-07-2024T13:51:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-07-2024T13:51:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-07-2024T13:51:30 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+17-07-2024T13:51:33 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+17-07-2024T13:51:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CURA Web Test/Properties/TCP01 - Open browser' successfully
+
+17-07-2024T13:51:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/Healthcare Service"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/Healthcare Service' is present
+
+17-07-2024T13:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/Healthcare Service' is present
+
+17-07-2024T13:51:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/About Your Health"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/About Your Health' is present
+
+17-07-2024T13:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/About Your Health' is present
+
+17-07-2024T13:51:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/strong Healthcare"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/strong Healthcare' is present
+
+17-07-2024T13:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/strong Healthcare' is present
+
+17-07-2024T13:51:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/Office Address"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/Office Address' is present
+
+17-07-2024T13:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/Office Address' is present
+
+17-07-2024T13:51:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/Phone"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/Phone' is present
+
+17-07-2024T13:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/Phone' is present
+
+17-07-2024T13:51:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/Email"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/Email' is present
+
+17-07-2024T13:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/Email' is present
+
+17-07-2024T13:51:35 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Make Appointment"), CONTINUE_ON_FAILURE): Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+17-07-2024T13:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+17-07-2024T13:51:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/Login Text"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/Login Text' is present
+
+17-07-2024T13:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/Login Text' is present
+
+17-07-2024T13:51:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/Make Appointment login"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/Make Appointment login' is present
+
+17-07-2024T13:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:37 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/Make Appointment login' is present
+
+17-07-2024T13:51:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("CURA Web Test/Properties/TCP02 - Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/CURA Web Test/Properties/TCP02 - Login' successfully
+
+17-07-2024T13:51:37 - [TEST_CASE][PASSED] - Test Cases/CURA Web Test/Properties/TCP02 - Login: Test Cases/CURA Web Test/Properties/TCP02 - Login
+
+17-07-2024T13:51:37 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Make Appointment")): Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+17-07-2024T13:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Make Appointment' is clicked on
+
+17-07-2024T13:51:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. CURA Object Text/Login Text"), "Login"): Actual text and expected text of test object 'Object Repository/2. CURA Object Text/Login Text' are matched.
+
+17-07-2024T13:51:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. CURA Object Text/Login Text' are matched.
+
+17-07-2024T13:51:38 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Username"), Username): Text 'John Doe' is set on object 'Object Repository/1. CURA Object button/Username'
+
+17-07-2024T13:51:38 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/1. CURA Object button/Username'
+
+17-07-2024T13:51:38 - [TEST_STEP][PASSED] - setText(findTestObject("1. CURA Object button/Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Object button/Password'
+
+17-07-2024T13:51:39 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/1. CURA Object button/Password'
+
+17-07-2024T13:51:39 - [TEST_STEP][PASSED] - click(findTestObject("1. CURA Object button/Login Button")): Object: 'Object Repository/1. CURA Object button/Login Button' is clicked on
+
+17-07-2024T13:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. CURA Object button/Login Button' is clicked on
+
+17-07-2024T13:51:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CURA Web Test/Properties/TCP02 - Login' successfully
+
+17-07-2024T13:51:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/Make Appointment"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/Make Appointment' is present
+
+17-07-2024T13:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/Make Appointment' is present
+
+17-07-2024T13:51:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/Healthcare Program (1)"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/Healthcare Program (1)' is present
+
+17-07-2024T13:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:41 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/Healthcare Program (1)' is present
+
+17-07-2024T13:51:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/label_Facility"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/label_Facility' is present
+
+17-07-2024T13:51:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:41 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/label_Facility' is present
+
+17-07-2024T13:51:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/label_Visit Date"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/label_Visit Date' is present
+
+17-07-2024T13:51:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:41 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/label_Visit Date' is present
+
+17-07-2024T13:51:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("2. CURA Object Text/label_Comment"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/2. CURA Object Text/label_Comment' is present
+
+17-07-2024T13:51:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T13:51:42 - [MESSAGE][PASSED] - Object 'Object Repository/2. CURA Object Text/label_Comment' is present
+
+17-07-2024T13:51:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-07-2024T13:51:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-07-2024T13:51:08 - [TEST_SUITE][PASSED] - TS17 - CURA test: Test Cases/CURA Web Test/TC34 - Verify Text]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

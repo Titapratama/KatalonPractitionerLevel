@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03 - Logout variation,Chrome 126.0.0.0,,,17-07-2024 13:37:07,17-07-2024 13:40:07,3m - 0.264s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC02 - Login normally,Chrome 126.0.0.0,,Regression,17-07-2024 13:39:52,17-07-2024 13:40:05,12.844s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:39:52,17-07-2024 13:39:56,3.837s,PASSED
+delay(2),Chrome 126.0.0.0,,,17-07-2024 13:39:56,17-07-2024 13:39:58,2.013s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,17-07-2024 13:39:58,17-07-2024 13:39:59,0.790s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,17-07-2024 13:39:59,17-07-2024 13:39:59,0.724s,PASSED
+"takeScreenshotAsCheckpoint(""Login page"")",Chrome 126.0.0.0,,,17-07-2024 13:39:59,17-07-2024 13:40:00,0.690s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), Username)",Chrome 126.0.0.0,,,17-07-2024 13:40:00,17-07-2024 13:40:01,0.683s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), Password)",Chrome 126.0.0.0,,,17-07-2024 13:40:01,17-07-2024 13:40:01,0.746s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,17-07-2024 13:40:01,17-07-2024 13:40:02,0.900s,PASSED
+delay(2),Chrome 126.0.0.0,,,17-07-2024 13:40:02,17-07-2024 13:40:04,2.017s,PASSED
+"takeScreenshotAsCheckpoint(""Make appointment page"")",Chrome 126.0.0.0,,,17-07-2024 13:40:04,17-07-2024 13:40:05,0.408s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC12 - Logout via button toggle,Chrome 126.0.0.0,,,17-07-2024 13:40:05,17-07-2024 13:40:07,2.210s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:40:05,17-07-2024 13:40:05,0.378s,PASSED
+"click(findTestObject(""12. Log out/Page_CURA/a_Logout""))",Chrome 126.0.0.0,,,17-07-2024 13:40:05,17-07-2024 13:40:06,0.981s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Healthcare Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,17-07-2024 13:40:06,17-07-2024 13:40:06,0.336s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 13:40:06,17-07-2024 13:40:07,0.436s,PASSED

@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS17 - CURA test,Chrome 126.0.0.0,,,17-07-2024 13:51:08,17-07-2024 13:51:42,34.048s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC33 - Button check,Chrome 126.0.0.0,,,17-07-2024 13:51:08,17-07-2024 13:51:29,20.794s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:09,17-07-2024 13:51:15,6.292s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Make Appointment""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:15,17-07-2024 13:51:16,0.494s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/facebook""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:16,17-07-2024 13:51:16,0.328s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/twitter""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:16,17-07-2024 13:51:17,0.390s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/dribble""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:17,17-07-2024 13:51:17,0.335s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:17,17-07-2024 13:51:18,1.028s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Login Button""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:18,17-07-2024 13:51:18,0.422s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:18,17-07-2024 13:51:19,0.415s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Home""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:19,17-07-2024 13:51:19,0.377s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Login""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:19,17-07-2024 13:51:19,0.327s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP02 - Login""), [:], CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:19,17-07-2024 13:51:23,3.770s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Facility""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:23,17-07-2024 13:51:24,0.583s,PASSED
+"verifyElementNotChecked(findTestObject(""1. CURA Object button/Hospital Readmission""), 0)",Chrome 126.0.0.0,,,17-07-2024 13:51:24,17-07-2024 13:51:24,0.332s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Hospital Readmission""))",Chrome 126.0.0.0,,,17-07-2024 13:51:24,17-07-2024 13:51:25,0.401s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Medicaid""))",Chrome 126.0.0.0,,,17-07-2024 13:51:25,17-07-2024 13:51:25,0.295s,PASSED
+"verifyElementChecked(findTestObject(""1. CURA Object button/Medicare""), 0)",Chrome 126.0.0.0,,,17-07-2024 13:51:25,17-07-2024 13:51:25,0.334s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Medicare""))",Chrome 126.0.0.0,,,17-07-2024 13:51:25,17-07-2024 13:51:26,0.334s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/None""))",Chrome 126.0.0.0,,,17-07-2024 13:51:26,17-07-2024 13:51:26,0.315s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Calendar Visit Date""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:26,17-07-2024 13:51:26,0.394s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Comment""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:26,17-07-2024 13:51:27,0.347s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Book Appointment""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:27,17-07-2024 13:51:27,0.323s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:27,17-07-2024 13:51:27,0.333s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Home""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:27,17-07-2024 13:51:28,0.372s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/History""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:28,17-07-2024 13:51:28,0.317s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Profile""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:28,17-07-2024 13:51:28,0.355s,PASSED
+"verifyElementClickable(findTestObject(""1. CURA Object button/Logout""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:28,17-07-2024 13:51:29,0.308s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 13:51:29,17-07-2024 13:51:29,0.569s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC34 - Verify Text,Chrome 126.0.0.0,,,17-07-2024 13:51:29,17-07-2024 13:51:42,12.950s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:29,17-07-2024 13:51:33,3.915s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Healthcare Service""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:33,17-07-2024 13:51:34,0.344s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/About Your Health""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:34,17-07-2024 13:51:34,0.318s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/strong Healthcare""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:34,17-07-2024 13:51:34,0.363s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Office Address""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:34,17-07-2024 13:51:34,0.275s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Phone""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:34,17-07-2024 13:51:35,0.311s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Email""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:35,17-07-2024 13:51:35,0.313s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:35,17-07-2024 13:51:36,0.908s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Login Text""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:36,17-07-2024 13:51:36,0.446s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Make Appointment login""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:36,17-07-2024 13:51:37,0.292s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP02 - Login""), [:], CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:37,17-07-2024 13:51:40,3.422s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Make Appointment""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:40,17-07-2024 13:51:40,0.280s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/Healthcare Program (1)""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:40,17-07-2024 13:51:41,0.275s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/label_Facility""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:41,17-07-2024 13:51:41,0.320s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/label_Visit Date""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:41,17-07-2024 13:51:41,0.299s,PASSED
+"verifyElementPresent(findTestObject(""2. CURA Object Text/label_Comment""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:51:41,17-07-2024 13:51:42,0.315s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 13:51:42,17-07-2024 13:51:42,0.434s,PASSED

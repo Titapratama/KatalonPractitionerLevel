@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS13 - Script using StudioAssist,Chrome 126.0.0.0,,,17-07-2024 13:48:53,17-07-2024 13:49:21,27.439s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC21 - Login using StudioAssist,Chrome 126.0.0.0,,StudioAssist,17-07-2024 13:48:53,17-07-2024 13:49:03,9.543s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,17-07-2024 13:48:54,17-07-2024 13:48:56,2.019s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,17-07-2024 13:48:56,17-07-2024 13:48:59,2.852s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,17-07-2024 13:48:59,17-07-2024 13:49:00,0.951s,PASSED
+"setText(findTestObject(""1. CURA Object button/Username""), username)",Chrome 126.0.0.0,,,17-07-2024 13:49:00,17-07-2024 13:49:01,0.911s,PASSED
+"setText(findTestObject(""1. CURA Object button/Password""), password)",Chrome 126.0.0.0,,,17-07-2024 13:49:01,17-07-2024 13:49:02,0.908s,PASSED
+"click(findTestObject(""1. CURA Object button/Login Button""))",Chrome 126.0.0.0,,,17-07-2024 13:49:02,17-07-2024 13:49:03,1.006s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,17-07-2024 13:49:03,17-07-2024 13:49:03,0.355s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC22 - Hongkong appointment using StudioAssist,Chrome 126.0.0.0,,StudioAssist,17-07-2024 13:49:03,17-07-2024 13:49:09,6.219s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,17-07-2024 13:49:03,17-07-2024 13:49:03,0.327s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), ""Hongkong CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,17-07-2024 13:49:03,17-07-2024 13:49:04,1.116s,PASSED
+"click(findTestObject(""1. CURA Object button/Hospital Readmission""))",Chrome 126.0.0.0,,,17-07-2024 13:49:04,17-07-2024 13:49:05,0.431s,PASSED
+"click(findTestObject(""1. CURA Object button/None""))",Chrome 126.0.0.0,,,17-07-2024 13:49:05,17-07-2024 13:49:05,0.388s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), ""02/07/2025"")",Chrome 126.0.0.0,,,17-07-2024 13:49:05,17-07-2024 13:49:06,0.808s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), ""Meet dr. Alexandra Abraham"")",Chrome 126.0.0.0,,,17-07-2024 13:49:06,17-07-2024 13:49:07,0.901s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,17-07-2024 13:49:07,17-07-2024 13:49:08,0.679s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,17-07-2024 13:49:08,17-07-2024 13:49:08,0.412s,PASSED
+"click(findTestObject(""1. CURA Object button/Home""))",Chrome 126.0.0.0,,,17-07-2024 13:49:08,17-07-2024 13:49:09,0.734s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,17-07-2024 13:49:09,17-07-2024 13:49:09,0.328s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC23 - Seoul appointment using StudioAssist,Chrome 126.0.0.0,,StudioAssist,17-07-2024 13:49:09,17-07-2024 13:49:16,6.446s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), ""Seoul CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,17-07-2024 13:49:09,17-07-2024 13:49:11,1.347s,PASSED
+"click(findTestObject(""1. CURA Object button/Hospital Readmission""))",Chrome 126.0.0.0,,,17-07-2024 13:49:11,17-07-2024 13:49:11,0.370s,PASSED
+"click(findTestObject(""1. CURA Object button/Medicare""))",Chrome 126.0.0.0,,,17-07-2024 13:49:11,17-07-2024 13:49:11,0.392s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), ""05/08/2024"")",Chrome 126.0.0.0,,,17-07-2024 13:49:11,17-07-2024 13:49:12,0.883s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), ""I wanna reschedule to 06 August 2024"")",Chrome 126.0.0.0,,,17-07-2024 13:49:12,17-07-2024 13:49:13,1.060s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,17-07-2024 13:49:13,17-07-2024 13:49:14,0.779s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,17-07-2024 13:49:14,17-07-2024 13:49:15,0.470s,PASSED
+"click(findTestObject(""1. CURA Object button/Home""))",Chrome 126.0.0.0,,,17-07-2024 13:49:15,17-07-2024 13:49:15,0.706s,PASSED
+"click(findTestObject(""1. CURA Object button/Make Appointment""))",Chrome 126.0.0.0,,,17-07-2024 13:49:15,17-07-2024 13:49:16,0.361s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC24 - Tokyo appointment using StudioAssist,Chrome 126.0.0.0,,StudioAssist,17-07-2024 13:49:16,17-07-2024 13:49:21,4.892s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), ""Tokyo CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,17-07-2024 13:49:16,17-07-2024 13:49:17,1.171s,PASSED
+"click(findTestObject(""1. CURA Object button/Medicaid""))",Chrome 126.0.0.0,,,17-07-2024 13:49:17,17-07-2024 13:49:17,0.373s,PASSED
+"click(findTestObject(""1. CURA Object button/Visit Date""))",Chrome 126.0.0.0,,,17-07-2024 13:49:17,17-07-2024 13:49:18,0.361s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), ""09/09/2024"")",Chrome 126.0.0.0,,,17-07-2024 13:49:18,17-07-2024 13:49:19,1.028s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), ""Meet dr. Setiadi at 09:00 AM"")",Chrome 126.0.0.0,,,17-07-2024 13:49:19,17-07-2024 13:49:20,1.120s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,17-07-2024 13:49:20,17-07-2024 13:49:21,0.704s,PASSED

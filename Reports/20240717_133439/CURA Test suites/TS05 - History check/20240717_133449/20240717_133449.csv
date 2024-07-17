@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS05 - History check,Chrome 126.0.0.0,,,17-07-2024 13:41:41,17-07-2024 13:42:03,21.778s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/TC10 - History menu check,Chrome 126.0.0.0,,Regression,17-07-2024 13:41:41,17-07-2024 13:42:01,19.332s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP01 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:41:42,17-07-2024 13:41:45,3.009s,PASSED
+"callTestCase(findTestCase(""CURA Web Test/Properties/TCP02 - Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 13:41:45,17-07-2024 13:41:51,5.971s,PASSED
+"selectOptionByValue(findTestObject(""1. CURA Object button/Facility""), ""Hongkong CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,17-07-2024 13:41:51,17-07-2024 13:41:52,1.205s,PASSED
+"click(findTestObject(""1. CURA Object button/Hospital Readmission""))",Chrome 126.0.0.0,,,17-07-2024 13:41:52,17-07-2024 13:41:52,0.400s,PASSED
+"setText(findTestObject(""1. CURA Object button/Visit Date""), ""28/06/2024"")",Chrome 126.0.0.0,,,17-07-2024 13:41:52,17-07-2024 13:41:53,0.792s,PASSED
+"setText(findTestObject(""1. CURA Object button/Comment""), ""Let's meet at 9 AM"")",Chrome 126.0.0.0,,,17-07-2024 13:41:53,17-07-2024 13:41:54,1.050s,PASSED
+"click(findTestObject(""1. CURA Object button/Book Appointment""))",Chrome 126.0.0.0,,,17-07-2024 13:41:54,17-07-2024 13:41:55,0.772s,PASSED
+"verifyElementText(findTestObject(""4. Appointment Hongkong/Page_CURA/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 126.0.0.0,,,17-07-2024 13:41:55,17-07-2024 13:41:56,0.619s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,17-07-2024 13:41:56,17-07-2024 13:41:56,0.387s,PASSED
+"click(findTestObject(""1. CURA Object button/History""))",Chrome 126.0.0.0,,,17-07-2024 13:41:56,17-07-2024 13:41:57,0.638s,PASSED
+"takeScreenshotAsCheckpoint(""History Hongkong Appointment"")",Chrome 126.0.0.0,,,17-07-2024 13:41:57,17-07-2024 13:41:58,0.767s,PASSED
+"verifyElementText(findTestObject(""8. History check/Page_CURA/h2_History""), ""History"")",Chrome 126.0.0.0,,,17-07-2024 13:41:58,17-07-2024 13:41:58,0.319s,PASSED
+"verifyElementText(findTestObject(""8. History check/Page_CURA/div_28062024""), ""28/06/2024"")",Chrome 126.0.0.0,,,17-07-2024 13:41:58,17-07-2024 13:41:58,0.370s,PASSED
+"verifyElementText(findTestObject(""Object Repository/8. History check/Page_CURA/p_Hongkong""), ""Hongkong CURA Healthcare Center"")",Chrome 126.0.0.0,,,17-07-2024 13:41:58,17-07-2024 13:41:59,0.343s,PASSED
+"verifyElementText(findTestObject(""Object Repository/8. History check/Page_CURA/p_Yes""), ""Yes"")",Chrome 126.0.0.0,,,17-07-2024 13:41:59,17-07-2024 13:41:59,0.369s,PASSED
+"verifyElementText(findTestObject(""Object Repository/8. History check/Page_CURA/p_Medicare""), ""Medicare"")",Chrome 126.0.0.0,,,17-07-2024 13:41:59,17-07-2024 13:41:59,0.303s,PASSED
+"verifyElementText(findTestObject(""8. History check/Page_CURA/p_Lets meet at 9 AM""), ""Let's meet at 9 AM"")",Chrome 126.0.0.0,,,17-07-2024 13:41:59,17-07-2024 13:42:00,0.343s,PASSED
+"click(findTestObject(""1. CURA Object button/Go to Homepage""))",Chrome 126.0.0.0,,,17-07-2024 13:42:00,17-07-2024 13:42:00,0.753s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Healthcare Service""), ""CURA Healthcare Service"")",Chrome 126.0.0.0,,,17-07-2024 13:42:00,17-07-2024 13:42:01,0.341s,PASSED
+,,,,,,,
+Test Cases/CURA Web Test/Properties/TCP03 - Logout,Chrome 126.0.0.0,,Helper,17-07-2024 13:42:01,17-07-2024 13:42:03,2.178s,PASSED
+"verifyElementText(findTestObject(""2. CURA Object Text/Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,17-07-2024 13:42:01,17-07-2024 13:42:01,0.318s,PASSED
+"click(findTestObject(""1. CURA Object button/Menu""))",Chrome 126.0.0.0,,,17-07-2024 13:42:01,17-07-2024 13:42:01,0.377s,PASSED
+"click(findTestObject(""1. CURA Object button/Logout""))",Chrome 126.0.0.0,,,17-07-2024 13:42:01,17-07-2024 13:42:03,1.063s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 13:42:03,17-07-2024 13:42:03,0.291s,PASSED
