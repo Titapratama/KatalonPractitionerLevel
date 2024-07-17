@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Upload TikTok Live</name>
+   <tag></tag>
+   <elementGuidId>b901062b-a339-4ce3-b34f-32f7dca547dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[3]/div/div/div[2]/div[3]/div[2]/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Generate from External Source  Enter a stream URL  Upload TikTok Live  Upload from local files&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e2e1d373-e57c-44eb-a4e6-7e6d467751fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-secondary</value>
+      <webElementGuid>90406d98-520f-4378-9970-f5487cb02d95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload TikTok Live</value>
+      <webElementGuid>737db38c-cb10-4c33-bfa3-e615a33cf3d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard&quot;)/div[@class=&quot;ek-dashboard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-children-dashboard&quot;]/div[@class=&quot;ek-dashboard__home&quot;]/div[@class=&quot;ek-stream-list&quot;]/div[@class=&quot;d-flex gap-3 mt-3 flex-column flex-md-row empty-state-for-new-user-section&quot;]/div[@class=&quot;p-3 bg-base rounded-md generate-your-stream-highlight-section&quot;]/div[@class=&quot;connect-and-import-from-empty-state-section&quot;]/div[@class=&quot;import-stream-from-empty-state-section bg-gray py-4 px-3 border--rounded__16 h-100 d-flex flex-column&quot;]/div[@class=&quot;mx-auto&quot;]/div[@class=&quot;d-flex align-items-center gap-2 mb-2&quot;]/span[@class=&quot;text-secondary&quot;]</value>
+      <webElementGuid>377cb207-8de9-4a4d-b777-9fc9a0c26bd6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[3]/div/div/div[2]/div[3]/div[2]/div[2]/span</value>
+      <webElementGuid>680620b9-309a-4288-9b4a-940566c2ed67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a stream URL'])[1]/following::span[1]</value>
+      <webElementGuid>177809f0-e101-47f6-a133-4a0089182ca0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload from local files'])[1]/preceding::span[1]</value>
+      <webElementGuid>f120f6e1-1870-4d7d-889d-056f9de7db78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check Our Demo'])[1]/preceding::span[2]</value>
+      <webElementGuid>d6c723ce-ccf1-426d-a2af-74c6cc687cb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Upload TikTok Live']/parent::*</value>
+      <webElementGuid>25f36518-757f-46d3-9ce9-c09dc8114842</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/span</value>
+      <webElementGuid>9b43ea04-7703-4279-b7da-a0d605d6df15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Upload TikTok Live' or . = 'Upload TikTok Live')]</value>
+      <webElementGuid>224d3312-9c8d-41b0-8bfa-660287458898</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

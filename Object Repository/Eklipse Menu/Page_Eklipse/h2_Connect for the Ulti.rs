@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Connect for the Ulti</name>
+   <tag></tag>
+   <elementGuidId>f02b560c-cca8-42ab-99e2-028a1715a068</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard']/div[3]/div/div/div/div[3]/div/div/div[2]/div/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2.text-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Connect for the Ultimate Experience  Find your vods right after you're done streaming  Get instant highlights with auto-processing&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>bfb04e00-c16f-4d68-99c6-736158fb53de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center</value>
+      <webElementGuid>2a7c30cf-d6d0-460f-8be4-dc4b35ca2ee8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Connect for the Ultimate Experience</value>
+      <webElementGuid>f2c0d3a7-0f24-43e0-a361-974cda1d1f67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard&quot;)/div[@class=&quot;ek-dashboard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-children-dashboard&quot;]/div[@class=&quot;ek-dashboard__home&quot;]/div[@class=&quot;ek-stream-list&quot;]/div[@class=&quot;d-flex gap-3 mt-3 flex-column flex-md-row empty-state-for-new-user-section&quot;]/div[@class=&quot;p-3 bg-base rounded-md generate-your-stream-highlight-section&quot;]/div[@class=&quot;connect-and-import-from-empty-state-section&quot;]/div[@class=&quot;connect-from-empty-state-section bg-gray py-4 px-3 border--rounded__16 h-100 d-flex flex-column&quot;]/h2[@class=&quot;text-center&quot;]</value>
+      <webElementGuid>421f7c09-c66d-4c9c-b71d-0e505bb33fa9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard']/div[3]/div/div/div/div[3]/div/div/div[2]/div/h2</value>
+      <webElementGuid>df488741-49cd-453e-90d8-5600f04a682b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import'])[1]/following::h2[1]</value>
+      <webElementGuid>07498ddf-d900-4539-8f66-fdb55e13e214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate Your Stream Highlights'])[1]/following::h2[1]</value>
+      <webElementGuid>1a1d7e09-c4a6-4148-aec7-6149f52d9f18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='for the Ultimate Experience']/parent::*</value>
+      <webElementGuid>42e95652-584d-4d42-b871-2dc1b2f9ce94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>b9e8d8f7-b840-4dc9-8782-2d1106007f92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Connect for the Ultimate Experience' or . = 'Connect for the Ultimate Experience')]</value>
+      <webElementGuid>f1bc5249-c2cf-4a9f-a7ef-42ff15dc101e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

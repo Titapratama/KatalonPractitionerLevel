@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS012 - Pro Edits,Chrome 126.0.0.0,,,17-07-2024 21:48:30,17-07-2024 21:49:52,1m - 21.878s,PASSED
+,,,,,,,
+Test Cases/Eklipse Test/Pro Edits/TC01 - Verify Elements,Chrome 126.0.0.0,,,17-07-2024 21:48:31,17-07-2024 21:49:52,1m - 21.543s,PASSED
+"callTestCase(findTestCase(""Eklipse Test/Landing page/TC001 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:48:31,17-07-2024 21:48:42,11.492s,PASSED
+"callTestCase(findTestCase(""Eklipse Test/Sign in and Sign Up/TC000 - Login""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:48:42,17-07-2024 21:48:51,8.285s,PASSED
+deleteAllCookies(),Chrome 126.0.0.0,,,17-07-2024 21:48:51,17-07-2024 21:48:51,0.202s,PASSED
+"scrollToElement(findTestObject(""Eklipse Pro Edits/Page_Eklipse/a_Pro Edits""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:48:51,17-07-2024 21:49:13,21.879s,PASSED
+"click(findTestObject(""Eklipse Pro Edits/Page_Eklipse/a_Pro Edits""))",Chrome 126.0.0.0,,,17-07-2024 21:49:13,17-07-2024 21:49:14,0.738s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/h3_Professionally Edited""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:14,17-07-2024 21:49:19,5.815s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Let our professional""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:19,17-07-2024 21:49:20,1.025s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Sort by""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:20,17-07-2024 21:49:22,1.139s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Pro Edits/Page_Eklipse/select_NEWEST TO OLDES""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:49:22,17-07-2024 21:49:23,0.965s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Filter Status""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:23,17-07-2024 21:49:24,1.128s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Pro Edits/Page_Eklipse/select_AllRequestedCompleted""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:49:24,17-07-2024 21:49:24,0.786s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/h4_Give a Pro-Quality""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:24,17-07-2024 21:49:26,1.091s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/p_Show off your content""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:26,17-07-2024 21:49:28,2.236s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Pro Edits/Page_Eklipse/a_Check Sample Videos""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:49:28,17-07-2024 21:49:29,0.928s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Pro Edits/Page_Eklipse/button_Request Edit Now""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:49:29,17-07-2024 21:49:30,0.941s,PASSED
+"click(findTestObject(""Eklipse Pro Edits/Page_Eklipse/button_Request Edit Now""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:49:30,17-07-2024 21:49:32,2.175s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/div_Request Pro Edits""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:32,17-07-2024 21:49:33,0.905s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/div_Total duration""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:33,17-07-2024 21:49:34,0.792s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/div_Your Video Preference""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:34,17-07-2024 21:49:35,1.146s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/label_Output Format""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:35,17-07-2024 21:49:37,2.118s,PASSED
+"verifyElementNotChecked(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Landscape_checkmark""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:37,17-07-2024 21:49:38,0.768s,PASSED
+"verifyElementNotChecked(findTestObject(""Eklipse Pro Edits/Page_Eklipse/label_Portrait""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:38,17-07-2024 21:49:39,1.056s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/div_Best for long video""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:39,17-07-2024 21:49:40,1.062s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/div_Best for shorts format""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:40,17-07-2024 21:49:41,1.087s,PASSED
+"verifyElementNotChecked(findTestObject(""Eklipse Pro Edits/Page_Eklipse/label_Epic""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:41,17-07-2024 21:49:42,1.171s,PASSED
+"verifyElementNotChecked(findTestObject(""Eklipse Pro Edits/Page_Eklipse/label_Funny""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:42,17-07-2024 21:49:44,1.788s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Effect Options""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:44,17-07-2024 21:49:45,1.005s,PASSED
+"verifyElementNotChecked(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Zoom""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:45,17-07-2024 21:49:46,1.138s,PASSED
+"verifyElementNotChecked(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Sound Effect""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:46,17-07-2024 21:49:47,1.088s,PASSED
+"verifyElementNotChecked(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Subtitles""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:47,17-07-2024 21:49:48,0.824s,PASSED
+"verifyElementNotChecked(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Meme""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:48,17-07-2024 21:49:49,1.033s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Detailed information""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:49,17-07-2024 21:49:50,0.982s,PASSED
+"verifyElementNotChecked(findTestObject(""Eklipse Pro Edits/Page_Eklipse/span_Allow Eklipse to feature""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:49:50,17-07-2024 21:49:51,1.128s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Pro Edits/Page_Eklipse/button_Purchase Pro Edits""))",Chrome 126.0.0.0,,,17-07-2024 21:49:51,17-07-2024 21:49:52,0.786s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 21:49:52,17-07-2024 21:49:52,0.405s,PASSED

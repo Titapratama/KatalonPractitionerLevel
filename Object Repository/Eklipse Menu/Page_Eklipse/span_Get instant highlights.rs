@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Get instant highlights</name>
+   <tag></tag>
+   <elementGuidId>1479cd8c-5c61-4b2d-b402-159c77a5979d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Connect for the Ultimate Experience  Find your vods right after you're done streaming  Get instant highlights with auto-processing&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3cef9d2c-0864-4634-a478-148b740e668d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-secondary</value>
+      <webElementGuid>a672a58b-a780-4528-98e9-90d158063ffb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Get instant highlights with auto-processing</value>
+      <webElementGuid>6741a574-3260-4ebf-9b33-61e43523c194</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard&quot;)/div[@class=&quot;ek-dashboard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-children-dashboard&quot;]/div[@class=&quot;ek-dashboard__home&quot;]/div[@class=&quot;ek-stream-list&quot;]/div[@class=&quot;d-flex gap-3 mt-3 flex-column flex-md-row empty-state-for-new-user-section&quot;]/div[@class=&quot;p-3 bg-base rounded-md generate-your-stream-highlight-section&quot;]/div[@class=&quot;connect-and-import-from-empty-state-section&quot;]/div[@class=&quot;connect-from-empty-state-section bg-gray py-4 px-3 border--rounded__16 h-100 d-flex flex-column&quot;]/div[@class=&quot;d-flex justify-content-center flex-column align-items-center&quot;]/div[1]/div[@class=&quot;d-flex align-items-center gap-2&quot;]/span[@class=&quot;text-secondary&quot;]</value>
+      <webElementGuid>bfc96c87-a718-443f-a7c6-6f7b1943437e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/span</value>
+      <webElementGuid>950559ad-c9f1-450e-8888-4c7fc7c48197</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Connect'])[1]/following::span[2]</value>
+      <webElementGuid>0e146dd5-2dbe-4778-aef4-57efddd15447</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/preceding::span[1]</value>
+      <webElementGuid>5d65d33b-b256-4cdb-9e9f-6802bf799dfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Get instant highlights with auto-processing']/parent::*</value>
+      <webElementGuid>cfdb7305-3f33-4964-8386-1330459dc967</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>df5e5611-f392-4a45-be33-0f4145d0758b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Get instant highlights with auto-processing' or . = 'Get instant highlights with auto-processing')]</value>
+      <webElementGuid>8a39cafc-9ce3-46ad-8d83-6261db4f39be</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

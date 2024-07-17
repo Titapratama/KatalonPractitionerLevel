@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS012 - Pro Edits" time="81.878" tests="1" failures="0" errors="0">
+   <testsuite name="TS012 - Pro Edits" tests="1" failures="0" errors="0" time="81.878" skipped="0" timestamp="17-07-2024T21:48:30" hostname="Lenovo - LAPTOP-7QB5JFLU" id="Test Suites/Eklipse Test suite/TS012 - Pro Edits">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240717_214820\\Eklipse Test suite\\TS012 - Pro Edits\\20240717_214821"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\KatalonPractitionerLevel\\Reports\\20240717_214820\\Eklipse Test suite\\TS012 - Pro Edits\\20240717_214821\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - LAPTOP-7QB5JFLU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="b4d54265c5f8c382e9cbbabde4513289"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Eklipse Test/Pro Edits/TC01 - Verify Elements" time="81.543" classname="Test Cases/Eklipse Test/Pro Edits/TC01 - Verify Elements" status="PASSED">
+         <system-out><![CDATA[17-07-2024T21:48:31 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Pro Edits/TC01 - Verify Elements: Test Cases/Eklipse Test/Pro Edits/TC01 - Verify Elements
+
+17-07-2024T21:48:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Eklipse Test/Landing page/TC001 - Open browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Eklipse Test/Landing page/TC001 - Open browser' successfully
+
+17-07-2024T21:48:31 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Landing page/TC001 - Open browser: Test Cases/Eklipse Test/Landing page/TC001 - Open browser
+
+17-07-2024T21:48:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-07-2024T21:48:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-07-2024T21:48:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-07-2024T21:48:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-07-2024T21:48:33 - [TEST_STEP][PASSED] - navigateToUrl("https://eklipse.gg/"): Navigate to 'https://eklipse.gg/' successfully
+
+17-07-2024T21:48:42 - [MESSAGE][PASSED] - Navigate to 'https://eklipse.gg/' successfully
+
+17-07-2024T21:48:42 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+17-07-2024T21:48:42 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+17-07-2024T21:48:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Eklipse Test/Landing page/TC001 - Open browser' successfully
+
+17-07-2024T21:48:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Eklipse Test/Sign in and Sign Up/TC000 - Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Login' successfully
+
+17-07-2024T21:48:43 - [TEST_CASE][PASSED] - Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Login: Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Login
+
+17-07-2024T21:48:43 - [TEST_STEP][PASSED] - click(findTestObject("Eklipse Landing Page/Page_Eklipse/Sign In")): Object: 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is clicked on
+
+17-07-2024T21:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Eklipse Landing Page/Page_Eklipse/Sign In' is clicked on
+
+17-07-2024T21:48:48 - [TEST_STEP][PASSED] - setText(findTestObject("Sign in page/Page_Eklipse/Username Eklipse"), "tita71@gmail.com"): Text 'tita71@gmail.com' is set on object 'Object Repository/Sign in page/Page_Eklipse/Username Eklipse'
+
+17-07-2024T21:48:49 - [MESSAGE][PASSED] - Text 'tita71@gmail.com' is set on object 'Object Repository/Sign in page/Page_Eklipse/Username Eklipse'
+
+17-07-2024T21:48:49 - [TEST_STEP][PASSED] - click(findTestObject("Sign in page/Page_Eklipse/Password_Eklipse")): Object: 'Object Repository/Sign in page/Page_Eklipse/Password_Eklipse' is clicked on
+
+17-07-2024T21:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign in page/Page_Eklipse/Password_Eklipse' is clicked on
+
+17-07-2024T21:48:49 - [TEST_STEP][PASSED] - setText(findTestObject("Sign in page/Page_Eklipse/Password_Eklipse"), "tita123."): Text 'tita123.' is set on object 'Object Repository/Sign in page/Page_Eklipse/Password_Eklipse'
+
+17-07-2024T21:48:50 - [MESSAGE][PASSED] - Text 'tita123.' is set on object 'Object Repository/Sign in page/Page_Eklipse/Password_Eklipse'
+
+17-07-2024T21:48:50 - [TEST_STEP][PASSED] - click(findTestObject("Sign in page/Page_Eklipse/button_Sign In")): Object: 'Object Repository/Sign in page/Page_Eklipse/button_Sign In' is clicked on
+
+17-07-2024T21:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign in page/Page_Eklipse/button_Sign In' is clicked on
+
+17-07-2024T21:48:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Eklipse Test/Sign in and Sign Up/TC000 - Login' successfully
+
+17-07-2024T21:48:51 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+17-07-2024T21:48:51 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+17-07-2024T21:48:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Eklipse Pro Edits/Page_Eklipse/a_Pro Edits"), 0): Scroll to object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/a_Pro Edits' successfully
+
+17-07-2024T21:48:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/a_Pro Edits' successfully
+
+17-07-2024T21:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Eklipse Pro Edits/Page_Eklipse/a_Pro Edits")): Object: 'Object Repository/Eklipse Pro Edits/Page_Eklipse/a_Pro Edits' is clicked on
+
+17-07-2024T21:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Eklipse Pro Edits/Page_Eklipse/a_Pro Edits' is clicked on
+
+17-07-2024T21:49:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/h3_Professionally Edited"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/h3_Professionally Edited' is present
+
+17-07-2024T21:49:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:19 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/h3_Professionally Edited' is present
+
+17-07-2024T21:49:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Let our professional"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Let our professional' is present
+
+17-07-2024T21:49:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:20 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Let our professional' is present
+
+17-07-2024T21:49:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Sort by"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Sort by' is present
+
+17-07-2024T21:49:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:22 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Sort by' is present
+
+17-07-2024T21:49:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Pro Edits/Page_Eklipse/select_NEWEST TO OLDES"), STOP_ON_FAILURE): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/select_NEWEST TO OLDES' is clickable
+
+17-07-2024T21:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/select_NEWEST TO OLDES' is clickable
+
+17-07-2024T21:49:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Filter Status"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Filter Status' is present
+
+17-07-2024T21:49:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:24 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Filter Status' is present
+
+17-07-2024T21:49:24 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Pro Edits/Page_Eklipse/select_AllRequestedCompleted"), STOP_ON_FAILURE): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/select_AllRequestedCompleted' is clickable
+
+17-07-2024T21:49:24 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/select_AllRequestedCompleted' is clickable
+
+17-07-2024T21:49:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/h4_Give a Pro-Quality"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/h4_Give a Pro-Quality' is present
+
+17-07-2024T21:49:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:26 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/h4_Give a Pro-Quality' is present
+
+17-07-2024T21:49:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/p_Show off your content"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/p_Show off your content' is present
+
+17-07-2024T21:49:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:28 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/p_Show off your content' is present
+
+17-07-2024T21:49:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Pro Edits/Page_Eklipse/a_Check Sample Videos"), STOP_ON_FAILURE): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/a_Check Sample Videos' is clickable
+
+17-07-2024T21:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/a_Check Sample Videos' is clickable
+
+17-07-2024T21:49:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Pro Edits/Page_Eklipse/button_Request Edit Now"), STOP_ON_FAILURE): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/button_Request Edit Now' is clickable
+
+17-07-2024T21:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/button_Request Edit Now' is clickable
+
+17-07-2024T21:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Eklipse Pro Edits/Page_Eklipse/button_Request Edit Now"), STOP_ON_FAILURE): Object: 'Object Repository/Eklipse Pro Edits/Page_Eklipse/button_Request Edit Now' is clicked on
+
+17-07-2024T21:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Eklipse Pro Edits/Page_Eklipse/button_Request Edit Now' is clicked on
+
+17-07-2024T21:49:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/div_Request Pro Edits"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/div_Request Pro Edits' is present
+
+17-07-2024T21:49:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/div_Request Pro Edits' is present
+
+17-07-2024T21:49:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/div_Total duration"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/div_Total duration' is present
+
+17-07-2024T21:49:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:34 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/div_Total duration' is present
+
+17-07-2024T21:49:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/div_Your Video Preference"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/div_Your Video Preference' is present
+
+17-07-2024T21:49:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:35 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/div_Your Video Preference' is present
+
+17-07-2024T21:49:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/label_Output Format"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/label_Output Format' is present
+
+17-07-2024T21:49:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:37 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/label_Output Format' is present
+
+17-07-2024T21:49:37 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Landscape_checkmark"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Landscape_checkmark' is not checked
+
+17-07-2024T21:49:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:38 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Landscape_checkmark' is not checked
+
+17-07-2024T21:49:38 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Eklipse Pro Edits/Page_Eklipse/label_Portrait"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/label_Portrait' is not checked
+
+17-07-2024T21:49:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:39 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/label_Portrait' is not checked
+
+17-07-2024T21:49:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/div_Best for long video"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/div_Best for long video' is present
+
+17-07-2024T21:49:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:40 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/div_Best for long video' is present
+
+17-07-2024T21:49:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/div_Best for shorts format"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/div_Best for shorts format' is present
+
+17-07-2024T21:49:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:41 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/div_Best for shorts format' is present
+
+17-07-2024T21:49:41 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Eklipse Pro Edits/Page_Eklipse/label_Epic"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/label_Epic' is not checked
+
+17-07-2024T21:49:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:42 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/label_Epic' is not checked
+
+17-07-2024T21:49:42 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Eklipse Pro Edits/Page_Eklipse/label_Funny"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/label_Funny' is not checked
+
+17-07-2024T21:49:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/label_Funny' is not checked
+
+17-07-2024T21:49:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Effect Options"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Effect Options' is present
+
+17-07-2024T21:49:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:45 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Effect Options' is present
+
+17-07-2024T21:49:45 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Zoom"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Zoom' is not checked
+
+17-07-2024T21:49:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:46 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Zoom' is not checked
+
+17-07-2024T21:49:46 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Sound Effect"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Sound Effect' is not checked
+
+17-07-2024T21:49:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:47 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Sound Effect' is not checked
+
+17-07-2024T21:49:47 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Subtitles"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Subtitles' is not checked
+
+17-07-2024T21:49:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:48 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Subtitles' is not checked
+
+17-07-2024T21:49:48 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Meme"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Meme' is not checked
+
+17-07-2024T21:49:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:49 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Meme' is not checked
+
+17-07-2024T21:49:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Detailed information"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Detailed information' is present
+
+17-07-2024T21:49:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:50 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Detailed information' is present
+
+17-07-2024T21:49:50 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Eklipse Pro Edits/Page_Eklipse/span_Allow Eklipse to feature"), 0): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Allow Eklipse to feature' is not checked
+
+17-07-2024T21:49:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+17-07-2024T21:49:51 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/span_Allow Eklipse to feature' is not checked
+
+17-07-2024T21:49:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Eklipse Pro Edits/Page_Eklipse/button_Purchase Pro Edits")): Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/button_Purchase Pro Edits' is clickable
+
+17-07-2024T21:49:52 - [MESSAGE][PASSED] - Object 'Object Repository/Eklipse Pro Edits/Page_Eklipse/button_Purchase Pro Edits' is clickable
+
+17-07-2024T21:49:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-07-2024T21:49:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-07-2024T21:48:30 - [TEST_SUITE][PASSED] - TS012 - Pro Edits: Test Cases/Eklipse Test/Pro Edits/TC01 - Verify Elements]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

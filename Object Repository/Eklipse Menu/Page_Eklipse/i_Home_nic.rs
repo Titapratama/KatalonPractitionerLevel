@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Home_nic</name>
+   <tag></tag>
+   <elementGuidId>85ac4953-486d-420e-ab26-4233daae2704</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mySidebar']/div[2]/nav/ul/li[4]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.nic.nic-my-clip</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>38b93d4c-cfdb-4e07-b458-8ac59145ddbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nic nic-my-clip</value>
+      <webElementGuid>f2114e76-afa2-4200-a68c-2f03e1443423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mySidebar&quot;)/div[@class=&quot;menu-box-content&quot;]/nav[@class=&quot;navbar&quot;]/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;sidebar-item sidebar-item__dropdown opened  false&quot;]/a[@class=&quot;sidebar-link&quot;]/i[@class=&quot;nic nic-my-clip&quot;]</value>
+      <webElementGuid>345bfc2b-51f8-46d5-840e-d6729ae6b372</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mySidebar']/div[2]/nav/ul/li[4]/a/i</value>
+      <webElementGuid>9bba2327-1360-4c79-a76a-4ba38478e2ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/i</value>
+      <webElementGuid>01a93fda-8f03-492c-972d-7c87eca8f75f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

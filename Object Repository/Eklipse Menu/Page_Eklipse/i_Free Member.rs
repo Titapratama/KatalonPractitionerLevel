@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Free Member</name>
+   <tag></tag>
+   <elementGuidId>c4edc281-925e-413b-85d7-324baccdeb00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mySidebar']/div/a/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.nic-hamburger.icon-menu</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; logo&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>d7db9250-f3f6-4dc4-986b-c147c6c1eee8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nic-hamburger icon-menu</value>
+      <webElementGuid>89dcc7d8-b53a-47d5-9fe5-621a5281178e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mySidebar&quot;)/div[@class=&quot;logo logo-header&quot;]/a[1]/div[@class=&quot;logo-menu-wrapper&quot;]/i[@class=&quot;nic-hamburger icon-menu&quot;]</value>
+      <webElementGuid>faaf7926-4df0-4e7e-ace1-8ae06fae8b76</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mySidebar']/div/a/div/i</value>
+      <webElementGuid>554713f1-3eab-4bce-9fb5-e7bd68d1536b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>adda347d-1755-4403-9cb1-8c4727b79002</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

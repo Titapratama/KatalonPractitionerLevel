@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Content Publisher</name>
+   <tag></tag>
+   <elementGuidId>3de047e5-fdf1-4206-b0c6-10bc6a67dfc6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mySidebar']/div[2]/nav/ul/li[6]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-edited-video</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>ce97ddbb-3f7c-4ab1-a260-595d23cfeb72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-edited-video</value>
+      <webElementGuid>edb50925-0303-4297-bc4c-6f6ede20d438</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mySidebar&quot;)/div[@class=&quot;menu-box-content&quot;]/nav[@class=&quot;navbar&quot;]/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;sidebar-item sidebar-item__dropdown opened  false&quot;]/a[@class=&quot;sidebar-link&quot;]/i[@class=&quot;icon-edited-video&quot;]</value>
+      <webElementGuid>6d35efe0-0c85-4748-8eb9-7e775102d06e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mySidebar']/div[2]/nav/ul/li[6]/a/i</value>
+      <webElementGuid>662b9455-76b7-4a87-98aa-5e6fa6a21963</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a/i</value>
+      <webElementGuid>446ea3bf-73b2-4a0f-80c9-f5e0d2a742e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
