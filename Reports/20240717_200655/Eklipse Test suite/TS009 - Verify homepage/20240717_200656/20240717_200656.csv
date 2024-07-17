@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS009 - Verify homepage,Chrome 126.0.0.0,,,17-07-2024 20:07:03,17-07-2024 20:11:14,4m - 11.875s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Homepage Eklipse/TC01 - Verify text,Chrome 126.0.0.0,,,17-07-2024 20:08:11,17-07-2024 20:08:50,38.510s,PASSED
+"callTestCase(findTestCase(""Eklipse Test/Landing page/TC001 - Open browser""), [:], CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:11,17-07-2024 20:08:20,8.312s,PASSED
+"click(findTestObject(""Eklipse Landing Page/Page_Eklipse/Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:20,17-07-2024 20:08:22,2.459s,PASSED
+"setText(findTestObject(""Sign in page/Page_Eklipse/Username Eklipse""), ""tita71@gmail.com"", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:22,17-07-2024 20:08:23,1.263s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/Password_Eklipse""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:23,17-07-2024 20:08:24,0.285s,PASSED
+"setText(findTestObject(""Sign in page/Page_Eklipse/Password_Eklipse""), ""tita123."", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:24,17-07-2024 20:08:24,0.536s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/button_Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:24,17-07-2024 20:08:25,0.284s,PASSED
+"click(findTestObject(""Homepage Eklipse/Page_Eklipse/button_Skip for now""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:25,17-07-2024 20:08:42,17.713s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/Generate Highlights""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:42,17-07-2024 20:08:43,0.477s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/VOD link 1""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:43,17-07-2024 20:08:43,0.250s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/Connect Ultimate""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:43,17-07-2024 20:08:43,0.265s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/Generate fromExternal""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:43,17-07-2024 20:08:43,0.264s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/Find your vods""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:43,17-07-2024 20:08:44,0.265s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_stream URL""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:44,17-07-2024 20:08:44,0.278s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_Upload TikTok""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:44,17-07-2024 20:08:44,0.250s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_Upload from local""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:44,17-07-2024 20:08:45,0.250s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/Get clips""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:45,17-07-2024 20:08:45,0.247s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/E-Sports World Cup""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:45,17-07-2024 20:08:45,0.264s,PASSED
+"click(findTestObject(""Homepage Eklipse/Page_Eklipse/li_YouTube Highlights""))",Chrome 126.0.0.0,,,17-07-2024 20:08:45,17-07-2024 20:08:45,0.300s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/h4_Clip a YouTube""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:45,17-07-2024 20:08:47,1.462s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/li_Live Stream""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:47,17-07-2024 20:08:47,0.261s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/li_YouTube Highlights""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:47,17-07-2024 20:08:47,0.264s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/p_New to Eklipse""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:47,17-07-2024 20:08:48,0.271s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_Commentaries""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:48,17-07-2024 20:08:48,0.247s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_Educational""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:48,17-07-2024 20:08:48,0.252s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_Get highlighted""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:48,17-07-2024 20:08:48,0.258s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_instant highlights""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:48,17-07-2024 20:08:49,0.254s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_Product Reviews""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:49,17-07-2024 20:08:49,0.262s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_Self-improvement""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:49,17-07-2024 20:08:49,0.266s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_Tip We support""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:49,17-07-2024 20:08:49,0.273s,PASSED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_Video Podcasts""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:08:49,17-07-2024 20:08:50,0.258s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 20:08:50,17-07-2024 20:08:50,0.198s,PASSED
+,,,,,,,
+Test Cases/Eklipse Test/Homepage Eklipse/TC02 - Verify button,Chrome 126.0.0.0,,,17-07-2024 20:10:40,17-07-2024 20:11:14,34.310s,FAILED
+"callTestCase(findTestCase(""Eklipse Test/Landing page/TC001 - Open browser""), [:], CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:10:40,17-07-2024 20:10:47,7.211s,PASSED
+"click(findTestObject(""Eklipse Landing Page/Page_Eklipse/Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:10:47,17-07-2024 20:10:50,2.716s,PASSED
+"setText(findTestObject(""Sign in page/Page_Eklipse/Username Eklipse""), ""tita71@gmail.com"", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:10:50,17-07-2024 20:10:51,1.152s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/Password_Eklipse""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:10:51,17-07-2024 20:10:52,0.288s,PASSED
+"setText(findTestObject(""Sign in page/Page_Eklipse/Password_Eklipse""), ""tita123."", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:10:52,17-07-2024 20:10:52,0.551s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/button_Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:10:52,17-07-2024 20:10:52,0.325s,PASSED
+"verifyElementClickable(findTestObject(""Homepage Eklipse/Page_Eklipse/button_Skip for now""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:10:52,17-07-2024 20:11:11,19.009s,PASSED
+"verifyElementClickable(findTestObject(""Homepage Eklipse/Page_Eklipse/li_Live Stream""))",Chrome 126.0.0.0,,,17-07-2024 20:11:11,17-07-2024 20:11:12,0.264s,PASSED
+"click(findTestObject(""Homepage Eklipse/Page_Eklipse/li_YouTube Highlights""))",Chrome 126.0.0.0,,,17-07-2024 20:11:12,17-07-2024 20:11:12,0.302s,PASSED
+"verifyElementClickable(findTestObject(""Homepage Eklipse/Page_Eklipse/button_Get Clip""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:11:12,17-07-2024 20:11:13,1.441s,FAILED
+"verifyElementClickable(findTestObject(""Homepage Eklipse/Page_Eklipse/button_Next""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:11:13,17-07-2024 20:11:14,0.277s,PASSED
+"verifyElementClickable(findTestObject(""Homepage Eklipse/Page_Eklipse/button_Previous""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:11:14,17-07-2024 20:11:14,0.279s,PASSED
+"verifyElementClickable(findTestObject(""Homepage Eklipse/Page_Eklipse/button_Upload""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:11:14,17-07-2024 20:11:14,0.268s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 126.0.0.0,,,17-07-2024 20:11:14,17-07-2024 20:11:14,0.214s,PASSED

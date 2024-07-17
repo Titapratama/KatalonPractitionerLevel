@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS011 - Verify Edited Clips,Chrome 126.0.0.0,,,17-07-2024 21:17:19,17-07-2024 21:18:13,53.953s,PASSED
+,,,,,,,
+Test Cases/Eklipse Test/Edited Clips/TC01 - Verify text,Chrome 126.0.0.0,,,17-07-2024 21:17:19,17-07-2024 21:18:13,53.656s,PASSED
+"callTestCase(findTestCase(""Eklipse Test/Landing page/TC001 - Open browser""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:17:20,17-07-2024 21:17:32,11.830s,PASSED
+"click(findTestObject(""Eklipse Landing Page/Page_Eklipse/Sign In""))",Chrome 126.0.0.0,,,17-07-2024 21:17:32,17-07-2024 21:17:35,3.633s,PASSED
+"setText(findTestObject(""Sign in page/Page_Eklipse/Username Eklipse""), ""tita71@gmail.com"")",Chrome 126.0.0.0,,,17-07-2024 21:17:35,17-07-2024 21:17:36,1.335s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/Password_Eklipse""))",Chrome 126.0.0.0,,,17-07-2024 21:17:36,17-07-2024 21:17:37,0.429s,PASSED
+"setText(findTestObject(""Sign in page/Page_Eklipse/Password_Eklipse""), ""tita123."")",Chrome 126.0.0.0,,,17-07-2024 21:17:37,17-07-2024 21:17:38,0.846s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/button_Sign In""))",Chrome 126.0.0.0,,,17-07-2024 21:17:38,17-07-2024 21:17:38,0.435s,PASSED
+"scrollToElement(findTestObject(""Eklipse Edited Clips/Page_Eklipse/a_Edited Clips""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:17:38,17-07-2024 21:18:02,23.965s,PASSED
+"click(findTestObject(""Eklipse Edited Clips/Page_Eklipse/a_Edited Clips""))",Chrome 126.0.0.0,,,17-07-2024 21:18:02,17-07-2024 21:18:03,0.591s,PASSED
+deleteAllCookies(),Chrome 126.0.0.0,,,17-07-2024 21:18:03,17-07-2024 21:18:03,0.175s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Edited Clips/Page_Eklipse/h2_Edited Clips""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:18:03,17-07-2024 21:18:06,2.717s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Edited Clips/Page_Eklipse/div_Create Montage""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:18:06,17-07-2024 21:18:06,0.381s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Edited Clips/Page_Eklipse/li_Convert to TikTok""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:18:06,17-07-2024 21:18:06,0.346s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Edited Clips/Page_Eklipse/div_Your AI-edited""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:18:06,17-07-2024 21:18:07,0.306s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Edited Clips/Page_Eklipse/span_Sort by""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:18:07,17-07-2024 21:18:07,0.289s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Edited Clips/Page_Eklipse/select_NEWEST TO OLDEST""), STOP_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 21:18:07,17-07-2024 21:18:07,0.391s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Edited Clips/Page_Eklipse/select_ALLIN""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:18:07,17-07-2024 21:18:08,0.332s,PASSED
+"scrollToElement(findTestObject(""Eklipse Edited Clips/Page_Eklipse/span_No Edited Clip Yet""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:18:08,17-07-2024 21:18:08,0.342s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse Edited Clips/Page_Eklipse/span_No Edited Clip Yet""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:18:08,17-07-2024 21:18:08,0.326s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Edited Clips/Page_Eklipse/button_Convert to TikTok""))",Chrome 126.0.0.0,,,17-07-2024 21:18:08,17-07-2024 21:18:09,0.358s,PASSED
+"scrollToElement(findTestObject(""Eklipse Edited Clips/Page_Eklipse/li_Extended  Trimmed Clip""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:18:09,17-07-2024 21:18:09,0.593s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Edited Clips/Page_Eklipse/li_Extended  Trimmed Clip""))",Chrome 126.0.0.0,,,17-07-2024 21:18:09,17-07-2024 21:18:10,0.305s,PASSED
+"click(findTestObject(""Eklipse Edited Clips/Page_Eklipse/li_Extended  Trimmed Clip""))",Chrome 126.0.0.0,,,17-07-2024 21:18:10,17-07-2024 21:18:10,0.403s,PASSED
+"scrollToElement(findTestObject(""Eklipse Edited Clips/Page_Eklipse/div_Import Facebook Video""), 0)",Chrome 126.0.0.0,,,17-07-2024 21:18:10,17-07-2024 21:18:11,0.899s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Edited Clips/Page_Eklipse/div_Import Facebook Video""))",Chrome 126.0.0.0,,,17-07-2024 21:18:11,17-07-2024 21:18:11,0.341s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Edited Clips/Page_Eklipse/div_Import Twitch Video""))",Chrome 126.0.0.0,,,17-07-2024 21:18:11,17-07-2024 21:18:12,0.317s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse Edited Clips/Page_Eklipse/div_Import YouTube Video""))",Chrome 126.0.0.0,,,17-07-2024 21:18:12,17-07-2024 21:18:12,0.336s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 21:18:12,17-07-2024 21:18:13,0.835s,PASSED

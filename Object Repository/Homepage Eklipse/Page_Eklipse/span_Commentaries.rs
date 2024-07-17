@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Commentaries</name>
+   <tag></tag>
+   <elementGuidId>02d3732c-186a-4dc3-9091-595786b193ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Educational'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Commentaries&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fca01c84-4ef9-494c-819f-8d36b234a032</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Commentaries</value>
+      <webElementGuid>2381b863-768f-49dc-9f93-73b2914a6144</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard&quot;)/div[@class=&quot;ek-dashboard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-children-dashboard&quot;]/div[@class=&quot;ek-dashboard__home&quot;]/div[@class=&quot;ek-stream-list&quot;]/div[@class=&quot;import-video-container d-flex flex-column justify-content-center align-items-center&quot;]/div[@class=&quot;justify-content-center align-items-center m-auto w-100 pt-3 d-flex&quot;]/div[@class=&quot;slick-slider upload-video-tips slick-initialized&quot;]/div[@class=&quot;slick-list&quot;]/div[@class=&quot;slick-track&quot;]/div[@class=&quot;slick-slide slick-active slick-current&quot;]/div[1]/div[@class=&quot;tip-container&quot;]/div[@class=&quot;tip-detail&quot;]/div[@class=&quot;options-container&quot;]/div[@class=&quot;option-item&quot;]/div[@class=&quot;d-flex&quot;]/span[1]</value>
+      <webElementGuid>0ca54d82-914a-4154-aec9-8b72e4cfab26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[3]/div/div[3]/div/div/div/div[2]/div/div/div/div[2]/div[3]/div/span</value>
+      <webElementGuid>9dd8cd29-c191-4863-b77c-065814ed80b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Educational'])[1]/following::span[1]</value>
+      <webElementGuid>4291e28d-182e-434f-8aad-ea50d49edd52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Podcasts'])[1]/following::span[2]</value>
+      <webElementGuid>61978a9a-7fa8-42f0-83aa-fb76149386ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Reviews'])[1]/preceding::span[1]</value>
+      <webElementGuid>297306d9-3382-49ea-8ad6-212d1abec17d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Self-improvement'])[1]/preceding::span[2]</value>
+      <webElementGuid>28469b8a-a5b4-4dcc-b821-504c3ea0d36a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Commentaries']/parent::*</value>
+      <webElementGuid>75ae4350-fedd-4aa5-ac44-6d89222826dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/span</value>
+      <webElementGuid>58fc7666-de00-4679-9f5b-a651a5a02508</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Commentaries' or . = 'Commentaries')]</value>
+      <webElementGuid>9e6e4c4c-9bc9-4e57-aeec-4bf069d84022</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

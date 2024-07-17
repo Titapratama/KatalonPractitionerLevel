@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Your AI-edited</name>
+   <tag></tag>
+   <elementGuidId>e6f2e956-cf52-4f75-bc29-d9890ab415f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[4]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.noti-ai-edit.d-flex.align-items-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.noti-ai-edit</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dc52ba75-4f1f-4626-8537-6304608386b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>noti-ai-edit d-flex align-items-center</value>
+      <webElementGuid>fcc812f6-b27b-47e7-bcac-ec1d7e04c9ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your AI-edited clips are moved to the new page. Explore them there!AI Edited Clips</value>
+      <webElementGuid>d70640b7-704c-4434-b6ae-204fc72822aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard&quot;)/div[@class=&quot;ek-dashboard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-children-dashboard&quot;]/div[@class=&quot;ek-streams&quot;]/div[4]/div[@class=&quot;ek-edited-video&quot;]/div[@class=&quot;noti-ai-edit d-flex align-items-center&quot;]</value>
+      <webElementGuid>327a5209-81de-4ea6-bda4-4d660a898764</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[4]/div/div</value>
+      <webElementGuid>f6346221-1e94-4408-90bf-ca0c7ba63705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Extended / Trimmed Clip'])[1]/following::div[3]</value>
+      <webElementGuid>06d85b21-4fc8-4949-b41b-b3338b0e870e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Convert to TikTok / Shorts / Reels'])[1]/following::div[3]</value>
+      <webElementGuid>1c08654d-1183-4c9b-8408-3e27078d2764</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/div/div</value>
+      <webElementGuid>a65c34c0-eec7-47d5-a3a6-fdf3de5aa737</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Your AI-edited clips are moved to the new page. Explore them there!AI Edited Clips' or . = 'Your AI-edited clips are moved to the new page. Explore them there!AI Edited Clips')]</value>
+      <webElementGuid>afb214bf-e71d-4e2b-8781-364cbe645d92</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

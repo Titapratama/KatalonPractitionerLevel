@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS009 - Verify homepage,Chrome 126.0.0.0,,,17-07-2024 18:22:22,17-07-2024 19:15:57,53m - 34.779s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/Homepage Eklipse/TC01 - Verify text,Chrome 126.0.0.0,,,17-07-2024 19:03:16,17-07-2024 19:15:57,12m - 41.079s,FAILED
+"callTestCase(findTestCase(""Eklipse Test/Landing page/TC001 - Open browser""), [:], CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:03:16,17-07-2024 19:03:26,9.790s,PASSED
+"click(findTestObject(""Eklipse Landing Page/Page_Eklipse/Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:03:26,17-07-2024 19:03:29,3.264s,PASSED
+"setText(findTestObject(""Sign in page/Page_Eklipse/Username Eklipse""), ""tita71@gmail.com"", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:03:29,17-07-2024 19:03:30,1.383s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/Password_Eklipse""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:03:30,17-07-2024 19:03:31,0.313s,PASSED
+"setText(findTestObject(""Sign in page/Page_Eklipse/Password_Eklipse""), ""tita123."", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:03:31,17-07-2024 19:03:32,1.132s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/button_Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:03:32,17-07-2024 19:03:32,0.364s,PASSED
+"click(findTestObject(""Homepage Eklipse/Page_Eklipse/button_Skip for now""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:03:32,17-07-2024 19:15:57,12m - 24.709s,FAILED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/Generate Highlights""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:15:57,17-07-2024 19:15:57,0.017s,FAILED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/VOD link 1""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:15:57,17-07-2024 19:15:57,0.017s,FAILED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/Connect Ultimate""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:15:57,17-07-2024 19:15:57,0.014s,FAILED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/Generate fromExternal""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:15:57,17-07-2024 19:15:57,0.014s,FAILED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/Find your vods""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:15:57,17-07-2024 19:15:57,0.013s,FAILED
+"verifyElementPresent(findTestObject(""Homepage Eklipse/Page_Eklipse/span_stream URL""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 19:15:57,17-07-2024 19:15:57,0.014s,FAILED
+"click(findTestObject(""Homepage Eklipse/Page_Eklipse/li_YouTube Highlights""))",Chrome 126.0.0.0,,,17-07-2024 19:15:57,17-07-2024 19:15:57,0.013s,FAILED

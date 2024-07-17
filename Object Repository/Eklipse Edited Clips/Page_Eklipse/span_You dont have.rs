@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_You dont have</name>
+   <tag></tag>
+   <elementGuidId>d1fb1991-aa34-4116-b339-e9f3e5149c90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[4]/div/div[3]/div/div[2]/div[2]/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;You don’t have any edited clip right now. To have one, try to edit one of your a&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>08fcfc26-8399-4f17-bf71-018b732931e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>0911676c-344c-4eb2-bd18-a3be89a805b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You don’t have any edited clip right now. To have one, try to edit one of your available clip now</value>
+      <webElementGuid>dd7c4e59-c998-4fb6-8083-de2b852d7376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard&quot;)/div[@class=&quot;ek-dashboard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-children-dashboard&quot;]/div[@class=&quot;ek-streams&quot;]/div[4]/div[@class=&quot;ek-edited-video&quot;]/div[3]/div[@class=&quot;content&quot;]/div[@class=&quot;text-center empty-state&quot;]/div[@class=&quot;empty-state__description&quot;]/span[@class=&quot;text&quot;]</value>
+      <webElementGuid>2a3570c7-c966-400b-a48f-cc472feb69a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[4]/div/div[3]/div/div[2]/div[2]/span[2]</value>
+      <webElementGuid>e452bec4-2553-4723-ad0a-f53ccd029d59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Edited Clip Yet'])[1]/following::span[1]</value>
+      <webElementGuid>7803fc66-3b94-4040-8dad-89eb5b1c6cce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by:'])[1]/following::span[2]</value>
+      <webElementGuid>0d3ad8a5-52a0-4c56-b382-63a3d4bf1d7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Convert to TikTok / Shorts / Reels'])[2]/preceding::span[1]</value>
+      <webElementGuid>629ef57d-69ce-4e63-beb5-2d78a4a1c7e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms'])[1]/preceding::span[1]</value>
+      <webElementGuid>f9ec97a5-4bc3-4d07-be57-19f901435129</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You don’t have any edited clip right now. To have one, try to edit one of your available clip now']/parent::*</value>
+      <webElementGuid>59008d4d-d6e1-42e1-b809-3876a8c9d9eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/span[2]</value>
+      <webElementGuid>edb19298-2c99-487b-85d4-40fc62f97858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'You don’t have any edited clip right now. To have one, try to edit one of your available clip now' or . = 'You don’t have any edited clip right now. To have one, try to edit one of your available clip now')]</value>
+      <webElementGuid>debba81f-3352-490d-be65-3e86bdf95fbc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS010 - Verify AI Edit,Chrome 126.0.0.0,,,17-07-2024 20:52:42,17-07-2024 20:57:47,5m - 5.674s,FAILED
+,,,,,,,
+Test Cases/Eklipse Test/AI Edit/TC01 - Verify elements,Chrome 126.0.0.0,,,17-07-2024 20:56:30,17-07-2024 20:57:47,1m - 17.850s,FAILED
+"callTestCase(findTestCase(""Eklipse Test/Landing page/TC001 - Open browser""), [:], CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:56:30,17-07-2024 20:56:38,8.487s,PASSED
+"click(findTestObject(""Eklipse Landing Page/Page_Eklipse/Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:56:38,17-07-2024 20:56:41,3.415s,PASSED
+"setText(findTestObject(""Sign in page/Page_Eklipse/Username Eklipse""), ""tita71@gmail.com"", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:56:41,17-07-2024 20:56:43,1.149s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/Password_Eklipse""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:56:43,17-07-2024 20:56:43,0.290s,PASSED
+"setText(findTestObject(""Sign in page/Page_Eklipse/Password_Eklipse""), ""tita123."", CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:56:43,17-07-2024 20:56:43,0.548s,PASSED
+"click(findTestObject(""Sign in page/Page_Eklipse/button_Sign In""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:56:43,17-07-2024 20:56:44,0.518s,PASSED
+"scrollToElement(findTestObject(""Eklipse AI Edit/Page_Eklipse/a_AI Edit""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:56:44,17-07-2024 20:57:03,18.932s,PASSED
+"click(findTestObject(""Eklipse AI Edit/Page_Eklipse/a_AI Edit""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:03,17-07-2024 20:57:03,0.354s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse AI Edit/Page_Eklipse/NEWEST TO OLDEST""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:03,17-07-2024 20:57:08,4.671s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse AI Edit/Page_Eklipse/select_ALL""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:08,17-07-2024 20:57:08,0.268s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse AI Edit/Page_Eklipse/button_Start AI Edit1""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:08,17-07-2024 20:57:09,0.803s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse AI Edit/Page_Eklipse/div_Create AI Edit""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:09,17-07-2024 20:57:09,0.261s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse AI Edit/Page_Eklipse/div_Generate Shorts""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:09,17-07-2024 20:57:10,0.482s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse AI Edit/Page_Eklipse/div_Try AI Edit Discord""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:10,17-07-2024 20:57:10,0.252s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse AI Edit/Page_Eklipse/p_Edit your Clip""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:10,17-07-2024 20:57:10,0.251s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse AI Edit/Page_Eklipse/p_Instantly""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:10,17-07-2024 20:57:11,0.576s,PASSED
+"verifyElementPresent(findTestObject(""Eklipse AI Edit/Page_Eklipse/span_Try the power""), 0, CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:11,17-07-2024 20:57:11,0.261s,PASSED
+"scrollToElement(findTestObject(""Eklipse AI Edit/Page_Eklipse/button_Previous""), 0)",Chrome 126.0.0.0,,,17-07-2024 20:57:11,17-07-2024 20:57:12,0.802s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse AI Edit/Page_Eklipse/button_Next""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:12,17-07-2024 20:57:12,0.247s,PASSED
+"verifyElementClickable(findTestObject(""Eklipse AI Edit/Page_Eklipse/button_Previous""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:12,17-07-2024 20:57:13,0.806s,PASSED
+"scrollToElement(findTestObject(""Eklipse AI Edit/Page_Eklipse/button_Start AI Edit1""), 0)",Chrome 126.0.0.0,,,17-07-2024 20:57:13,17-07-2024 20:57:13,0.265s,PASSED
+"click(findTestObject(""Eklipse AI Edit/Page_Eklipse/button_Start AI Edit1""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:13,17-07-2024 20:57:46,32.968s,FAILED
+"verifyElementClickable(findTestObject(""Eklipse AI Edit/Page_Eklipse/button_Start AI Edit2""), CONTINUE_ON_FAILURE)",Chrome 126.0.0.0,,,17-07-2024 20:57:46,17-07-2024 20:57:47,1.026s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 20:57:47,17-07-2024 20:57:47,0.201s,PASSED

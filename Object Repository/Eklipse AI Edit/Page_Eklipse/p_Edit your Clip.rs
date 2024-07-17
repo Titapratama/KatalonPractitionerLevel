@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Edit your Clip</name>
+   <tag></tag>
+   <elementGuidId>b63d740d-d564-4c0a-bec4-80c7f67b83df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.fs-xl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Edit your Clip with AI Edit!&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e2cfbb0b-ff2e-4fc9-b298-f87f51f36827</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fs-xl</value>
+      <webElementGuid>e5b0d291-407c-4be4-8608-7c9216bd1a6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit your Clip with AI Edit!</value>
+      <webElementGuid>96c1fd9a-b242-4da8-96fe-3d37eb4a7b94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard&quot;)/div[@class=&quot;ek-dashboard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-children-dashboard&quot;]/div[@class=&quot;ek-streams ek-ai-edit&quot;]/div[2]/div[1]/div[@class=&quot;content&quot;]/div[@class=&quot;empty-clip-container&quot;]/div[@class=&quot;empty-clip-upper d-flex flex-column justify-content-center align-items-center p-4 mb-3 mt-2&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;mr-2&quot;]/p[@class=&quot;fs-xl&quot;]</value>
+      <webElementGuid>6485a8aa-d6a0-42b0-b4b3-0d14a226e4eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/p</value>
+      <webElementGuid>0ab4b722-72d4-4434-848e-b1565f34c579</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by:'])[1]/following::p[1]</value>
+      <webElementGuid>4eb53887-6cc2-4535-8762-2494bd8bf1d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[1]/following::p[1]</value>
+      <webElementGuid>b0d75af9-c1cf-48ab-8d4f-0bd38555cf2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beta'])[1]/preceding::p[1]</value>
+      <webElementGuid>353ab6a1-40ab-4372-84b3-df859964ce76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start AI Edit'])[1]/preceding::p[2]</value>
+      <webElementGuid>f1a6dfcd-71b9-423d-bc1c-f980eabe3e9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit your Clip with AI Edit!']/parent::*</value>
+      <webElementGuid>b89f2972-2080-4e57-9dcc-6f5d4a7fc2ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/p</value>
+      <webElementGuid>7581ae75-4de9-43f6-8820-bed5728c6e18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Edit your Clip with AI Edit!' or . = 'Edit your Clip with AI Edit!')]</value>
+      <webElementGuid>74ed99fe-cd00-4814-a20a-1b2089c5529f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

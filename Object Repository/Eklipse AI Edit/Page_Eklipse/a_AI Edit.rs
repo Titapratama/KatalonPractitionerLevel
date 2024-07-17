@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_AI Edit</name>
+   <tag></tag>
+   <elementGuidId>816d7d25-cd7d-452a-8e23-70b2d8d2fc36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='submenu-3']/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#submenu-3 > ul > li > a.sidebar-submenu-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; AI Edit New&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7acfccfa-4a68-4cc2-9469-b950c8b65907</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sidebar-submenu-link</value>
+      <webElementGuid>9deb51f3-697d-4a6a-8d43-6ebb100aa54c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/edited-clip/ai-edit</value>
+      <webElementGuid>a8a5ae18-454a-43a3-807f-1d40f8ddfc58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AI EditNew</value>
+      <webElementGuid>336c2c41-d181-40e6-87bc-61e2a86d32de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;submenu-3&quot;)/ul[1]/li[1]/a[@class=&quot;sidebar-submenu-link&quot;]</value>
+      <webElementGuid>b07c2c82-a2af-49b8-a6cf-de864825b89b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='submenu-3']/ul/li/a</value>
+      <webElementGuid>bc9c4165-f19d-4b2d-a00c-254a7d1dd336</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edits'])[1]/following::a[1]</value>
+      <webElementGuid>c294e307-4d7f-4a3a-a747-f6a0e223110f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Publisher'])[1]/following::a[2]</value>
+      <webElementGuid>760de17c-0530-411c-9660-2ee7bd4ddfa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/edited-clip/ai-edit')]</value>
+      <webElementGuid>7f4fb77c-7203-4df4-8267-c561d45bc1e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/div/ul/li/a</value>
+      <webElementGuid>6f45ee9d-459c-449c-abfb-95d73e541ce2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/edited-clip/ai-edit' and (text() = 'AI EditNew' or . = 'AI EditNew')]</value>
+      <webElementGuid>c58efcd8-559e-4746-afe9-ec3cac103100</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
