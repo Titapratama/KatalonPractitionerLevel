@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Check Sample Videos</name>
+   <tag></tag>
+   <elementGuidId>f1336df4-0bd1-4737-a3aa-82d44b9ee515</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div/div[3]/div/div/div/div/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.tutorial-video-container > div:nth-of-type(2) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Check Sample Videos&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b788a5f6-008d-4ab7-b16b-9cc19d328dc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>eda3eaa2-1aba-457f-9867-0a5ac2966d3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.youtube.com/playlist?list=PLbthfdkddWI7basIG4w-Lx5y_b_eHLWBc</value>
+      <webElementGuid>6d04942f-2566-4ee1-b396-e716daffa879</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noreferrer</value>
+      <webElementGuid>79ab343a-8745-426f-b100-d85348701c0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Check Sample Videos</value>
+      <webElementGuid>8a3bc736-f9dd-47e1-a133-a8a4a6cbe078</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard&quot;)/div[@class=&quot;ek-dashboard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-children-dashboard&quot;]/div[@class=&quot;ek-edited-video ek-pro-clips-page&quot;]/div[1]/div[@class=&quot;fluid-container form-input-detail mt-4 no-premium-clip&quot;]/div[@class=&quot;form-input-detail-row end&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-md-6 col-sm-12&quot;]/div[@class=&quot;tutorial-video-container&quot;]/div[2]/a[1]</value>
+      <webElementGuid>f84d0dc9-8ce3-4ecb-8916-2290a473cc71</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div/div[3]/div/div/div/div/div[2]/a</value>
+      <webElementGuid>13f945fa-4cf7-4239-a7e3-a22f82630c3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Check Sample Videos')]</value>
+      <webElementGuid>62b2f83d-e7b5-41b7-9d6e-505db7c3aaee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Modal Dialog'])[1]/following::a[1]</value>
+      <webElementGuid>8d4a48fc-a7fb-4a0b-a136-12335debab69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Done'])[1]/following::a[1]</value>
+      <webElementGuid>46e0f305-9c2f-4de3-821b-6866863143c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Give a Pro-Quality Editing to Your Clips'])[1]/preceding::a[1]</value>
+      <webElementGuid>46e91844-468c-4c03-a015-242147a16483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Omg the clips.is awsome thank you so much'])[1]/preceding::a[1]</value>
+      <webElementGuid>4b308486-926d-4396-b92c-0883620d87b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Check Sample Videos']/parent::*</value>
+      <webElementGuid>c7807fd4-0e93-4bae-a185-38a177367d12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.youtube.com/playlist?list=PLbthfdkddWI7basIG4w-Lx5y_b_eHLWBc')]</value>
+      <webElementGuid>2e66f0d9-cab6-4c25-a674-742b0a656f81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div[2]/a</value>
+      <webElementGuid>85616494-20a6-4e31-8491-28c0331871e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.youtube.com/playlist?list=PLbthfdkddWI7basIG4w-Lx5y_b_eHLWBc' and (text() = 'Check Sample Videos' or . = 'Check Sample Videos')]</value>
+      <webElementGuid>f0f32def-9d89-4111-ae11-ce0e0af45947</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

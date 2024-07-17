@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pro Edits</name>
+   <tag></tag>
+   <elementGuidId>1dc032b4-1811-4a41-9cf7-4e5f9f045127</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='submenu-4']/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#submenu-4 > ul > li > a.sidebar-submenu-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; Pro Edits&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>87f89e25-cad8-4aca-9a0f-6ea8fa1348ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sidebar-submenu-link</value>
+      <webElementGuid>0514536b-314f-427a-b28c-9b5cad5814dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/premium-clips</value>
+      <webElementGuid>40be78cc-1a45-4566-a33e-290d723e6d34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pro Edits</value>
+      <webElementGuid>1114df6b-7179-4883-a4ed-e785e5a42601</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;submenu-4&quot;)/ul[1]/li[1]/a[@class=&quot;sidebar-submenu-link&quot;]</value>
+      <webElementGuid>31ab460a-40a3-4420-bebf-8f22a4cce078</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='submenu-4']/ul/li/a</value>
+      <webElementGuid>167ac66a-85be-4695-882e-f2c1cf3667c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time-saving Tools'])[1]/following::a[1]</value>
+      <webElementGuid>ae68ca99-bb88-478d-83f4-68fdf0cbbebb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Montages'])[1]/following::a[2]</value>
+      <webElementGuid>58db30f5-eba1-488f-8997-456e355d2d8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation'])[1]/preceding::a[1]</value>
+      <webElementGuid>8724cb52-ea04-4bbf-92ba-5eddffd46337</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/premium-clips')]</value>
+      <webElementGuid>b7daa906-cfbf-4203-a273-382fc87318bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/div/ul/li/a</value>
+      <webElementGuid>578a0a02-198f-4496-bacc-18c8a20b8f8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/premium-clips' and (text() = 'Pro Edits' or . = 'Pro Edits')]</value>
+      <webElementGuid>c36a3022-34fd-4147-b889-0bebe35a87d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

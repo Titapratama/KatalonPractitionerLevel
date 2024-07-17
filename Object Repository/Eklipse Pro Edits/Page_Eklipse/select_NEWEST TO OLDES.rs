@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_NEWEST TO OLDES</name>
+   <tag></tag>
+   <elementGuidId>031bf84f-2ebe-4d4a-ba8f-6c99ea5a8fda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='soft_type']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#soft_type</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#soft_type >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>dafe60f5-4210-4752-a723-cb8c7bda0475</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-sort-by show-desktop</value>
+      <webElementGuid>17b34b08-f4c5-4b3c-9142-fd9b3000f3f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>soft_type</value>
+      <webElementGuid>083a6289-f192-46e6-9429-6ecc1bedf6bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>soft_type</value>
+      <webElementGuid>3cc1b1ff-2d52-45ac-a88c-70f00764fd88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NEWEST TO OLDESTOLDEST TO NEWEST</value>
+      <webElementGuid>5e2f99a2-deaa-41b3-92e0-f87c5309ef2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard&quot;)/div[@class=&quot;ek-dashboard&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container-children-dashboard&quot;]/div[@class=&quot;ek-edited-video ek-pro-clips-page&quot;]/div[1]/div[@class=&quot;content&quot;]/div[2]/select[@id=&quot;soft_type&quot;]</value>
+      <webElementGuid>24aae3d3-b200-4f03-a039-3f69f6631fe2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='soft_type']</value>
+      <webElementGuid>9d23e27b-0bec-4fbc-9197-2f21d78bf198</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard']/div[3]/div/div[2]/div/div/div[2]/div[2]/select</value>
+      <webElementGuid>92c9c06f-cfaf-424e-9f1b-1515dcf6f9dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by:'])[1]/following::select[1]</value>
+      <webElementGuid>4e831d70-21a2-4e6a-a54f-992f5e5eb57a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[1]/following::select[1]</value>
+      <webElementGuid>a288d241-ad82-4659-964d-466c588162b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter Status:'])[1]/preceding::select[1]</value>
+      <webElementGuid>36a588e4-9b8c-4d0a-9df1-1709ecd1fce1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Player is loading.'])[1]/preceding::select[3]</value>
+      <webElementGuid>3c96e200-db7f-4994-90cf-8399e2725ecf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>270a2df5-8cbf-44b0-9ad6-09b0d2cc953e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'soft_type' and @name = 'soft_type' and (text() = 'NEWEST TO OLDESTOLDEST TO NEWEST' or . = 'NEWEST TO OLDESTOLDEST TO NEWEST')]</value>
+      <webElementGuid>2c8ed451-f0dc-44bf-a01b-220145d44057</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
